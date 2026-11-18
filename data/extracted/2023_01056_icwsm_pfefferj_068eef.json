@@ -1,0 +1,189 @@
+{
+  "paper_id": "2023_01056_icwsm_pfefferj_068eef",
+  "year": 2023,
+  "pdf_filename": "01056-ICWSM.PfefferJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:02:39+00:00",
+    "usage": [
+      {
+        "input_tokens": 17728,
+        "output_tokens": 999,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011U1G8x8GA3K7qFnsygvRbXVHS",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 45792,
+    "sha256": "a89c06c2757a04fa22e3b79168585a2b10a2d48f8e4574731a956d4c72bbaefa",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.nytimes.com/2022/10/27/technology/elon-musktwitter-deal-complete.html",
+      "https://doi.org/10.7802/2516",
+      "https://www.gesis.org/en/data-services/share-data"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7802/2516"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Just Another Day on Twitter: A Complete 24 Hours of Twitter Data",
+      "authors": [
+        "Jürgen Pfeffer",
+        "Daniel Matter",
+        "Kokil Jaidka",
+        "Onur Varol",
+        "Afra Mashhadi",
+        "Jana Lasser",
+        "Dennis Assenmacher",
+        "Siqi Wu",
+        "Diyi Yang",
+        "Cornelia Brantner",
+        "Daniel M. Romero",
+        "Jahna Otterbacher",
+        "Carsten Schwemmer",
+        "Kenneth Joseph",
+        "David Garcia",
+        "Fred Morstatter"
+      ],
+      "author_countries": [
+        "DE",
+        "SG",
+        "TR",
+        "US",
+        "AT",
+        "SE",
+        "CY"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Academic API",
+        "count/all API"
+      ],
+      "temporal_coverage_start": "2022-09-20",
+      "temporal_coverage_end": "2022-09-21",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 374937971,
+      "num_accounts_or_users": 40199195,
+      "scale_description_verbatim": "we have collected all 375 million tweets published within a 24-hour time period starting on September 21, 2022",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "und"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Misinformation and fact-checking",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Bot or coordinated account detection"
+      ],
+      "tasks_verbatim": [
+        "Provide descriptive metrics about Twitter that can serve as references for other researchers",
+        "Estimating Prevalence of Bot Accounts"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7802/2516"
+      ],
+      "persistent_doi": "10.7802/2516",
+      "code_repository_url": "",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "We share publicly only the tweet IDs with the research community to account for privacy issues and Twitter's TOS; privacy is protected by sharing tweet IDs only rather than full content.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "In compliance with Twitter's terms of service, only tweet IDs are made publicly available at DOI: https://doi.org/10.7802/2516.",
+      "scale_quote": "With the above-described process, we have collected 374,937,971 tweets within the 24-hour time span.",
+      "annotation_quote": "",
+      "ethics_quote": "We share publicly only the tweet IDs with the research community to account for privacy issues and Twitter's TOS.",
+      "license_quote": "The CC BY 4.0 license implies that researchers are free to use the data with proper attribution.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not report a language list for the dataset; only an 'und' (undefined) code is counted, so languages_iso and num_languages are effectively unknown. Whether botometerLite scores count as annotation is ambiguous: they were not released as labeled data but analyzed on the full corpus. The number of tweets (374,937,971) and users (40,199,195) are clearly stated in the paper; however, a '375 million' figure is used in some places, and scale_description_verbatim uses that rounded figure."
+    }
+  }
+}

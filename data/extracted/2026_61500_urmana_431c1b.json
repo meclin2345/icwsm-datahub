@@ -1,0 +1,194 @@
+{
+  "paper_id": "2026_61500_urmana_431c1b",
+  "year": 2026,
+  "pdf_filename": "61500-UrmanA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:13:22+00:00",
+    "usage": [
+      {
+        "input_tokens": 22967,
+        "output_tokens": 1365,
+        "cache_read_input_tokens": 20639,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0118EiqrN3Q8lfMrcj4HidXxoYa",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 13,
+    "n_chars": 60952,
+    "sha256": "22c1e152cbe491ff883141c4915585f7658ce02a026e4a58e2a96d8655225c9c",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/aurman21/googletrendarchive",
+      "https://doi.org/10.57967/hf/7531",
+      "https://doi",
+      "https://doi.org/10"
+    ],
+    "urls_in_references": [
+      "https://www.kaggle.com/datasets/adrianjuliusaluoch/dailygoogle-search-trends-us",
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1002/for.1252",
+      "https://force11",
+      "https://blog.google/products-andplatforms/products/search/google-trends-trending-nowupdate/",
+      "https://support.google.com/trends/",
+      "https://developers.google.com/search/blog/2025/",
+      "https://developers.google.com/",
+      "https://doi.org/10.1080/17457289.2013.846346",
+      "https://onlinelibrary.wiley.com/doi/pdf/10.1002/for.3104",
+      "https://wordstat.yandex"
+    ],
+    "dois_in_body": [
+      "10.57967/hf/7531"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": ": GoogleTrendArchive A Year-Long Archive of Real-Time Web Search Trends Worldwide",
+      "authors": [
+        "Aleksandra Urman",
+        "Anikó Hannák",
+        "Joachim Baumann"
+      ],
+      "author_countries": [
+        "CH",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "GoogleTrendArchive",
+      "platforms": [
+        "Search engines/Google Trends"
+      ],
+      "platform_names_verbatim": [
+        "Google Trending Now",
+        "Google Trends"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Playwright",
+        "Python",
+        "CSV export"
+      ],
+      "temporal_coverage_start": "2024-11-28",
+      "temporal_coverage_end": "2026-01-03",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 7639695,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The final processed dataset contains 7,639,695 unique trend episodes across 1,339 geographic locations, spanning November 28, 2024 to January 3, 2026",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Geospatial or mobility"
+      ],
+      "languages_iso": [
+        "mul"
+      ],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Crisis, disaster and conflict informatics",
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "News and journalism"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "information diffusion patterns, cross-cultural attention dynamics, crisis responses",
+        "trend lifecycles",
+        "the interplay between trending topics and external events"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 1000,
+      "num_annotators": 3,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only",
+        "Statistical models (regression, time series)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Hugging Face Hub"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.57967/hf/7531"
+      ],
+      "persistent_doi": "10.57967/hf/7531",
+      "code_repository_url": "https://github.com/aurman21/googletrendarchive",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC-BY-4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "Both the raw daily snapshot files and the processed consolidated dataset are available for download at https://doi.org/10.57967/hf/7531.",
+      "scale_quote": "The final processed dataset contains 7,639,695 unique trend episodes across 1,339 geographic locations, spanning November 28, 2024 to January 3, 2026.",
+      "annotation_quote": "The authors classified each trend into 15 mutually exclusive topic categories: sports, weather, news, passings (deaths of notable figures), holidays, celebrity scandals, politics, religion, entertainment, gaming, AI, education, food, gambling, and traveling.",
+      "ethics_quote": "While trending searches are aggregated public data, researchers should consider the privacy implications of analyzing collective search behavior.",
+      "license_quote": "The dataset is released under CC-BY-4.0 with complete methodology documentation, datasheet, and preprocessing code.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The primary unit is a Google trend episode, so the closest schema option was used for record unit. Topic labels cover only a 1,000-trend subset, not the full 7.6M dataset."
+    }
+  }
+}

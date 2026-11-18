@@ -1,0 +1,96 @@
+{
+  "summary": {
+    "paper_id": "2025_31079_icwsm_bawaa_928576",
+    "year": 2025,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.6084/m9.figshare.28785449",
+    "doi_resolves": true,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.6084/m9.figshare.28785449",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://figshare.com/articles/dataset/Pro-Kremlin_and_Anti-Kremlin_Telegram_Dataset_during_Russia-Ukraine_Conflict_/28785449",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Figshare",
+    "file_count": 1,
+    "total_size_mb": 0.09,
+    "file_extensions": ".tif",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 0,
+    "downloads_unique": null,
+    "views_total": 0,
+    "downloads_metric_source": "Figshare stats",
+    "repo_license": "CC BY 4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "figshare",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.28785449",
+      "resolved_url": "https://figshare.com/articles/dataset/Pro-Kremlin_and_Anti-Kremlin_Telegram_Dataset_during_Russia-Ukraine_Conflict_/28785449",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:24:50+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": true,
+    "article_id": "785449",
+    "file_count": 1,
+    "total_size_mb": 0.09,
+    "file_extensions": [
+      ".tif"
+    ],
+    "restricted": false,
+    "license": "CC BY 4.0",
+    "downloads": 0,
+    "views": 0
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "figshare",
+    "landing_url": "https://figshare.com/articles/dataset/Pro-Kremlin_and_Anti-Kremlin_Telegram_Dataset_during_Russia-Ukraine_Conflict_/28785449",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2025"
+  },
+  "wayback": null
+}

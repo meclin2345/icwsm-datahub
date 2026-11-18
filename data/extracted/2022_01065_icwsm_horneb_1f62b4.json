@@ -1,0 +1,197 @@
+{
+  "paper_id": "2022_01065_icwsm_horneb_1f62b4",
+  "year": 2022,
+  "pdf_filename": "01065-ICWSM.HorneB.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:32:05+00:00",
+    "usage": [
+      {
+        "input_tokens": 19654,
+        "output_tokens": 1288,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011KUO1ZD0Y5C40GMXt7iXBejaj",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 46242,
+    "sha256": "6d29acc8183b77baa088cb41203475ffff604fd65864a27b049e4440c969f8be",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=",
+      "https://www.fcc.gov/general/information-needs-communities",
+      "https://github.com/MEDSL/2018-elections-unoffical/blob/",
+      "https://github.com/kjhealy/us",
+      "https://www.census.gov/programs-surveys/communityresilience-estimates.html",
+      "https://www.census.gov/programs-surveys/communityresilience-estimates/technical-documentation/methodology.html",
+      "https://www.force11.org/group/fairgroup/fairprinciples",
+      "https://data.census.gov/cedsci/profile?g=0500000US25017",
+      "https://www.census.gov/library/stories/2019/09/us-medianhousehold-income-not-significantly-different-from-2017.html",
+      "https://www.news10.com/top-stories/rpi-restores-networkaccess-following-cyber-attack/",
+      "https://sources.mediacloud.org/#/home",
+      "https://dataverse.harvard.edu/",
+      "https://github.com/yinleon/LocalNewsDataset",
+      "https://github.com/MEDSL/2018elections-unoffical/blob/master/election-context-2018.md",
+      "https://www.census.gov/programs-surveys/community-resilienceestimates.html",
+      "https://www.ers.usda.gov/dataproducts/rural-urban-continuum-codes/"
+    ],
+    "urls_in_references": [
+      "https://apo.org.au/node/267591",
+      "http://politicalviolenceataglance"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/GFE66K"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "NELA-Local: A Dataset of U.S. Local News Articles for the Study of County-Level News Ecosystems",
+      "authors": [
+        "Benjamin D. Horne",
+        "Maurício Gruppi",
+        "Kenneth Joseph",
+        "Jon Green",
+        "John P. Wihbey",
+        "Sibel Adalı"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "NELA-Local",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "RSS feeds from news websites",
+        "news websites",
+        "online news articles from 313 local U.S. news outlets"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2020-04-04",
+      "temporal_coverage_end": "2021-12-31",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 1445509,
+      "num_accounts_or_users": 313,
+      "scale_description_verbatim": "over 1.4 million online articles from 313 local news outlets in the United States",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Crisis, disaster and conflict informatics",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "Local Media Coverage of Disasters and Events",
+        "Measuring the Nationalization of Local News",
+        "Characterizing Hybrid Local Media"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GFE66K"
+      ],
+      "persistent_doi": "10.7910/DVN/GFE66K",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV",
+        "SQLITE"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The NELA-Local dataset, sample code, and further documentation can be found at: https://dataverse.harvard.edu/ dataset.xhtml?persistentId=doi:10.7910/DVN/GFE66K.",
+      "scale_quote": "In this paper, we present a dataset of over 1.4M online news articles from 313 local U.S. news outlets published over 20 months (between April 4th, 2020 and December 31st, 2021).",
+      "annotation_quote": "Namely, we utilize RSS feeds from news websites to collect article URLs, and then follow those URLs to scrape full-text articles.",
+      "ethics_quote": "",
+      "license_quote": "The data is Re-usable , as it is open for free use, ready to use out-of-the-box in a wide range of local news studies, and contains original article URLs and metadata links/documentation to maintain provenance.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not specify the exact file format for the SQLite3 database or the license of the dataset."
+    }
+  }
+}

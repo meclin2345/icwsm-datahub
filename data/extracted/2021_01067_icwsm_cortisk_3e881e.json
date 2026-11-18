@@ -1,0 +1,209 @@
+{
+  "paper_id": "2021_01067_icwsm_cortisk_3e881e",
+  "year": 2021,
+  "pdf_filename": "01067-ICWSM.CortisK.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:29:46+00:00",
+    "usage": [
+      {
+        "input_tokens": 23995,
+        "output_tokens": 1344,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Y2TCLgj7qJPOsYDQRj1oN3XK",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 58975,
+    "sha256": "b6be0aa7e97d1b418b3e2627570ec3cca9fead81710025bb1addacc167261968",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://trends.google.com/trends/explore?q=sentiment%20analysis",
+      "https://www.finance.gov.mt//en/the-budget/pages/the-budget2018.aspx",
+      "https://www.finance.gov.mt/en/The-Budget/Pages/TheBudget-2019-G5J3D1.aspx",
+      "https://www.finance.gov.mt/en/The-Budget/Pages/TheBudget-2020-GD-9691.aspx",
+      "https://www.timesofmalta.com/",
+      "https://www.maltatoday.com.mt/",
+      "http://www.independent.com.mt/",
+      "https://www.twitter.com/",
+      "https://developer.twitter.com/en/docs/twitter-api/premium/",
+      "https://www.github.com/geduldig/TwitterAPI",
+      "https://developers.facebook.com/docs/public",
+      "https://www.git.io/JOqss",
+      "https://t.cozdjCZxleYw",
+      "https://www.gemma.gov.mt/cost-of-living-increase/",
+      "https://www.independent.com.mt/articles/2015-09-01/blogs-",
+      "https://www.timesofmalta.com/articles/view/Amen-written-",
+      "https://www.zenodo.org/",
+      "https://www.doi.org/10.5281/zenodo.4650232",
+      "https://www.creativecommons.org/licenses/by-nc-sa/4.0/",
+      "https://developer.twitter.com/en/developer-terms/agreement-"
+    ],
+    "urls_in_references": [
+      "https://www.slideshare.net/DataReportal/digital-2019malta-january-2019-v01",
+      "https://repository.upenn.edu/asc",
+      "https://timesofmalta.com/articles/",
+      "https://doi",
+      "https://malta.ai/wp-content/uploads/2019/10/",
+      "https://timesofmalta.com/articles/view/we-consultedsocial-media-justice-minister-on-rule-of-law-reformbills.825589"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.4650232"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Dataset of Multidimensional and Multilingual Social Opinions for Malta's Annual Government Budget",
+      "authors": [
+        "Keith Cortis",
+        "Brian Davis"
+      ],
+      "author_countries": [
+        "IE"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 3
+    },
+    "collection": {
+      "dataset_name": "Malta Government Budget 2018, 2019, and 2020 datasets",
+      "platforms": [
+        "Twitter/X",
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Newswires",
+        "Times of Malta",
+        "MaltaToday",
+        "The Malta Independent",
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Twitter Premium Search API",
+        "TwitterAPI Python library"
+      ],
+      "temporal_coverage_start": "2017-08-28",
+      "temporal_coverage_end": "2020-03-25",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 6387,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The three datasets consist of 6,387 online posts in total.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en",
+        "mt"
+      ],
+      "num_languages": 2,
+      "includes_code_mixing": true,
+      "data_geography": [
+        "MT"
+      ],
+      "event_category": "Elections",
+      "event_name": "Malta's annual Government Budgets of 2018, 2019 and 2020",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Sentiment or emotion analysis",
+        "Stance detection",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "Subjectivity detection",
+        "sentiment analysis",
+        "emotion analysis",
+        "sarcasm detection",
+        "irony detection",
+        "opinion summarisation"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 6387,
+      "num_annotators": 3,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Percent agreement",
+        "Fleiss' kappa",
+        "Krippendorff's alpha"
+      ],
+      "iaa_primary_value": 0.9776,
+      "iaa_summary_verbatim": "0.9776",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://www.doi.org/10.5281/zenodo.4650232"
+      ],
+      "persistent_doi": "10.5281/zenodo.4650232",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "No usernames are provided for newswire comments; for Twitter only Twitter IDs and annotation types are distributed.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Findable : publicly available through the Zenodo openaccess repository; Accessible : through the Digital Object Identifier (DOI) assigned by Zenodo",
+      "scale_quote": "The three datasets consist of 6,387 online posts in total.",
+      "annotation_quote": "All the online posts collected from the newswires and social networking services were presented to three raters.",
+      "ethics_quote": "The identity of the users has been protected, where no usernames have been provided with respect to online posts collected from newswires.",
+      "license_quote": "published under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "distribution_form is Mixed because the paper distributes newswire comments with content but only Twitter IDs plus annotations."
+    }
+  }
+}

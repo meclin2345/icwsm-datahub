@@ -1,0 +1,190 @@
+{
+  "paper_id": "2023_01044_icwsm_yiliaws_319e74",
+  "year": 2023,
+  "pdf_filename": "01044-ICWSM.YiLiawS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:38:48+00:00",
+    "usage": [
+      {
+        "input_tokens": 21186,
+        "output_tokens": 7479,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0117RBK0oHODlEKWaQQdXFwEoGQ",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 48779,
+    "sha256": "421b8d8700f45bfe5a0d69fa103f56142ea7b930d7f47ce386e8f9a3a881c743",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.7466262",
+      "https://developers.google.com/youtube/v3",
+      "https://github.com/jdepoix/youtube-transcript-api"
+    ],
+    "urls_in_references": [
+      "https://www",
+      "https://support.google.com/youtube/",
+      "https://www.statista.com/statistics/272014/globalsocial-networks-ranked-by-number-of-users/",
+      "https://en.wikipedia.org/w/index.php?title="
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.7466262"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "YouNICon: YouTube’s CommuNIty of Conspiracy Videos",
+      "authors": [
+        "Shao Yi Liaw",
+        "Fan Huang",
+        "Fabricio Benevenuto",
+        "Haewoon Kwak",
+        "Jisun An"
+      ],
+      "author_countries": [
+        "SG",
+        "US",
+        "BR"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "YOUNICON",
+      "platforms": [
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "YouTube Data API",
+        "youtube-transcript-api"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Videos",
+      "total_records": 596967,
+      "num_accounts_or_users": 1912,
+      "scale_description_verbatim": "Metadata of all 596,967 videos from 1,912 channels that produced conspiracy identified by Recfluence",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Misinformation or claim detection"
+      ],
+      "tasks_verbatim": [
+        "conspiracy theory detection",
+        "classification of videos with conspiracy theories into different topics"
+      ],
+      "annotation_paradigms": [
+        "Crowdworkers (MTurk, Prolific, etc.)",
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 3161,
+      "num_annotators": 3,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa"
+      ],
+      "iaa_primary_value": 0.4111,
+      "iaa_summary_verbatim": "A score of 0.4111 is calculated, implying that there is a moderate agreement between raters in the dataset",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.7466262"
+      ],
+      "persistent_doi": "10.5281/zenodo.7466262",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Comment text and real author names are not shared; comment authors are identified by anonymised IDs.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our data is available at: https://doi.org/10.5281/zenodo.7466262.",
+      "scale_quote": "Metadata of all 596,967 videos from 1,912 channels that produced conspiracy identified by Recfluence",
+      "annotation_quote": "We use Amazon Mechanical Turk (AMT) for data labeling.",
+      "ethics_quote": "our approach is approved by the Institutional Review Board of Singapore Management University (IRB-22-129-A071(922)).",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Temporal coverage of video content is not explicitly stated; videos span the full channel history. Total number of unique AMT workers is not specified, only 3 per video."
+    }
+  }
+}

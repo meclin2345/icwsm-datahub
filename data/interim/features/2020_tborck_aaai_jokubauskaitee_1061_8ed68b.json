@@ -1,0 +1,14 @@
+{
+  "page_count": 5,
+  "n_chars": 22174,
+  "sha256": "341a90c625a0fe579cba9859197379fd72ca38c236955bffd96b5b0372401f8e",
+  "checklist_detected": false,
+  "urls_in_body": [],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.3603292"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

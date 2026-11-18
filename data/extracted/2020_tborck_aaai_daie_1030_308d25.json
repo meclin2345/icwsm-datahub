@@ -1,0 +1,200 @@
+{
+  "paper_id": "2020_tborck_aaai_daie_1030_308d25",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_DaiE-1030.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:27:36+00:00",
+    "usage": [
+      {
+        "input_tokens": 19635,
+        "output_tokens": 4312,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011h1VXBAnYiZMRJEgcQr4XueIt",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 55196,
+    "sha256": "21fe19df05ed2e93e6a9753f832d6b65c7770876180ab670c4c610cc0710dbab",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.nbcnews.com/news/us-news/social-mediahosted-lot-fake-health-news-year-here-s-n1107466",
+      "https://www.bbc.com/news/business-36189252",
+      "https://www.healthnewsreview.org/toolkit/tips-forunderstanding-studies/",
+      "https://doi.org/10.5281/zenodo.3606757",
+      "https://www.healthnewsreview.org/",
+      "https://archive.org/web/",
+      "https://botometer.iuni.iu.edu/",
+      "https://www.fda.gov/consumers/consumer-updates/fdawarns-about-stem-cell-therapies"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.3606757"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Ginger Cannot Cure Cancer: Battling Fake Health News with a Comprehensive Data Repository",
+      "authors": [
+        "Enyan Dai",
+        "Yiwei Sun",
+        "Suhang Wang"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "FakeHealth (HealthStory and HealthRelease)",
+      "platforms": [
+        "Twitter/X",
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "HealthNewsReview.org"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Twitter Advanced Search API",
+        "Wayback Machine",
+        "HealthNewsReview crawler",
+        "news content crawler",
+        "user crawler"
+      ],
+      "temporal_coverage_start": "2009-12",
+      "temporal_coverage_end": "2018",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 2296,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "HealthStory: 1,690 news, 384,073 tweets, 27,601 replies, 120,709 retweets, 241,368 unique users; HealthRelease: 606 news, 47,338 tweets, 1,575 replies, 16,959 retweets, 30,362 unique users.",
+      "modalities": [
+        "Text",
+        "Image",
+        "Network or graph",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Public health and COVID-19",
+        "Bots, coordinated inauthentic behavior and propaganda"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "Topic or content classification",
+        "Sentiment or emotion analysis",
+        "Bot or coordinated account detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Multimodal understanding (image/video/audio)",
+        "User profiling or demographic inference"
+      ],
+      "tasks_verbatim": [
+        "fake health news detection",
+        "explainable fake news detection",
+        "knowledge-based fake news detection",
+        "credibility-based fake news detection",
+        "multi-modal fake news detection",
+        "fake health news early detection",
+        "fake health news propagation",
+        "multi-aspect news rating"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 2296,
+      "num_annotators": 2,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Classical ML (SVM, logistic regression, random forest)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.3606757"
+      ],
+      "persistent_doi": "10.5281/zenodo.3606757",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "With these two files and the API we provided for FakeHealth, researchers can trivially obtain the full contents of social engagements and user network from Twitter.",
+      "scale_quote": "In the end, we obtained 500k tweets, 29k replies, 14k retweets, 27k users profiles with timelines and friend lists.",
+      "annotation_quote": "Each news is reviewed by at least two reviewers with years of experience in health domain.",
+      "ethics_quote": "Due to the Twitter policy of protecting user privacy, the full contents of user social engagements and network are not allowed to directly publish.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The introduction reports 27k user profiles, whereas Table 2 reports 241,368 and 30,362 unique users for HealthStory and HealthRelease; the number of distinct users across the combined repository is not stated. The release contains full news contents and reviews but only engagement and user-network IDs for Twitter data."
+    }
+  }
+}

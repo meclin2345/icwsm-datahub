@@ -1,0 +1,18 @@
+{
+  "page_count": 5,
+  "n_chars": 21285,
+  "sha256": "184898463892d567375a6076fced122299f9302176798eabf2bf6f8e89612d21",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://github.com/DataSciencePolimi/CSSforPolitics",
+    "https://doi.org/10.7910/DVN/KP4XRP",
+    "https://botometer.iuni.iu.edu/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7910/DVN/KP4XRP"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

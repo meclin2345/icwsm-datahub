@@ -1,0 +1,29 @@
+{
+  "page_count": 10,
+  "n_chars": 56764,
+  "sha256": "910a353dac71706232b16ccaa7cc73ba2858988581febba84fda590f8039ed0d",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://crisisnlp.qcri.org/",
+    "https://en.wikipedia.org/wiki/Disaster_",
+    "https://appen.com/datasets/combined-",
+    "https://data.world/crowdflower/disasters-",
+    "https://en.wikipedia.org/wiki/",
+    "https://github.com/brendano/ark-tweet-nlp",
+    "http://en.wikipedia.org/wiki/2012_",
+    "http://t.co/Knb407Fw",
+    "http://t.co/U2hw0LWW",
+    "http://t.co/MpQskYt1\u201d",
+    "http://t.co/qb5UuYf9_|queensland",
+    "http://t.co/oH93niFiAS\u201d",
+    "http://t.co/Th5Yzvdg5m_|_numerous",
+    "https://t.co/WMpmu27P9X\u201d_",
+    "https://cloud.google.com/translate/docs/",
+    "http://t.co/WBsKGZHHSj\u201d_"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

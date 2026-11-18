@@ -1,0 +1,190 @@
+{
+  "paper_id": "2020_tborck_aaai_mitrevski_1063_c887da",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_Mitrevski-1063.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:02+00:00",
+    "usage": [
+      {
+        "input_tokens": 15646,
+        "output_tokens": 1126,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011UEjpV5p3oZBOBAI4Hk2sqzgA",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.research_domains.0: got 'Network or information diffusion analysis'; Input should be 'Misinformation and fact-checking', 'Hate speech, toxicity and harassment', 'Political communication and elections', 'Polarization and ideology'"
+      },
+      {
+        "input_tokens": 16866,
+        "output_tokens": 1144,
+        "cache_read_input_tokens": 13471,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011bnEY5JKIDhOp0sW0riRRFFk6",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 35821,
+    "sha256": "e748fc2246c13871689b1d6e721527a033d3b9663c9569157b5e318facabda8f",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.3605388",
+      "https://www.mediawiki.org",
+      "https://en.wikipedia.org/wiki/Help:Wikitext",
+      "https://en.wikipedia.org/w/api.php",
+      "https://phabricator.wikimedia.org/T182351",
+      "https://dumps.wikimedia.org/enwiki/",
+      "https://www.mediawiki.org/w/index.php?title=Help",
+      "https://archive.org/web/",
+      "https://www.mediawiki.org/wiki/MediaWiki",
+      "https://www.mediawiki.org/wiki/Extension",
+      "https://www.mediawiki.org/wiki/Extension:Scribunto",
+      "https://en.wikipedia.org/w/index.php?title=Docker",
+      "https://dumps.wikimedia.org/other/clickstream/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.3605388"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "WikiHist.html: English Wikipedia’s Full Revision History in HTML Format",
+      "authors": [
+        "Blagoj Mitrevski",
+        "Tiziano Piccardi",
+        "Robert West"
+      ],
+      "author_countries": [
+        "CH"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Tool or infrastructure released with data",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "WikiHist.html",
+      "platforms": [
+        "Wikipedia/Wikidata"
+      ],
+      "platform_names_verbatim": [
+        "English Wikipedia"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "MediaWiki"
+      ],
+      "temporal_coverage_start": "2001-01-01",
+      "temporal_coverage_end": "2019-03-01",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 580000000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The main part of the dataset comprises the HTML content of 580M revisions of 5.8M articles generated from the full English Wikipedia history spanning 18 years from 1 January 2001 to 1 March 2019.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Other"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "empirical analysis of Wikipedia’s hyperlinks",
+        "studying the evolution of Wikipedia"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.3605388"
+      ],
+      "persistent_doi": "10.5281/zenodo.3605388",
+      "code_repository_url": "https://doi.org/10.5281/zenodo.3605388",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Both data and code can be accessed via https://doi.org/10.5281/zenodo.3605388.",
+      "scale_quote": "The main part of the dataset comprises the HTML content of 580M revisions of 5.8M articles generated from the full English Wikipedia history spanning 18 years from 1 January 2001 to 1 March 2019.",
+      "annotation_quote": "",
+      "ethics_quote": "",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

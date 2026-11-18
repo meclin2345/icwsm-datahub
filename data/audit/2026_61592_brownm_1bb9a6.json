@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "paper_id": "2026_61592_brownm_1bb9a6",
+    "year": 2026,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.3886/sqhd-kv39",
+    "doi_resolves": false,
+    "n_urls_checked": 3,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.3886/sqhd-kv39",
+    "primary_url_status": "Restricted / forbidden (403)",
+    "primary_resolved_url": "https://www.icpsr.umich.edu/sites/somar/view/studies/300490",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": null,
+    "file_count": null,
+    "total_size_mb": null,
+    "file_extensions": "",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": null,
+    "downloads_unique": null,
+    "views_total": null,
+    "downloads_metric_source": null,
+    "repo_license": null,
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.3886/sqhd-kv39",
+      "resolved_url": "https://www.icpsr.umich.edu/sites/somar/view/studies/300490",
+      "http_status": 403,
+      "category": "Restricted / forbidden (403)",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:25:26+00:00",
+      "error": null
+    },
+    {
+      "url": "https://socialmediaarchive.org",
+      "resolved_url": "https://www.icpsr.umich.edu/sites/somar/home",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:28+00:00",
+      "error": null
+    },
+    {
+      "url": "https://www.candidata24.org/",
+      "resolved_url": "https://www.candidata24.org/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html;charset=utf-8",
+      "checked_at": "2026-10-29T03:25:31+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": false,
+    "api_status": 404
+  },
+  "wayback": null
+}

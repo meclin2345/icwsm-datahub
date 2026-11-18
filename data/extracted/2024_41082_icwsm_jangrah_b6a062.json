@@ -1,0 +1,179 @@
+{
+  "paper_id": "2024_41082_icwsm_jangrah_b6a062",
+  "year": 2024,
+  "pdf_filename": "41082-ICWSM.JangraH.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:03+00:00",
+    "usage": [
+      {
+        "input_tokens": 23286,
+        "output_tokens": 969,
+        "cache_read_input_tokens": 20895,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011mWUlFOEzFAoe5QyGrmhMDOUU",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 63216,
+    "sha256": "bf486964d1e60d445678c4a38554828a366930ccf627e597b9993996ec22a311",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.reddit.com/r/loseit/",
+      "https://www.reddit.com/r/stopsmoking/",
+      "https://streaksapp.com/",
+      "https://www.stridesapp.com/",
+      "https://wayoflifeapp.com/",
+      "https://habitica.com/static/home",
+      "https://habitshareapp.com/",
+      "https://precog.iiit.ac.in/research/put-your-money/_",
+      "https://stickk.zendesk.com/hc/en-us/articles/206833337"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10.5281/zenodo.8347427_"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Put Your Money Where Your Mouth Is: Dataset and Analysis of Real World Habit Building Attempts",
+      "authors": [
+        "Hitkul Jangra",
+        "Rajiv Ratn Shah",
+        "Ponnurangam Kumaraguru"
+      ],
+      "author_countries": [
+        "IN"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "stickk.com"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2007-10-19",
+      "temporal_coverage_end": "2023-08-17",
+      "primary_record_unit": "Users or accounts",
+      "total_records": 742923,
+      "num_accounts_or_users": 742923,
+      "scale_description_verbatim": "742,923 users and 397,456 commitments",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Mental health and wellbeing",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Causal or intervention analysis",
+        "Descriptive or exploratory social analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "classifying commitments into different categories",
+        "survival regression to analyze the effect of these confounders"
+      ],
+      "annotation_paradigms": [
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 291547,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "Personal or lab website, Google Drive, Dropbox"
+      ],
+      "dataset_urls": [
+        "https://precog.iiit.ac.in/research/put-your-money/",
+        "https://doi.org/10.5281/zenodo.8347427"
+      ],
+      "persistent_doi": "10.5281/zenodo.8347427",
+      "code_repository_url": "https://precog.iiit.ac.in/research/put-your-money/",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "We ensure that none of our analysis utilizes any personally identifiable information (PII) or critical characteristics like age, gender, race, and religion of the user.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Dataset, and code is available at https://precog.iiit.ac.in/research/put-your-money/ .",
+      "scale_quote": "Our data consists of 742,923 users and 397,456 commitments.",
+      "annotation_quote": "Our Word2Vec-enabled relevance feedback algorithm was able to classify 73% of total commitments successfully.",
+      "ethics_quote": "All our analysis is performed on public data. We ensure that none of our analysis utilizes any personally identifiable information (PII).",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The exact number of commitments classified was computed from the 73% of 397,456 total. The paper notes user profiles include usernames but the ethics section claims no PII is utilized, leaving the distribution form ambiguous."
+    }
+  }
+}

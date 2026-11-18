@@ -1,0 +1,24 @@
+{
+  "page_count": 10,
+  "n_chars": 46440,
+  "sha256": "1173bc2e6f0891d1ac3b1ab56dbb37deb7aceb7eea43224035bd99f6dcf370ea",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://en.mo3jam.com/",
+    "https://3amyah.com/",
+    "https://livingarabic.com",
+    "https://www.lisaanmasry.org/",
+    "https://derja.ninja//",
+    "https://ary.wikipedia.org/",
+    "https://huggingface.co/HossamElsafty/ArDiaBERTv2",
+    "https://huggingface.co/HossamElsafty/ArbianGPT",
+    "https://huggingface.co/HossamElsafty/ArDiaGPT"
+  ],
+  "urls_in_references": [
+    "https://force11"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

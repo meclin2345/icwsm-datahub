@@ -1,0 +1,172 @@
+{
+  "paper_id": "2025_51200_icwsm_handzlikd_355c92",
+  "year": 2025,
+  "pdf_filename": "51200-ICWSM.HandzlikD.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:08:59+00:00",
+    "usage": [
+      {
+        "input_tokens": 22323,
+        "output_tokens": 1214,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0117xVMcprX4T7tDvFaUQqGLjex",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 61674,
+    "sha256": "9e6555a3af54ae6e9110922c3e52b89fe80d3719f0a0748c20276df22a95c8c8",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://zenodo.org/records/15149787"
+    ],
+    "urls_in_references": [
+      "https://pypi.org/",
+      "https://creativecommons.org/licenses/bync-nd/4.0/deed.en",
+      "https://creativecommons.org/licenses/by-ncnd/4.0/deed.en"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.15149787"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Statewise: Human Identity Investigator for the United States",
+      "authors": [
+        "Dakota Handzlik",
+        "Jason Jeffrey Jones",
+        "Steven S. Skiena"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Statewise",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter API"
+      ],
+      "temporal_coverage_start": "2012",
+      "temporal_coverage_end": "2023",
+      "primary_record_unit": "Users or accounts",
+      "total_records": 50662711,
+      "num_accounts_or_users": 50662711,
+      "scale_description_verbatim": "50 million unique Twitter user profiles over a 12 year period identified to be in the United States",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Gender, race and identity",
+        "Online communities and collective behavior",
+        "Social movements and activism"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "token overrepresentation",
+        "emoji analysis",
+        "spatial distribution of tokens",
+        "state transition analysis"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": 1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/15149787"
+      ],
+      "persistent_doi": "10.5281/zenodo.15149787",
+      "code_repository_url": "",
+      "distribution_form": "Aggregated statistics, embeddings or derived features only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [
+        "SQLITE",
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Low-frequency tokens (incidence < 5) removed to fully de-identify the tokenized data",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The tokenized data are publicly available for download from Zenodo. URL: https://zenodo.org/records/15149787",
+      "scale_quote": "our coverage of 50,662,711 unique users is several orders of magnitude larger than the largest previous self-identity data sets collected through traditional survey methods",
+      "annotation_quote": "Labels for all samples were applied by a single human annotator, and any ambiguities without further identifying information were labeled by using relative population numbers.",
+      "ethics_quote": "We acknowledge that there are some limitations to Statewise, particularly in regards to the sampling and interpretation.",
+      "license_quote": "This dataset is being released under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International license",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The primary unit is users/bios, but the released dataset is aggregated; total_records reflects unique users covered by the source data, not the number of released records."
+    }
+  }
+}

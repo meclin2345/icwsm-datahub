@@ -1,0 +1,187 @@
+{
+  "paper_id": "2022_01066_icwsm_trujillom_d6e509",
+  "year": 2022,
+  "pdf_filename": "01066-ICWSM.TrujilloM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:32:18+00:00",
+    "usage": [
+      {
+        "input_tokens": 19171,
+        "output_tokens": 1007,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011V8XCcB9Vg8HuzA2Ww3cwWSx6",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 46635,
+    "sha256": "77ae44c94ba2abff4ba30767b2ca129166f15568f1e0f9a5d7a7924f4bea3900",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=",
+      "https://github.com/BitChute/commentfreely",
+      "https://commentfreely.bitchute.com/api/get",
+      "https://www.force11.org/group/fairgroup/fairprinciples",
+      "https://www.npr.org/2022/01/06/1070763913/kicked-off-",
+      "https://www.vox.com/recode/22240408/facebook-youtubetwitter-qanon-misinformation-inauguration",
+      "https://www.adl.org/hate-symbols",
+      "https://dataverse.harvard.edu/dataset",
+      "https://semeval.github.io/",
+      "https://arstechnica.com/information-technology/2021/09/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7910/DVN/KRD1VS"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "The MeLa BitChute Dataset",
+      "authors": [
+        "Milo Z. Trujillo",
+        "Maurício Gruppi",
+        "Cody Buntain",
+        "Benjamin D. Horne"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MeLa-BitChute",
+      "platforms": [
+        "Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute)"
+      ],
+      "platform_names_verbatim": [
+        "BitChute"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Selenium",
+        "PostgreSQL",
+        "Disqus",
+        "CommentFreely"
+      ],
+      "temporal_coverage_start": "2019-06-28",
+      "temporal_coverage_end": "2021-12-31",
+      "primary_record_unit": "Videos",
+      "total_records": 3036190,
+      "num_accounts_or_users": 61229,
+      "scale_description_verbatim": "data from 3,036,190 videos, 61,229 channels, and 11,434,571 comments",
+      "modalities": [
+        "Text",
+        "Video",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Content moderation and platform governance",
+        "Extremism and radicalization"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Misinformation or claim detection",
+        "Causal or intervention analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Content Moderation and Deplatforming",
+        "Conspiracy and Political Misinformation",
+        "Supply, Demand, and Health Misinformation",
+        "Alternative Monetization",
+        "Hate and Online Extremism"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KRD1VS"
+      ],
+      "persistent_doi": "10.7910/DVN/KRD1VS",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV",
+        "SQLite3"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Comment posters anonymized via a salted hash of their account information; channel and video URLs kept as-is.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The MeLa-BitChute dataset can be found at: https://dataverse.harvard.edu/dataset.xhtml?persistentId= doi:10.7910/DVN/KRD1VS.",
+      "scale_quote": "The dataset contains data from 3,036,190 videos, 61,229 channels, and 11,434,571 comments between June 28th, 2019 and December 31st, 2021.",
+      "annotation_quote": "",
+      "ethics_quote": "We have assigned each commenter a unique ID, by creating a salted hash of their account information.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not name a license for the dataset. Total video count is phrased as over 3M but the exact figure of 3,036,190 is provided in the data collection section."
+    }
+  }
+}

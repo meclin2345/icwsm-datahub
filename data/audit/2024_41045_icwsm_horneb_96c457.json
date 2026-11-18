@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "paper_id": "2024_41045_icwsm_horneb_96c457",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.7910/DVN/YHWTFC",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.7910/DVN/YHWTFC",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/YHWTFC",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Dataverse",
+    "file_count": 4,
+    "total_size_mb": 4042.45,
+    "file_extensions": ".bz2, .csv, .zip",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 565,
+    "downloads_unique": 368,
+    "views_total": 2818,
+    "downloads_metric_source": "Dataverse Make Data Count",
+    "repo_license": "CC BY-NC 4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Harvard Dataverse",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/MELALab/nela-pink-slime",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 0,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2024-01-12T15:05:12Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.7910/DVN/YHWTFC",
+      "resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/YHWTFC",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:23:19+00:00",
+      "error": null
+    },
+    {
+      "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YHWTFC",
+      "resolved_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YHWTFC",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:23:20+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": true,
+    "instance": "https://dataverse.harvard.edu",
+    "pid": "doi:10.7910/DVN/YHWTFC",
+    "version_state": "RELEASED",
+    "license": "CC BY-NC 4.0",
+    "file_count": 4,
+    "restricted_file_count": 3,
+    "restricted": false,
+    "partially_restricted": true,
+    "total_size_mb": 4042.45,
+    "file_extensions": [
+      ".bz2",
+      ".csv",
+      ".zip"
+    ],
+    "terms_of_access": true,
+    "downloadsTotal": 565,
+    "viewsTotal": 2818,
+    "downloadsUnique": 368
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": true,
+    "repo": "MELALab/nela-pink-slime",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-01-12T15:05:12Z",
+    "created_at": "2024-01-12T14:37:00Z",
+    "size_mb": 0.04,
+    "license": "MIT"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Harvard Dataverse",
+    "landing_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/YHWTFC",
+    "views": 1123,
+    "downloads": 300,
+    "citations": 0,
+    "registered_year": "2024"
+  },
+  "wayback": null
+}

@@ -1,0 +1,37 @@
+{
+  "page_count": 10,
+  "n_chars": 52917,
+  "sha256": "82030f7554b1feb1cc664aff0ba93927213f51b95cb2dc9dd1fb3d775d88a90e",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.youtube.com/intl/en-GB/about/press/",
+    "https://www.bitchute.com/",
+    "https://odysee.com",
+    "https://en.wikipedia.org/wiki/Alt-tech",
+    "https://doi.org/10.5281/zenodo.7799469",
+    "https://pypi.org/project/bitchute-dl/",
+    "https://support.google.com/youtube/answer/2801939?hl=en",
+    "https://toloka.ai/ml/computer-vision",
+    "https://github.com/kevalvc/Python-Annotator-for-VideoS",
+    "https://alphacephei.com/vosk/",
+    "https://github.com/pyenchant/pyenchant",
+    "https://www.perspectiveapi.com/",
+    "https://textblob.readthedocs.io/en/dev/",
+    "https://spacy.io/",
+    "https://en.wikipedia.org/wiki/Ku",
+    "https://imageai.readthedocs.io/",
+    "https://librosa.org/doc/latest/index.html"
+  ],
+  "urls_in_references": [
+    "http://mastersofmedia.hum.uva.nl/blog/2020/09/27/",
+    "https://blog.youtube/inside-youtube/building-greatertransparency-and-accountability/",
+    "https://www.wsj.com/articles/germany-to-social-networksdelete-hate-speech-faster-or-face-fines-1498757679",
+    "https://beverlyboy.com/videomarketing/2023-video-marketing-statistics-you-simplycant-overlook/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.7799469"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

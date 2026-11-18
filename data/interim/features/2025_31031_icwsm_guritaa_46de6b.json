@@ -1,0 +1,21 @@
+{
+  "page_count": 8,
+  "n_chars": 36764,
+  "sha256": "6ea7be635f1af27506135569296bcba929f075c0508c960dc08d2fa474a63a35",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.figma.com/",
+    "https://www.usegalileo.ai/explore",
+    "https://zenodo.org/records/14568386"
+  ],
+  "urls_in_references": [
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/",
+    "https://www.pewresearch.org/internet/fact-sheet/",
+    "https://www.ada.gov/",
+    "https://zenodo.org/records/14568386"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

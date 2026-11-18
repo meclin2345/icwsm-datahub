@@ -1,0 +1,18 @@
+{
+  "page_count": 11,
+  "n_chars": 62279,
+  "sha256": "8ef25ce675d7f678c60cc0530b1c94a8a4bcbacd43a34050ed24a59723e334ef",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/socius-org/sentibank",
+    "https://pypi.org/project/sentibank/",
+    "https://zenodo.org/doi/10.5281/zenodo.10514542"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.10514542"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

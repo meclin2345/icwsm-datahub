@@ -1,0 +1,194 @@
+{
+  "paper_id": "2023_01018_icwsm_ziliusk_e05427",
+  "year": 2023,
+  "pdf_filename": "01018-ICWSM.ZiliusK.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:35:03+00:00",
+    "usage": [
+      {
+        "input_tokens": 18597,
+        "output_tokens": 4646,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Wl9YPF6NHSZqFZ8pkFexQOfK",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 50735,
+    "sha256": "560266c47daca7bc5aec54c36cb2eb11a0b453255b90c341a2d612f75f9b4a2d",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://help.twitter.com/en/rules-and-policies/platformmanipulation",
+      "https://bitcointalk.org/index.php?board=238.0",
+      "https://bitcointalk.org/",
+      "https://zenodo.org/record/7539178",
+      "https://bitcointalk.org/index.php?topic=5",
+      "https://bitcointalk.org/index.php?action=stats",
+      "https://github.com/psf/requests",
+      "https://github.com/waylan/beautifulsoup",
+      "https://docs.gspread.org/en/v5.7.0/",
+      "https://bitcointalk.org/index.php?board=238.page_",
+      "https://bitcointalk.org/index.php?topic=thread_",
+      "https://bitcointalk.org/index.php?action=profile;u=user_",
+      "https:///www.docs.google.com/spreadsheets",
+      "https://docs.python.org/3/library/re.html",
+      "https://github.com/tesseract-ocr/tesserac",
+      "https://coinmarketcap.com/charts/",
+      "https://bitcointalk.org/index.php?topic=5208423.0"
+    ],
+    "urls_in_references": [
+      "https://force11.org/info/the-fair-data-principles/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.7539178"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Dataset of Coordinated Cryptocurrency-Related Social Media Campaigns",
+      "authors": [
+        "Karolis Zilius",
+        "Tasos Spiliotopoulos",
+        "Aad van Moorsel"
+      ],
+      "author_countries": [
+        "GB"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Bounties (Altcoins) dataset",
+      "platforms": [
+        "Q&A and Forums (Quora/Stack Exchange/other forums)"
+      ],
+      "platform_names_verbatim": [
+        "Bitcointalk.org",
+        "BitcoinTalk forum"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "requests",
+        "BeautifulSoup",
+        "gspread",
+        "Google Sheets API"
+      ],
+      "temporal_coverage_start": "2014-05-13",
+      "temporal_coverage_end": "2022-12-31",
+      "primary_record_unit": "Conversations or threads",
+      "total_records": 15800,
+      "num_accounts_or_users": 185000,
+      "scale_description_verbatim": "15.8K crossmedia bounty events, 185K participants, 10M forum comments and 82M social media URLs collected from the Bounties(Altcoins) subforum of the BitcoinTalk online forum from May 2014 to December 2022.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Network or graph"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "Economic or financial event",
+      "event_name": "Cryptocurrency-related social media bounty campaigns",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Misinformation and fact-checking",
+        "Influencers, marketing and the platform economy"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Sentiment or emotion analysis",
+        "Bot or coordinated account detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Financial analysis",
+        "Social media and network analysis",
+        "Natural Language Processing (NLP)",
+        "Policy and regulation"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 28106210,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/7539178"
+      ],
+      "persistent_doi": "10.5281/zenodo.7539178",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "TSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Email addresses were removed; social media account IDs, Tweet IDs, and crypto wallet addresses were retained.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We make the entire dataset, along with a smaller sample and supplementary material, publicly available at the following link: (Dataset URL: https://zenodo.org/record/7539178).",
+      "scale_quote": "The dataset consists of information about 15.8K crossmedia bounty events, 185K participants, 10M forum comments and 82M social media URLs collected from the Bounties(Altcoins) subforum of the BitcoinTalk online forum from May 2014 to December 2022.",
+      "annotation_quote": "Each thread was assigned one or more categories based on the title, main post comment and user replies.",
+      "ethics_quote": "Finally, this work received ethical approval from our institution.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The headline description rounds the dataset to 15.8K events and 185K participants, while the detailed tables report 15,870 total threads, 7,177 identified Bounty events, and 185,709 user profiles. The number of annotated records combines 10,024,001 categorized comments with 18,082,209 labeled spreadsheet entries; the paper does not report a combined total."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "page_count": 7,
+  "n_chars": 33417,
+  "sha256": "be2d1bb02a067dbc3b28188ec0ec170274989b8cfb200cfed12e17bef9efd25d",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.7410436",
+    "https://www.wikidata.org/wiki/Wikidata:List",
+    "https://en.wikipedia.org/wiki/ACM",
+    "https://query.wikidata.org/",
+    "https://wiki-topic.toolforge.org/topic",
+    "https://wikiknowledge.onrender.com/demographics/",
+    "https://render",
+    "https://en.wikipedia.org/wiki/Wikipedia:AfC",
+    "https://www.wikidata.org/wiki/Property:P39",
+    "https://www.wikidata.org/wiki/Q111536437"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.7410436"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

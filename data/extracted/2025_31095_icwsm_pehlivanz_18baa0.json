@@ -1,0 +1,202 @@
+{
+  "paper_id": "2025_31095_icwsm_pehlivanz_18baa0",
+  "year": 2025,
+  "pdf_filename": "31095-ICWSM.PehlivanZ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:09:09+00:00",
+    "usage": [
+      {
+        "input_tokens": 19026,
+        "output_tokens": 1387,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011yQyuY5iodOS6AC89Koy7RA9g",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 49867,
+    "sha256": "850a3f5b3a6a7c53707ad84c618229c8f19661360080d89f158d5243ac68aa42",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://figshare.com/s/9dd053304c6fc3ae4879",
+      "https://www.mediacloud.org/",
+      "https://github.com/networkdynamics/pytok",
+      "https://developers.tiktok.com/doc/research-api-codebook/",
+      "https://about.fb.com/news/2023/11/new-tools-to-support-",
+      "https://developers.google.com/youtube/v3",
+      "https://www.elastic.co/",
+      "https://transparency.meta.com/researchtools/meta-contentlibrary",
+      "https://www.theverge.com/2023/5/31/23739084/twitter-elonmusk-api-policy-chilling-academic-research",
+      "https://developer.x.com/en/docs/xapi/v1/tweets/search/overview",
+      "https://meo.ca/work/cdmrn/the-canadian-informationecosystem",
+      "http://meo.ca/work/british-columbia-electioninformation-ecosystem-project-baseline-report",
+      "https://www.cdmrn.ca/situation-reports"
+    ],
+    "urls_in_references": [
+      "https://meo.ca/work/cdmrn/the-canadian-informationecosystem",
+      "https://academic.oup.com/book/26406/bookpdf/53445042/9780190923648",
+      "https://doi.org/10.1080/10584609.2022.2128949",
+      "https://force11",
+      "https://doi.org/10.1177/1940161220912682",
+      "https://doi.org/10.1080/17512786.2022.2086157",
+      "https://doi.org/10.1080/10584609.2020.1785067"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Can-PolNews: A Multi-Platform Dataset of Political Discourse in Canada",
+      "authors": [
+        "Zeynep Pehlivan",
+        "Saewon Park",
+        "Alexei Sisulu Abrahams",
+        "Mika Jacques Patel Desblancs",
+        "Benjamin David Steel",
+        "Aengus Bridgman"
+      ],
+      "author_countries": [
+        "CA"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Can-PolNews",
+      "platforms": [
+        "Twitter/X",
+        "TikTok",
+        "Instagram",
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "X/Twitter",
+        "TikTok",
+        "Instagram",
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "YouTube Data API",
+        "pytok",
+        "CrowdTangle"
+      ],
+      "temporal_coverage_start": "2023-01",
+      "temporal_coverage_end": "2025-01",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 5691446,
+      "num_accounts_or_users": 1852,
+      "scale_description_verbatim": "all content posted to social media by Canadian news media (national, provincial, and local) and Canadian politicians (federal and provincial) for 1,852 unique accounts across four major platforms",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en",
+        "fr"
+      ],
+      "num_languages": 2,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "CA"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "News and journalism"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "network mapping of the dataset",
+        "comparative analysis of regional political trends and ideological affinities",
+        "cross-platform or time-series analysis"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 3730,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Figshare"
+      ],
+      "dataset_urls": [
+        "https://figshare.com/s/9dd053304c6fc3ae4879"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/networkdynamics/pytok",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "a license that restricts usage to non-commercial, academic, and research purposes",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "author-related information removed from YouTube comments; politician and news outlet post data left un-anonymized as public-facing",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is hosted on FigShare, where it is assigned a unique identifier to ensure findability and accessibility.",
+      "scale_quote": "Our dataset contains all content posted to social media by Canadian news media (national, provincial, and local) and Canadian politicians (federal and provincial) for 1,852 unique accounts across four major platforms popular among Canadians: Instagram, X/Twitter, TikTok, and YouTube.",
+      "annotation_quote": "Once all the entities were identified and annotated with main type, sub type, provincial party, federal party, electoral riding, and province, social media handles covering as many platforms as available for each entity were recorded.",
+      "ethics_quote": "We only collected publicly available data from X/Twitter, Instagram, TikTok, and YouTube from politicians who are public-facing individuals and news outlets which are public entities.",
+      "license_quote": "we have uploaded it to FigShare under a license that restricts usage to non-commercial, academic, and research purposes.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Scale statements conflict slightly: abstract says 'more than 5 million posts' while Table 2 reports 5,691,446; 1,852 unique accounts (abstract) vs 2,028 seedlist accounts (methodology)."
+    }
+  }
+}

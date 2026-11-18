@@ -1,0 +1,12 @@
+{
+  "page_count": 9,
+  "n_chars": 44544,
+  "sha256": "58e04d39fc34b8fe9f0cd4ef52a2d9784ac2c45a1a77b2c0c0d61a7293b42c86",
+  "checklist_detected": false,
+  "urls_in_body": [],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

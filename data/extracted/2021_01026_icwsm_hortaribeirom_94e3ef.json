@@ -1,0 +1,193 @@
+{
+  "paper_id": "2021_01026_icwsm_hortaribeirom_94e3ef",
+  "year": 2021,
+  "pdf_filename": "01026-ICWSM.HortaRibeiroM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:55+00:00",
+    "usage": [
+      {
+        "input_tokens": 20094,
+        "output_tokens": 1342,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011yKoPu0WTpk8A2JKWB4HaWG6q",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 47961,
+    "sha256": "d96b35c7d03ecd10597acfe67040751f2865db7710ba139ec72cec3799d739b3",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.4650046",
+      "https://channelcrawler.com/eng/faq",
+      "https://www.channelcrawler.com/",
+      "https://socialblade.com/info",
+      "https://socialblade.com/blog/nine-years-of-socialblade/"
+    ],
+    "urls_in_references": [
+      "https://www.nytimes.com/2018/11/14/world/asia/tseries-youtube-india.html",
+      "https://www.nytimes.com/2019/08/11/world/americas/",
+      "https://code",
+      "https://bit.ly/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.4650046"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube",
+      "authors": [
+        "Manoel Horta Ribeiro",
+        "Robert West"
+      ],
+      "author_countries": [
+        "CH"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "YouNiverse",
+      "platforms": [
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "YouTube",
+        "channelcrawler.com",
+        "socialblade.com"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "channelcrawler.com",
+        "socialblade.com",
+        "langdetect",
+        "YouTube"
+      ],
+      "temporal_coverage_start": "2005-05",
+      "temporal_coverage_end": "2019-10",
+      "primary_record_unit": "Videos",
+      "total_records": 72924794,
+      "num_accounts_or_users": 136470,
+      "scale_description_verbatim": "over 136k channels and 72.9M videos published between May 2005 and October 2019",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Network or graph"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Online communities and collective behavior",
+        "Influencers, marketing and the platform economy",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Network or information diffusion analysis",
+        "Virality or popularity prediction"
+      ],
+      "tasks_verbatim": [
+        "study the evolution of content creation",
+        "study the evolution of content",
+        "find channels or videos related to specific topics"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments",
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.4650046"
+      ],
+      "persistent_doi": "10.5281/zenodo.4650046",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSONL",
+        "TSV",
+        "GZIP"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Users anonymized by replacing names with randomly assigned IDs and stripping comment text; only comments on videos with more than 30 commenters released",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "YouNiverse, publicly available at https://doi.org/10.5281/zenodo.4650046, will empower the community to do research with and about YouTube.",
+      "scale_quote": "YouNiverse comprises metadata for over 136k channels and 72.9M videos published between May 2005 and October 2019.",
+      "annotation_quote": "For comments, our filtering step was more aggressive. Besides removing all comments from non-English channels, we anonymized users by replacing their names with randomly assigned IDs and strip comments of their textual content.",
+      "ethics_quote": "We collected only data publicly available on the Web and did not (1) interact with online users in any way nor (2) simulate any logged-in activity on YouTube.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "No license is stated in the paper. Channel counts vary between 136,470 (English-filtered) and 156,978 (raw pool); the released dataset uses the filtered figure."
+    }
+  }
+}

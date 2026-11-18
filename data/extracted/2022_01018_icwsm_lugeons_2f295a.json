@@ -1,0 +1,188 @@
+{
+  "paper_id": "2022_01018_icwsm_lugeons_2f295a",
+  "year": 2022,
+  "pdf_filename": "01018-ICWSM.LugeonS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:31:16+00:00",
+    "usage": [
+      {
+        "input_tokens": 16439,
+        "output_tokens": 687,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Ru4FT4QKhEkKMVGIwl46BAhZ",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | collection.collection_methods.1: got 'Distant or weak supervision (hashtags, domain lists, heuristics)'; Input should be 'Official platform API', 'Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40)', 'Third-party archive or service ( | annotation.annotation_paradigms: MISSING - this required field was left out; include it | annotation.annotation_paradigigms: got ['Distant or weak supervision (hashtags, domain lists, heuristics)']; Extra inputs are not permitted"
+      },
+      {
+        "input_tokens": 17286,
+        "output_tokens": 689,
+        "cache_read_input_tokens": 14239,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0110qPgTVc2bBiyBXYBV7m68emm",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 35570,
+    "sha256": "9e3daa3fa52d2f08fa692e6cebdc838a1a463ef7381224e21225945ce4eb264b",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://github.com/epfl-dlab/homepage2vec",
+      "https://curlie.org/",
+      "https://w3techs.com/technologies/overview/content",
+      "https://github.com/epfldlab/homepage2vec",
+      "https://www.crummy.com/software/BeautifulSoup/",
+      "https://www.selenium.dev/",
+      "https://www.worldbank.org/",
+      "https://commoncrawl.org/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Homepage2Vec: Language-Agnostic Website Embedding and Classification",
+      "authors": [
+        "Sylvain Lugeon",
+        "Tiziano Piccardi",
+        "Robert West"
+      ],
+      "author_countries": [
+        "CH"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Curlie dataset",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Curlie"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "BeautifulSoup",
+        "Selenium WebDriver"
+      ],
+      "temporal_coverage_start": "2021-04",
+      "temporal_coverage_end": "2021-04",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 2280000,
+      "num_accounts_or_users": 2280000,
+      "scale_description_verbatim": "2.28M entries",
+      "modalities": [
+        "Text",
+        "Image",
+        "Network or graph",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "mul"
+      ],
+      "num_languages": 92,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Online communities and collective behavior",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Multimodal understanding (image/video/audio)",
+        "Network or information diffusion analysis"
+      ],
+      "tasks_verbatim": [
+        "website classification",
+        "website embedding"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 2280000,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://github.com/epfl-dlab/homepage2vec"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/epfldlab/homepage2vec",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We make publicly available the curated Curlie dataset aligned across languages, the pre-trained Homepage2Vec model, and libraries: https://github.com/epfl-dlab/homepage2vec.",
+      "scale_quote": "This filtering leaves us 2.28M URLs, alongside their multilingual labels.",
+      "annotation_quote": "We collected binary labels for all 14 categories for 807 websites.",
+      "ethics_quote": "Curlie moderators make sure the dataset does not contain websites promoting individual products, marketing schemes, or illegal content.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

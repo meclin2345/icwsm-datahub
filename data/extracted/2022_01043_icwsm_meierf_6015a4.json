@@ -1,0 +1,206 @@
+{
+  "paper_id": "2022_01043_icwsm_meierf_6015a4",
+  "year": 2022,
+  "pdf_filename": "01043-ICWSM.MeierF.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:32:14+00:00",
+    "usage": [
+      {
+        "input_tokens": 19214,
+        "output_tokens": 4799,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011J4h9zhWwQ96XAJYqVBXm07we",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 53396,
+    "sha256": "d59abb165bd6074a6e60565b7008e8da08f79fd82b9c157930245912490dd810",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://enterprise.wikimedia.com/",
+      "https://cloud.sdu.dk/app/dashboard",
+      "https://en.wikipedia.org/wiki/Talk:Twitter",
+      "https://www.mediawiki.org/wiki/API:Redirects",
+      "https://en.wikipedia.org/w/index.php?title=Talk:Twitter&action=history",
+      "https://query.wikidata.org/",
+      "https://en.wikipedia.org/wiki/User",
+      "https://en.m.wikipedia.org/wiki/Twitter",
+      "https://en.wikipedia.org/wiki/Main",
+      "https://en.wikipedia.org/wiki/Twitter#Technology",
+      "https://github.com/meier-flo/TWikiL",
+      "https://botometer.osome.iu.edu/",
+      "https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews"
+    ],
+    "urls_in_references": [
+      "https://mash",
+      "https://doi.org/10.5281/zenodo.5845374",
+      "https://tech",
+      "https://blog.twitter.com/official/en",
+      "https://deve",
+      "https://meta",
+      "https://www.mediaw",
+      "https://about.ze"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "TWikiL - the Twitter Wikipedia Link Dataset",
+      "authors": [
+        "Florian Meier"
+      ],
+      "author_countries": [
+        "DK"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "TWikiL (TWikiL raw and TWikiL curated)",
+      "platforms": [
+        "Twitter/X",
+        "Wikipedia/Wikidata"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "Wikipedia",
+        "Wikidata"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter Academic Research access level",
+        "Twitter API v2",
+        "MediaWiki API",
+        "Wikidata SPARQL query service"
+      ],
+      "temporal_coverage_start": "2006-07",
+      "temporal_coverage_end": "2021-01",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 44945098,
+      "num_accounts_or_users": 5467385,
+      "scale_description_verbatim": "The data collection was performed over a period of five month in Summer 2021, and resulted in 44,945,098 Tweets posted between 2006 and January 2021.",
+      "modalities": [
+        "Network or graph",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en",
+        "ja",
+        "es",
+        "de",
+        "fr",
+        "nl",
+        "ru",
+        "und"
+      ],
+      "num_languages": 66,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Online communities and collective behavior",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Network or information diffusion analysis",
+        "Bot or coordinated account detection",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "Volume of Wikipedia Article Links on Twitter",
+        "Wikipedia Meta Topics",
+        "Popular Concepts",
+        "concept propagation"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 35252782,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.5845374"
+      ],
+      "persistent_doi": "10.5281/zenodo.5845374",
+      "code_repository_url": "https://github.com/meier-flo/TWikiL",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV",
+        "SQLite"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Twitter author and reply-to user IDs are retained; the authors state that they do not infer sensitive user characteristics or perform off-Twitter matching.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Both versions of the dataset are accessible and can be downloaded via Zenodo (Meier 2022).",
+      "scale_quote": "The data collection was performed over a period of five month in Summer 2021, and resulted in 44,945,098 Tweets posted between 2006 and January 2021.",
+      "annotation_quote": "The final two columns were created via a join with the dataset on Wikipedia knowledge propagation released by Valentim et al. (Valentim et al. 2021), who associated each Wikidata item to the ORES list of metatopics or categories an item belongs to (Wikipedia 2021a).",
+      "ethics_quote": "Neither TWikiL raw nor TWikiL curated contain personally identifiable information.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper reports 35,252,782 curated rows, 34,543,612 unique curated Tweet IDs, and 44,945,098 raw Tweets; total_records therefore uses the raw collection, while user counts use the curated table. The dataset license, IRB status, and an explicitly shipped documentation framework are not stated."
+    }
+  }
+}

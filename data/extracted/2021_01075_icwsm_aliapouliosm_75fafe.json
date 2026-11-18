@@ -1,0 +1,186 @@
+{
+  "paper_id": "2021_01075_icwsm_aliapouliosm_75fafe",
+  "year": 2021,
+  "pdf_filename": "01075-ICWSM.AliapouliosM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:30:33+00:00",
+    "usage": [
+      {
+        "input_tokens": 17301,
+        "output_tokens": 3948,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_01156jE7QqhG2ENk9rlG6kxpm5i",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 46241,
+    "sha256": "a1d6aea95cc1482e9d07dfb9bc73c6a53a931aad4ce8034d07938ecbf33a3e82",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.go-fair.org/fair-principles/"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10.5281/zenodo",
+      "https://doi.org/10.5281/",
+      "https://reut.rs/",
+      "https://www.washingtonpost.com/technology/2020/11/10/",
+      "https://www.syracuse.com/us-news/2020/11/what-is-parlerfree-speech-social-network-jumps-in-popularity-after-trumploses-election.html",
+      "https://www.cbsnews.com/news/proud-boys-leader-enriquetarrio-arrested-washington-dc/",
+      "https://wapo.st/2MEa2c5",
+      "https://www.politico.com/news/2020/",
+      "https://benpettis.com/writing/2019/5/",
+      "https://politi.co/3wZnCJU",
+      "https://doi.org/10.5281/zenodo.4442460"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.4442460"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Large Open Dataset from the Parler Social Network",
+      "authors": [
+        "Max Aliapoulios",
+        "Emmi Bevensee",
+        "Jeremy Blackburn",
+        "Barry Bradlyn",
+        "Emiliano De Cristofaro",
+        "Gianluca Stringhini",
+        "Savvas Zannettou"
+      ],
+      "author_countries": [],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "A Large Open Dataset from the Parler Social Network",
+      "platforms": [
+        "Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute)"
+      ],
+      "platform_names_verbatim": [
+        "Parler"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "custom-built crawler",
+        "Parler API"
+      ],
+      "temporal_coverage_start": "2018-08-01",
+      "temporal_coverage_end": "2021-01-11",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 183056617,
+      "num_accounts_or_users": 13250000,
+      "scale_description_verbatim": "183M Parler posts made by 4M users between August 2018 and January 2021, as well as metadata from 13.25M user profiles",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US",
+        "SA"
+      ],
+      "event_category": "Elections",
+      "event_name": "2020 US Presidential Election",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Hate speech, toxicity and harassment",
+        "Extremism and radicalization"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "basic characterization of the dataset",
+        "activity volume, voting, hashtags used, and URLs shared"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.4442460"
+      ],
+      "persistent_doi": "10.5281/zenodo.4442460",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "NDJSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "The names of the Parler accounts were removed from the released data.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "As mentioned in the dataset, the dataset is available from (Zenodo 2021).",
+      "scale_quote": "This paper presents a dataset of 183M Parler posts made by 4M users between August 2018 and January 2021, as well as metadata from 13.25M user profiles.",
+      "annotation_quote": "",
+      "ethics_quote": "Also, taking into account user privacy, we remove from the data the names of the Parler accounts in our dataset.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The reported 183,056,617 content records combine 98,509,761 posts and 84,546,856 comments, while user-profile metadata covers 13.25M accounts and content was collected from 4M users. The paper calls the combined records posts in some passages and also describes posts and comments separately."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "page_count": 11,
+  "n_chars": 56386,
+  "sha256": "6d976daff788a6b29c7110c50c18b75c7d1547e93da166e9e7ee8065e1a3dc10",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://wikimedia.org/api/rest",
+    "https://doi.org/10.5281/zenodo.7014424"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.7014424"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

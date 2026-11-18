@@ -1,0 +1,22 @@
+{
+  "page_count": 7,
+  "n_chars": 31130,
+  "sha256": "5faa482553d9679de202d57ab83e54556af6890e0782fb3d2dcee75ab32180d2",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.1145/",
+    "https://doi.org/10.1145/1871437.1871535",
+    "https://ojs.aaai.org/index.php/ICWSM/",
+    "https://arxiv.org/",
+    "https://doi.org/10.1038/sdata.2016.18"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/BPY2JY"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

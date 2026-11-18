@@ -1,0 +1,192 @@
+{
+  "paper_id": "2022_01096_icwsm_hamlettm_f47275",
+  "year": 2022,
+  "pdf_filename": "01096-ICWSM.HamlettM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:32:45+00:00",
+    "usage": [
+      {
+        "input_tokens": 17494,
+        "output_tokens": 1143,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0119znz1xrjLX9F4hAbkdqrCsyY",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 8,
+    "n_chars": 35282,
+    "sha256": "bd68c30dd42bc9d26affe1de6d2443eb2c8b6f1fd1b7426bf52aae66851399c4",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://ysilva.cs.luc.edu/BullyBlocker/data"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10.1109/ACCESS.2019.2918354",
+      "https://doi.org/10.1007/s40653-017-0175-7",
+      "https://doi.org/10.1145/3308560.3316503",
+      "https://doi.org/10.24963/ijcai.2019/808",
+      "https://doi.org/10.1145/3289600.3291037",
+      "https://doi.org/10.1007/978-3-319-71249-9_4",
+      "https://doi.org/10.1145/3366424.3385771",
+      "https://doi.org/10.1007/s42380-021-00107-5",
+      "https://doi.org/10.1001/jamapediatrics.2015.0944",
+      "https://doi.org/10.1080/01639620701457816",
+      "https://doi.org/10.1108/09578230910981107",
+      "https://doi.org/10.1007/978-3-31927433-1_4",
+      "https://ojs.aaai.org/index.php/ICWSM/article/view/18061",
+      "https://doi.org/10.1016/j.jcm.2016.02.012",
+      "https://doi.org/:10.1037/a0035618",
+      "https://doi.org/10.3390/fi12110187",
+      "https://doi.org/10.1007/978-3-319-239835_27",
+      "https://doi.org/10.1177/1541204006286288",
+      "https://doi.org/10.1016/j.chb.2018.12.021",
+      "https://doi.org/10.1109/TAFFC.2017.2761757",
+      "https://doi.org/10.5334/irsp.90",
+      "https://ojs.aaai.org/index.php/ICWSM/article/view/15046",
+      "https://doi.org/10.1080/15388220.2014.949377",
+      "https://doi.org/10.1111/j.1469-7610.2004.00328.x",
+      "https://doi.org/10.1016/j.ridd.2014.08.035"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Labeled Dataset for Investigating Cyberbullying Content Patterns in Instagram",
+      "authors": [
+        "Mara Hamlett",
+        "Grace Powell",
+        "Yasin N. Silva",
+        "Deborah Hall"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Extension or new version of an existing dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Instagram"
+      ],
+      "platform_names_verbatim": [
+        "Instagram"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Instagram API"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 8454,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "across all 100 sessions, 1,065 comments were labeled as cyberbullying and 7,389 as noncyberbullying",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Image"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "Mental health and wellbeing"
+      ],
+      "supported_tasks": [
+        "Hate or toxicity detection",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "more accurate machine learning cyberbullying detection models"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 8454,
+      "num_annotators": 13,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Correlation or ICC"
+      ],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "the intraclass correlation coefficient (ICC) was calculated",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Available on request only",
+      "hosting_repositories": [
+        "Personal or lab website, Google Drive, Dropbox"
+      ],
+      "dataset_urls": [
+        "https://ysilva.cs.luc.edu/BullyBlocker/data"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Email the authors for approval",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Usernames of posters were removed for anonymity; no attempts were made to discover the identities of the users.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Providing a dataset (available upon request at https://ysilva.cs.luc.edu/BullyBlocker/data)",
+      "scale_quote": "across all 100 sessions, 1,065 comments were labeled as cyberbullying and 7,389 as noncyberbullying",
+      "annotation_quote": "Each session was labeled by two members of our team with expertise in computing and psychology.",
+      "ethics_quote": "Privacy of the Instagram users whose comments comprised the dataset was also prioritized, as no attempts were made to discover the identities of the users at any point.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "No dataset name or temporal coverage is stated; annotator count (13 in Table 1 vs 15 in demographics text) is inconsistent, with 13 used for num_annotators."
+    }
+  }
+}

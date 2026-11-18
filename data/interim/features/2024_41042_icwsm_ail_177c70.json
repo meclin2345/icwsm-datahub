@@ -1,0 +1,22 @@
+{
+  "page_count": 16,
+  "n_chars": 70844,
+  "sha256": "aa0c17bba2abecc4359e37dbc5d71c791bc687ab134e0a54e9a397ab7014e03d",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://labelstud.io/",
+    "https://doi.org/10.5281/zenodo.10499589",
+    "https://developer.twitter.com/en/developer-terms/more-onrestricted-use-cases"
+  ],
+  "urls_in_references": [
+    "https://ww",
+    "https://platform.openai.com/docs/guides/fine-tuning",
+    "https://platform.openai.com/docs/api-reference/chat/create"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.10499589"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

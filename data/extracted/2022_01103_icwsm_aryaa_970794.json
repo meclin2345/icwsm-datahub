@@ -1,0 +1,191 @@
+{
+  "paper_id": "2022_01103_icwsm_aryaa_970794",
+  "year": 2022,
+  "pdf_filename": "01103-ICWSM.AryaA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:33:26+00:00",
+    "usage": [
+      {
+        "input_tokens": 13514,
+        "output_tokens": 2751,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011KxbZb6CikDCLSNoFW3CAPwbO",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 31130,
+    "sha256": "5faa482553d9679de202d57ab83e54556af6890e0782fb3d2dcee75ab32180d2",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10.1145/",
+      "https://doi.org/10.1145/1871437.1871535",
+      "https://ojs.aaai.org/index.php/ICWSM/",
+      "https://arxiv.org/",
+      "https://doi.org/10.1038/sdata.2016.18"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/BPY2JY"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "DISMISS: Database of Indian Social Media Inﬂuencers on Twitter",
+      "authors": [
+        "Arshia Arya",
+        "Soham De",
+        "Dibyendu Mishra",
+        "Gazal Shekhawat",
+        "Ankur Sharma",
+        "Anmol Panda",
+        "Faisal Lalani",
+        "Parantak Singh",
+        "Ramaravind Kommiya Mothilal",
+        "Rynaa Grover",
+        "Sachita Nishal",
+        "Saloni Dash",
+        "Shehla Shora",
+        "Syeda Zainab Akbar",
+        "Joyojeet Pal"
+      ],
+      "author_countries": [
+        "IN",
+        "US"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "DISMISS",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Twitter API"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Users or accounts",
+      "total_records": 11580,
+      "num_accounts_or_users": 11580,
+      "scale_description_verbatim": "Overall, we annotated 11580 unique accounts across all categories.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "IN"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Influencers, marketing and the platform economy",
+        "Political communication and elections",
+        "Misinformation and fact-checking"
+      ],
+      "supported_tasks": [
+        "User profiling or demographic inference",
+        "Stance detection",
+        "Misinformation or claim detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "study the role of influencers in polarisation, misinformation, extreme speech, political discourse",
+        "brand management and political outreach",
+        "network of messaging"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 11580,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/BPY2JY"
+      ],
+      "persistent_doi": "10.7910/DVN/BPY2JY",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We have hosted the dataset on Dataverse. It may be accessed directly from Dataverse for any uses.",
+      "scale_quote": "Overall, we annotated 11580 unique accounts across all categories.",
+      "annotation_quote": "Since the dataset involves manual annotation of the “category” and “subcategory” fields, a small margin of humanerror is to be expected.",
+      "ethics_quote": "By it’s nature, the dataset can be used to identify individuals, more specifically, Twitter users.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not state the content-collection period, included languages, file formats, dataset license, or number of annotators. It identifies the records as publicly visible Twitter users and includes profile fields rather than a corpus of posts."
+    }
+  }
+}

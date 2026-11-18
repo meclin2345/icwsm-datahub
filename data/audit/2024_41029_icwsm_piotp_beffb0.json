@@ -1,0 +1,125 @@
+{
+  "summary": {
+    "paper_id": "2024_41029_icwsm_piotp_beffb0",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.57967/hf/1572",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.57967/hf/1572",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://huggingface.co/datasets/irlab-udc/metahate",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Hugging Face",
+    "file_count": 4,
+    "total_size_mb": null,
+    "file_extensions": ".md, .parquet, .pdf",
+    "is_restricted": true,
+    "files_empty": false,
+    "downloads_total": 5109,
+    "downloads_unique": null,
+    "views_total": null,
+    "downloads_metric_source": "Hugging Face (all time)",
+    "repo_license": "cc-by-nc-sa-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Hugging Face",
+    "datacite_citations": 0,
+    "hf_likes": 21,
+    "hf_downloads_30d": 43,
+    "code_url": "https://github.com/palomapiot/metahate/",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 8,
+    "code_forks": 1,
+    "code_archived": false,
+    "code_last_push": "2025-01-21T11:32:51Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.57967/hf/1572",
+      "resolved_url": "https://huggingface.co/datasets/irlab-udc/metahate",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:10+00:00",
+      "error": null
+    },
+    {
+      "url": "https://irlab.org/metahate.html",
+      "resolved_url": "https://irlab.org/metahate.html",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html",
+      "checked_at": "2026-10-29T03:23:11+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": true,
+    "repo": "irlab-udc/metahate",
+    "gated": "manual",
+    "restricted": true,
+    "account_required": false,
+    "private": false,
+    "disabled": false,
+    "downloads_30d": 43,
+    "downloads_all_time": 5109,
+    "likes": 21,
+    "file_count": 4,
+    "file_extensions": [
+      ".md",
+      ".parquet",
+      ".pdf"
+    ],
+    "license": "cc-by-nc-sa-4.0",
+    "last_modified": "2026-07-14T15:16:04.000Z"
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": true,
+    "repo": "IRLab-UDC/metahate",
+    "stars": 8,
+    "forks": 1,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2025-01-21T11:32:51Z",
+    "created_at": "2024-01-03T16:31:25Z",
+    "size_mb": 0.18,
+    "license": "Apache-2.0"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Hugging Face",
+    "landing_url": "https://huggingface.co/datasets/irlab-udc/metahate",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2024"
+  },
+  "wayback": null
+}

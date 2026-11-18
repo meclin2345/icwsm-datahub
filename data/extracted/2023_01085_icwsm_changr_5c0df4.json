@@ -1,0 +1,199 @@
+{
+  "paper_id": "2023_01085_icwsm_changr_5c0df4",
+  "year": 2023,
+  "pdf_filename": "01085-ICWSM.ChangR.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:03:10+00:00",
+    "usage": [
+      {
+        "input_tokens": 19634,
+        "output_tokens": 722,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011VTVfY2iu1HJtX93jQN6wf1Fu",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.supported_tasks.0: got 'Polarization and ideology'; Input should be 'Topic or content classification', 'Stance detection', 'Sentiment or emotion analysis', 'Hate or toxicity detection', 'Misinformation or claim d"
+      },
+      {
+        "input_tokens": 20450,
+        "output_tokens": 713,
+        "cache_read_input_tokens": 17311,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Jk8c535aPrIdEXUhkbLi4902",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 45928,
+    "sha256": "74e187059c5b86175e4756838267704df7316de82b1daf25cce96df681e56c13",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://en",
+      "https://developer.twitter.com/en/docs/twitter-api/tweets/",
+      "https://pypi.org/project/tldextract/",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi"
+    ],
+    "urls_in_references": [
+      "https://www.pewresearch.org/politics/2022/06/16/",
+      "https://www.politico.com/news/2022/05/02/supreme-courtabortion-draft-opinion-00029473",
+      "https://doi",
+      "https://doi.org/10.7910/DVN/",
+      "https://prochoice.org/national-abortion-federationreleases-2021-violence-disruption-report/",
+      "https://www.pewresearch.org/",
+      "https://news.gallup.com/poll/147734/",
+      "https://news.gallup.com/poll/126374/",
+      "https://www.supremecourt.gov/opinions/21pdf/",
+      "https://www.pewresearch.org/journalism/",
+      "https://developer.twitter.com/en/developerterms/agreement-and-policy"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/STU0J5"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "#RoeOverturned: Twitter Dataset on the Abortion Rights Controversy",
+      "authors": [
+        "Rong-Ching Chang",
+        "Ashwin Rao",
+        "Qiankun Zhong",
+        "Magdalena Wojcieszak",
+        "Kristina Lerman"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "#RoeOverturned",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter Academic API"
+      ],
+      "temporal_coverage_start": "2022-01-01",
+      "temporal_coverage_end": "2023-01-06",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 74000000,
+      "num_accounts_or_users": 10000000,
+      "scale_description_verbatim": "In all, we collected over 74 M tweets shared by roughly 10 M users.",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Polarization and ideology",
+        "Social movements and activism"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Sentiment or emotion analysis",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "modeling opinion dynamics and polarization",
+        "protest mobilization",
+        "assessing emotions and moral attitudes",
+        "influence of social bots"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/STU0J5"
+      ],
+      "persistent_doi": "10.7910/DVN/STU0J5",
+      "code_repository_url": "",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Only Tweet IDs of publicly available tweets are released, in compliance with Twitter's terms and conditions.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset is publicly available for download on Harvard Dataverse.",
+      "scale_quote": "In all, we collected over 74 M tweets shared by roughly 10 M users.",
+      "annotation_quote": "",
+      "ethics_quote": "All of the data in this dataset is publicly available information.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

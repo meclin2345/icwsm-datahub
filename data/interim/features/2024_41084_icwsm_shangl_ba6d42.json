@@ -1,0 +1,23 @@
+{
+  "page_count": 12,
+  "n_chars": 51774,
+  "sha256": "17c518178d35436d010a5dbf8ac5649587d9e01af60c25ce1a1844cb5f214662",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://droughtweb.web.illinois.edu/",
+    "https://droughtmonitor.unl.edu/",
+    "https://developer.twitter.com/en/use-cases/doresearch/academic-research",
+    "https://news.google.com/",
+    "https://doi.org/10.5281/zenodo.10516342"
+  ],
+  "urls_in_references": [
+    "https://force11",
+    "https://doi.org/10.5281/zenodo.10516342"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.10516342"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

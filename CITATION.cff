@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use ICWSM-DataHub, please cite it as below."
+type: dataset
+title: "ICWSM-DataHub: a catalog and accessibility audit of ICWSM Dataset Track datasets (2020-2026)"
+version: 1.0.0
+date-released: 2026-11-18
+license: CC-BY-4.0
+authors:
+  - family-names: "Francis"
+    given-names: "Meclin A."
+    affiliation: "Amrita Vishwa Vidyapeetham"
+repository-code: "https://github.com/meclin2345/icwsm-datahub"
+url: "https://meclin2345.github.io/icwsm-datahub/"
+keywords:
+  - computational social science
+  - ICWSM
+  - datasets
+  - FAIR data
+  - data availability
+  - meta-research

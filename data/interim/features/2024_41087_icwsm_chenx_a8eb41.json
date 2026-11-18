@@ -1,0 +1,20 @@
+{
+  "page_count": 11,
+  "n_chars": 54951,
+  "sha256": "5fd430a67a0c5dfd5f8159ad98547bac7356e2a9b3a79ad788633ca60d34890a",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://zenodo.org/records/10611923",
+    "https://github.com/social-info-lab/global_news_synchrony"
+  ],
+  "urls_in_references": [
+    "https://force11",
+    "http://CRAN",
+    "https://cyber.harvard.edu/research/2020-election-studyresources-data",
+    "https://mediabiasfactcheck.com/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

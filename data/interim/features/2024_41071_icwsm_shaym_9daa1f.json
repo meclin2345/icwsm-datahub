@@ -1,0 +1,27 @@
+{
+  "page_count": 13,
+  "n_chars": 66552,
+  "sha256": "a65aceb61ae5add27083f5158974445252834871e728fedfbfbb5f83d2223e61",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.7910/DVN/RQBWAC",
+    "https://www.cs.cmu.edu/",
+    "http://www.ahschulz.de/enron-email-data/",
+    "https://github"
+  ],
+  "urls_in_references": [
+    "https://policies.google.com/terms#toc-content",
+    "https://engineering.linkedin.com/blog/2017/10/buildingsmart-replies-for-member-messages",
+    "https://www.cs.cmu.edu/",
+    "https://web.archive.org",
+    "https://blog.google/products/android/androidq-io/",
+    "https://about.fb.com/news/2017/04/m-now-offerssuggestions-to-make-your-messenger-experience-moreuseful-seamless-and-delightful/",
+    "https://www.pewresearch.org/short-reads/2023/05/24/amajority-of-americans-have-heard-of-chatgpt-but-fewhave-tried-it-themselves"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/RQBWAC"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

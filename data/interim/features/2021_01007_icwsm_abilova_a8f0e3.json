@@ -1,0 +1,34 @@
+{
+  "page_count": 12,
+  "n_chars": 64617,
+  "sha256": "6ecc84560ac6ee11946619de69939f18bcfffe108e47d8fc68f615d031dd96c3",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://voterfraud2020.io",
+    "https://figshare.com/account/projects/96518/articles/",
+    "https://github.com/sTechLab/VoterFraud2020",
+    "https://github.com/vegetable68/Midterm-2020candidates"
+  ],
+  "urls_in_references": [
+    "https://cpb-us-e1.wpmucdn.com/sites.dartmouth.edu/",
+    "https://arxiv.org/abs/2010",
+    "https://nytimes.com/2021/01/11/technology/twitterremoves-70000-qanon-accounts.html",
+    "https://purl.stanford.edu/",
+    "https://nytimes.com/",
+    "https://mediamatters.org/google/youtube-has-allowedconspiracy-theories-about-interference-voting-machinesgo-viral",
+    "https://npr.org/2020/12/09/",
+    "https://fullstackml.com/wavelet-image-hash-in-python3504fdd282b5",
+    "https://nytimes.com/2020/11/10/",
+    "https://developers.google.com/youtube/v3",
+    "https://washingtonpost.com/graphics/2020/elections/voterturnout/",
+    "https://blog.twitter.com/official/en",
+    "https://developer",
+    "https://blog.twitter.com/en"
+  ],
+  "dois_in_body": [
+    "10.6084/m9.figshare.13571084"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

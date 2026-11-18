@@ -1,0 +1,40 @@
+{
+  "page_count": 8,
+  "n_chars": 35282,
+  "sha256": "bd68c30dd42bc9d26affe1de6d2443eb2c8b6f1fd1b7426bf52aae66851399c4",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://ysilva.cs.luc.edu/BullyBlocker/data"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.1109/ACCESS.2019.2918354",
+    "https://doi.org/10.1007/s40653-017-0175-7",
+    "https://doi.org/10.1145/3308560.3316503",
+    "https://doi.org/10.24963/ijcai.2019/808",
+    "https://doi.org/10.1145/3289600.3291037",
+    "https://doi.org/10.1007/978-3-319-71249-9_4",
+    "https://doi.org/10.1145/3366424.3385771",
+    "https://doi.org/10.1007/s42380-021-00107-5",
+    "https://doi.org/10.1001/jamapediatrics.2015.0944",
+    "https://doi.org/10.1080/01639620701457816",
+    "https://doi.org/10.1108/09578230910981107",
+    "https://doi.org/10.1007/978-3-31927433-1_4",
+    "https://ojs.aaai.org/index.php/ICWSM/article/view/18061",
+    "https://doi.org/10.1016/j.jcm.2016.02.012",
+    "https://doi.org/:10.1037/a0035618",
+    "https://doi.org/10.3390/fi12110187",
+    "https://doi.org/10.1007/978-3-319-239835_27",
+    "https://doi.org/10.1177/1541204006286288",
+    "https://doi.org/10.1016/j.chb.2018.12.021",
+    "https://doi.org/10.1109/TAFFC.2017.2761757",
+    "https://doi.org/10.5334/irsp.90",
+    "https://ojs.aaai.org/index.php/ICWSM/article/view/15046",
+    "https://doi.org/10.1080/15388220.2014.949377",
+    "https://doi.org/10.1111/j.1469-7610.2004.00328.x",
+    "https://doi.org/10.1016/j.ridd.2014.08.035"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

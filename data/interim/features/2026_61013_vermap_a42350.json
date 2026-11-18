@@ -1,0 +1,22 @@
+{
+  "page_count": 14,
+  "n_chars": 65384,
+  "sha256": "b4aeb25fb9d4bfaf4e1636b79c84d855233e519a5051ba4891aa9fae52d4de21",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.allsides.com/",
+    "https://github.com/kokiljaidka/mediaspin",
+    "https://doi.org/10.7910/DVN/MOCQTZ"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.7910/DVN/MOCQTZ",
+    "https://github.com/kokiljaidka/mediaspin",
+    "https://doi.org/10.7910/DVN/MOCQTZ.|"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/MOCQTZ"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

@@ -1,0 +1,185 @@
+{
+  "paper_id": "2024_41071_icwsm_shaym_9daa1f",
+  "year": 2024,
+  "pdf_filename": "41071-ICWSM.ShayM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:06:39+00:00",
+    "usage": [
+      {
+        "input_tokens": 24044,
+        "output_tokens": 1265,
+        "cache_read_input_tokens": 21663,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011tSjFkvwHZE3IaRyjbSfrFojT",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 13,
+    "n_chars": 66552,
+    "sha256": "a65aceb61ae5add27083f5158974445252834871e728fedfbfbb5f83d2223e61",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.7910/DVN/RQBWAC",
+      "https://www.cs.cmu.edu/",
+      "http://www.ahschulz.de/enron-email-data/",
+      "https://github"
+    ],
+    "urls_in_references": [
+      "https://policies.google.com/terms#toc-content",
+      "https://engineering.linkedin.com/blog/2017/10/buildingsmart-replies-for-member-messages",
+      "https://www.cs.cmu.edu/",
+      "https://web.archive.org",
+      "https://blog.google/products/android/androidq-io/",
+      "https://about.fb.com/news/2017/04/m-now-offerssuggestions-to-make-your-messenger-experience-moreuseful-seamless-and-delightful/",
+      "https://www.pewresearch.org/short-reads/2023/05/24/amajority-of-americans-have-heard-of-chatgpt-but-fewhave-tried-it-themselves"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/RQBWAC"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "EnronSR: A Benchmark for Evaluating AI-Generated Email Replies",
+      "authors": [
+        "Moran Shay",
+        "Roei Davidson",
+        "Nir Grinberg"
+      ],
+      "author_countries": [
+        "IL"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Benchmark or evaluation suite",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "EnronSR",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Gmail",
+        "Google Workspace"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset",
+        "Synthetic, LLM-generated or simulated data"
+      ],
+      "collection_tools": [
+        "Google Smart Reply"
+      ],
+      "temporal_coverage_start": "2022-05",
+      "temporal_coverage_end": "2022-05",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 34626,
+      "num_accounts_or_users": 150,
+      "scale_description_verbatim": "our final dataset consists of 34,626 messages",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "AI-generated content and LLM use",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Summarization or text generation",
+        "Sentiment or emotion analysis"
+      ],
+      "tasks_verbatim": [
+        "benchmarking of novel language-generation models",
+        "examining word-overlap metrics such as BLEU and METEOR"
+      ],
+      "annotation_paradigms": [
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)",
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [
+        "GPT-3"
+      ],
+      "num_annotated_records": -1,
+      "num_annotators": 2,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Other metric"
+      ],
+      "iaa_primary_value": 0.95,
+      "iaa_summary_verbatim": "inter-coder reliability of Gwet AC1 0.95",
+      "baseline_families": [
+        "LLM prompting (zero- or few-shot)",
+        "Statistical models (regression, time series)",
+        "Vision, audio or multimodal models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/RQBWAC"
+      ],
+      "persistent_doi": "10.7910/DVN/RQBWAC",
+      "code_repository_url": "https://github.com/Socially-Embedded-Lab/EnronSR",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY-NC-SA 4.0",
+      "license_category": "CC BY-SA",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "No personally identifying information (PII) is released as part of this dataset. The Smart Reply suggestions included in EnronSR were manually validated to ensure that no PII or sensitive information was included.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Dataset available at https://doi.org/10.7910/DVN/RQBWAC.",
+      "scale_quote": "our final dataset consists of 34,626 messages",
+      "annotation_quote": "Smart Reply suggestions (SRs) were collected by sending messages through Gmail accounts and manually validated to ensure that no PII or sensitive information was included.",
+      "ethics_quote": "This study was approved by the ethics review board of Ben-Gurion University (protocol #344-1).",
+      "license_quote": "we are sharing EnronSR with a CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike) license",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The dataset contains email content from the public Enron corpus, not a social media platform; the primary record unit and platforms were coded accordingly."
+    }
+  }
+}

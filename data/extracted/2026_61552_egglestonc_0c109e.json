@@ -1,0 +1,177 @@
+{
+  "paper_id": "2026_61552_egglestonc_0c109e",
+  "year": 2026,
+  "pdf_filename": "61552-EgglestonC.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:13:39+00:00",
+    "usage": [
+      {
+        "input_tokens": 26736,
+        "output_tokens": 1264,
+        "cache_read_input_tokens": 24479,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011OVbJZcOztba6ebtOf4qnhkZP",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 14,
+    "n_chars": 65599,
+    "sha256": "edb4ad4116b2c6af23464a81865e592979e3d4ea00e5c28749249a3d04bd0dbf",
+    "checklist_detected": true,
+    "urls_in_body": [],
+    "urls_in_references": [
+      "https://ssrn.com/abstract=4114905",
+      "https://ssrn.com/abstract=4088828",
+      "https://tubestats.org"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.18267682"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "T -C : A Transparent, Replicable, and Large-Scale Census of YouTube Channels and their Subscriber Counts Over Time",
+      "authors": [
+        "Chloe Eggleston",
+        "Abram Handler",
+        "Maria Leonor Pacheco"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Tool or infrastructure released with data",
+      "num_datasets_released": 3
+    },
+    "collection": {
+      "dataset_name": "TUBE-CENSUS",
+      "platforms": [
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Internet Archive",
+        "Wayback Machine",
+        "langid",
+        "BERTopic"
+      ],
+      "temporal_coverage_start": "2006",
+      "temporal_coverage_end": "2023",
+      "primary_record_unit": "Users or accounts",
+      "total_records": 106000000,
+      "num_accounts_or_users": 106000000,
+      "scale_description_verbatim": "more than 106M channels and their historical subscriber data dating back to 2006",
+      "modalities": [
+        "Time series or temporal logs",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Influencers, marketing and the platform economy",
+        "Online communities and collective behavior",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "User profiling or demographic inference"
+      ],
+      "tasks_verbatim": [
+        "basic exploratory analysis of YouTube channel content and the mechanisms associated with YouTube channel growth",
+        "longitudinal analyses of channel growth and attention concentration"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "10.5281/zenodo.18267682"
+      ],
+      "persistent_doi": "10.5281/zenodo.18267682",
+      "code_repository_url": "",
+      "distribution_form": "Aggregated statistics, embeddings or derived features only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV",
+        "JSONL"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "We redistribute no additional metadata such as channel descriptions to minimize the risk of revealing personally identifiable information (PII)",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We distribute our dataset on Zenodo, which provides a permanent digital object identifier (10.5281/zenodo.18267682).",
+      "scale_quote": "we process all captures of YouTube channel URLs through the end of 2023, obtaining more than 106M channels and their historical subscriber data dating back to 2006.",
+      "annotation_quote": "",
+      "ethics_quote": "if a YouTube channel owner requests removal from our dataset, we will honor the request by submitting a deletion request to Zenodo and issuing an updated release",
+      "license_quote": "The dataset is distributed via Zenodo and released under the Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper reports 106M unique channels in the census but also 1.21B total snapshots; total_records reflects the unique channel count. Cohort dataset sizes are given but not aggregated into the primary record total."
+    }
+  }
+}

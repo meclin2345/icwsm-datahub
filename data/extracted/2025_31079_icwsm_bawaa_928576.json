@@ -1,0 +1,204 @@
+{
+  "paper_id": "2025_31079_icwsm_bawaa_928576",
+  "year": 2025,
+  "pdf_filename": "31079-ICWSM.BawaA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:09:05+00:00",
+    "usage": [
+      {
+        "input_tokens": 20690,
+        "output_tokens": 1375,
+        "cache_read_input_tokens": 18335,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011dbzvtF7MWEDZG8uMTh7ANufP",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.venue: got 'ICWSM'; Extra inputs are not permitted | paper.year: got 2025; Extra inputs are not permitted"
+      },
+      {
+        "input_tokens": 22127,
+        "output_tokens": 1345,
+        "cache_read_input_tokens": 18335,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Q9xvtdWQNmWAkOdwwYA5HXzx",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 53356,
+    "sha256": "c7dbc8c8eb154c9f1f3529c9daef46ed9f427cea720367c7a27b54815a08d349",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://force11.org/info/the-fair-dataprinciples/",
+      "https://doi.org/10.6084/m9.figshare"
+    ],
+    "urls_in_references": [
+      "https://www.isdglobal.org/digital",
+      "https://gjia.georgetown.edu/2024/02/02/russiaukraine-through-the-eyes-of-social-media/",
+      "https://www.cnn.com/2023/02/14/europe/russiayevgeny-prigozhin-internet-research-agencyintl/index.html",
+      "https://www.levada.ru/2023/04/20/osnovnyeistochniki-informatsii-i-populyarnye-zhurnalisty/",
+      "https://oporaua.org/report/polit",
+      "https://rerussia.net/en/review/263/",
+      "https://docs.telethon.dev/en/stable/index.html",
+      "https://tgstat.ru/en/politics",
+      "https://www.themoscowtimes.com/2023/01/23/telegramsurpasses-whatsapp-traffic-volume-in-russia-a80012",
+      "https://doi.org/10.6084/m9.figshare.28208729.v1"
+    ],
+    "dois_in_body": [
+      "10.6084/m9.figshare"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Telegram as a Battlefield: Kremlin-Related Communications During the Russia-Ukraine Conflict",
+      "authors": [
+        "Apaar Bawa",
+        "Ugur Kursuncu",
+        "Dilshod Achilov",
+        "Valerie L. Shalin",
+        "Nitin Agarwal",
+        "Esra Akbas"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Telegram"
+      ],
+      "platform_names_verbatim": [
+        "Telegram"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Telethon",
+        "TGStat"
+      ],
+      "temporal_coverage_start": "2020-12-21",
+      "temporal_coverage_end": "2023-04-30",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 5227413,
+      "num_accounts_or_users": 518,
+      "scale_description_verbatim": "The dataset comprises 404 pro-Kremlin channels with 4109645 posts and 114 anti-Kremlin channels with 1117768 posts.",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "ru"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "RU",
+        "UA"
+      ],
+      "event_category": "Armed conflict or war",
+      "event_name": "Russian invasion of Ukraine",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections",
+        "Extremism and radicalization"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Sentiment or emotion analysis",
+        "Network or information diffusion analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "stance detection",
+        "sentiment analysis",
+        "topic modeling",
+        "entity recognition and relationship extraction"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 518,
+      "num_annotators": 3,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.97,
+      "iaa_summary_verbatim": "The annotation comparison between a native Russian-speaking coder and a non-Russian-speaking coder yielded Cohen's kappa κ score of 0.97, suggesting strong inter-rater agreement.",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Figshare"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.6084/m9.figshare.28785449"
+      ],
+      "persistent_doi": "10.6084/m9.figshare.28785449",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All personally identifiable information (PII), including user IDs, has been removed.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset can be accessed via the following Figshare repository. The repository has files in CSV format.",
+      "scale_quote": "The dataset comprises 404 pro-Kremlin channels with 4109645 posts and 114 anti-Kremlin channels with 1117768 posts.",
+      "annotation_quote": "These channels were manually labeled by a native Russian-speaking coder into four categories: ProKremlin, Anti-Kremlin, Neutral, and Others.",
+      "ethics_quote": "We have adhered to standard anonymization practices during the data collection and processing stages, ensuring that any personally identifiable information (PII), including user IDs, has been removed.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states it adheres to FAIR principles and will include a Datasheet for the Dataset in the camera-ready version, but no explicit license is named for the Figshare release."
+    }
+  }
+}

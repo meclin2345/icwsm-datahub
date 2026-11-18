@@ -1,0 +1,189 @@
+{
+  "paper_id": "2021_01019_icwsm_valentimr_3f02c8",
+  "year": 2021,
+  "pdf_filename": "01019-ICWSM.ValentimR.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:31+00:00",
+    "usage": [
+      {
+        "input_tokens": 15496,
+        "output_tokens": 1302,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011dMjadPUXpSKtZIHEMsskocQF",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 32748,
+    "sha256": "e5e5a00e413aabbe1a20298bd2734540716e7830703e6835ac2721cbf33115a8",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://wmdeanalytics.wmflabs.org/WD",
+      "https://www.mediawiki.org/wiki/Content",
+      "https://doi.org/10",
+      "https://dumps.wikimedia.org",
+      "https://wiki-topic.toolforge.org",
+      "https://www.mediawiki.org/wiki/Manual:Bots",
+      "https://www.wikidata.org/wiki/Q298",
+      "https://pt.wikipedia.org/wiki/Chile",
+      "https://meta.wikimedia.org/wiki/Research:LanguageAgnostic",
+      "https://meta.wikimedia.org/wiki/Table",
+      "https://github.com/rodolfovalentim/wikipedia-contentpropagation",
+      "https://www.wikidata.org/wiki/Help:Items",
+      "https://www.wikidata.org/wiki/Wikidata:List"
+    ],
+    "urls_in_references": [
+      "http://www.icwsm.org/papers/paper2.html",
+      "https://www.aclweb.org/",
+      "https://doi"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Tracking Knowledge Propagation Across Wikipedia Languages",
+      "authors": [
+        "Rodolfo Valentim",
+        "Giovanni Comarela",
+        "Souneil Park",
+        "Diego Saez-Trumper"
+      ],
+      "author_countries": [
+        "IT",
+        "BR",
+        "ES"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Wikipedia/Wikidata"
+      ],
+      "platform_names_verbatim": [
+        "Wikipedia",
+        "Wikidata"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "public Wikipedia dumps",
+        "Wikidata dumps",
+        "Wiki-Topic tool"
+      ],
+      "temporal_coverage_start": "2001",
+      "temporal_coverage_end": "2020",
+      "primary_record_unit": "Other",
+      "total_records": 13000000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "Covering the entire 309 language editions and 33M articles, the dataset aims to track the full propagation history of Wikipedia concepts, and allow follow up research on building predictive models of them. For this purpose, we align all the Wikipedia articles in a language-agnostic manner according to the concept they cover, which results in 13M propagation instances.",
+      "modalities": [
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "mul"
+      ],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Online communities and collective behavior",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "building predictive models",
+        "edit recommendation for addressing knowledge gaps",
+        "detection of disinformation",
+        "cultural relationship analysis"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.4433137",
+        "https://github.com/rodolfovalentim/wikipedia-contentpropagation"
+      ],
+      "persistent_doi": "10.5281/zenodo.4433137",
+      "code_repository_url": "https://github.com/rodolfovalentim/wikipedia-contentpropagation",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON",
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset can be downloaded directly from: https://doi.org/10.5281/zenodo.4433137",
+      "scale_quote": "Covering the entire 309 language editions and 33M articles, the dataset aims to track the full propagation history of Wikipedia concepts, and allow follow up research on building predictive models of them. For this purpose, we align all the Wikipedia articles in a language-agnostic manner according to the concept they cover, which results in 13M propagation instances.",
+      "annotation_quote": "For each sequence, we apply a topic model, classifying them over 64 hierarchical topic taxonomy.",
+      "ethics_quote": "This work is entirely based on public data, and does not contain personal information.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper mentions two scale figures, 33M articles and 13M propagation instances; the 13M instances count is used as the total records for the released dataset structure."
+    }
+  }
+}

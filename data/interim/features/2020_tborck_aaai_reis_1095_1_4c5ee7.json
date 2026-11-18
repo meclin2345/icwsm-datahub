@@ -1,0 +1,24 @@
+{
+  "page_count": 6,
+  "n_chars": 29952,
+  "sha256": "340621e2a7b019454170502223d080d6e332beffda18082f812072cc1faf920b",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "http://doi.org/10.5281/",
+    "https://www.nytimes.com/2018/05/14/technology/whatsappindia-elections.html",
+    "https://gitlab.com/bs-detector/bs-detector",
+    "https://github.com/facebook/ThreatExchange/tree/master/",
+    "https://github.com/facebook/ThreatExchange/blob/master/",
+    "https://elpais.com/elpais/2019/03/18/inenglish/1552900378",
+    "https://www.independent.co.uk/news/world/europe/",
+    "https://www.theguardian.com/technology/2019/jan/21/"
+  ],
+  "urls_in_references": [
+    "https://www.livemint.com/Technology/",
+    "https://www.nytimes.com/2018/10/17/opinion/brazilelection-fake-news-whatsapp.html"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

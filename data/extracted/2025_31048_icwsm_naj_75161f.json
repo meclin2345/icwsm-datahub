@@ -1,0 +1,197 @@
+{
+  "paper_id": "2025_31048_icwsm_naj_75161f",
+  "year": 2025,
+  "pdf_filename": "31048-ICWSM.NaJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:08:06+00:00",
+    "usage": [
+      {
+        "input_tokens": 25268,
+        "output_tokens": 849,
+        "cache_read_input_tokens": 22943,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011v44Qn0ZBmZte4TFgy3lEkqPT",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 61899,
+    "sha256": "fbb7e537d83386a44206a2f32eb139baa81bf91de541c00e244be191c7a5ea0e",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://zenodo.org/records/14590709",
+      "https://www.data.go.kr/en/data/15081036/fileData.do",
+      "https://stcis.go.kr/wps/main.do",
+      "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+      "https://www.data.go.kr/en/data/15048032/fileData.do",
+      "https://www.data.go.kr/en/data/15060424/fileData.do",
+      "https://www.data.go.kr/en/data/3057229/fileData.do",
+      "https://www.data.go.kr/en/data/15002503/fileData.do",
+      "https://data.ny.gov/Transportation/MTA-Subway-HourlyRidership-Beginning-February-202/wujg-7c2s",
+      "https://ncv.kdca.go.kr/pot/cv/trend/dmstc/selectMntrgSttus.do",
+      "https://github.com/nychealth/coronavirus-"
+    ],
+    "urls_in_references": [
+      "https://tianchi",
+      "https://www.nyc.gov/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Mobility Networked Time-Series Forecasting Benchmark Datasets",
+      "authors": [
+        "Jihye Na",
+        "Youngeun Nam",
+        "Susik Yoon",
+        "Hwanjun Song",
+        "Byung Suk Lee",
+        "Jae-Gil Lee"
+      ],
+      "author_countries": [
+        "KR",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Benchmark or evaluation suite",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MOBINS",
+      "platforms": [
+        "Web/News/Blogs",
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Korea Public Data Portal",
+        "Smart transit card information system",
+        "NYC TLC",
+        "NYC Data Portal",
+        "KDCA",
+        "NYC Health"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Korea Public Data Portal",
+        "Smart transit card information system",
+        "NYC TLC",
+        "NYC Data Portal",
+        "KDCA"
+      ],
+      "temporal_coverage_start": "2020-01",
+      "temporal_coverage_end": "2024-03",
+      "primary_record_unit": "Other",
+      "total_records": -1,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "an average of over 4,000 daily movements per node",
+      "modalities": [
+        "Text",
+        "Network or graph",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "KR",
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Public health and COVID-19",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Causal or intervention analysis",
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "mobility networked time-series forecasting",
+        "predict both time series and origin-destination movements"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "Graph or network models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/14590709"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Aggregated statistics, embeddings or derived features only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY-NC 4.0",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "the source datasets and our processed data do not contain any personally identifiable information. The data were collected at aggregate levels",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our sophisticated and diverse dataset collection is publicly available together with forecasting methods at https://zenodo.org/records/14590709.",
+      "scale_quote": "With observations spanning at least two years and numerous daily movements, MOBINS enables the development and evaluation of advanced forecasting models.",
+      "annotation_quote": "",
+      "ethics_quote": "To protect privacy, the source datasets and our processed data do not contain any personally identifiable information.",
+      "license_quote": "First, the Transportation - [Seoul, Busan, Daegu, NYC] and Epidemic-NYC datasets are available under a CC BY-NC 4.0 International License.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper presents six component datasets (Seoul, Busan, Daegu, NYC transportation; Korea, NYC epidemic) but describes them as one collection; the exact file formats and total record counts are not stated."
+    }
+  }
+}

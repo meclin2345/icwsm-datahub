@@ -1,0 +1,179 @@
+{
+  "paper_id": "2025_31031_icwsm_guritaa_46de6b",
+  "year": 2025,
+  "pdf_filename": "31031-ICWSM.GuritaA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:54+00:00",
+    "usage": [
+      {
+        "input_tokens": 14943,
+        "output_tokens": 1146,
+        "cache_read_input_tokens": 12703,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0113G8yUHmtdvdXfYaDqOnHvJj2",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 8,
+    "n_chars": 36764,
+    "sha256": "6ea7be635f1af27506135569296bcba929f075c0508c960dc08d2fa474a63a35",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.figma.com/",
+      "https://www.usegalileo.ai/explore",
+      "https://zenodo.org/records/14568386"
+    ],
+    "urls_in_references": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/",
+      "https://www.pewresearch.org/internet/fact-sheet/",
+      "https://www.ada.gov/",
+      "https://zenodo.org/records/14568386"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "SAID: A Social Media AI-generated Interface Dataset Using Prompt Engineering Methods Focused On Accessibility",
+      "authors": [
+        "Alexandra-Elena Guritǎ"
+      ],
+      "author_countries": [
+        "RO"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "SAID (Social Media AI-generated Interface Dataset)",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "social media profile interfaces"
+      ],
+      "collection_methods": [
+        "Synthetic, LLM-generated or simulated data"
+      ],
+      "collection_tools": [
+        "Figma AI",
+        "Galileo AI"
+      ],
+      "temporal_coverage_start": "2024-12",
+      "temporal_coverage_end": "2024-12",
+      "primary_record_unit": "Other",
+      "total_records": 240,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "a systematically curated collection of 240 social media profile interfaces",
+      "modalities": [
+        "Image"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Content moderation and platform governance",
+        "AI-generated content and LLM use",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Multimodal understanding (image/video/audio)",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "accessibility evaluation",
+        "comparative studies of prompt effectiveness"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [
+        "Figma AI",
+        "Galileo AI"
+      ],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/14568386"
+      ],
+      "persistent_doi": "10.5281/zenodo.14568386",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International license (CC BY 4.0)",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "PNG",
+        "SVG",
+        "FIG"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "ensuring privacy through metadata anonymization and excluding sensitive information",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Findable: Hosted on Zenodo with DOI: https://zenodo.org/records/14568386, ensuring easy discoverability.",
+      "scale_quote": "SAID (Social Media AI-generated Interface Dataset) consists of 240 social media profile interfaces generated using AI design tools.",
+      "annotation_quote": "",
+      "ethics_quote": "This dataset release adheres to ethical standards, ensuring privacy through metadata anonymization and excluding sensitive information.",
+      "license_quote": "We release SAID under the Creative Commons Attribution 4.0 International license (CC BY 4.0) to facilitate open research and reproducibility in this emerging space",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The dataset contains AI-generated interfaces of social media platforms rather than social media content itself; persistent DOI was derived from the Zenodo record URL provided in the paper."
+    }
+  }
+}

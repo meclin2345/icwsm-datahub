@@ -1,0 +1,168 @@
+{
+  "paper_id": "2020_tborck_aaai_jokubauskaitee_1061_8ed68b",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_JokubauskaiteE-1061.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:27:27+00:00",
+    "usage": [
+      {
+        "input_tokens": 12652,
+        "output_tokens": 796,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0110QOZQUBK2iDNyphRRz86BIQ2",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 5,
+    "n_chars": 22174,
+    "sha256": "341a90c625a0fe579cba9859197379fd72ca38c236955bffd96b5b0372401f8e",
+    "checklist_detected": false,
+    "urls_in_body": [],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.3603292"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Generally Curious: Thematically Distinct Datasets of General Threads on 4chan/pol/",
+      "authors": [
+        "Emilija Jokubauskaitė",
+        "Stijn Peeters"
+      ],
+      "author_countries": [
+        "NL"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 329
+    },
+    "collection": {
+      "dataset_name": "General threads on 4chan/pol",
+      "platforms": [
+        "4chan/8kun/Imageboards"
+      ],
+      "platform_names_verbatim": [
+        "4chan",
+        "4chan/pol"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "4CAT",
+        "4chan API",
+        "Sphinx"
+      ],
+      "temporal_coverage_start": "2013-11-30",
+      "temporal_coverage_end": "2019-05-25",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 13756579,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "58,841 opening posts and 13,697,738 replies",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Extremism and radicalization",
+        "Online communities and collective behavior"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "investigations of 4chan’s demographics",
+        "track the interests of the platform over time",
+        "(socio-)linguistic analysis of 4chan’s subcultures"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "doi.org/10.5281/zenodo.3603292"
+      ],
+      "persistent_doi": "10.5281/zenodo.3603292",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Usernames are not unique on 4chan, minimizing the risk of the data containing personally identifying information.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The data itself is available on the Zenodo data repository. Data is available at doi.org/10.5281/zenodo.3603292",
+      "scale_quote": "This resulted in 329 separate queries for as many coherent, recurring general threads, with anywhere between 8 and 14,853 opening posts in each.",
+      "annotation_quote": "",
+      "ethics_quote": "Furthermore, 4chan by its nature is an anonymous platform, and usernames are not unique, minimizing the risk of the data containing personally identifying information.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper presents 329 distinct general thread datasets which are coded as 329 releases; total_records combines the stated 58,841 opening posts and 13,697,738 replies."
+    }
+  }
+}

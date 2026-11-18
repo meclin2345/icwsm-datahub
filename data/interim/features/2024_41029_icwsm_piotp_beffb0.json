@@ -1,0 +1,23 @@
+{
+  "page_count": 15,
+  "n_chars": 71270,
+  "sha256": "91b6d766d4f4150fea45fbf9e8d6467620ebd5eaae0be75c624b404472773680",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://irlab.org/metahate.html",
+    "https://github.com/palomapiot/metahate/"
+  ],
+  "urls_in_references": [
+    "https://force11",
+    "https://github.com/palomapiot/metahate",
+    "https://github.com/palomapiot/metahate/",
+    "https://t.ly/v9tin|EN|29,530|Twitter|Binary|hate",
+    "https://t.ly/v6IkS|EN|223,549|Wikipedia|Multiclass"
+  ],
+  "dois_in_body": [
+    "10.13039/501100011033"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

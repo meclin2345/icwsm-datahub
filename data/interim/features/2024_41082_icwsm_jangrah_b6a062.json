@@ -1,0 +1,24 @@
+{
+  "page_count": 12,
+  "n_chars": 63216,
+  "sha256": "bf486964d1e60d445678c4a38554828a366930ccf627e597b9993996ec22a311",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.reddit.com/r/loseit/",
+    "https://www.reddit.com/r/stopsmoking/",
+    "https://streaksapp.com/",
+    "https://www.stridesapp.com/",
+    "https://wayoflifeapp.com/",
+    "https://habitica.com/static/home",
+    "https://habitshareapp.com/",
+    "https://precog.iiit.ac.in/research/put-your-money/_",
+    "https://stickk.zendesk.com/hc/en-us/articles/206833337"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.5281/zenodo.8347427_"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

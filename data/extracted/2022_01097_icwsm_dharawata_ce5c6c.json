@@ -1,0 +1,167 @@
+{
+  "paper_id": "2022_01097_icwsm_dharawata_ce5c6c",
+  "year": 2022,
+  "pdf_filename": "01097-ICWSM.DharawatA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:32:59+00:00",
+    "usage": [
+      {
+        "input_tokens": 23255,
+        "output_tokens": 1256,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011q24BsPOm6Tqt5bK0vfbaw21N",
+        "structured_mode": "prompt",
+        "json_repaired": true
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 60631,
+    "sha256": "0ec25814b5ff8565e0d5b0b6ef8aa615afbd0064c90ae4ff4d57193baf3dc35a",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://github.com/TIMANgroup/covid19_misinformation",
+      "https://www.cmu.edu/ideas-social-cybersecurity/research/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Drink Bleach or Do What Now? Covid-HeRA: A Study of Risk-Informed Health Decision Making in the Presence of COVID-19 Misinformation",
+      "authors": [
+        "Arkin Dharawat",
+        "Ismini Lourentzou",
+        "Alex Morales",
+        "ChengXiang Zhai"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "Benchmark or evaluation suite",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Covid-HeRA",
+      "platforms": [
+        "Twitter/X",
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "news articles",
+        "microblogging sites"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 61286,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "we release a novel social media Covid Health Risk Assessment (Covid-HeRA) misinformation dataset that consists of 61, 286 tweets labeled on a severity scale",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "COVID-19 pandemic",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Public health and COVID-19"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Misinformation or claim detection"
+      ],
+      "tasks_verbatim": [
+        "multiclass classification",
+        "perceived severity",
+        "classification",
+        "traditional binary misinformation detection"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 61286,
+      "num_annotators": 3,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.7037,
+      "iaa_summary_verbatim": "Cohen’s kappa coefficient between the annotators and the validator was 0. 7037, which shows good agreement on the task",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://github.com/TIMANgroup/covid19_misinformation"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/TIMANgroup/covid19_misinformation",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Since we release the tweet identifiers and code for downloading the raw tweets, all associated metadata can be acquired",
+      "scale_quote": "we release a novel social media Covid Health Risk Assessment (Covid-HeRA) misinformation dataset that consists of 61, 286 tweets labeled on a severity scale",
+      "annotation_quote": "all CoAID tweets labeled as misinformation are shuffled and distributed to two different annotators",
+      "ethics_quote": "Following the Twitter terms of service, we only distribute Twitter-provided identifiers to download the data",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The abstract reports 61,286 tweets while Table 2 reports 61,286 total tweets (61, 286 in the contribution bullet vs 61,286 in Table 2), but one text version shows '61,286' with stray underscores; the number is consistent at 61286. Languages and temporal coverage are not stated in this paper."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "page_count": 10,
+  "n_chars": 51459,
+  "sha256": "0b3dcb90750e6171f87075feb4c69ecbf784457ec35fa527d1eb0db47c3f308c",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.politico.com/news/2022/05/02/supreme-courtabortion-draft-opinion-00029473",
+    "https://www.npr.org/2022/06/24/1102305878/supreme-courtabortion-roe-v-wade-decision-overturn",
+    "https://www.axios.com/2022/06/26/abortion-supreme-courtgoogle-searches",
+    "https://doi.org/10.7910/DVN/YFAH9X",
+    "https://cs.wellesley.edu/",
+    "https://github.com/gitronald/WebSearcher",
+    "https://www.selenium.dev",
+    "https://www.cookpolitical.com/2020-national-popular-vote-tracker",
+    "https://reproductiverights.org/maps/abortion-laws-by-state/",
+    "https://github.com/gitronald/suggests",
+    "https://aul.org/advocacy/",
+    "https://prolifeacrossamerica.org/learn/blog/",
+    "https://studentsforlife.org/blog/",
+    "https://www.focusonthefamily.com/pro-life/abortion/pro-lifepro-choice/",
+    "https://www.usccb.org/prolife",
+    "https://www.plannedparenthood.org/",
+    "https://www.prochoiceamerica.org/",
+    "https://www.latlong.net/country/united-states-236.html",
+    "https://www.crummy.com/software/BeautifulSoup/bs4/doc/",
+    "https://www.texastribune.org/about/",
+    "https://www.flaglerlawgroup.com/a-new-era-for-fair-usecourt-changes-fair-use-law-in-google-decision/",
+    "https://www.go-fair.org/fair-principles/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7910/DVN/YFAH9X"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

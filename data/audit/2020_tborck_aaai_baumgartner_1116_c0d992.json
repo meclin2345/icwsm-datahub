@@ -1,0 +1,143 @@
+{
+  "summary": {
+    "paper_id": "2020_tborck_aaai_baumgartner_1116_c0d992",
+    "year": 2020,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.3607497",
+    "doi_resolves": true,
+    "n_urls_checked": 3,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.3607497",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/3607497",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 3,
+    "total_size_mb": 49662.26,
+    "file_extensions": ".zst",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 61500,
+    "downloads_unique": 36054,
+    "views_total": 9143,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/pushshift/telegram",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.3607497",
+      "resolved_url": "https://zenodo.org/records/3607497",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:32+00:00",
+      "error": null
+    },
+    {
+      "url": "https://zenodo.org/record/3607497",
+      "resolved_url": "https://zenodo.org/records/3607497",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:34+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/pushshift/telegram",
+      "resolved_url": "https://github.com/pushshift/telegram",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:35+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "3607497",
+    "concept_doi": "10.5281/zenodo.3607496",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 3,
+    "total_size_mb": 49662.26,
+    "file_extensions": [
+      ".zst"
+    ],
+    "stats_raw": {
+      "downloads": 61500,
+      "unique_downloads": 36054,
+      "views": 9143,
+      "unique_views": 8196,
+      "version_downloads": 61464,
+      "version_unique_downloads": 36034,
+      "version_unique_views": 8143,
+      "version_views": 9085
+    },
+    "downloads": 61500,
+    "unique_downloads": 36054,
+    "views": 9143,
+    "unique_views": 8196,
+    "version_downloads": 61464,
+    "version_unique_downloads": 36034,
+    "publication_date": "2020-01-14"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false,
+    "api_status": 403,
+    "repo": "pushshift/telegram"
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 403,
+    "repo": "pushshift/telegram"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/record/3607497",
+    "views": 90,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2020"
+  },
+  "wayback": null
+}

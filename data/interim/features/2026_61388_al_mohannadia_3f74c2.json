@@ -1,0 +1,25 @@
+{
+  "page_count": 12,
+  "n_chars": 59703,
+  "sha256": "b12db224be1ae6f463f066be23147c4f4f182aab38e9d36f0d5159dc47a9b850",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.18267769",
+    "https://github.com/qcri/DisasterVQA",
+    "https://zenodo.org/"
+  ],
+  "urls_in_references": [
+    "https://www.fema.gov/emergencymanagers/national-preparedness/frameworks/response#esf",
+    "https://force11",
+    "https://ai.meta.com/blog/llama-3-2-connect-2024-visionedge-mobile-devices/",
+    "https://mistral",
+    "https://openai.com/index/gpt-4omini-advancing-cost-efficient-intelligence/",
+    "https://openai"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.18267769"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

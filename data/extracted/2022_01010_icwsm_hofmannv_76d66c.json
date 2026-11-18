@@ -1,0 +1,193 @@
+{
+  "paper_id": "2022_01010_icwsm_hofmannv_76d66c",
+  "year": 2022,
+  "pdf_filename": "01010-ICWSM.HofmannV.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:30:21+00:00",
+    "usage": [
+      {
+        "input_tokens": 21572,
+        "output_tokens": 1201,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011B6MPsdyQdBckUYEflUrw2eVI",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 50963,
+    "sha256": "3a5af041fb4f1e0d90af993e94a64f27313b4287a93a5a1db0180f4af7de8816",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.5851729",
+      "https://github.com/valentinhofmann/politosphere",
+      "https://files.pushshift.io/reddit/comments",
+      "https://web.archive.org/web/20190103121805/https",
+      "https://github.com/CLD2Owners/cld2",
+      "https://www.michelecoscia.com/?page",
+      "https://www.ssa.gov/oact/babynames/limits.html",
+      "https://www.reddit.com/r/autowikibot/wiki/redditbots"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.5851729"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Reddit Politosphere: A Large-Scale Text and Network Resource of Online Political Discourse",
+      "authors": [
+        "Valentin Hofmann",
+        "Hinrich Schütze",
+        "Janet B. Pierrehumbert"
+      ],
+      "author_countries": [
+        "GB",
+        "DE"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Reddit Politosphere",
+      "platforms": [
+        "Reddit"
+      ],
+      "platform_names_verbatim": [
+        "Reddit"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Pushshift Reddit Dataset"
+      ],
+      "temporal_coverage_start": "2008-01",
+      "temporal_coverage_end": "2019-12",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 14971553,
+      "num_accounts_or_users": 7559542,
+      "scale_description_verbatim": "covering more than 600 political discussion groups over a period of 12 years",
+      "modalities": [
+        "Text",
+        "Network or graph",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Elections",
+      "event_name": "US presidential elections (2008–2019)",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Polarization and ideology",
+        "Online communities and collective behavior"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "distinguish political from nonpolitical comments",
+        "decide for entire subreddits whether they are political or not",
+        "measure various network properties",
+        "compute for each year the partition with maximum modularity"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus",
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 100,
+      "num_annotators": 1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.78,
+      "iaa_summary_verbatim": "Cohen’s κ indicates high agreement with our decisions (0.78).",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Graph or network models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.5851729",
+        "https://github.com/valentinhofmann/politosphere"
+      ],
+      "persistent_doi": "10.5281/zenodo.5851729",
+      "code_repository_url": "https://github.com/valentinhofmann/politosphere",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "BZ2",
+        "CSV",
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Usernames converted to random five-character pseudonyms; user-specific fields removed; in-text username mentions pseudonymized.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We publish the Reddit Politosphere on Zenodo at https://doi.org/10.5281/zenodo.5851729 and the accompanying collection of scripts in a GitHub repository at https://github.com/valentinhofmann/politosphere.",
+      "scale_quote": "The Reddit Politosphere is based on Reddit and covers more than 600 political discussion groups over a period of 12 years.",
+      "annotation_quote": "we therefore conduct a manual cleaning step. Specifically, the first author visits the web presence of each subreddit (or its archived form if the subreddit does not exist anymore) and decides whether it meets our criteria for political subreddits",
+      "ethics_quote": "To protect the identity of individual users, the Reddit Politosphere is fully pseudonymized, which sets it apart from most other datasets based on Reddit, including PRD.",
+      "license_quote": "it is _reusable_ as it is published under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "total_records (14,971,553) and num_accounts_or_users (7,559,542) are sums of the year-wise figures in Tables 1 and 2 rather than a single stated total; languages_iso includes en only because the paper states most comments are English without counting other languages."
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "summary": {
+    "paper_id": "2022_01057_icwsm_hohns_65ae33",
+    "year": 2022,
+    "audited_at": "2026-10-29T09:13:36+00:00",
+    "normalized_doi": "10.5281/zenodo.5844350",
+    "doi_resolves": true,
+    "n_urls_checked": 3,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.5844350",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/5844350",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 1,
+    "total_size_mb": 8140.13,
+    "file_extensions": ".tar",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 84,
+    "downloads_unique": 79,
+    "views_total": 433,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.5844350",
+      "resolved_url": "https://zenodo.org/records/5844350",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:14+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/sviatlanahoehn/darkplatforms/",
+      "resolved_url": "https://github.com/sviatlanahoehn/darkplatforms/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:15+00:00",
+      "error": null
+    },
+    {
+      "url": "http://hdl.handle.net/10993/49661",
+      "resolved_url": null,
+      "http_status": null,
+      "category": "Timeout",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": null,
+      "checked_at": "2026-10-29T09:11:02+00:00",
+      "error": "timeout"
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "5844350",
+    "concept_doi": "10.5281/zenodo.5844349",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 1,
+    "total_size_mb": 8140.13,
+    "file_extensions": [
+      ".tar"
+    ],
+    "stats_raw": {
+      "downloads": 84,
+      "unique_downloads": 79,
+      "views": 433,
+      "unique_views": 420,
+      "version_downloads": 82,
+      "version_unique_downloads": 78,
+      "version_unique_views": 418,
+      "version_views": 429
+    },
+    "downloads": 84,
+    "unique_downloads": 79,
+    "views": 433,
+    "unique_views": 420,
+    "version_downloads": 82,
+    "version_unique_downloads": 78,
+    "publication_date": "2022-01-13"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": true,
+    "repo": "sviatlanahoehn/darkplatforms",
+    "stars": 2,
+    "forks": 1,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2022-01-13T10:27:07Z",
+    "created_at": "2021-12-08T14:02:11Z",
+    "size_mb": 0.02,
+    "license": null
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/record/5844350",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2022"
+  },
+  "wayback": null
+}

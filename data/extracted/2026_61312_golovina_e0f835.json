@@ -1,0 +1,221 @@
+{
+  "paper_id": "2026_61312_golovina_e0f835",
+  "year": 2026,
+  "pdf_filename": "61312-GolovinA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:12:18+00:00",
+    "usage": [
+      {
+        "input_tokens": 28381,
+        "output_tokens": 1529,
+        "cache_read_input_tokens": 26015,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Utui44iXP2cHmhf3Q7FG4h3t",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 23,
+    "n_chars": 74016,
+    "sha256": "af1801a4b1dbd940f0b7c765478f454d490b2651312317a593429554deef37ca",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/Priesemann-",
+      "https://github.com/PriesemannGroup/telegram",
+      "https://zenodo.org/records/18262126",
+      "https://youtu.be/abcdefghijk”"
+    ],
+    "urls_in_references": [
+      "https://github.com/LlmKira/fast-langdetect",
+      "https://github.com/pyrogram/pyrogram",
+      "https://telegram.org/blog/my-profile-and15-more",
+      "https://github.com/",
+      "https://zenodo.org/",
+      "https://github.com/Priesemann-Group/",
+      "https://t.me/USERNAME",
+      "https://telegramchannels.me/ranking"
+    ],
+    "dois_in_body": [
+      "10.55776/P37280"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "TeraGram: A Structured Longitudinal Dataset of the Telegram Messenger",
+      "authors": [
+        "Anastasia Golovin",
+        "Sebastian B. Mohr",
+        "Arne I. Gottwald",
+        "Ulrik Hvid",
+        "Srushhti Trivedi",
+        "Joao Pinheiro Neto",
+        "Andreas C. Schneider",
+        "Viola Priesemann"
+      ],
+      "author_countries": [
+        "DE",
+        "DK",
+        "AT"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "TeraGram",
+      "platforms": [
+        "Telegram"
+      ],
+      "platform_names_verbatim": [
+        "Telegram"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Pyrogram"
+      ],
+      "temporal_coverage_start": "2015-09",
+      "temporal_coverage_end": "2025-11",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 5950000000,
+      "num_accounts_or_users": 712000,
+      "scale_description_verbatim": "comprising over 5.9 billion messages dating from 2015 to 2025, collected from 712 thousand channels and groups",
+      "modalities": [
+        "Text",
+        "Network or graph",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "ru",
+        "fa",
+        "ar",
+        "en",
+        "uk",
+        "de",
+        "es",
+        "pt",
+        "it",
+        "zh",
+        "fr",
+        "he",
+        "ja",
+        "am",
+        "tr",
+        "ckb",
+        "ko",
+        "mr",
+        "pl",
+        "az"
+      ],
+      "num_languages": 20,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Online communities and collective behavior",
+        "Misinformation and fact-checking",
+        "Bots, coordinated inauthentic behavior and propaganda"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "language distribution",
+        "network degree",
+        "topic clustering"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus",
+        "LLM or generative AI labels"
+      ],
+      "llms_used": [
+        "gpt-4o-mini"
+      ],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "LLM prompting (zero- or few-shot)",
+        "Statistical models (regression, time series)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/18262126",
+        "https://github.com/Priesemann-Group/telegram-quality-control"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/Priesemann-Group/telegram-quality-control",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "Open Data Commons Attribution (ODC-By)",
+      "license_category": "Open Data Commons (ODbL, ODC-By, PDDL)",
+      "data_file_formats": [
+        "PARQUET",
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "User identifiers are pseudonymized, usernames and first and last names are hashed, and phone numbers are reduced to country codes only.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "A preview of the dataset is available at https://zenodo.org/records/18262126.",
+      "scale_quote": "Amounting to 3.33 terabyte of data, the TeraGram dataset presented in this study is one of the largest and most comprehensive Telegram datasets available to date",
+      "annotation_quote": "we use BERTopic’s ChatGPT integration (gpt-4o-mini model), where we provide it with topic keywords identified by BERTopic and a sample of messages",
+      "ethics_quote": "To preserve privacy, all user identifiers are pseudonymized, only public channel and group metadata is retained, and binary media blobs are excluded.",
+      "license_quote": "Both datasets are shared under the Open Data Commons Attribution (ODC-By) license that allows users to freely share, modify, and use the dataset as long as they attribute it.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper refers to 'datasets' (plural) for the Parquet release and the CSV sample; both are treated as one dataset here. num_accounts_or_users reflects the 712k fully downloaded chats; discovered chats total 4.54M."
+    }
+  }
+}

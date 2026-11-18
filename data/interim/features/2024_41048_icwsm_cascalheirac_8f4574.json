@@ -1,0 +1,43 @@
+{
+  "page_count": 12,
+  "n_chars": 53580,
+  "sha256": "62469ae918c4382cb6e0c7c5b74e2c1b0224fb937af1aad8f80e8c070bf55c7f",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://osf.io/qgah8/",
+    "https://doi.org/10.7910/DVN/GPRSXH",
+    "https://github.com/CJCascalheira/lgbtq_stress_dataset"
+  ],
+  "urls_in_references": [
+    "https://www.apa.org/ethics/code/index",
+    "https://www.aaai.org/Conferences/code-of-ethicsand-conduct.php",
+    "https://doi.org/10.1037/a0023244",
+    "https://doi.org/10.5555/944919.944937",
+    "https://doi.org/10.2196/47256",
+    "https://doi.org/10.3389/frph.2023.1303218",
+    "https://doi.org/10.1177/2056305121988931",
+    "https://doi.org/10.1089/lgbt.2021.0106",
+    "https://doi.org/10.1016/j.yfrne.2018.03.001",
+    "https://doi.org/10.1007/s11121-013-0393-7",
+    "https://hatebase.org/",
+    "https://doi.org/10.1037/a0029597",
+    "https://doi.org/10.1177/1049732305276687",
+    "https://doi.org/10.1037/sgd0000439",
+    "https://doi.org/10.1037/0033-2909.129.5.674",
+    "https://doi.org/10.2307/2137286",
+    "https://doi.org/10.1037/0022-0167.52.2.250",
+    "https://doi.org/10.1177/1609406919899220",
+    "https://doi.org/10.1037/bul0000271",
+    "https://repositories.lib.utexas.edu/bitstream/handle/2152/31333/LIWC2015_LanguageManual.pdf",
+    "https://doi.org/10.1145/3361108",
+    "https://doi.org/10.1371/journal.pone.0073791",
+    "https://doi.org/10.1037/amp0001183",
+    "https://doi.org/10.5555/3270332.3270380"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/GPRSXH"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

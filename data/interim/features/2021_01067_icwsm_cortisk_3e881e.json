@@ -1,0 +1,42 @@
+{
+  "page_count": 11,
+  "n_chars": 58975,
+  "sha256": "b6be0aa7e97d1b418b3e2627570ec3cca9fead81710025bb1addacc167261968",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://trends.google.com/trends/explore?q=sentiment%20analysis",
+    "https://www.finance.gov.mt//en/the-budget/pages/the-budget2018.aspx",
+    "https://www.finance.gov.mt/en/The-Budget/Pages/TheBudget-2019-G5J3D1.aspx",
+    "https://www.finance.gov.mt/en/The-Budget/Pages/TheBudget-2020-GD-9691.aspx",
+    "https://www.timesofmalta.com/",
+    "https://www.maltatoday.com.mt/",
+    "http://www.independent.com.mt/",
+    "https://www.twitter.com/",
+    "https://developer.twitter.com/en/docs/twitter-api/premium/",
+    "https://www.github.com/geduldig/TwitterAPI",
+    "https://developers.facebook.com/docs/public",
+    "https://www.git.io/JOqss",
+    "https://t.cozdjCZxleYw",
+    "https://www.gemma.gov.mt/cost-of-living-increase/",
+    "https://www.independent.com.mt/articles/2015-09-01/blogs-",
+    "https://www.timesofmalta.com/articles/view/Amen-written-",
+    "https://www.zenodo.org/",
+    "https://www.doi.org/10.5281/zenodo.4650232",
+    "https://www.creativecommons.org/licenses/by-nc-sa/4.0/",
+    "https://developer.twitter.com/en/developer-terms/agreement-"
+  ],
+  "urls_in_references": [
+    "https://www.slideshare.net/DataReportal/digital-2019malta-january-2019-v01",
+    "https://repository.upenn.edu/asc",
+    "https://timesofmalta.com/articles/",
+    "https://doi",
+    "https://malta.ai/wp-content/uploads/2019/10/",
+    "https://timesofmalta.com/articles/view/we-consultedsocial-media-justice-minister-on-rule-of-law-reformbills.825589"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.4650232"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

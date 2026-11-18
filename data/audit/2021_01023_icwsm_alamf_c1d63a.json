@@ -1,0 +1,104 @@
+{
+  "summary": {
+    "paper_id": "2021_01023_icwsm_alamf_c1d63a",
+    "year": 2021,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.7910/DVN/XYK2UE",
+    "doi_resolves": true,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "http://doi.org/10.7910/DVN/XYK2UE",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/XYK2UE",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Dataverse",
+    "file_count": 5,
+    "total_size_mb": 3.39,
+    "file_extensions": ".json, .tsv, .txt",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 798,
+    "downloads_unique": 221,
+    "views_total": 3145,
+    "downloads_metric_source": "Dataverse Make Data Count",
+    "repo_license": null,
+    "datacite_registered": true,
+    "datacite_publisher": "Harvard Dataverse",
+    "datacite_citations": 1,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "http://doi.org/10.7910/DVN/XYK2UE",
+      "resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/XYK2UE",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:21:52+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": true,
+    "instance": "https://dataverse.harvard.edu",
+    "pid": "doi:10.7910/DVN/XYK2UE",
+    "version_state": "RELEASED",
+    "license": null,
+    "file_count": 5,
+    "restricted_file_count": 0,
+    "restricted": false,
+    "partially_restricted": false,
+    "total_size_mb": 3.39,
+    "file_extensions": [
+      ".json",
+      ".tsv",
+      ".txt"
+    ],
+    "terms_of_access": false,
+    "downloadsTotal": 798,
+    "viewsTotal": 3145,
+    "downloadsUnique": 221
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Harvard Dataverse",
+    "landing_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/XYK2UE",
+    "views": 1044,
+    "downloads": 211,
+    "citations": 1,
+    "registered_year": "2021"
+  },
+  "wayback": null
+}

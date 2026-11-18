@@ -1,0 +1,17 @@
+{
+  "page_count": 9,
+  "n_chars": 43162,
+  "sha256": "21858ed19e13914a0dfab5e0b53992d4b36d8203fdb1128d70679c61ac2643cf",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.3886/sqhd-kv39",
+    "https://socialmediaarchive.org"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.3886/sqhd-kv39"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

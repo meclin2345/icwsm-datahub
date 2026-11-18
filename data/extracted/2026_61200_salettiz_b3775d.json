@@ -1,0 +1,245 @@
+{
+  "paper_id": "2026_61200_salettiz_b3775d",
+  "year": 2026,
+  "pdf_filename": "61200-SalettiZ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:09:55+00:00",
+    "usage": [
+      {
+        "input_tokens": 26269,
+        "output_tokens": 1422,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011yAPjELsmCiNHvUYNN8Ure3Va",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 15,
+    "n_chars": 70198,
+    "sha256": "6872ff641aad96b6cdb4eb5be2006b2ffa9af700dcfde89b92343dc038f7a233",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/DivinWD/dataset-resources",
+      "https://zenodo.org/records/18234750",
+      "https://www.wikidata.org/",
+      "http://wikicite.org/",
+      "https://scholia.toolforge.org/",
+      "https://phabricator.wikimedia.org/T388968",
+      "https://github.com/allenai/s2",
+      "https://genderize.io",
+      "https://github.com/ad-freiburg/qlever",
+      "https://github",
+      "https://divinwd.dev/datasheet",
+      "https://github.com/DivinWD/dataset-resources/blob/main/",
+      "https://creativecommons.org/publicdomain/zero/1.0/",
+      "https://www.wikidata.org/wiki/Wikidata:WikiProject",
+      "https://www.wikidata.org/wiki/Wikidata:SPARQL",
+      "https://www.dimensions.ai"
+    ],
+    "urls_in_references": [
+      "https://github.com/allenai/s2",
+      "https://genderize.io/",
+      "https://osf.io/preprints/osf/uyxnf",
+      "https://www.crossref.org/",
+      "https://www.dimensions.ai",
+      "https://openalex.org/",
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "http://www.w3.org/2000/01/rdf-schema#label",
+      "http://www.wikidata.org/prop/direct/P21",
+      "http://www.wikidata.org/prop/direct/P297",
+      "http://www.wikidata.org/prop/direct/P30",
+      "http://www.wikidata.org/prop/direct/P31",
+      "http://www.wikidata.org/prop/direct/P407",
+      "http://www.wikidata.org/prop/direct/P50",
+      "http://www.wikidata.org/prop/direct/P571",
+      "http://www.wikidata.org/prop/direct/P576",
+      "http://www.wikidata.org/prop/direct/P577",
+      "http://www.wikidata.org/prop/direct/P6782",
+      "http://www.wikidata.org/prop/P108",
+      "http://www.wikidata.org/prop/statement/P108",
+      "http://www.wikidata.org/prop/P27",
+      "http://www.wikidata.org/prop/statement/P27",
+      "http://www.wikidata.org/prop/P463",
+      "http://www.wikidata.org/prop/statement/P463",
+      "http://www.wikidata.org/prop/qualifier/P580",
+      "http://www.wikidata.org/prop/qualifier/P582",
+      "https://divinwd.dev/genderize/gender",
+      "https://divinwd.dev/genderize/nationality|2_,_099_,_281|",
+      "https://divinwd.dev/oacr/lang",
+      "https://divinwd.dev/ror/id",
+      "https://divinwd.dev/ror/location",
+      "https://divinwd.dev/ror/type",
+      "https://divinwd.dev/semanticscholar/fos/prediction|78_,_901|",
+      "https://divinwd.dev/semanticscholar/fos/value",
+      "https://www.scopus.com/",
+      "https://www.semanticscholar.org/",
+      "https://allenai.org/",
+      "https://ror.org/",
+      "https://wigedi.com",
+      "https://ror.readme.io/docs/ror-data-structure"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.18234750",
+      "10.5281/zenodo.18267672"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "DIVINWD: Exploring the Diversity of Scientific Publications in Wikidata",
+      "authors": [
+        "Zeno Saletti",
+        "Cristian Consonni",
+        "Pedro Frau-Amar",
+        "Emilia Gómeź"
+      ],
+      "author_countries": [
+        "IT",
+        "ES"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "DivinWD",
+      "platforms": [
+        "Wikipedia/Wikidata",
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Wikidata",
+        "Crossref",
+        "Dimensions",
+        "OpenAlex",
+        "Scopus",
+        "Semantic Scholar",
+        "ROR",
+        "Genderize API"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)",
+        "Not specified"
+      ],
+      "collection_tools": [
+        "Genderize API",
+        "QLever"
+      ],
+      "temporal_coverage_start": "2010",
+      "temporal_coverage_end": "2024",
+      "primary_record_unit": "Other",
+      "total_records": 23486895,
+      "num_accounts_or_users": 766572,
+      "scale_description_verbatim": "23,486,895 RDF triples, i.e. the Wikidata subgraph of scholarly articles and authorship information",
+      "modalities": [
+        "Network or graph",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "mul"
+      ],
+      "num_languages": 54,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Gender, race and identity",
+        "Privacy and surveillance",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "User profiling or demographic inference"
+      ],
+      "tasks_verbatim": [
+        "study of diversity in scientific publications",
+        "development and evaluation of open, reproducible bibliometric indicators"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [
+        "S2FOS"
+      ],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only",
+        "Statistical models (regression, time series)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/18234750",
+        "https://github.com/DivinWD/dataset-resources",
+        "https://divinwd.dev/datasheet"
+      ],
+      "persistent_doi": "10.5281/zenodo.18234750",
+      "code_repository_url": "https://github.com/DivinWD/dataset-resources",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons CC0 dedication (public domain)",
+      "license_category": "CC0 or public domain",
+      "data_file_formats": [
+        "NTRIPLES"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Pseudonymized by mapping Wikidata QIDs to XIDs, pseudonymizing statement identifiers, and removing labels.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "The DivinWD dataset is available on Zenodo at https://zenodo.org/records/18234750.",
+      "scale_quote": "The dataset consists of a single GZip-compressed N-Triples file containing 23,486,895 RDF triples.",
+      "annotation_quote": "Whenever gender and nationality data are unavailable in Wikidata, we infer these attributes from author names using the Genderize API.",
+      "ethics_quote": "We therefore share only a pseudonymized dataset that enables the recomputation of the diversity metrics without revealing personal details.",
+      "license_quote": "Data and other content is released under the Creative Commons CC0 dedication (public domain).",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not explicitly state whether 'involves_vulnerable_groups' applies, but it focuses on gender and nationality, which may be considered sensitive. The data_geography is set to GLOBAL as the dataset covers scientific publications worldwide, not a specific country."
+    }
+  }
+}

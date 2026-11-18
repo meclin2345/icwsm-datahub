@@ -1,0 +1,157 @@
+{
+  "summary": {
+    "paper_id": "2024_41022_icwsm_ohn_17a4f7",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.10514542",
+    "doi_resolves": true,
+    "n_urls_checked": 3,
+    "any_url_alive": true,
+    "primary_url": "https://github.com/socius-org/sentibank",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://github.com/socius-org/sentibank",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 1,
+    "total_size_mb": 68.07,
+    "file_extensions": ".zip",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 166,
+    "downloads_unique": 164,
+    "views_total": 523,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/socius-org/sentibank",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 15,
+    "code_forks": 2,
+    "code_archived": false,
+    "code_last_push": "2026-09-15T10:29:31Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://github.com/socius-org/sentibank",
+      "resolved_url": "https://github.com/socius-org/sentibank",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:05+00:00",
+      "error": null
+    },
+    {
+      "url": "https://pypi.org/project/sentibank/",
+      "resolved_url": "https://pypi.org/project/sentibank/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:06+00:00",
+      "error": null
+    },
+    {
+      "url": "https://zenodo.org/doi/10.5281/zenodo.10514542",
+      "resolved_url": "https://zenodo.org/records/10888713",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:07+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "10888713",
+    "concept_doi": "10.5281/zenodo.10514542",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 1,
+    "total_size_mb": 68.07,
+    "file_extensions": [
+      ".zip"
+    ],
+    "stats_raw": {
+      "downloads": 166,
+      "unique_downloads": 164,
+      "views": 523,
+      "unique_views": 516,
+      "version_downloads": 52,
+      "version_unique_downloads": 51,
+      "version_unique_views": 270,
+      "version_views": 275
+    },
+    "downloads": 166,
+    "unique_downloads": 164,
+    "views": 523,
+    "unique_views": 516,
+    "version_downloads": 52,
+    "version_unique_downloads": 51,
+    "publication_date": "2024-03-27"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": true,
+    "repo": "socius-org/sentibank",
+    "stars": 15,
+    "forks": 2,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-09-15T10:29:31Z",
+    "created_at": "2023-07-31T16:49:52Z",
+    "size_mb": 169.92,
+    "license": "NOASSERTION"
+  },
+  "github_code": {
+    "found": true,
+    "repo": "socius-org/sentibank",
+    "stars": 15,
+    "forks": 2,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-09-15T10:29:31Z",
+    "created_at": "2023-07-31T16:49:52Z",
+    "size_mb": 169.92,
+    "license": "NOASSERTION"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/doi/10.5281/zenodo.10514542",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2024"
+  },
+  "wayback": null
+}

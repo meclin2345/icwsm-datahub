@@ -1,0 +1,213 @@
+{
+  "paper_id": "2020_tborck_aaai_papasavvaa_1099_49edfa",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_PapasavvaA-1099.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:27:54+00:00",
+    "usage": [
+      {
+        "input_tokens": 24163,
+        "output_tokens": 907,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011vUHpnvsbUYgpXR2sIonWR6rK",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 57279,
+    "sha256": "3ec47a53fba2c20fabad79d7da72dfe69df40e4130afc869dd82045865d23e9b",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "http://boards.4chan.org/pol/",
+      "https://github.com/4chan/4chan-API",
+      "http://ndjson.org/",
+      "https://4plebs.org/",
+      "https://www.go-fair.org/fair-principles/",
+      "https://doi.org/10.5281/zenodo.3606810",
+      "https://www.internetlivestats.com/internet-users-by-country/",
+      "https://spacy.io/api/annotation"
+    ],
+    "urls_in_references": [
+      "https://www.adl.org/",
+      "https://bit.ly/2WXhEJR",
+      "https://bit.ly/3dGI9cD",
+      "https://bit.ly/2WSw3qI",
+      "https://time.com/",
+      "https://benpettis",
+      "https://nyti.ms/2R2iEsp",
+      "https://wapo.st/",
+      "https://bit.ly/2X0dfGh",
+      "https://bit.ly/341Gfib",
+      "http://dailym.ai/2UL9AJv",
+      "https://nyti.ms/2RtfddM",
+      "https://www.perspectiveapi.com/",
+      "https://bit.ly/2JnMqnf",
+      "https://bit.ly/",
+      "https://theweek.com/10things/764082/10-things-needknow-today-april-1-2018",
+      "https://trac.torproject",
+      "https://www.theguardian.com/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.3606810"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Raiders of the Lost Kek: 3.5 Years of Augmented 4chan Posts from the Politically Incorrect Board",
+      "authors": [
+        "Antonis Papasavva",
+        "Savvas Zannettou",
+        "Emiliano De Cristofaro",
+        "Gianluca Stringhini",
+        "Jeremy Blackburn"
+      ],
+      "author_countries": [
+        "GB",
+        "DE",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "4chan /pol/ dataset",
+      "platforms": [
+        "4chan/8kun/Imageboards"
+      ],
+      "platform_names_verbatim": [
+        "4chan"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "4chan’s JSON API"
+      ],
+      "temporal_coverage_start": "2016-06-29",
+      "temporal_coverage_end": "2019-11-01",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 134529233,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "134.5M posts from over 3.3M /pol/ conversation threads, made over a period of approximately 3.5 years (June 2016–November 2019)",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US",
+        "GB",
+        "CA",
+        "AU",
+        "DE"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "Misinformation and fact-checking",
+        "Extremism and radicalization"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Hate or toxicity detection",
+        "Entity or information extraction",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "topic detection",
+        "entity recognition",
+        "toxicity assessment"
+      ],
+      "annotation_paradigms": [
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)",
+        "LLM or generative AI labels"
+      ],
+      "llms_used": [
+        "Google’s Perspective API",
+        "spaCy (v2.2+)"
+      ],
+      "num_annotated_records": 131429233,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Classical ML (SVM, logistic regression, random forest)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.3606810",
+        "https://zenodo.org/record/3606810"
+      ],
+      "persistent_doi": "10.5281/zenodo.3606810",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "NDJSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Self-assessed or checklist only",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "4chan posts are typically anonymous and the dataset released only post text and metadata, with no attempt to de-anonymize users.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The data is released in full and hence is Reusable.",
+      "scale_quote": "We release a dataset (Zenodo 2020) including 134.5M posts from over 3.3M /pol/ conversation threads, made over a period of approximately 3.5 years (June 2016–November 2019).",
+      "annotation_quote": "For the former, we use the spaCy library (spaCy 2019), and for the latter, Google’s Perspective API (Perspective API 2018).",
+      "ethics_quote": "Overall, we followed standard ethical guidelines (Rivers and Lewis 2014) and made no attempt to de-anonymize users.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

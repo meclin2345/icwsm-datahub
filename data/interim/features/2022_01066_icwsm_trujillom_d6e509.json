@@ -1,0 +1,25 @@
+{
+  "page_count": 10,
+  "n_chars": 46635,
+  "sha256": "77ae44c94ba2abff4ba30767b2ca129166f15568f1e0f9a5d7a7924f4bea3900",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://dataverse.harvard.edu/dataset.xhtml?persistentId=",
+    "https://github.com/BitChute/commentfreely",
+    "https://commentfreely.bitchute.com/api/get",
+    "https://www.force11.org/group/fairgroup/fairprinciples",
+    "https://www.npr.org/2022/01/06/1070763913/kicked-off-",
+    "https://www.vox.com/recode/22240408/facebook-youtubetwitter-qanon-misinformation-inauguration",
+    "https://www.adl.org/hate-symbols",
+    "https://dataverse.harvard.edu/dataset",
+    "https://semeval.github.io/",
+    "https://arstechnica.com/information-technology/2021/09/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7910/DVN/KRD1VS"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

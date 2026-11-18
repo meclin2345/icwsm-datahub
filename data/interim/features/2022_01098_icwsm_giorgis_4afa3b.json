@@ -1,0 +1,20 @@
+{
+  "page_count": 8,
+  "n_chars": 43741,
+  "sha256": "9ca3bb9fb2431e37cf0d8d40a6ebdc01c9532cdfa99e8291a4468b3027438ef4",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://github.com/dlatk/TwitterMySQL",
+    "https://github.com/Mottl/GetOldTweets3",
+    "http://mallet.cs.umass.edu",
+    "https://github.com/DocNow/twarc",
+    "https://github.com/DocNow/hydrator",
+    "https://github.com/sjgiorgi/blm",
+    "https://osf.io/y9hiq/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,201 @@
+{
+  "paper_id": "2021_01053_icwsm_duttah_8e97c7",
+  "year": 2021,
+  "pdf_filename": "01053-ICWSM.DuttaH.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:29:17+00:00",
+    "usage": [
+      {
+        "input_tokens": 19940,
+        "output_tokens": 854,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Z11fb1IWHV9zBxdEJjftZ6Nf",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 47459,
+    "sha256": "3398ba37d3007b63ffb1fac4c2c1b92c817e717889b0ca77019b57b77f537fa5",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://zenodo.org/record/4437987",
+      "http://doi.org/10.5281/zenodo.4437987",
+      "https://www.youlikehits",
+      "https://www.like4like.org/",
+      "https://traffup.net/",
+      "https://www.justretweet",
+      "https://www.seleniumhq.org/",
+      "https://developer.twitter.com/en/docs",
+      "https://developers.google.com/youtube/v3",
+      "https://help.twitter.com/en/rules-and-policies/platformmanipulation",
+      "https://support.google.com/youtube/answer/3399767?hl=en",
+      "https://tinyurl.com/y2ztmoqg",
+      "https://developer",
+      "https://developer.twitter.com/en/docs/tweets/datadictionary/overview/user-object",
+      "https://developer.twitter.com/en/docs/tweets/datadictionary/overview/tweet-object",
+      "https://pypi.org/project/langdetect/",
+      "https://pypi.org/project/pycountry/",
+      "https://textblob.readthedocs.io/en/dev/quickstart.html",
+      "http://flask.pocoo.org/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.4437987"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "ABOME: A Multi-platform Data Repository of Artiﬁcially Boosted Online Media Entities",
+      "authors": [
+        "Hridoy Sankar Dutta",
+        "Udit Arora",
+        "Tanmoy Chakraborty"
+      ],
+      "author_countries": [
+        "IN"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "ABOME",
+      "platforms": [
+        "Twitter/X",
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Twitter API",
+        "YouTube API",
+        "BeautifulSoup",
+        "Selenium",
+        "Tweepy"
+      ],
+      "temporal_coverage_start": "2019-03",
+      "temporal_coverage_end": "2019-06",
+      "primary_record_unit": "Other",
+      "total_records": 139284,
+      "num_accounts_or_users": 43533,
+      "scale_description_verbatim": "23,522 collusive retweets and 18,368 collusive follower requests for Twitter... 58,091 collusive likes, 25,106 comments, and 7,847 subscriptions requests for YouTube... 2,350 Twitter users and 4,989 tweets",
+      "modalities": [
+        "Text",
+        "Time series or temporal logs",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Content moderation and platform governance",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Bot or coordinated account detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Fraudulent user/entity detection",
+        "Mining connectivity patterns",
+        "Modeling temporal evolution",
+        "Diffusion modeling",
+        "Event-specific studies",
+        "Multi-lingual studies"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/4437987"
+      ],
+      "persistent_doi": "10.5281/zenodo.4437987",
+      "code_repository_url": "https://tinyurl.com/y2ztmoqg",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Removing all Personally Identifiable Information (PII) and generating pseudo-IDs corresponding to the original IDs",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The entire dataset, along with a smaller sample, is available at the following link: (Dataset URL: https://zenodo.org/record/4437987)",
+      "scale_quote": "The former type of dataset is divided into two parts – the first part consists of 23,522 collusive retweets and 18,368 collusive follower requests for Twitter",
+      "annotation_quote": "",
+      "ethics_quote": "We abode by the terms, conditions, and privacy policies of our Institute Institutional Review Board (IRB) approval",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Total records is a sum of per-type counts in the abstract; num_accounts_or_users sums user and video/channel counts from Tables 1 and 2."
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "paper_id": "2024_41065_icwsm_gambettia_b442fa",
+  "year": 2024,
+  "pdf_filename": "41065-ICWSM.GambettiA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:06:36+00:00",
+    "usage": [
+      {
+        "input_tokens": 23920,
+        "output_tokens": 1320,
+        "cache_read_input_tokens": 21663,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011cVD7ir0t1LEmnWSnSdFMJqyG",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 59526,
+    "sha256": "8ba064b4e59b030b0ebecc6ea43ea3cff6efbf45952259e8131e3b2530827c3e",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.safegraph.com/",
+      "https://platform.openai.com/examples/default-restaurantreview",
+      "https://www.yelp.com/dataset",
+      "https://fusion.yelp.com/",
+      "https://pypi.org/project/textstat/",
+      "https://github.com/iamalegambetti/aigen-foodreview/",
+      "https://www.yelp.com/elite",
+      "https://zenodo",
+      "https://github.com/iamalegambetti/aigen-foodreview"
+    ],
+    "urls_in_references": [
+      "https://www.businessinsider.com/fakeamazon-reviews-for-sale-buy-merchants-amazons-choice2021-2",
+      "https://github.com/guyfloki/ai-image-detector",
+      "https://time.com/6192933/fake-reviews-regulation"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.10511456"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "AiGen-FoodReview: A Multimodal Dataset of Machine-Generated Restaurant Reviews and Images on Social Media",
+      "authors": [
+        "Alessandro Gambetti",
+        "Qiwei Han"
+      ],
+      "author_countries": [
+        "PT"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "AiGen-FoodReview",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Yelp",
+        "SafeGraph"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Synthetic, LLM-generated or simulated data"
+      ],
+      "collection_tools": [
+        "GPT-4-Turbo",
+        "Dall-E-2",
+        "gpt-4-1106-preview",
+        "dall-e-2",
+        "Yelp Fusion API"
+      ],
+      "temporal_coverage_start": "2019",
+      "temporal_coverage_end": "2022-06",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 20144,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "In total, the final multimodal review dataset counts 20,144 review-image pairs.",
+      "modalities": [
+        "Text",
+        "Image",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "AI-generated content and LLM use",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "Multimodal understanding (image/video/audio)",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Detecting fake restaurant reviews in both unimodal and multimodal contexts.",
+        "Analyzing and comparing linguistic and visual features of synthetic versus authentic text and image data."
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [
+        "GPT-4-Turbo",
+        "Dall-E-2"
+      ],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "Vision, audio or multimodal models",
+        "Statistical models (regression, time series)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/10511456",
+        "https://github.com/iamalegambetti/aigen-foodreview"
+      ],
+      "persistent_doi": "10.5281/zenodo.10511456",
+      "code_repository_url": "https://github.com/iamalegambetti/aigen-foodreview",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "MIT",
+      "license_category": "Software license (MIT, Apache, GPL, BSD)",
+      "data_file_formats": [
+        "CSV",
+        "JPG",
+        "TXT"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Username and image were anonymized and blurred.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is Findable on Zenodo through a unique DOI identifier: 10.5281/zenodo.10511456.",
+      "scale_quote": "In total, the final multimodal review dataset counts 20,144 review-image pairs.",
+      "annotation_quote": "No rating differences across Class 0 and Class 1 were recorded, with average ratings of 4.074 ± 0.91 and 4.073 ± 0.90, respectively.",
+      "ethics_quote": "Privacy and confidentiality have been rigorously maintained through anonymization.",
+      "license_quote": "We release the dataset with an MIT license.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Temporal coverage reflects the SafeGraph restaurant mobility data period; the exact scrape dates are not explicitly stated."
+    }
+  }
+}

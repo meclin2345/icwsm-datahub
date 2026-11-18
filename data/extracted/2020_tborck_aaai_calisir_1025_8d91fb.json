@@ -1,0 +1,170 @@
+{
+  "paper_id": "2020_tborck_aaai_calisir_1025_8d91fb",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_Calisir-1025.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:27:16+00:00",
+    "usage": [
+      {
+        "input_tokens": 13303,
+        "output_tokens": 783,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011ONRCcbDEw1US56yfK9DTo3Gv",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 5,
+    "n_chars": 21285,
+    "sha256": "184898463892d567375a6076fced122299f9302176798eabf2bf6f8e89612d21",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://github.com/DataSciencePolimi/CSSforPolitics",
+      "https://doi.org/10.7910/DVN/KP4XRP",
+      "https://botometer.iuni.iu.edu/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7910/DVN/KP4XRP"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Long-Running Debate about Brexit on Social Media",
+      "authors": [
+        "Emre Calisir",
+        "Marco Brambilla"
+      ],
+      "author_countries": [
+        "IT"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Twitter dataset about Brexit",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2016-01",
+      "temporal_coverage_end": "2019-09",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 50897533,
+      "num_accounts_or_users": 3979965,
+      "scale_description_verbatim": "50.8 million tweets posted by 3.97 million Twitter users",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GB"
+      ],
+      "event_category": "Elections",
+      "event_name": "2016 United Kingdom European Union membership referendum",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Polarization and ideology"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Sentiment or emotion analysis",
+        "Bot or coordinated account detection",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "Stance classification",
+        "Sentiment Analysis",
+        "Bot analysis"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 8940,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/KP4XRP"
+      ],
+      "persistent_doi": "10.7910/DVN/KP4XRP",
+      "code_repository_url": "https://github.com/DataSciencePolimi/CSSforPolitics",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The full dataset is available on Harvard Dataverse with assigned DOI and is accessible at the following url: https://doi.org/10.7910/DVN/KP4XRP.",
+      "scale_quote": "Our data collection strategy resulted in obtaining 50.8 million tweets posted by 3.97 million Twitter users (Table 1).",
+      "annotation_quote": "labeled by us thanks to our two years of expertise in the Brexit analysis on Twitter",
+      "ethics_quote": "Due to Twitter’s privacy requirements, we share only the Tweet IDs and User IDs.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The stance-training sample is reported in two inconsistent figures (1470 Remain and 1316 Leave in the text versus 818 and 755 in Table 3), so num_annotated_records uses the larger text figure; dataset files are distributed as dehydrated IDs plus derived features."
+    }
+  }
+}

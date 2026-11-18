@@ -1,0 +1,31 @@
+{
+  "page_count": 12,
+  "n_chars": 60101,
+  "sha256": "2dedd18a0d64f784f9d27b391ac53a34591696f77b934ae6a2e9e7e8c5c572f6",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.heritage.org/civil-rights/report/critical-race-",
+    "https://twitter.com/realchrisrufo/status/1371540368714428416",
+    "https://www.vox.com/2020/9/24/21451220/critical-racetheory-diversity-training-trump",
+    "https://www.npr.org/2020/08/16/902179773/summer-ofracial-reckoning-the-match-lit",
+    "https://www.gdeltproject.org/about.html",
+    "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+    "https://www.foxnews.com/politics/texas",
+    "https://doi.org/10.7910/DVN/QAN5VX",
+    "https://api.gdeltproject.org/api/v2/summary/summary?d=iatv",
+    "https://newsinitiative.withgoogle.com/resources/trainings/",
+    "https://trends.google.com/trends/",
+    "https://doi.org/10.5281/zenodo.10516191"
+  ],
+  "urls_in_references": [
+    "https://zenodo.org/doi/10.5281/zenodo.10516190"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.10516190",
+    "10.7910/DVN/QAN5VX",
+    "10.5281/zenodo.10516191"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

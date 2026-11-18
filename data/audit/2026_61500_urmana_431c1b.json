@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "paper_id": "2026_61500_urmana_431c1b",
+    "year": 2026,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.57967/hf/7531",
+    "doi_resolves": true,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.57967/hf/7531",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://huggingface.co/datasets/aurman/GoogleTrendArchive",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Hugging Face",
+    "file_count": 9,
+    "total_size_mb": null,
+    "file_extensions": ".csv, .md, .pdf, .py, .r, .zip",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 3470,
+    "downloads_unique": null,
+    "views_total": null,
+    "downloads_metric_source": "Hugging Face (all time)",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Hugging Face",
+    "datacite_citations": 0,
+    "hf_likes": 5,
+    "hf_downloads_30d": 560,
+    "code_url": "https://github.com/aurman21/googletrendarchive",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 4,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2026-03-20T11:24:49Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.57967/hf/7531",
+      "resolved_url": "https://huggingface.co/datasets/aurman/GoogleTrendArchive",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:23+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": true,
+    "repo": "aurman/GoogleTrendArchive",
+    "gated": false,
+    "restricted": false,
+    "account_required": false,
+    "private": false,
+    "disabled": false,
+    "downloads_30d": 560,
+    "downloads_all_time": 3470,
+    "likes": 5,
+    "file_count": 9,
+    "file_extensions": [
+      ".csv",
+      ".md",
+      ".pdf",
+      ".py",
+      ".r",
+      ".zip"
+    ],
+    "license": "cc-by-4.0",
+    "last_modified": "2026-05-18T12:07:58.000Z"
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": true,
+    "repo": "aurman21/googletrendarchive",
+    "stars": 4,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-03-20T11:24:49Z",
+    "created_at": "2026-03-20T11:18:58Z",
+    "size_mb": 0.17,
+    "license": "MIT"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Hugging Face",
+    "landing_url": "https://huggingface.co/datasets/aurman/GoogleTrendArchive",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2026"
+  },
+  "wayback": null
+}

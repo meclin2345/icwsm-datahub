@@ -1,0 +1,187 @@
+{
+  "paper_id": "2025_31093_icwsm_yey_3a5b33",
+  "year": 2025,
+  "pdf_filename": "31093-ICWSM.YeY.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:08:01+00:00",
+    "usage": [
+      {
+        "input_tokens": 17317,
+        "output_tokens": 3895,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011FEQfwOct54Nlofl39ftlRyaA",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.baseline_families.1: got 'Other'; Input should be 'No experiments', 'Descriptive statistics only', 'Statistical models (regression, time series)', 'Classical ML (SVM, logistic regression, random"
+      },
+      {
+        "input_tokens": 18266,
+        "output_tokens": 945,
+        "cache_read_input_tokens": 16222,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011JTjIPdNWjsdS3xB8XODy3mIa",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 46206,
+    "sha256": "d48db213615c5ac464e794c98cd103c1efa363182f72e03c35e57a66edefc4f9",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/YiranYe/NoisyHate",
+      "https://zenodo.org/records/14654784",
+      "https://perspectiveapi.com/",
+      "https://huggingface.co/datasets/NoisyHate/Noisy"
+    ],
+    "urls_in_references": [
+      "https://pyspellchecker",
+      "https://force11",
+      "https://perspectiveapi.com/",
+      "https://www"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "NoisyHate: Mining Online Human-Written Perturbations for Realistic Robustness Benchmarking of Content Moderation Models",
+      "authors": [
+        "Yiran Ye",
+        "Thai Le",
+        "Dongwon Lee"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "NoisyHate",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Civil Comments platform"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Jigsaw dataset",
+        "ANTHRO algorithm",
+        "BERT model",
+        "Amazon Mechanical Turk (MTurk)"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 1339,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "Subsequently, approximately 78.4% (1,339 examples) of the remaining data were deemed high-quality perturbations and retained for further analysis.",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Hate or toxicity detection",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Perturbation Normalization",
+        "Perturbation Understanding"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Crowdworkers (MTurk, Prolific, etc.)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 2120,
+      "num_annotators": 5,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "Hugging Face Hub"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/14654784",
+        "https://huggingface.co/datasets/NoisyHate/Noisy_Hate_Data"
+      ],
+      "persistent_doi": "10.5281/zenodo.14654784",
+      "code_repository_url": "https://github.com/YiranYe/NoisyHate",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "NoisyHate dataset is also accessible through HuggingFace’s data repository or the public DOI: 10.5281/zenodo.14654784.",
+      "scale_quote": "Subsequently, approximately 78.4% (1,339 examples) of the remaining data were deemed high-quality perturbations and retained for further analysis.",
+      "annotation_quote": "Each MTurk worker is then presented with a pair of perturbed sentences, its clean version, and asked to determine the quality of the perturbed one.",
+      "ethics_quote": "Our study was approved by an institutional IRB board.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper describes 1,339 retained benchmark examples but does not explicitly state whether total records counts both clean and perturbed files or paired examples; this coding treats a clean-perturbed pair as one example. Temporal coverage, user counts, data geography, and the dataset license are not stated."
+    }
+  }
+}

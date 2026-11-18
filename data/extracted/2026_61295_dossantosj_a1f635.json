@@ -1,0 +1,187 @@
+{
+  "paper_id": "2026_61295_dossantosj_a1f635",
+  "year": 2026,
+  "pdf_filename": "61295-dosSantosJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:11:58+00:00",
+    "usage": [
+      {
+        "input_tokens": 24112,
+        "output_tokens": 1333,
+        "cache_read_input_tokens": 21919,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0114QzvkjclDKHzjXuSJ89wKoqQ",
+        "structured_mode": "prompt",
+        "json_repaired": true
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 67343,
+    "sha256": "8c57a77538a8b4a91d3933fc08b73c0bdba8c758c8bd4e576dc07829c9c8dd00",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://zenodo.org/records/18190030"
+    ],
+    "urls_in_references": [
+      "https://folha.com/e0cxpbns",
+      "https://www.reuters.com/world/americas/brazil-health-regulatorapproves-pfizer-covid-19-shot-ages-5-11-2021-12-16/",
+      "https://www.reuters.com/world/americas/brazil-alertafter-third-case-omicron-variant-2021-12-01/",
+      "https://folha.com/o8t1fdrg",
+      "https://www.who.int/news/item/15-07-2025global-childhood-vaccination-coverage-holds-steady-yet-over-14million-infants-remain-unvaccinated-who-unicef"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "WhatsApp Vaccine Discourse (WhaVax): An Expert-Annotated Dataset and Benchmark for Health Misinformation Detection",
+      "authors": [
+        "Jonatas Henrique dos Santos",
+        "Julio C. S. Reis",
+        "Philipe de Freitas Melo",
+        "João Francisco Hecksher Olivetti",
+        "Thales Henrique Silva",
+        "Matheus Gontijo Guimaraes",
+        "Glaucio de Souza",
+        "Marcos Goncalves",
+        "Fabrício Benevenuto",
+        "Filipe Belchior Bessa Zanovello",
+        "Marco Antônio Gonçalves Rodrigues",
+        "Cristiano Xavier Lima"
+      ],
+      "author_countries": [
+        "BR"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "WhaVax",
+      "platforms": [
+        "WhatsApp"
+      ],
+      "platform_names_verbatim": [
+        "WhatsApp"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset",
+        "Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40)"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2020",
+      "temporal_coverage_end": "2023",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 80257,
+      "num_accounts_or_users": 14322,
+      "scale_description_verbatim": "a final dataset of 80,257 unique messages from 14,322 users across 932 public WhatsApp groups",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "pt"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "BR"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Hate speech, toxicity and harassment",
+        "Public health and COVID-19"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "Topic or content classification",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "health misinformation detection",
+        "binary text classification task, where each of the 950 expert-annotated WhatsApp messages is labeled as either misinformation or nonmisinformation",
+        "detailed characterization of linguistic, structural, lexical, temporal, and group-level patterns"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 950,
+      "num_annotators": 4,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa"
+      ],
+      "iaa_primary_value": 0.621,
+      "iaa_summary_verbatim": "even though it yielded a final Fleiss’ Kappa value of 0.621, which is considered good",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/18190030"
+      ],
+      "persistent_doi": "10.5281/zenodo.18190030",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "all personally identifiable information was anonymized, retaining only area codes",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "the dataset build in this paper is publicly available here: https://zenodo.org/records/18190030",
+      "scale_quote": "This step removed 5.18% of messages, resulting in a final dataset of 80,257 unique messages from 14,322 users across 932 public WhatsApp groups",
+      "annotation_quote": "In the final phase, the same four experts annotated 950 randomly selected messages, maintaining thematic diversity and natural temporal distribution",
+      "ethics_quote": "all messages were de-identified prior to analysis, no personally identifiable information is released, and the dataset is intended for controlled research",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Temp"
+    }
+  }
+}

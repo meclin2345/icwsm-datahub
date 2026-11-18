@@ -1,0 +1,18 @@
+{
+  "page_count": 14,
+  "n_chars": 65599,
+  "sha256": "edb4ad4116b2c6af23464a81865e592979e3d4ea00e5c28749249a3d04bd0dbf",
+  "checklist_detected": true,
+  "urls_in_body": [],
+  "urls_in_references": [
+    "https://ssrn.com/abstract=4114905",
+    "https://ssrn.com/abstract=4088828",
+    "https://tubestats.org"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.18267682"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

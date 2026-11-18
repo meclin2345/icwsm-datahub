@@ -1,0 +1,179 @@
+{
+  "paper_id": "2025_31096_icwsm_pehlivanz_7b0493",
+  "year": 2025,
+  "pdf_filename": "31096-ICWSM.PehlivanZ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:06:44+00:00",
+    "usage": [
+      {
+        "input_tokens": 14854,
+        "output_tokens": 1176,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011taImgft7x2SluDsidcVroCHz",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 31719,
+    "sha256": "5ba36cb44816207e87f1efd9680d09a7e93dc1a9c45426bc3dcfeb50e799cebf",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/ZeynepP/ocanada-tvnews",
+      "https://figshare.com/s/3cd465d04ff4dda93390",
+      "https://developers.google.com/youtube/v3",
+      "https://huggingface.co/pyannote/speaker-diarization-3.1"
+    ],
+    "urls_in_references": [
+      "https://force11"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "OCanada-TVNews: A Two-Year Dataset for Gender and Topic Diversity in Canadian TV News Broadcasts",
+      "authors": [
+        "Zeynep Pehlivan"
+      ],
+      "author_countries": [
+        "CA"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "OCanada-TVNews",
+      "platforms": [
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "YouTube Data API",
+        "pytubefix"
+      ],
+      "temporal_coverage_start": "2023",
+      "temporal_coverage_end": "2024",
+      "primary_record_unit": "Videos",
+      "total_records": 3982,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "3982 videos, in total 999 hours",
+      "modalities": [
+        "Video",
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "CA"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Gender, race and identity",
+        "News and journalism",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Multimodal understanding (image/video/audio)",
+        "Topic or content classification",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "gender and topic diversity",
+        "gender recognition",
+        "topic classification"
+      ],
+      "annotation_paradigms": [
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Figshare",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://figshare.com/s/3cd465d04ff4dda93390",
+        "https://github.com/ZeynepP/ocanada-tvnews"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/ZeynepP/ocanada-tvnews",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON",
+        "RTTM"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Comments from YouTube metadata were removed to prevent privacy issues.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Code — https://github.com/ZeynepP/ocanada-tvnews Datasets — https://figshare.com/s/3cd465d04ff4dda93390",
+      "scale_quote": "This dataset comprises 3982 videos (999 hours of content) and includes transcripts, speaker diarization, gender labels as female and male, and topic labels",
+      "annotation_quote": "We use a pre-trained pretrained model to classify each speaker turn as female or male based on only audio.",
+      "ethics_quote": "We only collected publicly available YouTube data, adhering to platform policies and respecting user privacy.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states a DOI will be assigned to the FigShare dataset, but no explicit DOI string is printed in the provided text."
+    }
+  }
+}

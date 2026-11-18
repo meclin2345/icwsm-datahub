@@ -1,0 +1,170 @@
+{
+  "summary": {
+    "paper_id": "2026_61200_salettiz_b3775d",
+    "year": 2026,
+    "audited_at": "2026-10-29T09:13:35+00:00",
+    "normalized_doi": "10.5281/zenodo.18234750",
+    "doi_resolves": true,
+    "n_urls_checked": 4,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.18234750",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/18234750",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 1,
+    "total_size_mb": 135.22,
+    "file_extensions": ".gz",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 47,
+    "downloads_unique": 43,
+    "views_total": 134,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-zero",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/DivinWD/dataset-resources",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 0,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2026-03-04T08:45:40Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.18234750",
+      "resolved_url": "https://zenodo.org/records/18234750",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:10+00:00",
+      "error": null
+    },
+    {
+      "url": "https://zenodo.org/records/18234750",
+      "resolved_url": "https://zenodo.org/records/18234750",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:11+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/DivinWD/dataset-resources",
+      "resolved_url": "https://github.com/DivinWD/dataset-resources",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:12+00:00",
+      "error": null
+    },
+    {
+      "url": "https://divinwd.dev/datasheet",
+      "resolved_url": null,
+      "http_status": null,
+      "category": "Timeout",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": null,
+      "checked_at": "2026-10-29T09:11:02+00:00",
+      "error": "timeout"
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "18234750",
+    "concept_doi": "10.5281/zenodo.18234749",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-zero",
+    "file_count": 1,
+    "total_size_mb": 135.22,
+    "file_extensions": [
+      ".gz"
+    ],
+    "stats_raw": {
+      "downloads": 47,
+      "unique_downloads": 43,
+      "views": 134,
+      "unique_views": 117,
+      "version_downloads": 47,
+      "version_unique_downloads": 43,
+      "version_unique_views": 117,
+      "version_views": 134
+    },
+    "downloads": 47,
+    "unique_downloads": 43,
+    "views": 134,
+    "unique_views": 117,
+    "version_downloads": 47,
+    "version_unique_downloads": 43,
+    "publication_date": "2026-01-15"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": true,
+    "repo": "DivinWD/dataset-resources",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-03-04T08:45:40Z",
+    "created_at": "2026-01-13T14:55:57Z",
+    "size_mb": 0.06,
+    "license": "MIT"
+  },
+  "github_code": {
+    "found": true,
+    "repo": "DivinWD/dataset-resources",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-03-04T08:45:40Z",
+    "created_at": "2026-01-13T14:55:57Z",
+    "size_mb": 0.06,
+    "license": "MIT"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/doi/10.5281/zenodo.18234750",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2026"
+  },
+  "wayback": null
+}

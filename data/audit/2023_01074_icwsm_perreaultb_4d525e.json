@@ -1,0 +1,115 @@
+{
+  "summary": {
+    "paper_id": "2023_01074_icwsm_perreaultb_4d525e",
+    "year": 2023,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.7910/DVN/YFAH9X",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.7910/DVN/YFAH9X",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/YFAH9X",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Dataverse",
+    "file_count": 57,
+    "total_size_mb": 2740.25,
+    "file_extensions": ".csv",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 553,
+    "downloads_unique": 21,
+    "views_total": 689,
+    "downloads_metric_source": "Dataverse Make Data Count",
+    "repo_license": "CC0 1.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Harvard Dataverse",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.7910/DVN/YFAH9X",
+      "resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/YFAH9X",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:22:58+00:00",
+      "error": null
+    },
+    {
+      "url": "https://cs.wellesley.edu/~credlab/icwsm2023/",
+      "resolved_url": "https://cs.wellesley.edu/~credlab/icwsm2023/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html",
+      "checked_at": "2026-10-29T03:22:58+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": true,
+    "instance": "https://dataverse.harvard.edu",
+    "pid": "doi:10.7910/DVN/YFAH9X",
+    "version_state": "RELEASED",
+    "license": "CC0 1.0",
+    "file_count": 57,
+    "restricted_file_count": 0,
+    "restricted": false,
+    "partially_restricted": false,
+    "total_size_mb": 2740.25,
+    "file_extensions": [
+      ".csv"
+    ],
+    "terms_of_access": false,
+    "downloadsTotal": 553,
+    "viewsTotal": 689,
+    "downloadsUnique": 21
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Harvard Dataverse",
+    "landing_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/YFAH9X",
+    "views": 76,
+    "downloads": 15,
+    "citations": 0,
+    "registered_year": "2023"
+  },
+  "wayback": null
+}

@@ -1,0 +1,125 @@
+paper_id,year,availability_quote_score,scale_quote_score,annotation_quote_score,ethics_quote_score,license_quote_score,n_dataset_urls,n_urls_grounded,ungrounded_urls,doi_grounded,flags,n_flags,confidence
+2020_tborck_aaai_arslanf_1109_6d06df,2020,100.0,94.44444444444444,90.10989010989012,,,1,1,,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,High
+2020_tborck_aaai_baumgartner_1087_596952,2020,100.0,100.0,,,,2,2,,True,availability_quote_names_no_location,1,High
+2020_tborck_aaai_baumgartner_1116_c0d992,2020,98.66666666666667,94.44444444444444,,,,2,2,,True,,0,High
+2020_tborck_aaai_calisir_1025_8d91fb,2020,100.0,100.0,100.0,100.0,,1,1,,True,mixed_form_but_text_says_ids_only; title_taken_from_pdf_check_it,2,High
+2020_tborck_aaai_daie_1030_308d25,2020,100.0,100.0,100.0,100.0,,1,1,,True,availability_quote_names_no_location; annotated_count_equals_total_records; title_taken_from_pdf_check_it,3,Medium
+2020_tborck_aaai_jokubauskaitee_1061_8ed68b,2020,68.46846846846847,100.0,,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,Medium
+2020_tborck_aaai_kawakami_1098_0fa521,2020,93.47826086956522,100.0,,,,1,1,,True,availability_quote_names_no_location; title_taken_from_pdf_check_it,2,Medium
+2020_tborck_aaai_mitrevski_1063_c887da,2020,100.0,100.0,,,,1,1,,True,,0,High
+2020_tborck_aaai_papasavvaa_1099_49edfa,2020,98.0392156862745,100.0,100.0,100.0,,2,2,,True,llm_paradigm_but_no_llm_named; availability_quote_names_no_location; title_taken_from_pdf_check_it,3,High
+2020_tborck_aaai_pintera_1003_c34832,2020,100.0,100.0,,86.39455782312925,98.09523809523809,2,2,,True,title_taken_from_pdf_check_it,1,High
+2020_tborck_aaai_reis_1095_1_4c5ee7,2020,98.83720930232558,99.07407407407408,100.0,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,Medium
+2020_tborck_aaai_tekumallar_1036_200fe8,2020,83.44370860927152,100.0,88.02083333333334,99.20634920634922,100.0,2,2,,True,title_taken_from_pdf_check_it,1,High
+2021_01007_icwsm_abilova_a8f0e3,2021,98.50746268656717,98.85057471264368,100.0,98.56115107913669,,3,3,,True,title_taken_from_pdf_check_it,1,High
+2021_01019_icwsm_valentimr_3f02c8,2021,98.79518072289156,100.0,100.0,100.0,,2,2,,True,,0,High
+2021_01020_icwsm_prabhakart_5002a9,2021,100.0,100.0,100.0,100.0,100.0,1,1,,,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,High
+2021_01023_icwsm_alamf_c1d63a,2021,63.91752577319587,100.0,100.0,100.0,,1,1,,True,anonymized_form_but_no_pii_step; annotated_count_equals_total_records,2,Medium
+2021_01026_icwsm_hortaribeirom_94e3ef,2021,100.0,99.12280701754386,100.0,99.36708860759494,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2021_01035_icwsm_alamf_1997d7,2021,99.04761904761905,97.41935483870968,100.0,100.0,100.0,1,1,,,title_taken_from_pdf_check_it,1,Medium
+2021_01041_icwsm_elmast_ee2e9d,2021,100.0,100.0,,100.0,,1,1,,True,,0,High
+2021_01052_icwsm_alamf_75034a,2021,99.0909090909091,99.43181818181817,100.0,100.0,100.0,1,1,,,anonymized_form_but_no_pii_step; annotated_count_equals_total_records,2,High
+2021_01053_icwsm_duttah_8e97c7,2021,100.0,100.0,,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,Medium
+2021_01055_icwsm_devernam_e3f331,2021,100.0,100.0,,100.0,,1,1,,True,availability_quote_names_no_location; title_taken_from_pdf_check_it,2,Medium
+2021_01064_icwsm_consonnic_60681a,2021,98.52941176470588,100.0,,91.32947976878613,,1,1,,,code_host_listed_as_dataset_host; title_taken_from_pdf_check_it,2,Medium
+2021_01066_icwsm_budakc_4456f3,2021,100.0,100.0,100.0,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2021_01067_icwsm_cortisk_3e881e,2021,87.75510204081633,100.0,100.0,100.0,100.0,1,1,,True,mixed_form_but_text_says_ids_only; pii_true_for_ids_only_release; annotated_count_equals_total_records,3,High
+2021_01068_icwsm_crawfordb_4d22a6,2021,100.0,100.0,,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2021_01074_icwsm_robertsh_33b05b,2021,97.05882352941177,100.0,,100.0,,7,7,,True,title_taken_from_pdf_check_it,1,Medium
+2021_01075_icwsm_aliapouliosm_75fafe,2021,79.45205479452055,100.0,,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2022_01010_icwsm_hofmannv_76d66c,2022,100.0,100.0,100.0,100.0,100.0,2,2,,True,title_taken_from_pdf_check_it,1,Medium
+2022_01012_icwsm_bensona_444a8b,2022,100.0,100.0,,100.0,,2,2,,True,,0,Medium
+2022_01015_icwsm_zhaoc_a5e8c5,2022,100.0,82.41758241758241,100.0,100.0,100.0,1,1,,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,Medium
+2022_01018_icwsm_lugeons_2f295a,2022,100.0,100.0,100.0,100.0,,1,1,,,annotated_count_equals_total_records,1,High
+2022_01021_icwsm_giovannim_15cc33,2022,100.0,98.18181818181819,100.0,98.74213836477988,,2,2,,True,,0,High
+2022_01022_icwsm_guox_230eb8,2022,100.0,100.0,100.0,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2022_01033_icwsm_steinert_threlkeldz_7525ab,2022,100.0,100.0,100.0,99.14529914529915,,1,1,,True,title_taken_from_pdf_check_it,1,Medium
+2022_01043_icwsm_meierf_6015a4,2022,100.0,100.0,100.0,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2022_01057_icwsm_hohns_65ae33,2022,97.35849056603773,92.45283018867924,,100.0,,2,2,,True,title_taken_from_pdf_check_it,1,High
+2022_01065_icwsm_horneb_1f62b4,2022,100.0,100.0,100.0,,99.04761904761905,1,1,,True,title_taken_from_pdf_check_it,1,High
+2022_01066_icwsm_trujillom_d6e509,2022,100.0,100.0,,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2022_01080_icwsm_mekachera_a0f21a,2022,100.0,100.0,,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2022_01085_icwsm_sharmas_a9d48e,2022,100.0,100.0,92.23300970873787,,,1,1,,True,availability_quote_names_no_location; annotated_count_equals_total_records; title_taken_from_pdf_check_it,3,High
+2022_01096_icwsm_hamlettm_f47275,2022,97.8021978021978,100.0,100.0,100.0,,1,1,,,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,Medium
+2022_01097_icwsm_dharawata_ce5c6c,2022,100.0,94.87179487179486,100.0,100.0,,1,1,,,availability_quote_names_no_location; annotated_count_equals_total_records; json_was_repaired_check_quotes,3,High
+2022_01098_icwsm_giorgis_4afa3b,2022,100.0,100.0,100.0,100.0,100.0,1,1,,,title_taken_from_pdf_check_it,1,High
+2022_01100_icwsm_alvarezr_d6bfd5,2022,98.14814814814815,100.0,100.0,100.0,100.0,1,1,,,,0,High
+2022_01103_icwsm_aryaa_970794,2022,100.0,100.0,100.0,100.0,,1,0,https://doi.org/10.7910/DVN/BPY2JY,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,High
+2022_01110_icwsm_singhals_0dfe7b,2022,100.0,100.0,100.0,,,2,2,,True,notes_mention_inference; annotated_count_equals_total_records; title_taken_from_pdf_check_it,3,Medium
+2022_01111_icwsm_s_90be70,2022,95.1048951048951,100.0,100.0,100.0,100.0,1,1,,False,title_taken_from_pdf_check_it,1,Medium
+2023_01002_icwsm_arnaouth_4741dc,2023,100.0,100.0,,100.0,,2,2,,True,title_taken_from_pdf_check_it,1,High
+2023_01003_icwsm_steffene_3d07ad,2023,100.0,99.1701244813278,86.82170542635659,100.0,,1,1,,,availability_quote_names_no_location; annotated_count_equals_total_records; title_taken_from_pdf_check_it,3,High
+2023_01017_icwsm_muy_672ab1,2023,100.0,81.64556962025317,98.86363636363636,95.22058823529412,,1,1,,True,mixed_form_but_text_says_ids_only; pii_true_for_ids_only_release; annotated_count_equals_total_records; title_taken_from_pdf_check_it,4,Medium
+2023_01018_icwsm_ziliusk_e05427,2023,100.0,100.0,100.0,100.0,,1,1,,True,,0,High
+2023_01026_icwsm_abdaljalils_59a4ec,2023,95.4954954954955,60.75949367088608,100.0,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,Medium
+2023_01044_icwsm_yiliaws_319e74,2023,100.0,100.0,100.0,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2023_01050_icwsm_matsunos_f87599,2023,100.0,100.0,100.0,100.0,100.0,1,1,,True,annotated_count_equals_total_records,1,Medium
+2023_01054_icwsm_gattoj_379f6d,2023,99.14529914529915,100.0,99.18032786885246,100.0,,1,1,,True,annotated_count_equals_total_records,1,Medium
+2023_01056_icwsm_pfefferj_068eef,2023,100.0,100.0,,100.0,100.0,1,1,,True,,0,High
+2023_01059_icwsm_gerardp_ebea8e,2023,100.0,100.0,,100.0,,1,1,,True,anonymized_form_but_no_pii_step,1,High
+2023_01067_icwsm_dasm_15da2d,2023,87.87878787878788,94.5945945945946,100.0,100.0,100.0,2,2,,True,availability_quote_names_no_location; annotated_count_equals_total_records; title_taken_from_pdf_check_it,3,High
+2023_01074_icwsm_perreaultb_4d525e,2023,88.67924528301887,100.0,100.0,99.03846153846155,,2,1,https://cs.wellesley.edu/~credlab/icwsm2023/,True,,0,High
+2023_01085_icwsm_changr_5c0df4,2023,100.0,94.02985074626866,,100.0,,1,1,,True,,0,High
+2023_01088_icwsm_chene_458e5e,2023,98.78048780487805,100.0,,100.0,71.27659574468085,1,1,,,,0,High
+2023_01090_icwsm_aiyappar_024185,2023,99.42196531791907,100.0,100.0,100.0,,1,1,,,,0,Medium
+2023_01095_icwsm_susannepohlj_c21e7d,2023,68.63905325443787,100.0,100.0,100.0,,2,2,,True,mixed_form_but_text_says_ids_only; pii_true_for_ids_only_release; annotated_count_equals_total_records; title_taken_from_pdf_check_it,4,High
+2024_41022_icwsm_ohn_17a4f7,2024,100.0,100.0,,100.0,100.0,3,3,,True,,0,High
+2024_41027_icwsm_mekachera_cda00a,2024,99.03846153846155,100.0,,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2024_41028_icwsm_glasebachj_5debcc,2024,100.0,100.0,100.0,100.0,100.0,2,2,,True,availability_quote_names_no_location; code_host_listed_as_dataset_host; annotated_count_equals_total_records,3,Medium
+2024_41029_icwsm_piotp_beffb0,2024,100.0,100.0,100.0,100.0,100.0,1,1,,True,annotated_count_equals_total_records,1,Medium
+2024_41031_icwsm_dasp_a36461,2024,100.0,100.0,100.0,100.0,100.0,1,1,,True,availability_quote_names_no_location,1,Medium
+2024_41033_icwsm_lieba_f44437,2024,100.0,100.0,100.0,100.0,,2,1,https://doi.org/10.5281/zenodo.10516190,True,annotated_count_equals_total_records,1,High
+2024_41040_icwsm_chenk_c3dd7b,2024,81.53846153846153,100.0,74.72527472527473,100.0,,2,2,,True,,0,High
+2024_41042_icwsm_ail_177c70,2024,94.6236559139785,79.75460122699387,100.0,89.171974522293,,1,1,,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,High
+2024_41045_icwsm_horneb_96c457,2024,99.01960784313727,100.0,,100.0,99.01960784313727,2,2,,True,,0,High
+2024_41048_icwsm_cascalheirac_8f4574,2024,100.0,98.52941176470588,100.0,100.0,98.1651376146789,1,1,,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,Medium
+2024_41065_icwsm_gambettia_b442fa,2024,100.0,100.0,93.93939393939394,100.0,100.0,2,2,,True,title_taken_from_pdf_check_it,1,High
+2024_41071_icwsm_shaym_9daa1f,2024,100.0,100.0,69.00584795321637,98.93617021276596,98.91304347826086,1,1,,True,title_taken_from_pdf_check_it,1,High
+2024_41077_icwsm_romanos_1bcb13,2024,99.35483870967742,100.0,97.8102189781022,100.0,,1,1,,True,title_taken_from_pdf_check_it,1,High
+2024_41080_icwsm_patelj_4895c5,2024,100.0,100.0,100.0,100.0,,3,3,,,title_taken_from_pdf_check_it,1,Medium
+2024_41082_icwsm_jangrah_b6a062,2024,97.67441860465115,100.0,100.0,99.27007299270073,,2,2,,True,title_taken_from_pdf_check_it,1,High
+2024_41084_icwsm_shangl_ba6d42,2024,97.67441860465115,100.0,100.0,100.0,98.01980198019803,2,2,,True,mixed_form_but_text_says_ids_only; notes_mention_inference,2,High
+2024_41087_icwsm_chenx_a8eb41,2024,98.64864864864865,97.35099337748345,100.0,100.0,,1,1,,,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,Medium
+2025_31007_icwsm_mitrovicdankulovm_a4b8e3,2025,100.0,100.0,100.0,100.0,100.0,1,1,,,,0,High
+2025_31017_icwsm_bisianis_5512fb,2025,100.0,94.78260869565217,99.18032786885246,92.3076923076923,100.0,1,1,,True,notes_mention_inference; title_taken_from_pdf_check_it,2,High
+2025_31029_icwsm_seckino_db19a8,2025,100.0,100.0,92.03539823008849,100.0,100.0,1,1,,True,notes_mention_inference,1,High
+2025_31031_icwsm_guritaa_46de6b,2025,100.0,100.0,,100.0,100.0,1,1,,False,title_taken_from_pdf_check_it,1,High
+2025_31042_icwsm_gilderslevep_b5a828,2025,100.0,100.0,,100.0,100.0,2,2,,True,title_taken_from_pdf_check_it,1,High
+2025_31048_icwsm_naj_75161f,2025,99.30555555555556,100.0,,100.0,97.10144927536231,1,1,,,title_taken_from_pdf_check_it,1,Medium
+2025_31050_icwsm_suwailehr_6e81b6,2025,99.3006993006993,100.0,69.7508896797153,100.0,91.50326797385621,2,2,,,notes_mention_inference; annotated_count_equals_total_records; title_taken_from_pdf_check_it,3,High
+2025_31051_icwsm_mayera_d9a6e9,2025,100.0,97.54098360655738,100.0,100.0,100.0,1,1,,True,,0,High
+2025_31054_icwsm_seidenbergers_273d24,2025,99.41176470588235,99.43181818181817,55.28455284552846,98.4375,100.0,2,2,,True,,0,High
+2025_31069_icwsm_gangopadhyays_3c45cf,2025,90.60402684563759,100.0,93.15789473684211,100.0,,3,3,,True,title_taken_from_pdf_check_it,1,Medium
+2025_31071_icwsm_jow_3b1568,2025,100.0,100.0,98.55072463768117,100.0,94.73684210526316,1,1,,True,anonymized_form_but_no_pii_step,1,High
+2025_31079_icwsm_bawaa_928576,2025,87.73584905660378,89.56521739130436,100.0,100.0,,1,1,,True,,0,High
+2025_31080_icwsm_alherakih_0702b8,2025,100.0,100.0,100.0,100.0,,1,1,,True,annotated_count_equals_total_records,1,High
+2025_31093_icwsm_yey_3a5b33,2025,88.98305084745762,100.0,99.31972789115646,100.0,,2,1,https://huggingface.co/datasets/NoisyHate/Noisy_Hate_Data,True,,0,Medium
+2025_31094_icwsm_brosv_357b01,2025,100.0,100.0,98.83720930232558,100.0,100.0,2,2,,True,availability_quote_names_no_location,1,High
+2025_31095_icwsm_pehlivanz_18baa0,2025,100.0,100.0,100.0,100.0,100.0,1,1,,,title_taken_from_pdf_check_it,1,High
+2025_31096_icwsm_pehlivanz_7b0493,2025,100.0,100.0,73.58490566037736,100.0,,2,2,,,title_taken_from_pdf_check_it,1,High
+2025_31097_icwsm_elsaftyh_742b1f,2025,100.0,100.0,100.0,100.0,,0,0,,,title_taken_from_pdf_check_it,1,Medium
+2025_31104_icwsm_hagarn_d70c86,2025,90.57971014492753,100.0,,100.0,94.00921658986175,4,4,,,title_taken_from_pdf_check_it,1,Medium
+2025_31107_icwsm_haouarif_f61f85,2025,100.0,100.0,100.0,100.0,89.25619834710744,2,2,,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,High
+2025_31109_icwsm_bochenekj_469d03,2025,100.0,100.0,100.0,100.0,99.20318725099602,1,1,,True,,0,Medium
+2025_31126_icwsm_kireevk_1_ebcc6e,2025,92.67241379310344,100.0,98.63945578231292,100.0,92.67241379310344,1,1,,,notes_mention_inference; availability_quote_names_no_location; title_taken_from_pdf_check_it,3,Medium
+2025_31127_icwsm_cooko_bd7a95,2025,99.08256880733946,100.0,100.0,100.0,70.78651685393258,1,1,,True,code_host_listed_as_dataset_host; annotated_count_equals_total_records,2,High
+2025_51200_icwsm_handzlikd_355c92,2025,98.14814814814815,100.0,81.71428571428572,100.0,100.0,1,1,,True,,0,High
+2026_61011_schaferk_500b20,2026,92.3529411764706,80.1556420233463,64.80263157894737,72.39819004524887,100.0,1,1,,True,anonymized_form_but_no_pii_step; title_taken_from_pdf_check_it,2,Medium
+2026_61013_vermap_a42350,2026,100.0,100.0,98.4,100.0,,1,1,,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,Medium
+2026_61043_sherrattv_0fb719,2026,100.0,100.0,100.0,100.0,100.0,1,1,,True,availability_quote_names_no_location; code_host_listed_as_dataset_host,2,High
+2026_61195_goncalvesa_e8a17a,2026,100.0,100.0,,100.0,100.0,1,1,,True,,0,High
+2026_61200_salettiz_b3775d,2026,97.5609756097561,79.59183673469387,99.25373134328358,100.0,100.0,3,3,,True,,0,High
+2026_61209_cerullia_fa3a32,2026,100.0,100.0,,100.0,100.0,1,1,,True,notes_mention_inference; title_taken_from_pdf_check_it,2,High
+2026_61275_mischingerm_9a294d,2026,100.0,100.0,100.0,100.0,100.0,2,2,,True,anonymized_form_but_no_pii_step; availability_quote_names_no_location; title_taken_from_pdf_check_it,3,High
+2026_61295_dossantosj_a1f635,2026,100.0,100.0,100.0,100.0,,1,1,,False,json_was_repaired_check_quotes,1,High
+2026_61312_golovina_e0f835,2026,98.7012987012987,100.0,100.0,100.0,100.0,2,1,https://github.com/Priesemann-Group/telegram-quality-control,,title_taken_from_pdf_check_it,1,High
+2026_61332_yaor_5edccd,2026,100.0,98.3739837398374,100.0,82.35294117647058,100.0,3,3,,True,mixed_form_but_text_says_ids_only; pii_true_for_ids_only_release; annotated_count_equals_total_records; title_taken_from_pdf_check_it,4,High
+2026_61339_avrama_ce3fb9,2026,99.01960784313727,100.0,100.0,100.0,,1,1,,,title_taken_from_pdf_check_it,1,Medium
+2026_61388_al_mohannadia_3f74c2,2026,98.68421052631578,90.83969465648855,100.0,99.5575221238938,,1,1,,True,annotated_count_equals_total_records,1,High
+2026_61440_bermejof_61d436,2026,100.0,100.0,,100.0,100.0,1,1,,True,title_taken_from_pdf_check_it,1,Medium
+2026_61448_led_e57cbd,2026,100.0,97.98657718120806,100.0,100.0,,2,2,,True,annotated_count_equals_total_records; title_taken_from_pdf_check_it,2,High
+2026_61500_urmana_431c1b,2026,99.26470588235294,99.33333333333333,100.0,100.0,100.0,1,1,,True,title_taken_from_pdf_check_it,1,High
+2026_61503_matosb_d46e19,2026,100.0,100.0,86.51685393258427,100.0,,2,2,,,code_host_listed_as_dataset_host; title_taken_from_pdf_check_it,2,High
+2026_61552_egglestonc_0c109e,2026,100.0,98.78048780487805,,100.0,100.0,0,0,,True,title_taken_from_pdf_check_it,1,High
+2026_61592_brownm_1bb9a6,2026,85.41666666666666,100.0,,99.29577464788733,100.0,3,3,,True,title_taken_from_pdf_check_it,1,High
+2026_61717_safdarifesaghandisz_e07c9a,2026,100.0,100.0,100.0,100.0,100.0,2,2,,True,no_platform; annotated_count_equals_total_records; title_taken_from_pdf_check_it,3,High

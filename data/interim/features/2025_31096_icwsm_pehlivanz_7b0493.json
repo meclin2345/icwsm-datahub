@@ -1,0 +1,19 @@
+{
+  "page_count": 7,
+  "n_chars": 31719,
+  "sha256": "5ba36cb44816207e87f1efd9680d09a7e93dc1a9c45426bc3dcfeb50e799cebf",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/ZeynepP/ocanada-tvnews",
+    "https://figshare.com/s/3cd465d04ff4dda93390",
+    "https://developers.google.com/youtube/v3",
+    "https://huggingface.co/pyannote/speaker-diarization-3.1"
+  ],
+  "urls_in_references": [
+    "https://force11"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

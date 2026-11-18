@@ -1,0 +1,21 @@
+{
+  "page_count": 7,
+  "n_chars": 35570,
+  "sha256": "9e3daa3fa52d2f08fa692e6cebdc838a1a463ef7381224e21225945ce4eb264b",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://github.com/epfl-dlab/homepage2vec",
+    "https://curlie.org/",
+    "https://w3techs.com/technologies/overview/content",
+    "https://github.com/epfldlab/homepage2vec",
+    "https://www.crummy.com/software/BeautifulSoup/",
+    "https://www.selenium.dev/",
+    "https://www.worldbank.org/",
+    "https://commoncrawl.org/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,25 @@
+{
+  "page_count": 10,
+  "n_chars": 53069,
+  "sha256": "98cdfe62c97eb271d88d7f3e6bcdfe271abc77711ece58a00a2824a984ba8e72",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "http://diab.edublogs.org/dataset-for-arabic-documentclassification/",
+    "http://www.sentiment140.com/",
+    "http://sentistrength.wlv.ac.uk/",
+    "https://huggingface.co/UBC-NLP/MARBERT",
+    "https://huggingface.co/aubmindlab/bert-base-arabertv02",
+    "https://huggingface.co/aubmindlab/bert-base-arabertv02-",
+    "https://huggingface.co/qarib/bert-base-qarib",
+    "https://huggingface.co/CAMeL-Lab/bert-base-arabic-",
+    "https://huggingface.co/aubmindlab/bertbase-arabertv02-twitter"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10",
+    "https://doi.org/10.7910/DVN/LBXV9O"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

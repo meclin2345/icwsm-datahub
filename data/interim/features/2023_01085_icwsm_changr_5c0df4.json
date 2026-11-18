@@ -1,0 +1,31 @@
+{
+  "page_count": 9,
+  "n_chars": 45928,
+  "sha256": "74e187059c5b86175e4756838267704df7316de82b1daf25cce96df681e56c13",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://en",
+    "https://developer.twitter.com/en/docs/twitter-api/tweets/",
+    "https://pypi.org/project/tldextract/",
+    "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi"
+  ],
+  "urls_in_references": [
+    "https://www.pewresearch.org/politics/2022/06/16/",
+    "https://www.politico.com/news/2022/05/02/supreme-courtabortion-draft-opinion-00029473",
+    "https://doi",
+    "https://doi.org/10.7910/DVN/",
+    "https://prochoice.org/national-abortion-federationreleases-2021-violence-disruption-report/",
+    "https://www.pewresearch.org/",
+    "https://news.gallup.com/poll/147734/",
+    "https://news.gallup.com/poll/126374/",
+    "https://www.supremecourt.gov/opinions/21pdf/",
+    "https://www.pewresearch.org/journalism/",
+    "https://developer.twitter.com/en/developerterms/agreement-and-policy"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/STU0J5"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": true
+}

@@ -1,0 +1,19 @@
+{
+  "page_count": 11,
+  "n_chars": 65748,
+  "sha256": "da119a98c27dcb77f1697ea9bb8ff73d68f38b177645fb55c15d271d9f53bf22",
+  "checklist_detected": false,
+  "urls_in_body": [],
+  "urls_in_references": [
+    "https://taz.de/Impfgegnerund-die-Coronapandemie/!5735702/",
+    "https://zenodo.org/record/7093870",
+    "https://cemas.io/blog/verschwoerungsideologischemoblisierung/",
+    "https://www",
+    "https://www.amadeuantonio-stiftung.de/tacheles-struktureller-antisemitismus-istantisemitismus-noch-ohne-juden-66257/",
+    "https://www.zdf.de/uri/b600a1a4-af16-4ca1-8e1d436fa49fe8cc"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

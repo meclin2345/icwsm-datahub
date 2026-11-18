@@ -1,0 +1,24 @@
+{
+  "page_count": 12,
+  "n_chars": 57842,
+  "sha256": "52ee1679d18a39fa770547649474e4d2ea8123db116e7704cb1125527f1e7296",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.globalmediainsight.com/blog/youtube-usersstatistics/",
+    "https://www.aosfatos.org/",
+    "https://escriba.aosfatos.org/en/",
+    "https://huggingface.co/neuralmind/bert-base-portuguesecased",
+    "https://github.com/doccano/doccano",
+    "https://zenodo.org/records/19097541",
+    "https://huggingface.co/datasets/brenomatos/msd",
+    "https://github.com/brenomatos/msd",
+    "https://huggingface.co/unicamp-dl/ptt5-base-portuguesevocab"
+  ],
+  "urls_in_references": [
+    "https://www.aosfatos.org/todas-as-declaracoesde-bolsonaro/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "paper_id": "2022_01012_icwsm_bensona_444a8b",
+    "year": 2022,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.5828209",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.5828209",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/5828209",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 11,
+    "total_size_mb": 3.02,
+    "file_extensions": ".json",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 1227,
+    "downloads_unique": 1183,
+    "views_total": 6583,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "mit-license",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/nveldt/fauci-email",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.5828209",
+      "resolved_url": "https://zenodo.org/records/5828209",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:07+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/nveldt/fauci-email",
+      "resolved_url": "https://github.com/nveldt/fauci-email",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:08+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "5828209",
+    "concept_doi": "10.5281/zenodo.5828208",
+    "access_right": "open",
+    "restricted": false,
+    "license": "mit-license",
+    "file_count": 11,
+    "total_size_mb": 3.02,
+    "file_extensions": [
+      ".json"
+    ],
+    "stats_raw": {
+      "downloads": 1227,
+      "unique_downloads": 1183,
+      "views": 6583,
+      "unique_views": 4843,
+      "version_downloads": 1223,
+      "version_unique_downloads": 1180,
+      "version_unique_views": 4829,
+      "version_views": 6567
+    },
+    "downloads": 1227,
+    "unique_downloads": 1183,
+    "views": 6583,
+    "unique_views": 4843,
+    "version_downloads": 1223,
+    "version_unique_downloads": 1180,
+    "publication_date": "2022-01-07"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false,
+    "api_status": 403,
+    "repo": "nveldt/fauci-email"
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 403,
+    "repo": "nveldt/fauci-email"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/record/5828209",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2022"
+  },
+  "wayback": null
+}

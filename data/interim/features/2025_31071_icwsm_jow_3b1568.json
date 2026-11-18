@@ -1,0 +1,25 @@
+{
+  "page_count": 14,
+  "n_chars": 63322,
+  "sha256": "e58d89f85a733b1619fe3c76bba485f06eaf5366cd583dd63a0ba3ad42a0ce78",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://zenodo.org/records/14647452",
+    "https://developers.google.com/youtube/v3/getting-started",
+    "https://pypi.org/project/youtube-transcript-api/"
+  ],
+  "urls_in_references": [
+    "https://www.pewresearch.org/internet/2021/04/07/social-media-use-in-2021/",
+    "https://tinyurl.com/SocialMediaMentalHealthReview",
+    "https://www.statista.com/statistics/1426538/us-adultsharmful-social-media-usage-teens-kids/",
+    "https://www.turing.ac.uk/sites/default/files/202303/tracking_experiences_of_online_harms_and_attitudes_report_final.pdf",
+    "https://www.pewresearch.org/short-reads/2023/04/24/teens-and-social-mediakey-findings-from-pew-research-center-surveys/",
+    "https://zenodo.org/records/14647452",
+    "https://help.openai.com/en/articles/5722486-how-your-data-isused-to-improve-model-performance",
+    "http://www.research.ucdavis.edu/policiescompliance/irb-admin/.You"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

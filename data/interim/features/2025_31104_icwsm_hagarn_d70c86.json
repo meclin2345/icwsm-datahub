@@ -1,0 +1,23 @@
+{
+  "page_count": 11,
+  "n_chars": 57187,
+  "sha256": "3f7996574bddf9caf9ab228fb9e4a69b6221f187f5a0ec08d3934573da7e4740",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://commoncrawl.org/terms-of-use",
+    "https://allenai.org/blog/olmo-1-7-7b-a-24-point-improvementon-mmlu-92b43f7d269d",
+    "https://github.com/NHagar/cc-genealogy",
+    "https://huggingface.co/collections/nhagar/cc-domain-counts67645a737b7a300ad3ab539f",
+    "https://huggingface.co/collections/nhagar/llm-training-urls67645a94115fa772cb1f89f8",
+    "https://huggingface.co/collections/nhagar/cc-domaincounts-67645a737b7a300ad3ab539f",
+    "https://huggingface.co/collections/nhagar/llm-trainingurls-67645a94115fa772cb1f89f8"
+  ],
+  "urls_in_references": [
+    "https://force11",
+    "https://github.com/duckdb/duckdbr"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

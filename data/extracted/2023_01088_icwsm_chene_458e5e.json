@@ -1,0 +1,206 @@
+{
+  "paper_id": "2023_01088_icwsm_chene_458e5e",
+  "year": 2023,
+  "pdf_filename": "01088-ICWSM.ChenE.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:03:42+00:00",
+    "usage": [
+      {
+        "input_tokens": 17432,
+        "output_tokens": 1265,
+        "cache_read_input_tokens": 15263,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011pouMHmfuR1EzwH7SMROVA8yg",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 8,
+    "n_chars": 35644,
+    "sha256": "2c6e505dac87bf079fec5ffab5a92684737f00e0eb7b52f04d8fa43f31e31fd5",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://github.com/echen102/ukraine-russia",
+      "https://developer.twitter.com/en/docs/twitter-api",
+      "https://developer.twitter.com/en/products/twitter-api/",
+      "https://github.com/DocNow/hydrator",
+      "https://github.com/DocNow/twarc",
+      "https://developer.twitter.com/en/docs/twitter-api/compliance/",
+      "https://github.com/",
+      "https://developer.twitter.com/en/developer-terms/agreementand-policy"
+    ],
+    "urls_in_references": [
+      "https://www.nytimes.com/article/ukraine-russiawar-timeline.html",
+      "https://www.bloomberg.com/graphics/",
+      "https://www.smithsonianmag.com/",
+      "https://apnews.com/article/russia-ukraine-covid-health09bce36f33719f793eaa79e1de520ad4",
+      "https://www.nytimes.com/2022/03/",
+      "https://www.reuters.com/article/us-ukraine-crisis/crimeansvote-over-90-percent-to-quit-ukraine-for-russiaidUKBREA1Q1E820140316",
+      "https://graphics.reuters",
+      "https://www.washingtonpost.com/outlook/",
+      "https://www.npr.org/2022/08/21/1118700800/ukraineindependence-day-russia-war",
+      "https://www.cnn.com/2022/08/23/europe/ukraineindependence-day-kyiv-display-intl/index.html",
+      "https://fortune.com/2022/03/02/viktor-yanukovychyanukovich-putin-put-back-in-power-ukraine-russia/",
+      "https://www.cnn.com/2022/02/24/europe/",
+      "https://www",
+      "https://abcnews.go.com/International/ukrainian-presidentvolodymyr-zelenskyy/story?id=83085078",
+      "https://www.cnbc.com/2022/03/01/how-is-anonymousattacking-russia-disabling-and-hacking-websites-.html",
+      "https://www.reuters.com/world/europe/",
+      "https://www.nytimes.com/2022/03/07/",
+      "https://www.politico.eu/article/ukrainerussia-disinformation-propaganda/",
+      "https://www.washingtonpost.com/world/2022/03/03/",
+      "https://www.washingtonpost",
+      "https://www.npr.org/2022/02/12/1080205477/",
+      "https://www.nytimes.com/2022/",
+      "https://www.washingtonpost.com/world/2022/02/21/whatis-donbas-donetsk-luhansk-conflict/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Tweets in Time of Conflict: A Public Dataset Tracking the Twitter Discourse on the War between Ukraine and Russia",
+      "authors": [
+        "Emily Chen",
+        "Emilio Ferrara"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Ukraine-Russia Twitter dataset",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter's streaming API v1.1",
+        "Twitter's search API"
+      ],
+      "temporal_coverage_start": "2022-02-22",
+      "temporal_coverage_end": "2023-01-08",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 454488445,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "This consists of a total of 454,488,445 tweets",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en",
+        "es",
+        "fr",
+        "de",
+        "it",
+        "ru",
+        "ja",
+        "uk",
+        "tr",
+        "pt",
+        "pl",
+        "nl",
+        "in",
+        "zh",
+        "mul"
+      ],
+      "num_languages": 15,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Armed conflict or war",
+      "event_name": "War between Ukraine and Russia",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Crisis, disaster and conflict informatics"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "combat misinformation, identify vulnerable communities and understand how the pervasiveness of social media has changed how modern conflict plays out both online and on the ground"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://github.com/echen102/ukraine-russia"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "license",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Tweet IDs are published without text or metadata so that researchers can retrieve payloads themselves; no identifier scrubbing is described.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset can be found on GitHub at: https://github.com/echen102/ukraine-russia.",
+      "scale_quote": "This consists of a total of 454,488,445 tweets",
+      "annotation_quote": "",
+      "ethics_quote": "The collection of this dataset was IRB-approved by USC.",
+      "license_quote": "Researchers who would like to use our collected data must remain in compliance with Twitter’s Terms & Conditions, and agree upon the terms of usage as outlined in the accompanying license.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The abstract describes nearly half a billion tweets through January 8, 2023, while the paper’s detailed statistics and release v1.2 report 454,488,445 tweets through October 1, 2022; the later collection end date of January 8, 2023 is taken from the abstract."
+    }
+  }
+}

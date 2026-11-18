@@ -1,0 +1,16 @@
+{
+  "page_count": 10,
+  "n_chars": 54580,
+  "sha256": "2989c0b6e3439361c8627f6ea0f7d27bd29d70fa969bc4cd0dfcc20786adf0e4",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.6406870"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.6406870"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

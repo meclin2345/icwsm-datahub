@@ -1,0 +1,192 @@
+{
+  "paper_id": "2024_41031_icwsm_dasp_a36461",
+  "year": 2024,
+  "pdf_filename": "41031-ICWSM.DasP.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:04:51+00:00",
+    "usage": [
+      {
+        "input_tokens": 22518,
+        "output_tokens": 906,
+        "cache_read_input_tokens": 20127,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011ltfJhxDby6zxobu48wpws58n",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 58593,
+    "sha256": "f6d6e50e187b325a20297576443a10c06025b0372d030a6b425909993a881516",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.10495081",
+      "https://ores.wikimedia.org/",
+      "https://en.wikipedia.org/wiki/Wikipedia:Content",
+      "https://en.wikipedia.org/wiki/Wikipedia:What",
+      "https://github.com/earwig/mwparserfromhell",
+      "https://stats.wikimedia.org/EN/BotActivityMatrixCreates.htm",
+      "https://en.wikipedia.org/wiki/Wikipedia:WikiProject",
+      "https://w.wiki/7kTP",
+      "https://doi.org/10"
+    ],
+    "urls_in_references": [
+      "https://dumps.wikimedia.org/backup-index.html",
+      "https://meta.wikimedia.org/wiki/Machine"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.10495081"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Language-Agnostic Modeling of Wikipedia Articles for Content Quality Assessment across Languages",
+      "authors": [
+        "Paramita Das",
+        "Isaac Johnson",
+        "Diego Saez-Trumper",
+        "Pablo Aragón"
+      ],
+      "author_countries": [
+        "IN",
+        "US"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Wikipedia/Wikidata"
+      ],
+      "platform_names_verbatim": [
+        "Wikipedia"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "XML dumps",
+        "PySpark"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "2022-12-31",
+      "primary_record_unit": "Other",
+      "total_records": 2000000000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "We generate a dataset of more than 2 billion revisions stored as CSV files (one file per language edition)",
+      "modalities": [
+        "Text",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": 300,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Other",
+        "News and journalism"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "User profiling or demographic inference",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "automatic content quality assessment",
+        "evolution of article quality",
+        "cross-lingual studies",
+        "content gaps in quality on a given topic",
+        "quantifying the relationship between quality and reliability of articles",
+        "measuring the impact of anonymous edits on article quality"
+      ],
+      "annotation_paradigms": [
+        "Platform-native signals (Community Notes, moderation logs, votes)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 25504,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)",
+        "Graph or network models",
+        "Classical ML (SVM, logistic regression, random forest)",
+        "No experiments",
+        "Vision, audio or multimodal models",
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.10495081"
+      ],
+      "persistent_doi": "10.5281/zenodo.10495081",
+      "code_repository_url": "",
+      "distribution_form": "Aggregated statistics, embeddings or derived features only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY-SA 4.0",
+      "license_category": "CC BY-SA",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The datasets are released in CSV files, a standard format for tabular data that is easily readable in most programming languages and data processing platforms.",
+      "scale_quote": "We generate a dataset of more than 2 billion revisions stored as CSV files (one file per language edition)",
+      "annotation_quote": "The task of assessing article quality is primarily carried out by Wikipedia editors who mark their evaluations on the talk pages associated with each article.",
+      "ethics_quote": "This research was observational only and we did not use any user information from Wikipedia editors.",
+      "license_quote": "Anyone with an Internet connection can freely access our datasets, which are licensed under CC BY-SA 4.0.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Temporal coverage start is not stated; only the end date (2022) is mentioned. The number of distinct accounts/users covered is not stated. Languages ISO is empty because no specific language codes are listed, only a count of 300 is given."
+    }
+  }
+}

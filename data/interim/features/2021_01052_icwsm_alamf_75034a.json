@@ -1,0 +1,23 @@
+{
+  "page_count": 10,
+  "n_chars": 59513,
+  "sha256": "64a56200704abc593ac4cd7604e577b1b633c1af818f2dc6ba275e31cd2ec797",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://en.wikipedia.org/wiki/Disaster_",
+    "https://www.humanitarianresponse.info/",
+    "https://www.mturk.com/",
+    "https://www.figure-eight.com/dataset/",
+    "https://data.world/crowdflower/disasterson-social-media",
+    "http://aidr.qcri.org/",
+    "http://nominatim.org",
+    "https://www.openstreetmap.org",
+    "https://en.wikipedia.org/wiki/",
+    "https://fasttext.cc/docs/en/crawl-"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

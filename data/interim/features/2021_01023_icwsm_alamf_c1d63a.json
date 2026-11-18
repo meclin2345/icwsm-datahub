@@ -1,0 +1,20 @@
+{
+  "page_count": 10,
+  "n_chars": 52293,
+  "sha256": "e76b6f069a1cedbba2ab3fc654c05ede39c6f357d952296b193d7aa0abde3f2d",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "http://micromappers.qcri.org",
+    "http://doi.org/10.7910/DVN/XYK2UE",
+    "https://en.wikipedia.org/wiki/List",
+    "https://t.co/27xOQyLiiN",
+    "http://tanbih.qcri.org"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7910/DVN/XYK2UE"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

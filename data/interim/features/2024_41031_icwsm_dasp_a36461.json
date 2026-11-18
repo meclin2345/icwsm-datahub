@@ -1,0 +1,27 @@
+{
+  "page_count": 11,
+  "n_chars": 58593,
+  "sha256": "f6d6e50e187b325a20297576443a10c06025b0372d030a6b425909993a881516",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.10495081",
+    "https://ores.wikimedia.org/",
+    "https://en.wikipedia.org/wiki/Wikipedia:Content",
+    "https://en.wikipedia.org/wiki/Wikipedia:What",
+    "https://github.com/earwig/mwparserfromhell",
+    "https://stats.wikimedia.org/EN/BotActivityMatrixCreates.htm",
+    "https://en.wikipedia.org/wiki/Wikipedia:WikiProject",
+    "https://w.wiki/7kTP",
+    "https://doi.org/10"
+  ],
+  "urls_in_references": [
+    "https://dumps.wikimedia.org/backup-index.html",
+    "https://meta.wikimedia.org/wiki/Machine"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.10495081"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

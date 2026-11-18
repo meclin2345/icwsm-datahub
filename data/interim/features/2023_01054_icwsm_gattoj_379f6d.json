@@ -1,0 +1,24 @@
+{
+  "page_count": 10,
+  "n_chars": 50327,
+  "sha256": "3b5be970da9d1363c5b31ae6554d330914c8d6f2a7a773fb251c889337fffd2c",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.webmd.com",
+    "https://www.medlineplus.gov",
+    "https://www.cdc.gov",
+    "https://zenodo.org/record/7539392#.Y8SY2HbMKM8",
+    "https://www.mayoclinic.org",
+    "https://aws.amazon.com/comprehend/medical/",
+    "https://cloud.google.com/healthcare-api/",
+    "https://cloud.google.com/healthcare-api/docs/concepts/nlp"
+  ],
+  "urls_in_references": [
+    "https://eligibility.com/medicare/states-most-googledmedical-symptom",
+    "https://github.com/chakkiworks/seqeval"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

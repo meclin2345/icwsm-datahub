@@ -1,0 +1,205 @@
+{
+  "paper_id": "2026_61332_yaor_5edccd",
+  "year": 2026,
+  "pdf_filename": "61332-YaoR.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:12:39+00:00",
+    "usage": [
+      {
+        "input_tokens": 29717,
+        "output_tokens": 1556,
+        "cache_read_input_tokens": 27551,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011SKd3idH9pAoBmcMrUj4Kfq2a",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 16,
+    "n_chars": 82278,
+    "sha256": "ae9aceb6489e2e2a163f1724acf03d07029da18ded3b6db685d15d70fb8ffb63",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://huggingface.co/datasets/YRC10/MASH",
+      "https://hurricane.web.illinois.edu",
+      "https://doi.org/10.5281/zenodo.17682231"
+    ],
+    "urls_in_references": [
+      "https://force11"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.17682231"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "MASH: A Multiplatform and Multimodal Annotated Dataset for Societal Impact of Hurricane",
+      "authors": [
+        "Ruichen Yao",
+        "Aslanbek Murzakhmetov",
+        "Raaghav Pillai",
+        "Aliya Maussymbayeva",
+        "Zelin Li",
+        "Yifan Liu",
+        "Yaokun Liu",
+        "Lanyu Shang",
+        "Yang Zhang",
+        "Na Wei",
+        "Ximing Cai",
+        "Dong Wang"
+      ],
+      "author_countries": [
+        "US",
+        "KZ"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MASH",
+      "platforms": [
+        "Reddit",
+        "TikTok",
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "Reddit",
+        "TikTok",
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40)"
+      ],
+      "collection_tools": [
+        "Reddit API",
+        "TikTok Research Tools",
+        "YouTube API"
+      ],
+      "temporal_coverage_start": "2024-09",
+      "temporal_coverage_end": "2024-11",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 59607,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "59,607 relevant social media data posts from Reddit, TikTok, and YouTube",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Natural disaster or climate event",
+      "event_name": "Hurricane Helene and Hurricane Milton 2024",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Crisis, disaster and conflict informatics",
+        "Hate speech, toxicity and harassment"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Hate or toxicity detection",
+        "Misinformation or claim detection",
+        "Sentiment or emotion analysis"
+      ],
+      "tasks_verbatim": [
+        "disaster severity classification",
+        "public sentiment analysis",
+        "bias identification",
+        "detection of false claims"
+      ],
+      "annotation_paradigms": [
+        "LLM or generative AI labels",
+        "Hybrid human and LLM-in-the-loop",
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [
+        "Gemini-2.0Flash"
+      ],
+      "num_annotated_records": 59607,
+      "num_annotators": 3,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa",
+        "Cohen's kappa",
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.94,
+      "iaa_summary_verbatim": "human inter-annotator agreement is strong, with Fleiss’ Kappa consistently near or above 0.8",
+      "baseline_families": [
+        "Vision, audio or multimodal models",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "Hugging Face Hub"
+      ],
+      "dataset_urls": [
+        "https://huggingface.co/datasets/YRC10/MASH",
+        "https://hurricane.web.illinois.edu",
+        "https://doi.org/10.5281/zenodo.17682231"
+      ],
+      "persistent_doi": "10.5281/zenodo.17682231",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "license_category": "CC BY",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "only providing the IDs and annotations of the posts; all tagged usernames, starting with “@”, are replaced with “@user”",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The MASH dataset is findable with a unique Digital Object Identifier (DOI): https://doi.org/10.5281/zenodo.17682231.",
+      "scale_quote": "the MASH dataset consists of 59,607 relevant social media posts collected from three platforms: Reddit, TikTok, and YouTube",
+      "annotation_quote": "A total of 59,607 posts were identified as relevant and subsequently annotated across the three dimensions.",
+      "ethics_quote": "To ensure the ethics of the research and protect users’ privacy, we only collected post information without users’ identity information.",
+      "license_quote": "The MASH dataset is reusable under the Creative Commons Attribution 4.0 (CC BY 4.0) license, with a README file in the repository to explain the proper usage.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper's iaa table (Table 6) is garbled in the PDF, so the exact primary agreement value could not be verified precisely; an average inter-annotator Fleiss' kappa of about 0.94 was used as a representative estimate. Data file formats are not stated in the paper."
+    }
+  }
+}

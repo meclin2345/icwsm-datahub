@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "paper_id": "2026_61717_safdarifesaghandisz_e07c9a",
+    "year": 2026,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.18266930",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.18266930",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/18266930",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 1,
+    "total_size_mb": 0.61,
+    "file_extensions": ".csv",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 77,
+    "downloads_unique": 63,
+    "views_total": 179,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/zahrasafdari/ParsCN",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 1,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2026-04-08T08:14:40Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.18266930",
+      "resolved_url": "https://zenodo.org/records/18266930",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:27+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/zahrasafdari/ParsCN",
+      "resolved_url": "https://github.com/zahrasafdari/ParsCN",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:28+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "18266930",
+    "concept_doi": "10.5281/zenodo.18266929",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 1,
+    "total_size_mb": 0.61,
+    "file_extensions": [
+      ".csv"
+    ],
+    "stats_raw": {
+      "downloads": 77,
+      "unique_downloads": 63,
+      "views": 179,
+      "unique_views": 162,
+      "version_downloads": 77,
+      "version_unique_downloads": 63,
+      "version_unique_views": 162,
+      "version_views": 179
+    },
+    "downloads": 77,
+    "unique_downloads": 63,
+    "views": 179,
+    "unique_views": 162,
+    "version_downloads": 77,
+    "version_unique_downloads": 63,
+    "publication_date": "2026-01-16"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": true,
+    "repo": "zahrasafdari/ParsCN",
+    "stars": 1,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-04-08T08:14:40Z",
+    "created_at": "2026-03-23T00:31:40Z",
+    "size_mb": 0.25,
+    "license": null
+  },
+  "github_code": {
+    "found": true,
+    "repo": "zahrasafdari/ParsCN",
+    "stars": 1,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-04-08T08:14:40Z",
+    "created_at": "2026-03-23T00:31:40Z",
+    "size_mb": 0.25,
+    "license": null
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/doi/10.5281/zenodo.18266930",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2026"
+  },
+  "wayback": null
+}

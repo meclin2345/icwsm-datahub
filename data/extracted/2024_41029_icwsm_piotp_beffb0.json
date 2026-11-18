@@ -1,0 +1,196 @@
+{
+  "paper_id": "2024_41029_icwsm_piotp_beffb0",
+  "year": 2024,
+  "pdf_filename": "41029-ICWSM.PiotP.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:05:18+00:00",
+    "usage": [
+      {
+        "input_tokens": 23564,
+        "output_tokens": 5461,
+        "cache_read_input_tokens": 22559,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0114b26amXVxojefAbfmhUb1EFp",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.baseline_families.2: got 'Other'; Input should be 'No experiments', 'Descriptive statistics only', 'Statistical models (regression, time series)', 'Classical ML (SVM, logistic regression, random"
+      },
+      {
+        "input_tokens": 24684,
+        "output_tokens": 1065,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011QwHDK6F5UuTT9mCDw5CbyIqM",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 15,
+    "n_chars": 71270,
+    "sha256": "91b6d766d4f4150fea45fbf9e8d6467620ebd5eaae0be75c624b404472773680",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://irlab.org/metahate.html",
+      "https://github.com/palomapiot/metahate/"
+    ],
+    "urls_in_references": [
+      "https://force11",
+      "https://github.com/palomapiot/metahate",
+      "https://github.com/palomapiot/metahate/",
+      "https://t.ly/v9tin|EN|29,530|Twitter|Binary|hate",
+      "https://t.ly/v6IkS|EN|223,549|Wikipedia|Multiclass"
+    ],
+    "dois_in_body": [
+      "10.13039/501100011033"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "MetaHate: A Dataset for Unifying Efforts on Hate Speech Detection",
+      "authors": [
+        "Paloma Piot",
+        "Patricia Martín-Rodilla",
+        "Javier Parapar"
+      ],
+      "author_countries": [],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MetaHate",
+      "platforms": [
+        "Twitter/X",
+        "Facebook",
+        "Reddit",
+        "YouTube",
+        "Q&A and Forums (Quora/Stack Exchange/other forums)",
+        "Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute)",
+        "Wikipedia/Wikidata",
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "Facebook",
+        "Reddit",
+        "Stormfront",
+        "Gab",
+        "Whisper",
+        "Wikipedia",
+        "Civil Comments",
+        "YouTube",
+        "BitChute"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Pushshift Reddit dataset"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 1226202,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The compilation resulted in 1 667 496 entries, streamlined to 1 226 202 non-duplicated comments.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment"
+      ],
+      "supported_tasks": [
+        "Hate or toxicity detection"
+      ],
+      "tasks_verbatim": [
+        "hate speech detection"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Crowdworkers (MTurk, Prolific, etc.)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 1226202,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Hugging Face Hub"
+      ],
+      "dataset_urls": [
+        "https://irlab.org/metahate.html"
+      ],
+      "persistent_doi": "10.57967/hf/1572",
+      "code_repository_url": "https://github.com/palomapiot/metahate/",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "However, it is imperative to note that our dataset is released exclusively for research purposes and is not licensed for commercial or malicious use.",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "The authors state that all accessed and collected data lacked personally identifiable information.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Yes, because we are sharing our dataset via Hugginface. Where the dataset is assigned a DOI (doi:10.57967/hf/1572), is described with rich metadata, is indexed, is retrievable by their identifier, is acessible, is interoperable and is reusable.",
+      "scale_quote": "The compilation resulted in 1 667 496 entries, streamlined to 1 226 202 non-duplicated comments.",
+      "annotation_quote": "In an effort to streamline the dataset for broader applicability, we adopted a binary classification: hate or no hate.",
+      "ethics_quote": "Importantly, the collected data strictly lacked any personally identifiable information.",
+      "license_quote": "However, it is imperative to note that our dataset is released exclusively for research purposes and is not licensed for commercial or malicious use.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Temporal coverage, distinct-user counts, released file formats, and inter-annotator agreement are not reported. The labels are inherited from heterogeneous source datasets, whose annotation procedures are described only selectively."
+    }
+  }
+}

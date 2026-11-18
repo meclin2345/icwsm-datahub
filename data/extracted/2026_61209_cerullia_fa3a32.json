@@ -1,0 +1,182 @@
+{
+  "paper_id": "2026_61209_cerullia_fa3a32",
+  "year": 2026,
+  "pdf_filename": "61209-CerulliA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:11:39+00:00",
+    "usage": [
+      {
+        "input_tokens": 22021,
+        "output_tokens": 3861,
+        "cache_read_input_tokens": 19882,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011pfW5bs7JxptbM6QULpbOI83f",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 64824,
+    "sha256": "99a19d782b0db5702f4c57ee80285297ed38ae0a099b330488a45b37c3f5ee13",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.18245669",
+      "https://communitynotes.x.com/guide/en/under-thehood/download-data",
+      "https://transparency.dsa.ec.europa.eu/",
+      "https://www.reddit.com/r/reclassified/",
+      "https://academictorrents.com/details/",
+      "https://zenodo.org/records/5841668",
+      "https://praw.readthedocs.io/en/stable/",
+      "https://force11.org/info/the-fair-data-principles/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.18245669"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Big Ban Theory: A Pre- and Post-Intervention Dataset of Online Content Moderation Actions",
+      "authors": [
+        "Aldo Cerulli",
+        "Lorenzo Cima",
+        "Benedetta Tessa",
+        "Serena Tardelli",
+        "Stefano Cresci"
+      ],
+      "author_countries": [
+        "IT"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "The Big Ban Theory (TBBT)",
+      "platforms": [
+        "Reddit",
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Reddit",
+        "Voat"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Academic Torrents",
+        "Zenodo"
+      ],
+      "temporal_coverage_start": "2015-03-10",
+      "temporal_coverage_end": "2023-05-23",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 38700732,
+      "num_accounts_or_users": 339125,
+      "scale_description_verbatim": "38,700,732 messages published by 339,125 distinct users",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "Platform policy or ownership change",
+      "event_name": "25 Reddit and Voat moderation interventions (2015-2023)",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Content moderation and platform governance",
+        "Online communities and collective behavior",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Causal or intervention analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Assessing effects and effectiveness",
+        "Assessing fairness, consistency, and equity",
+        "Predictive modeling and early-warning systems",
+        "Extensions for causal analyses"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.18245669"
+      ],
+      "persistent_doi": "10.5281/zenodo.18245669",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "terms of use",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All user, content, and community identifiers were pseudonymized with a deterministic cryptographic hash; user mentions in text were also pseudonymized.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is publicly available on Zenodo with a persistent DOI: https://doi.org/10.5281/zenodo.18245669.",
+      "scale_quote": "Across all interventions, TBBT contains pseudonymized data about 38,700,732 messages published by 339,125 distinct users.",
+      "annotation_quote": "",
+      "ethics_quote": "To mitigate privacy risks, we pseudonymized all user, content, and community identifiers, reducing risks of re-identification while preserving internal consistency for downstream analysis.",
+      "license_quote": "Access and use are governed by terms of use that prohibit attempts at re-identification, or uses that could harm individuals or communities represented in the data.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Languages, geographic coverage, and institutional ethics-review status are not stated. Temporal endpoints are inferred from the earliest and latest intervention dates and the documented three-month collection windows; the paper names CC BY 4.0 for the source Voat data but does not explicitly state a single license for all of TBBT."
+    }
+  }
+}

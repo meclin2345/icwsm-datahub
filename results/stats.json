@@ -1,0 +1,827 @@
+{
+  "n_papers": 124,
+  "overview": {
+    "2020": {
+      "Papers": 12,
+      "Median records": 13756579.0,
+      "Multilingual (%)": 0.0,
+      "Multimodal (%)": 8.33,
+      "Dataset DOI (%)": 100.0,
+      "LLM labels (%)": 0.0,
+      "Link alive (%)": 100.0,
+      "Usable (%)": 75.0,
+      "Median FAIR": 70.0
+    },
+    "2021": {
+      "Papers": 16,
+      "Median records": 326083.0,
+      "Multilingual (%)": 31.25,
+      "Multimodal (%)": 18.75,
+      "Dataset DOI (%)": 75.0,
+      "LLM labels (%)": 0.0,
+      "Link alive (%)": 100.0,
+      "Usable (%)": 68.75,
+      "Median FAIR": 70.0
+    },
+    "2022": {
+      "Papers": 20,
+      "Median records": 140388.0,
+      "Multilingual (%)": 40.0,
+      "Multimodal (%)": 40.0,
+      "Dataset DOI (%)": 75.0,
+      "LLM labels (%)": 0.0,
+      "Link alive (%)": 90.0,
+      "Usable (%)": 70.0,
+      "Median FAIR": 70.0
+    },
+    "2023": {
+      "Papers": 16,
+      "Median records": 710447.0,
+      "Multilingual (%)": 6.25,
+      "Multimodal (%)": 12.5,
+      "Dataset DOI (%)": 81.25,
+      "LLM labels (%)": 0.0,
+      "Link alive (%)": 100.0,
+      "Usable (%)": 50.0,
+      "Median FAIR": 70.0
+    },
+    "2024": {
+      "Papers": 17,
+      "Median records": 223442.0,
+      "Multilingual (%)": 23.53,
+      "Multimodal (%)": 11.76,
+      "Dataset DOI (%)": 88.24,
+      "LLM labels (%)": 11.76,
+      "Link alive (%)": 100.0,
+      "Usable (%)": 82.35,
+      "Median FAIR": 80.0
+    },
+    "2025": {
+      "Papers": 24,
+      "Median records": 534137.0,
+      "Multilingual (%)": 25.0,
+      "Multimodal (%)": 16.67,
+      "Dataset DOI (%)": 66.67,
+      "LLM labels (%)": 12.5,
+      "Link alive (%)": 91.67,
+      "Usable (%)": 79.17,
+      "Median FAIR": 80.0
+    },
+    "2026": {
+      "Papers": 19,
+      "Median records": 757331.0,
+      "Multilingual (%)": 36.84,
+      "Multimodal (%)": 31.58,
+      "Dataset DOI (%)": 84.21,
+      "LLM labels (%)": 26.32,
+      "Link alive (%)": 100.0,
+      "Usable (%)": 73.68,
+      "Median FAIR": 80.0
+    },
+    "All": {
+      "Papers": 124,
+      "Median records": 565552.0,
+      "Multilingual (%)": 25.0,
+      "Multimodal (%)": 20.97,
+      "Dataset DOI (%)": 79.84,
+      "LLM labels (%)": 8.06,
+      "Link alive (%)": 96.77,
+      "Usable (%)": 71.77,
+      "Median FAIR": 70.0
+    }
+  },
+  "trends": [
+    {
+      "indicator": "Dataset DOI reported",
+      "key": "has_doi",
+      "2020 (%)": 100.0,
+      "2026 (%)": 84.2,
+      "OR per year": 0.9080257830824927,
+      "CI low": 0.7214137964336156,
+      "CI high": 1.1429096959590035,
+      "p": 0.4110941807790577,
+      "p (BH)": 0.5838422591434902
+    },
+    {
+      "indicator": "LLM or hybrid annotation",
+      "key": "uses_llm_annotation",
+      "2020 (%)": 0.0,
+      "2026 (%)": 26.3,
+      "OR per year": 2.6242638421109685,
+      "CI low": 1.3345333519273612,
+      "CI high": 5.160426079322047,
+      "p": 0.0051676346042168475,
+      "p (BH)": 0.024115628153011957
+    },
+    {
+      "indicator": "Crowdworker annotation",
+      "key": "uses_crowd",
+      "2020 (%)": 8.3,
+      "2026 (%)": 0.0,
+      "OR per year": 0.8758994167467453,
+      "CI low": 0.6360365645924395,
+      "CI high": 1.206219627874533,
+      "p": 0.417030185102493,
+      "p (BH)": 0.5838422591434902
+    },
+    {
+      "indicator": "Multimodal release",
+      "key": "is_multimodal",
+      "2020 (%)": 8.3,
+      "2026 (%)": 31.6,
+      "OR per year": 1.0516383621163363,
+      "CI low": 0.8402829332040498,
+      "CI high": 1.3161557863108109,
+      "p": 0.6600604251110085,
+      "p (BH)": 0.7700704959628433
+    },
+    {
+      "indicator": "Multilingual",
+      "key": "is_multilingual",
+      "2020 (%)": 0.0,
+      "2026 (%)": 36.8,
+      "OR per year": 1.1299394094176551,
+      "CI low": 0.911998861127151,
+      "CI high": 1.399961253654584,
+      "p": 0.2638233811570403,
+      "p (BH)": 0.5003279331219633
+    },
+    {
+      "indicator": "Collected via a since-closed access route",
+      "key": "depends_on_closed_access",
+      "2020 (%)": 25.0,
+      "2026 (%)": 21.1,
+      "OR per year": 0.9014481969851154,
+      "CI low": 0.7450473694737673,
+      "CI high": 1.09068078774866,
+      "p": 0.2859016760696933,
+      "p (BH)": 0.5003279331219633
+    },
+    {
+      "indicator": "PII anonymized before release",
+      "key": "pii_anonymization_applied",
+      "2020 (%)": 8.3,
+      "2026 (%)": 26.3,
+      "OR per year": 1.1812916575647938,
+      "CI low": 0.9704146289524752,
+      "CI high": 1.4379935530635106,
+      "p": 0.09678799382052097,
+      "p (BH)": 0.3387579783718234
+    },
+    {
+      "indicator": "Discusses platform ToS",
+      "key": "discusses_platform_tos",
+      "2020 (%)": 66.7,
+      "2026 (%)": 31.6,
+      "OR per year": 0.8902687221922938,
+      "CI low": 0.740587494637031,
+      "CI high": 1.0702022427510065,
+      "p": 0.21587748323132716,
+      "p (BH)": 0.5003279331219633
+    },
+    {
+      "indicator": "Discusses misuse risks",
+      "key": "discusses_misuse_risks",
+      "2020 (%)": 0.0,
+      "2026 (%)": 94.7,
+      "OR per year": 2.3888706040899543,
+      "CI low": 1.7812240860959399,
+      "CI high": 3.2038095642379103,
+      "p": 6.068444681753753e-09,
+      "p (BH)": 8.495822554455254e-08
+    },
+    {
+      "indicator": "Mentions FAIR principles",
+      "key": "explicitly_mentions_fair",
+      "2020 (%)": 41.7,
+      "2026 (%)": 94.7,
+      "OR per year": 1.6491558274350735,
+      "CI low": 1.291304007826307,
+      "CI high": 2.1061771098668274,
+      "p": 6.113161918231509e-05,
+      "p (BH)": 0.0004279213342762056
+    },
+    {
+      "indicator": "Reports inter-annotator agreement",
+      "key": "iaa_reported",
+      "2020 (%)": 8.3,
+      "2026 (%)": 36.8,
+      "OR per year": 1.1441050900635237,
+      "CI low": 0.9367590808645742,
+      "CI high": 1.3973458959171812,
+      "p": 0.18696990899939558,
+      "p (BH)": 0.5003279331219633
+    },
+    {
+      "indicator": "Data about the Global South",
+      "key": "data_global_south",
+      "2020 (%)": 8.3,
+      "2026 (%)": 21.1,
+      "OR per year": 1.0061581346148896,
+      "CI low": 0.772730750121925,
+      "CI high": 1.3100995290946817,
+      "p": 0.9636412729593997,
+      "p (BH)": 0.9636412729593997
+    },
+    {
+      "indicator": "Dataset link alive in 2026",
+      "key": "any_url_alive",
+      "2020 (%)": 100.0,
+      "2026 (%)": 100.0,
+      "OR per year": 0.9392115211277864,
+      "CI low": 0.5582683491299012,
+      "CI high": 1.5800972467703231,
+      "p": 0.8132076449763408,
+      "p (BH)": 0.87576207920529
+    },
+    {
+      "indicator": "Openly usable in 2026",
+      "key": "funnel_usable",
+      "2020 (%)": 75.0,
+      "2026 (%)": 73.7,
+      "OR per year": 1.0721535870079733,
+      "CI low": 0.8764353364729698,
+      "CI high": 1.3115780095768832,
+      "p": 0.49811605218557675,
+      "p (BH)": 0.633965884599825
+    }
+  ],
+  "platforms": {
+    "share_by_year": {
+      "Twitter/X": {
+        "2020": 25.0,
+        "2021": 50.0,
+        "2022": 45.0,
+        "2023": 43.8,
+        "2024": 23.5,
+        "2025": 20.8,
+        "2026": 10.5
+      },
+      "Reddit": {
+        "2020": 8.3,
+        "2021": 0.0,
+        "2022": 10.0,
+        "2023": 6.2,
+        "2024": 17.6,
+        "2025": 8.3,
+        "2026": 15.8
+      },
+      "YouTube": {
+        "2020": 0.0,
+        "2021": 18.8,
+        "2022": 5.0,
+        "2023": 6.2,
+        "2024": 5.9,
+        "2025": 16.7,
+        "2026": 26.3
+      },
+      "TikTok": {
+        "2020": 0.0,
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.0,
+        "2025": 12.5,
+        "2026": 15.8
+      },
+      "Meta (Facebook/Instagram/Threads)": {
+        "2020": 0.0,
+        "2021": 0.0,
+        "2022": 10.0,
+        "2023": 6.2,
+        "2024": 11.8,
+        "2025": 4.2,
+        "2026": 10.5
+      },
+      "Messaging (Telegram/WhatsApp/Discord)": {
+        "2020": 16.7,
+        "2021": 0.0,
+        "2022": 10.0,
+        "2023": 6.2,
+        "2024": 0.0,
+        "2025": 12.5,
+        "2026": 15.8
+      },
+      "Decentralized and alt-tech": {
+        "2020": 16.7,
+        "2021": 12.5,
+        "2022": 5.0,
+        "2023": 18.8,
+        "2024": 5.9,
+        "2025": 4.2,
+        "2026": 5.3
+      },
+      "Web, news and wiki": {
+        "2020": 41.7,
+        "2021": 25.0,
+        "2022": 30.0,
+        "2023": 31.2,
+        "2024": 47.1,
+        "2025": 37.5,
+        "2026": 47.4
+      },
+      "AI and LLM content": {
+        "2020": 0.0,
+        "2021": 0.0,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 5.9,
+        "2025": 0.0,
+        "2026": 0.0
+      },
+      "Other": {
+        "2020": 0.0,
+        "2021": 12.5,
+        "2022": 15.0,
+        "2023": 0.0,
+        "2024": 35.3,
+        "2025": 25.0,
+        "2026": 10.5
+      }
+    },
+    "diversity_entropy_bits": {
+      "2020": 2.134,
+      "2021": 2.103,
+      "2022": 2.593,
+      "2023": 2.352,
+      "2024": 2.613,
+      "2025": 2.877,
+      "2026": 2.893
+    },
+    "twitter_pre_post_api": {
+      "pre_share": 40.3,
+      "post_share": 12.1,
+      "n_pre": 72,
+      "n_post": 33,
+      "chi2": 7.07,
+      "p": 0.007842573489371382
+    }
+  },
+  "link_survival": {
+    "n": 123,
+    "alive_pct": 97.6,
+    "alive_by_host": {
+      "Dataverse": 100.0,
+      "Figshare / OSF / archive": 100.0,
+      "GitHub / GitLab": 83.3,
+      "Hugging Face": 100.0,
+      "Kaggle": 100.0,
+      "Other": 0.0,
+      "Personal site / cloud drive": 100.0,
+      "Zenodo": 98.7
+    },
+    "n_by_host": {
+      "Zenodo": 76,
+      "Dataverse": 17,
+      "Figshare / OSF / archive": 13,
+      "GitHub / GitLab": 6,
+      "Hugging Face": 5,
+      "Personal site / cloud drive": 4,
+      "Other": 1,
+      "Kaggle": 1
+    },
+    "logit": {
+      "Years since publication": {
+        "Odds ratio": 0.8941,
+        "95% CI low": 0.4564,
+        "95% CI high": 1.7517,
+        "p": 0.7443
+      },
+      "Has dataset DOI": {
+        "Odds ratio": 2.4758,
+        "95% CI low": 0.0997,
+        "95% CI high": 61.4824,
+        "p": 0.5802
+      },
+      "Archival repository": {
+        "Odds ratio": 10.7523,
+        "95% CI low": 0.4404,
+        "95% CI high": 262.489,
+        "p": 0.1451
+      }
+    },
+    "logit_pseudo_r2": 0.209,
+    "nonarchival_half_life_years": 12.4
+  },
+  "reuse": {
+    "citations_nb": {
+      "usable": {
+        "IRR": 0.9752,
+        "95% CI low": 0.6302,
+        "95% CI high": 1.5091,
+        "p": 0.9102
+      },
+      "doi": {
+        "IRR": 1.0788,
+        "95% CI low": 0.6678,
+        "95% CI high": 1.7426,
+        "p": 0.7566
+      },
+      "llm": {
+        "IRR": 0.1695,
+        "95% CI low": 0.0582,
+        "95% CI high": 0.4936,
+        "p": 0.0011
+      },
+      "multimodal": {
+        "IRR": 0.996,
+        "95% CI low": 0.6162,
+        "95% CI high": 1.6098,
+        "p": 0.987
+      }
+    },
+    "zenodo_downloads_full_vs_dehydrated": {
+      "median_full_per_year": 372.6,
+      "median_dehydrated_per_year": 390.2,
+      "n_full": 72,
+      "n_dehydrated": 6,
+      "U": 225.0,
+      "p": 0.8765226005312521,
+      "effect_r_rank_biserial": -0.042
+    }
+  },
+  "funnel": {
+    "overall": {
+      "papers": 124,
+      "release_claimed": 124,
+      "link_provided": 123,
+      "link_alive": 120,
+      "open_download": 106,
+      "usable": 89
+    },
+    "by_year_pct": {
+      "2020": {
+        "release_claimed": 100.0,
+        "link_provided": 100.0,
+        "link_alive": 100.0,
+        "open_download": 100.0,
+        "usable": 75.0
+      },
+      "2021": {
+        "release_claimed": 100.0,
+        "link_provided": 100.0,
+        "link_alive": 100.0,
+        "open_download": 87.5,
+        "usable": 68.8
+      },
+      "2022": {
+        "release_claimed": 100.0,
+        "link_provided": 100.0,
+        "link_alive": 90.0,
+        "open_download": 80.0,
+        "usable": 70.0
+      },
+      "2023": {
+        "release_claimed": 100.0,
+        "link_provided": 100.0,
+        "link_alive": 100.0,
+        "open_download": 87.5,
+        "usable": 50.0
+      },
+      "2024": {
+        "release_claimed": 100.0,
+        "link_provided": 100.0,
+        "link_alive": 100.0,
+        "open_download": 88.2,
+        "usable": 82.4
+      },
+      "2025": {
+        "release_claimed": 100.0,
+        "link_provided": 95.8,
+        "link_alive": 91.7,
+        "open_download": 83.3,
+        "usable": 79.2
+      },
+      "2026": {
+        "release_claimed": 100.0,
+        "link_provided": 100.0,
+        "link_alive": 100.0,
+        "open_download": 78.9,
+        "usable": 73.7
+      }
+    },
+    "fate_by_year_pct": {
+      "2020": {
+        "Open and usable": 75.0,
+        "Open, needs closed API to rehydrate": 25.0,
+        "Restricted access (request or agreement)": 0.0,
+        "Alive but empty or login-walled": 0,
+        "Link dead": 0.0,
+        "Never released / no link": 0.0
+      },
+      "2021": {
+        "Open and usable": 68.8,
+        "Open, needs closed API to rehydrate": 18.8,
+        "Restricted access (request or agreement)": 12.5,
+        "Alive but empty or login-walled": 0,
+        "Link dead": 0.0,
+        "Never released / no link": 0.0
+      },
+      "2022": {
+        "Open and usable": 70.0,
+        "Open, needs closed API to rehydrate": 10.0,
+        "Restricted access (request or agreement)": 10.0,
+        "Alive but empty or login-walled": 0,
+        "Link dead": 10.0,
+        "Never released / no link": 0.0
+      },
+      "2023": {
+        "Open and usable": 50.0,
+        "Open, needs closed API to rehydrate": 37.5,
+        "Restricted access (request or agreement)": 12.5,
+        "Alive but empty or login-walled": 0,
+        "Link dead": 0.0,
+        "Never released / no link": 0.0
+      },
+      "2024": {
+        "Open and usable": 82.4,
+        "Open, needs closed API to rehydrate": 5.9,
+        "Restricted access (request or agreement)": 11.8,
+        "Alive but empty or login-walled": 0,
+        "Link dead": 0.0,
+        "Never released / no link": 0.0
+      },
+      "2025": {
+        "Open and usable": 79.2,
+        "Open, needs closed API to rehydrate": 4.2,
+        "Restricted access (request or agreement)": 8.3,
+        "Alive but empty or login-walled": 0,
+        "Link dead": 4.2,
+        "Never released / no link": 4.2
+      },
+      "2026": {
+        "Open and usable": 73.7,
+        "Open, needs closed API to rehydrate": 5.3,
+        "Restricted access (request or agreement)": 21.1,
+        "Alive but empty or login-walled": 0,
+        "Link dead": 0.0,
+        "Never released / no link": 0.0
+      }
+    },
+    "fate_overall_pct": {
+      "Open and usable": 71.8,
+      "Open, needs closed API to rehydrate": 13.7,
+      "Restricted access (request or agreement)": 11.3,
+      "Link dead": 2.4,
+      "Never released / no link": 0.8
+    }
+  },
+  "geography": {
+    "author_global_south_pct": 21.4,
+    "data_global_south_pct": 13.7,
+    "global_south_data_with_global_south_author_pct": 35.3
+  },
+  "documentation_audit": {
+    "n_audited": 5,
+    "counts": {
+      "answered_no": 1,
+      "external_file": 1,
+      "bare_yes": 1,
+      "self_declared": 1,
+      "other_framework": 1
+    },
+    "genuine_claims": 3,
+    "evidenced": 1
+  },
+  "policy": {
+    "checklist_year": 2024,
+    "table": [
+      {
+        "measure": "Paper checklist present",
+        "key": "checklist_detected",
+        "before 2024 (%)": 0.0,
+        "2024 on (%)": 100.0,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 7.010127256912114e-37
+      },
+      {
+        "measure": "Discusses misuse risks (LLM coding, whole paper)",
+        "key": "discusses_misuse_risks",
+        "before 2024 (%)": 29.7,
+        "2024 on (%)": 88.3,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 1.394463142891086e-11
+      },
+      {
+        "measure": "Misuse language in main text (before References)",
+        "key": "body_mentions_misuse",
+        "before 2024 (%)": 25.0,
+        "2024 on (%)": 50.0,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.005222843132276796
+      },
+      {
+        "measure": "Mentions FAIR (LLM coding, whole paper)",
+        "key": "explicitly_mentions_fair",
+        "before 2024 (%)": 56.2,
+        "2024 on (%)": 91.7,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 6.013433542449295e-06
+      },
+      {
+        "measure": "FAIR in main text (before References)",
+        "key": "body_mentions_fair",
+        "before 2024 (%)": 56.2,
+        "2024 on (%)": 65.0,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.36099024309875494
+      },
+      {
+        "measure": "Discusses platform ToS",
+        "key": "discusses_platform_tos",
+        "before 2024 (%)": 50.0,
+        "2024 on (%)": 40.0,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.2837455663020181
+      },
+      {
+        "measure": "PII anonymized before release",
+        "key": "pii_anonymization_applied",
+        "before 2024 (%)": 26.6,
+        "2024 on (%)": 43.3,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.06015450309295095
+      },
+      {
+        "measure": "Practice: dataset DOI",
+        "key": "has_doi",
+        "before 2024 (%)": 81.2,
+        "2024 on (%)": 78.3,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.8233131946818539
+      },
+      {
+        "measure": "Practice: license stated in the paper",
+        "key": "fair_R1_1",
+        "before 2024 (%)": 21.9,
+        "2024 on (%)": 65.0,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 1.6436350961226263e-06
+      },
+      {
+        "measure": "Practice: license on the repository record (checklist-independent)",
+        "key": "repo_license_present",
+        "before 2024 (%)": 86.2,
+        "2024 on (%)": 83.9,
+        "n before": 58,
+        "n after": 56,
+        "Fisher p": 0.7965245248191308
+      },
+      {
+        "measure": "Practice: standard documentation named in the paper",
+        "key": "fair_F2",
+        "before 2024 (%)": 6.2,
+        "2024 on (%)": 55.0,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 2.251817976517889e-09
+      },
+      {
+        "measure": "Datasheet/data card named in main text (before References)",
+        "key": "body_mentions_datasheet",
+        "before 2024 (%)": 7.8,
+        "2024 on (%)": 11.7,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.5512441164212096
+      },
+      {
+        "measure": "Practice: code to collect or load the data",
+        "key": "fair_R1_3",
+        "before 2024 (%)": 40.6,
+        "2024 on (%)": 50.0,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.3670355732883033
+      },
+      {
+        "measure": "Practice: archival repository",
+        "key": "fair_A2",
+        "before 2024 (%)": 89.1,
+        "2024 on (%)": 86.7,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.785707775603459
+      },
+      {
+        "measure": "Outcome: openly usable in 2026",
+        "key": "funnel_usable",
+        "before 2024 (%)": 65.6,
+        "2024 on (%)": 78.3,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.16196381024800505
+      },
+      {
+        "measure": "Practice: FAIR score (0-100, mean, not %)",
+        "key": "fair_score",
+        "before 2024 (%)": 67.0,
+        "2024 on (%)": 75.2,
+        "n before": 64,
+        "n after": 60,
+        "Fisher p": 0.003235051075888221
+      }
+    ]
+  },
+  "fair_indicator_pct_by_year": {
+    "F1": {
+      "2020": 100.0,
+      "2021": 75.0,
+      "2022": 75.0,
+      "2023": 81.2,
+      "2024": 88.2,
+      "2025": 66.7,
+      "2026": 78.9
+    },
+    "F2": {
+      "2020": 0.0,
+      "2021": 6.2,
+      "2022": 10.0,
+      "2023": 6.2,
+      "2024": 47.1,
+      "2025": 45.8,
+      "2026": 73.7
+    },
+    "F4": {
+      "2020": 100.0,
+      "2021": 75.0,
+      "2022": 75.0,
+      "2023": 81.2,
+      "2024": 88.2,
+      "2025": 66.7,
+      "2026": 78.9
+    },
+    "A1": {
+      "2020": 100.0,
+      "2021": 100.0,
+      "2022": 90.0,
+      "2023": 100.0,
+      "2024": 100.0,
+      "2025": 91.7,
+      "2026": 100.0
+    },
+    "A1.1": {
+      "2020": 100.0,
+      "2021": 87.5,
+      "2022": 80.0,
+      "2023": 87.5,
+      "2024": 88.2,
+      "2025": 83.3,
+      "2026": 78.9
+    },
+    "A2": {
+      "2020": 100.0,
+      "2021": 87.5,
+      "2022": 85.0,
+      "2023": 87.5,
+      "2024": 94.1,
+      "2025": 83.3,
+      "2026": 84.2
+    },
+    "I1": {
+      "2020": 91.7,
+      "2021": 81.2,
+      "2022": 85.0,
+      "2023": 68.8,
+      "2024": 82.4,
+      "2025": 83.3,
+      "2026": 78.9
+    },
+    "R1.1": {
+      "2020": 16.7,
+      "2021": 25.0,
+      "2022": 20.0,
+      "2023": 25.0,
+      "2024": 58.8,
+      "2025": 66.7,
+      "2026": 68.4
+    },
+    "R1.2": {
+      "2020": 91.7,
+      "2021": 87.5,
+      "2022": 85.0,
+      "2023": 75.0,
+      "2024": 82.4,
+      "2025": 83.3,
+      "2026": 73.7
+    },
+    "R1.3": {
+      "2020": 50.0,
+      "2021": 56.2,
+      "2022": 40.0,
+      "2023": 18.8,
+      "2024": 52.9,
+      "2025": 45.8,
+      "2026": 52.6
+    }
+  }
+}

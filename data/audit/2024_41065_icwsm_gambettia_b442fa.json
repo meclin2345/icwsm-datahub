@@ -1,0 +1,159 @@
+{
+  "summary": {
+    "paper_id": "2024_41065_icwsm_gambettia_b442fa",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.10511456",
+    "doi_resolves": true,
+    "n_urls_checked": 3,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.10511456",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/10511456",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 6,
+    "total_size_mb": 1282.11,
+    "file_extensions": ".csv, .txt, .zip",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 2686,
+    "downloads_unique": 2053,
+    "views_total": 1163,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "mit-license",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/iamalegambetti/aigen-foodreview",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 8,
+    "code_forks": 1,
+    "code_archived": false,
+    "code_last_push": "2024-07-03T13:26:51Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.10511456",
+      "resolved_url": "https://zenodo.org/records/10511456",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:23+00:00",
+      "error": null
+    },
+    {
+      "url": "https://zenodo.org/records/10511456",
+      "resolved_url": "https://zenodo.org/records/10511456",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:24+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/iamalegambetti/aigen-foodreview",
+      "resolved_url": "https://github.com/iamalegambetti/aigen-foodreview",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:25+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "10511456",
+    "concept_doi": "10.5281/zenodo.10511455",
+    "access_right": "open",
+    "restricted": false,
+    "license": "mit-license",
+    "file_count": 6,
+    "total_size_mb": 1282.11,
+    "file_extensions": [
+      ".csv",
+      ".txt",
+      ".zip"
+    ],
+    "stats_raw": {
+      "downloads": 2686,
+      "unique_downloads": 2053,
+      "views": 1163,
+      "unique_views": 1066,
+      "version_downloads": 2686,
+      "version_unique_downloads": 2053,
+      "version_unique_views": 1066,
+      "version_views": 1163
+    },
+    "downloads": 2686,
+    "unique_downloads": 2053,
+    "views": 1163,
+    "unique_views": 1066,
+    "version_downloads": 2686,
+    "version_unique_downloads": 2053,
+    "publication_date": "2024-01-14"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": true,
+    "repo": "iamalegambetti/aigen-foodreview",
+    "stars": 8,
+    "forks": 1,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-07-03T13:26:51Z",
+    "created_at": "2024-01-14T21:23:35Z",
+    "size_mb": 10.19,
+    "license": "MIT"
+  },
+  "github_code": {
+    "found": true,
+    "repo": "iamalegambetti/aigen-foodreview",
+    "stars": 8,
+    "forks": 1,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-07-03T13:26:51Z",
+    "created_at": "2024-01-14T21:23:35Z",
+    "size_mb": 10.19,
+    "license": "MIT"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/doi/10.5281/zenodo.10511456",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2024"
+  },
+  "wayback": null
+}

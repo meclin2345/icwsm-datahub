@@ -1,0 +1,190 @@
+{
+  "paper_id": "2022_01085_icwsm_sharmas_a9d48e",
+  "year": 2022,
+  "pdf_filename": "01085-ICWSM.SharmaS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:32:33+00:00",
+    "usage": [
+      {
+        "input_tokens": 20749,
+        "output_tokens": 1197,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011U5yVpBKHQyff0J0BB2LBGi4E",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 51744,
+    "sha256": "2c229fca5ef8a856b3c539a08f0c5e1372e85f834f4fe6acd5befa790cb2e3b8",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.who.int/emergencies/diseases/novelcoronavirus-2019/interactive-timeline#event-0",
+      "https://www.who.int/health-topics/infodemic",
+      "https://www.doi.org/10.5281/zenodo.5854656",
+      "https://toolbox.google.com/factcheck/explorer",
+      "https://tranco-list.eu/list/X74N",
+      "https://webscraper.io/",
+      "https://archive.org/web/",
+      "https://www.nltk.org/api/nltk.html",
+      "https://www.who.int/en/activities/tracking-SARS-CoV-2variants/",
+      "https://www.who.int/news/item/31-05-2021-who-announcessimple-easy-to-say-labels-for-sars-cov-2-variants-of-interestand-concern",
+      "https://spacy.io/api/entityrecognizer",
+      "https://www.statista.com/statistics/272014/global-socialnetworks-ranked-by-number-of-users/",
+      "https://scikit-learn.org/stable/modules/generated/sklearn",
+      "https://www.who.int/emergencies/diseases/novelcoronavirus-2019/advice-for-public/myth-busters",
+      "https://maartengr.github.io/BERTopic/index.html"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.5854656"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "FaCov: COVID-19 Viral News and Rumors Fact-Check Articles Dataset",
+      "authors": [
+        "Shakshi Sharma",
+        "Ekanshi Agrawal",
+        "Rajesh Sharma",
+        "Anwitaman Datta"
+      ],
+      "author_countries": [
+        "EE",
+        "IN",
+        "SG"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "FaCov",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "fact-checking websites"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Web Scraper browser extension"
+      ],
+      "temporal_coverage_start": "2019-12",
+      "temporal_coverage_end": "2021-12",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 3088,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The final total number of rows in the dataset is shown in Table 2. ... the pre-processing totaled 3,088 which became a part of the final dataset",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "COVID-19 pandemic",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Public health and COVID-19"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Misinformation or claim detection",
+        "Summarization or text generation",
+        "Entity or information extraction"
+      ],
+      "tasks_verbatim": [
+        "annotated the articles into 3-class (True, Mix, and False) and 2-class (True, and False) categories",
+        "automating the detection of health-related misinformation",
+        "boosted the data with an automated summary when the summary was missing"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 3088,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Classical ML (SVM, logistic regression, random forest)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://www.doi.org/10.5281/zenodo.5854656"
+      ],
+      "persistent_doi": "10.5281/zenodo.5854656",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "FaCov has been made openly available in the CSV format for download in accordance with FAIR standards (Wilkinson et al. 2016).",
+      "scale_quote": "We initially gathered a total of 5,610 fact-check articles and the information that accompanied them, which after the pre-processing totaled 3,088 which became a part of the final dataset",
+      "annotation_quote": "we annotated the articles into 3-class (True, Mix, and False) and 2-class (True, and False) categories.",
+      "ethics_quote": "",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

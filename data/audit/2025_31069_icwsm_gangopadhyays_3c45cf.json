@@ -1,0 +1,143 @@
+{
+  "summary": {
+    "paper_id": "2025_31069_icwsm_gangopadhyays_3c45cf",
+    "year": 2025,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.7802/2825",
+    "doi_resolves": false,
+    "n_urls_checked": 4,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.7802/2825",
+    "primary_url_status": "Restricted / forbidden (403)",
+    "primary_resolved_url": "https://search.gesis.org/research_data/SDN-10.7802-2825",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "GitHub",
+    "file_count": null,
+    "total_size_mb": 0.06,
+    "file_extensions": "",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": null,
+    "downloads_unique": null,
+    "views_total": null,
+    "downloads_metric_source": null,
+    "repo_license": null,
+    "datacite_registered": true,
+    "datacite_publisher": "GESIS Data Archive",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/susmita3107/TeleScope",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 4,
+    "code_forks": 1,
+    "code_archived": false,
+    "code_last_push": "2025-01-22T14:11:52Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.7802/2825",
+      "resolved_url": "https://search.gesis.org/research_data/SDN-10.7802-2825",
+      "http_status": 403,
+      "category": "Restricted / forbidden (403)",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:24:44+00:00",
+      "error": null
+    },
+    {
+      "url": "https://data.gesis.org/telescope/",
+      "resolved_url": "https://data.gesis.org/telescope/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html",
+      "checked_at": "2026-10-29T03:24:44+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/susmita3107/TeleScope",
+      "resolved_url": "https://github.com/susmita3107/TeleScope",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:46+00:00",
+      "error": null
+    },
+    {
+      "url": "https://www.re3data.org/repository/r3d100011062",
+      "resolved_url": "https://www.re3data.org/repository/r3d100011062",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:24:47+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": true,
+    "repo": "susmita3107/TeleScope",
+    "stars": 4,
+    "forks": 1,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2025-01-22T14:11:52Z",
+    "created_at": "2025-01-09T00:17:22Z",
+    "size_mb": 0.06,
+    "license": null
+  },
+  "github_code": {
+    "found": true,
+    "repo": "susmita3107/TeleScope",
+    "stars": 4,
+    "forks": 1,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2025-01-22T14:11:52Z",
+    "created_at": "2025-01-09T00:17:22Z",
+    "size_mb": 0.06,
+    "license": null
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "GESIS Data Archive",
+    "landing_url": "https://search.gesis.org/research_data/SDN-10.7802-2825",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2025"
+  },
+  "wayback": null
+}

@@ -1,0 +1,37 @@
+{
+  "page_count": 12,
+  "n_chars": 61570,
+  "sha256": "81e0c7d3910be694edb9d1dd34ea1cd34f1b6da223b035742a8c809d1f28d92c",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://scenerules.org/",
+    "https://osf.io/9eh47/",
+    "https://doi.org/10.17605/OSF.IO/9EH47",
+    "https://academictorrents.com/details/"
+  ],
+  "urls_in_references": [
+    "https://1337x.to",
+    "https://github.com/",
+    "https://cybernews.com/",
+    "https://pypi.org/project/parse-torrent-name",
+    "https://www.bittorrent.com",
+    "https://www.vice.com/en/article/bittorrent-usage-increasesnetflix-streaming-sites",
+    "https://btdig.com",
+    "https://www.digitalmusicnews",
+    "https://archive.org/details/torrent",
+    "https://github",
+    "https://www",
+    "https://www.lifewire.com/high-streaming-prices-bringback-pirating-8717968",
+    "https://www.wired.com/",
+    "https://rarbg.to",
+    "https://thepiratebay",
+    "https://www.uschamber.com/",
+    "https://webtorrent.io"
+  ],
+  "dois_in_body": [
+    "10.17605/OSF.IO/9EH47"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

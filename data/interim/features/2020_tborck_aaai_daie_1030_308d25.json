@@ -1,0 +1,23 @@
+{
+  "page_count": 10,
+  "n_chars": 55196,
+  "sha256": "21fe19df05ed2e93e6a9753f832d6b65c7770876180ab670c4c610cc0710dbab",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.nbcnews.com/news/us-news/social-mediahosted-lot-fake-health-news-year-here-s-n1107466",
+    "https://www.bbc.com/news/business-36189252",
+    "https://www.healthnewsreview.org/toolkit/tips-forunderstanding-studies/",
+    "https://doi.org/10.5281/zenodo.3606757",
+    "https://www.healthnewsreview.org/",
+    "https://archive.org/web/",
+    "https://botometer.iuni.iu.edu/",
+    "https://www.fda.gov/consumers/consumer-updates/fdawarns-about-stem-cell-therapies"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.3606757"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,190 @@
+{
+  "paper_id": "2020_tborck_aaai_kawakami_1098_0fa521",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_Kawakami-1098.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:27:43+00:00",
+    "usage": [
+      {
+        "input_tokens": 20223,
+        "output_tokens": 1110,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011UzlMovaBM39MbpVXXSNcBLcT",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 48855,
+    "sha256": "e42dd011ccf8fe0e815850d882a34c7ee779baa618f9caffb1d119b396490ecd",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.7910/DVN/0ZLHOK",
+      "https://en.wikipedia.org/wiki/Krishna",
+      "http://mediashift.org/2010/02/google-news-to-publishers-letsmake-love-not-war035/",
+      "https://searchengineland.com/google-replaces-news-box-topstories-desktop-264993",
+      "https://pjmedia.com/trending/google-search-results-show-",
+      "https://www.nytimes.com/2018/09/05/technology/googletrump-bias.html",
+      "https://fivethirtyeight.com/features/whosbehaving-like-a-2020-presidential-candidate/",
+      "https://www.oddsshark.com/other/2020-usa-presidentialodds-futures",
+      "https://www.pewresearch.org/fact-",
+      "https://searchengineland.com/amp-top-stories-now-live-",
+      "https://www.latimes.com/politics/la-na-pol-democraticpresidential-candidates-2020-pasadena-immigration-20190531story.html",
+      "https://www.apnews.com/492900cdfa464d35b9e154e13c368",
+      "https://www.staradvertiser.com/2019/01/11/breakingnews/bernie-sanders-faces-questions-about-political-future/",
+      "https://dataverse.harvard.edu/dataset.xhtml?",
+      "https://developer.nytimes.com/docs/articlesearchproduct/1/overview",
+      "https://www.politico.com/politics",
+      "https://www.theatlantic.com/politics/archive/2019/07/juliancastros-fight-attention/594679/"
+    ],
+    "urls_in_references": [
+      "https://www.gdeltproject.org/"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/0ZLHOK",
+      "10.7910/DVN/QAN5VX"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Media Coverage of the 2020 US Presidential Election Candidates through the Lens of Google’s Top Stories",
+      "authors": [
+        "Anna Kawakami",
+        "Khonzodakhon Umarova",
+        "Eni Mustafaraj"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Search engines/Google Trends",
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Google’s Top stories",
+        "Google Search",
+        "Google’s search result page"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "custom-made Python script",
+        "Chrome browser"
+      ],
+      "temporal_coverage_start": "2018-12",
+      "temporal_coverage_end": "2019-12",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 79903,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "Our dataset contains 79,903 news story URLs published by 2,168 unique news sources.",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Elections",
+      "event_name": "2020 US Presidential Election",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Political communication and elections",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "algorithmic curation of news",
+        "media agenda setting",
+        "issue framing during presidential elections"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/0ZLHOK"
+      ],
+      "persistent_doi": "10.7910/DVN/0ZLHOK",
+      "code_repository_url": "",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We are sharing our dataset so that other researchers can answer questions related to algorithmic curation of news as well as media agenda setting in the context of political elections.",
+      "scale_quote": "Our dataset contains 79,903 news story URLs published by 2,168 unique news sources.",
+      "annotation_quote": "",
+      "ethics_quote": "",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The dataset does not contain the full text of news stories, but only the URLs, which makes it difficult to determine the language and other content-related attributes. Additionally, the paper does not specify the exact distribution form or whether the dataset includes any derived features."
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "paper_id": "2024_41080_icwsm_patelj_4895c5",
+  "year": 2024,
+  "pdf_filename": "41080-ICWSM.PatelJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:06:54+00:00",
+    "usage": [
+      {
+        "input_tokens": 24658,
+        "output_tokens": 1405,
+        "cache_read_input_tokens": 22431,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011DjvBj47hVNHNQe05EThB5VtG",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 57710,
+    "sha256": "f3e870c7c7707a7268126c2bd4a9c921143e79c3b22ecb83182b227a1d7cb867",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://scored.co",
+      "https://developers.virustotal.com/reference/overview",
+      "https://web.archive.org/web/20200630065948/https",
+      "https://web.archive.org/web/",
+      "https://communities.win/p/11S13qIEl9/",
+      "https://web.archive",
+      "https://communities.win/",
+      "https://help.scored.co/knowledgebase/content-policy/",
+      "https://github.com/xlang-ai/instructor-embedding",
+      "https://IP2alwayswins.com",
+      "https://saidit.net/s/SaidIt/"
+    ],
+    "urls_in_references": [
+      "https://www.vice.com/en/article/43pv3g/gamergate-",
+      "https://force11",
+      "https://www.dailydot.com/",
+      "https://www.theverge.com/2020/6/29/21304947/reddit-",
+      "https://www.reddit.com/r/announcements/comments/",
+      "https://www.reddit.com/r/redditsecurity/comments/",
+      "https://www.pewresearch"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "iDRAMA-Scored-2024: A Dataset of the Scored Social Media Platform from 2020 to 2023",
+      "authors": [
+        "Jay Patel",
+        "Pujan Paudel",
+        "Emiliano De Cristofaro",
+        "Gianluca Stringhini",
+        "Jeremy Blackburn"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "iDRAMA-Scored-2024",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Scored",
+        "Communities.win"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "INSTRUCTOR",
+        "VirusTotal",
+        "Ratcliff/Obershelp"
+      ],
+      "temporal_coverage_start": "2020-01-01",
+      "temporal_coverage_end": "2023-12-31",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 56815584,
+      "num_accounts_or_users": 226765,
+      "scale_description_verbatim": "50,521,604 comments and 6,293,980 submissions",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Misinformation and fact-checking",
+        "Online communities and collective behavior"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Topic or content classification",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "classification, clustering, and semantic similarity",
+        "migration pattern and radicalization",
+        "topic generation or clustering techniques"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "Hugging Face Hub",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/10516043",
+        "https://hf.co/datasets/iDRAMALab/iDRAMA-scored-2024",
+        "https://github.com/idramalab/iDRAMA-scored-2024"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/idramalab/iDRAMA-scored-2024",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Hash the actual usernames and plan to make them available only to bona fide researchers upon request",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The data is accessible on Zenodo and on Huggingface. The data is freely downloadable and released in a standardized JSON format for interoperability.",
+      "scale_quote": "Using a custom crawler, we collect Scored data ranging from January 1, 2020, to December 31, 2023. This yields a dataset of 50.52M comments and 6.29M posts",
+      "annotation_quote": "we create and release sentence embeddings of the collected data. We adhere to FAIR principles in releasing this data, discussed in a later section.",
+      "ethics_quote": "In this work, we collect and analyze publicly available data without engaging with users directly. As a result, our institution’s Institutional Review Board (IRB) does not classify this work as human subject research.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper claims to have ~57M posts but the table shows 56,815,584 total posts and 56,240,519 total posts in the top 15 communities. The paper mentions releasing the code but the GitHub link is not fully resolved in the text. The paper mentions releasing a list of banned communities but the exact format is not specified."
+    }
+  }
+}

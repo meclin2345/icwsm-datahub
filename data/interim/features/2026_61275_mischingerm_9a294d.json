@@ -1,0 +1,26 @@
+{
+  "page_count": 15,
+  "n_chars": 78448,
+  "sha256": "9d8cfabae4d168b2ad5234091190cd2f3798fea0b2730c5e3ca2da0ddadcda68",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.cambridgecybercrime.uk/datasets.html",
+    "https://pypi.org/project/langdetect/",
+    "https://www.cambridgecybercrime.uk/data.html"
+  ],
+  "urls_in_references": [
+    "https://gwern.net/dnm-archive",
+    "https://force11",
+    "https://www.cambridgecybercrime.uk/data.html",
+    "https://www",
+    "https://www.cambridgecybercrime.uk/datasets.html"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.17130286",
+    "10.13039/501100011033/",
+    "10.13039/501100011033"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

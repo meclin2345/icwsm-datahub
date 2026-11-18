@@ -1,0 +1,46 @@
+{
+  "page_count": 8,
+  "n_chars": 34032,
+  "sha256": "d0819cbb8a3464244d3a28088101ce7bb175306431a1e2349410235175665155",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "http://yelp.com",
+    "https://www.tripadvisor.com",
+    "https://www.metacritic.com",
+    "https://pitchfork.com",
+    "https://www.pandora.com",
+    "https://newsroom.spotify.com/company-info/",
+    "https://developer.spotify.com/documentation/web-api/",
+    "https://www.spotify.com/us/discoverweekly/",
+    "https://artists.spotify.com/blog/say-hello-to-release-radar",
+    "https://obscurifymusic.com/",
+    "https://nijianmo.github.io/amazon/index.html",
+    "https://selenium.dev",
+    "https://pitchfork.com/reviews/albums/",
+    "https://docs.python.org/3/library/urllib.request.html",
+    "https://beautiful-soup-4.readthedocs.io/en/latest/",
+    "https://docs.python.org/3/library/difflib.html",
+    "https://zenodo.org/record/3603330#.XheASC3MzOQ",
+    "https://github.com/cuinfoscience/objectivelyreviewed",
+    "https://www.condenast.com/user-agreement/",
+    "https://developer.spotify.com/terms/#iv",
+    "http://creativecommons.org/licenses/by/4.0/",
+    "https://www.gnu.org/licenses/gpl-3.0.en.html",
+    "https://developer.spotify.com/documentation/web-",
+    "https://developer.spotify.com/documentation/webapi/reference/tracks/get-audio-features/",
+    "https://www.pandora.com/about/mgp"
+  ],
+  "urls_in_references": [
+    "https://blogs.brown.edu/econ-1400-s01/files/2015/",
+    "https://www.instagram.com/p/BMAbBslAHgx/",
+    "https://www.viget.com/articles/auto-generated-musicattributes-and-the-stories-they-tell/",
+    "https://www.nsgrantham.com/pitchfork-reviews",
+    "http://ethicsgirls"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.3603330"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

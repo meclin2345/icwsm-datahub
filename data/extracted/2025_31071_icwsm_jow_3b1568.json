@@ -1,0 +1,201 @@
+{
+  "paper_id": "2025_31071_icwsm_jow_3b1568",
+  "year": 2025,
+  "pdf_filename": "31071-ICWSM.JoW.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:08:38+00:00",
+    "usage": [
+      {
+        "input_tokens": 23916,
+        "output_tokens": 988,
+        "cache_read_input_tokens": 21663,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0114VbvaTYsMYP4cIPu4AmG0Lkf",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 14,
+    "n_chars": 63322,
+    "sha256": "e58d89f85a733b1619fe3c76bba485f06eaf5366cd583dd63a0ba3ad42a0ce78",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://zenodo.org/records/14647452",
+      "https://developers.google.com/youtube/v3/getting-started",
+      "https://pypi.org/project/youtube-transcript-api/"
+    ],
+    "urls_in_references": [
+      "https://www.pewresearch.org/internet/2021/04/07/social-media-use-in-2021/",
+      "https://tinyurl.com/SocialMediaMentalHealthReview",
+      "https://www.statista.com/statistics/1426538/us-adultsharmful-social-media-usage-teens-kids/",
+      "https://www.turing.ac.uk/sites/default/files/202303/tracking_experiences_of_online_harms_and_attitudes_report_final.pdf",
+      "https://www.pewresearch.org/short-reads/2023/04/24/teens-and-social-mediakey-findings-from-pew-research-center-surveys/",
+      "https://zenodo.org/records/14647452",
+      "https://help.openai.com/en/articles/5722486-how-your-data-isused-to-improve-model-performance",
+      "http://www.research.ucdavis.edu/policiescompliance/irb-admin/.You"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "MetaHarm: Harmful YouTube Video Dataset Annotated by Domain Experts, GPT-4-Turbo, and Crowdworkers",
+      "authors": [
+        "Wonjeong Jo",
+        "Magdalena Wojcieszak"
+      ],
+      "author_countries": [
+        "US",
+        "PL"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "MetaHarm",
+      "platforms": [
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "YouTube Data API v3",
+        "YouTubeTranscriptApi",
+        "Selenium",
+        "requests",
+        "yt_dlp",
+        "opencv",
+        "pytube"
+      ],
+      "temporal_coverage_start": "2006",
+      "temporal_coverage_end": "2024",
+      "primary_record_unit": "Videos",
+      "total_records": 60906,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "60,906 potentially harmful YouTube videos and (2) 19,422 videos annotated",
+      "modalities": [
+        "Video",
+        "Image",
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "Misinformation and fact-checking",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Multimodal understanding (image/video/audio)",
+        "Hate or toxicity detection",
+        "Misinformation or claim detection",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "classifying harmful videos",
+        "binary classification (harmful vs. harmless)",
+        "multi-label categorizations of six harm categories"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Crowdworkers (MTurk, Prolific, etc.)",
+        "LLM or generative AI labels"
+      ],
+      "llms_used": [
+        "GPT-4-Turbo"
+      ],
+      "num_annotated_records": 19422,
+      "num_annotators": 554,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa",
+        "Krippendorff's alpha",
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.88,
+      "iaa_summary_verbatim": "ICR was 0.88 using Holsti’s index (1969) for the binary classification task and 0.76 using Cohen’s Kappa for the multi-label classification.",
+      "baseline_families": [
+        "LLM prompting (zero- or few-shot)",
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "Personal or lab website, Google Drive, Dropbox"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/14647452"
+      ],
+      "persistent_doi": "10.5281/zenodo.14647452",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "EXCEL",
+        "PNG",
+        "JPG"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The dataset includes public YouTube metadata (titles, uploaders, descriptions, transcripts) and no mention of PII scrubbing was found.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The data is found at Zenodo data repository (https://zenodo.org/records/14647452) with a digital object identifier (DOI): 10.5281/zenodo.14647452",
+      "scale_quote": "we present two large-scale datasets of multi-modal and multi-categorical online harm: (1) 60,906 systematically selected potentially harmful YouTube videos and (2) 19,422 videos",
+      "annotation_quote": "We annotated the 19,422 videos by (a) determining if they were harmful or harmless and (b) assigning one or more specific harm categories.",
+      "ethics_quote": "This study was approved by the IRB of the authors' institution. All human participants provided informed consent.",
+      "license_quote": "The Zenodo repository is publicly discoverable and licensed under CC BY 4.0.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

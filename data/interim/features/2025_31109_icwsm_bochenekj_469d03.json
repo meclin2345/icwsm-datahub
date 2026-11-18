@@ -1,0 +1,24 @@
+{
+  "page_count": 11,
+  "n_chars": 51355,
+  "sha256": "e0de0b9708a5f0a98a6546367498b5c5449ca68ac5871d517f3239ccb6538340",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.7910/DVN/5BYHIV"
+  ],
+  "urls_in_references": [
+    "https://www",
+    "https://force11",
+    "https://data.stanford.edu/",
+    "https://github.com/unitedstates/congressionalrecord/",
+    "https://api",
+    "https://github.com/unitedstates/congress-legislators",
+    "https://cha.house.gov/committee-rules"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/5BYHIV"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

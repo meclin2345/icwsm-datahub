@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "paper_id": "2024_41071_icwsm_shaym_9daa1f",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.7910/DVN/RQBWAC",
+    "doi_resolves": true,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.7910/DVN/RQBWAC",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/RQBWAC",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Dataverse",
+    "file_count": 2,
+    "total_size_mb": 5.48,
+    "file_extensions": ".tsv",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 147,
+    "downloads_unique": 62,
+    "views_total": 517,
+    "downloads_metric_source": "Dataverse Make Data Count",
+    "repo_license": "CC BY-NC-SA 4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Harvard Dataverse",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/Socially-Embedded-Lab/EnronSR",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 0,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2024-03-23T13:05:59Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.7910/DVN/RQBWAC",
+      "resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/RQBWAC",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:23:25+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": true,
+    "instance": "https://dataverse.harvard.edu",
+    "pid": "doi:10.7910/DVN/RQBWAC",
+    "version_state": "RELEASED",
+    "license": "CC BY-NC-SA 4.0",
+    "file_count": 2,
+    "restricted_file_count": 0,
+    "restricted": false,
+    "partially_restricted": false,
+    "total_size_mb": 5.48,
+    "file_extensions": [
+      ".tsv"
+    ],
+    "terms_of_access": false,
+    "downloadsTotal": 147,
+    "viewsTotal": 517,
+    "downloadsUnique": 62
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": true,
+    "repo": "Socially-Embedded-Lab/EnronSR",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-03-23T13:05:59Z",
+    "created_at": "2024-03-23T12:14:49Z",
+    "size_mb": 0.01,
+    "license": "NOASSERTION"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Harvard Dataverse",
+    "landing_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/RQBWAC",
+    "views": 261,
+    "downloads": 43,
+    "citations": 0,
+    "registered_year": "2024"
+  },
+  "wayback": null
+}

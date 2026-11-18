@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "paper_id": "2020_tborck_aaai_tekumallar_1036_200fe8",
+    "year": 2020,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.3571328",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.3571328",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/3571328",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 1,
+    "total_size_mb": 60.78,
+    "file_extensions": ".csv",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 313,
+    "downloads_unique": 256,
+    "views_total": 745,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/thepanacealab/InternetArchive-Pharmacovigilance-Tweets",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.3571328",
+      "resolved_url": "https://zenodo.org/records/3571328",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:46+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/thepanacealab/InternetArchive-Pharmacovigilance-Tweets",
+      "resolved_url": "https://github.com/thepanacealab/InternetArchive-Pharmacovigilance-Tweets",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:47+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "3571328",
+    "concept_doi": "10.5281/zenodo.3571327",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 1,
+    "total_size_mb": 60.78,
+    "file_extensions": [
+      ".csv"
+    ],
+    "stats_raw": {
+      "downloads": 313,
+      "unique_downloads": 256,
+      "views": 745,
+      "unique_views": 685,
+      "version_downloads": 313,
+      "version_unique_downloads": 256,
+      "version_unique_views": 683,
+      "version_views": 743
+    },
+    "downloads": 313,
+    "unique_downloads": 256,
+    "views": 745,
+    "unique_views": 685,
+    "version_downloads": 313,
+    "version_unique_downloads": 256,
+    "publication_date": "2019-12-11"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false,
+    "api_status": 403,
+    "repo": "thepanacealab/InternetArchive-Pharmacovigilance-Tweets"
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 403,
+    "repo": "thepanacealab/InternetArchive-Pharmacovigilance-Tweets"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/record/3571328",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2019"
+  },
+  "wayback": null
+}

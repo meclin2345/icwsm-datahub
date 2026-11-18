@@ -1,0 +1,20 @@
+{
+  "page_count": 6,
+  "n_chars": 29015,
+  "sha256": "4855b6f6bb4d0bad05621807b3503965831012318e7c6a30aa251f1840b1448f",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.idiap.ch/en/scientific-research/data/",
+    "https://doi.org/10.34777/6w61-tn46"
+  ],
+  "urls_in_references": [
+    "https://www",
+    "https://www.swissinfo.ch/eng/"
+  ],
+  "dois_in_body": [
+    "10.34777/6w61-tn46"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "paper_id": "2021_01019_icwsm_valentimr_3f02c8",
+    "year": 2021,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.4433137",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.4433137",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/4433137",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 2,
+    "total_size_mb": 642.55,
+    "file_extensions": ".zip",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 636,
+    "downloads_unique": 510,
+    "views_total": 2661,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/rodolfovalentim/wikipedia-contentpropagation",
+    "code_url_status": "Dead (404)",
+    "code_url_alive": false,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.4433137",
+      "resolved_url": "https://zenodo.org/records/4433137",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:49+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/rodolfovalentim/wikipedia-contentpropagation",
+      "resolved_url": "https://github.com/rodolfovalentim/wikipedia-contentpropagation",
+      "http_status": 404,
+      "category": "Dead (404)",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:50+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "4433137",
+    "concept_doi": "10.5281/zenodo.4433136",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 2,
+    "total_size_mb": 642.55,
+    "file_extensions": [
+      ".zip"
+    ],
+    "stats_raw": {
+      "downloads": 636,
+      "unique_downloads": 510,
+      "views": 2661,
+      "unique_views": 2440,
+      "version_downloads": 636,
+      "version_unique_downloads": 510,
+      "version_unique_views": 2431,
+      "version_views": 2652
+    },
+    "downloads": 636,
+    "unique_downloads": 510,
+    "views": 2661,
+    "unique_views": 2440,
+    "version_downloads": 636,
+    "version_unique_downloads": 510,
+    "publication_date": "2021-03-15"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false,
+    "api_status": 403,
+    "repo": "rodolfovalentim/wikipedia-contentpropagation"
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 403,
+    "repo": "rodolfovalentim/wikipedia-contentpropagation"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/record/4433137",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2021"
+  },
+  "wayback": null
+}

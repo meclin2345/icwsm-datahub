@@ -1,0 +1,177 @@
+{
+  "paper_id": "2025_31127_icwsm_cooko_bd7a95",
+  "year": 2025,
+  "pdf_filename": "31127-ICWSM.CookO.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:25:12+00:00",
+    "usage": [
+      {
+        "input_tokens": 23498,
+        "output_tokens": 835,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0111pn8pgnUH6HiClRq1kCFPXI3",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 58298,
+    "sha256": "9693a3662a12e6ee0577198b9e7177a5f89cf5f907dbff5a9ed2a49f84b15c86",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.14659362",
+      "https://github.com/GateNLP/chinese-news-framing",
+      "https://mediabiasfactcheck.com/",
+      "https://huggingface.co/sentence-transformers/paraphrasemultilingual-MiniLM-L12-v2",
+      "https://github.com/GateNLP/gate-teamware",
+      "https://huggingface.co/FacebookAI/xlm-roberta-base",
+      "https://doi.org/10.5281/zenodo"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.14659362",
+      "10.5281/zenodo"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Dataset for Analysing News Framing in Chinese Media",
+      "authors": [
+        "Owen Cook",
+        "Yida Mu",
+        "Xinye Yang",
+        "Xingyi Song",
+        "Kalina Bontcheva"
+      ],
+      "author_countries": [
+        "GB"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Chinese News Framing",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "news websites"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2020",
+      "temporal_coverage_end": "2024",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 353,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The Chinese News Framing dataset consists of 353 Chinese articles from 14 different news sources, annotated with at least one news frame.",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "zh"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Political communication and elections",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "multi-class, multilabel classification"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 353,
+      "num_annotators": 6,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Krippendorff's alpha"
+      ],
+      "iaa_primary_value": 0.465,
+      "iaa_summary_verbatim": "The average Krippendorff's alpha of all links ... is 0.465.",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.14659362"
+      ],
+      "persistent_doi": "10.5281/zenodo.14659362",
+      "code_repository_url": "https://github.com/GateNLP/chinese-news-framing",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC-BY-NC-SA",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Annotator identities remain anonymous and news content is not included in the published dataset; users must retrieve article text from web links.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset has been published to the Zenodo dataset sharing service: https://doi.org/10.5281/zenodo.14659362",
+      "scale_quote": "In total, we obtained approximately 300k news articles from 14 different news sites.",
+      "annotation_quote": "each news article was annotated by two different annotators",
+      "ethics_quote": "Our study has received ethical approval from the University of Sheffield.",
+      "license_quote": "We make our dataset and code available on Zenodo and GitHub with the CC-BY-NC-SA Licence.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Dataset distribution form is mixed rather than dehydrated IDs: released CSV files contain frames and web links, and the full article text is not redistributed."
+    }
+  }
+}

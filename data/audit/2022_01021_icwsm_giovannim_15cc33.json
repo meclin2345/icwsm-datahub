@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "paper_id": "2022_01021_icwsm_giovannim_15cc33",
+    "year": 2022,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.7910/DVN/NZUMZG",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.7910/DVN/NZUMZG",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/NZUMZG",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Dataverse",
+    "file_count": 1160,
+    "total_size_mb": 1353.65,
+    "file_extensions": ".csv, .txt",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 9396,
+    "downloads_unique": 100,
+    "views_total": 12120,
+    "downloads_metric_source": "Dataverse Make Data Count",
+    "repo_license": "CC0 1.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Harvard Dataverse",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/DataSciencePolimi/VaccinEU",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.7910/DVN/NZUMZG",
+      "resolved_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/NZUMZG",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:22:10+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/DataSciencePolimi/VaccinEU",
+      "resolved_url": "https://github.com/DataSciencePolimi/VaccinEU",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:10+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": true,
+    "instance": "https://dataverse.harvard.edu",
+    "pid": "doi:10.7910/DVN/NZUMZG",
+    "version_state": "RELEASED",
+    "license": "CC0 1.0",
+    "file_count": 1160,
+    "restricted_file_count": 0,
+    "restricted": false,
+    "partially_restricted": false,
+    "total_size_mb": 1353.65,
+    "file_extensions": [
+      ".csv",
+      ".txt"
+    ],
+    "terms_of_access": false,
+    "downloadsTotal": 9396,
+    "viewsTotal": 12120,
+    "downloadsUnique": 100
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false,
+    "api_status": 403,
+    "repo": "DataSciencePolimi/VaccinEU"
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 403,
+    "repo": "DataSciencePolimi/VaccinEU"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Harvard Dataverse",
+    "landing_url": "https://dataverse.harvard.edu/citation?persistentId=doi:10.7910/DVN/NZUMZG",
+    "views": 723,
+    "downloads": 94,
+    "citations": 0,
+    "registered_year": "2022"
+  },
+  "wayback": null
+}

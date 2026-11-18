@@ -1,0 +1,30 @@
+{
+  "page_count": 7,
+  "n_chars": 32748,
+  "sha256": "e5e5a00e413aabbe1a20298bd2734540716e7830703e6835ac2721cbf33115a8",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://wmdeanalytics.wmflabs.org/WD",
+    "https://www.mediawiki.org/wiki/Content",
+    "https://doi.org/10",
+    "https://dumps.wikimedia.org",
+    "https://wiki-topic.toolforge.org",
+    "https://www.mediawiki.org/wiki/Manual:Bots",
+    "https://www.wikidata.org/wiki/Q298",
+    "https://pt.wikipedia.org/wiki/Chile",
+    "https://meta.wikimedia.org/wiki/Research:LanguageAgnostic",
+    "https://meta.wikimedia.org/wiki/Table",
+    "https://github.com/rodolfovalentim/wikipedia-contentpropagation",
+    "https://www.wikidata.org/wiki/Help:Items",
+    "https://www.wikidata.org/wiki/Wikidata:List"
+  ],
+  "urls_in_references": [
+    "http://www.icwsm.org/papers/paper2.html",
+    "https://www.aclweb.org/",
+    "https://doi"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

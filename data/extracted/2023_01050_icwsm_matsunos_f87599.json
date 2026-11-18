@@ -1,0 +1,192 @@
+{
+  "paper_id": "2023_01050_icwsm_matsunos_f87599",
+  "year": 2023,
+  "pdf_filename": "01050-ICWSM.MatsunoS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:35:24+00:00",
+    "usage": [
+      {
+        "input_tokens": 20601,
+        "output_tokens": 841,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011dEnEbP4m2kwWkKF1bdOQ3ot1",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.supported_tasks.2: got 'Time series or temporal prediction'; Input should be 'Topic or content classification', 'Stance detection', 'Sentiment or emotion analysis', 'Hate or toxicity detection', 'Misinformation or claim d"
+      },
+      {
+        "input_tokens": 21537,
+        "output_tokens": 847,
+        "cache_read_input_tokens": 18335,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011k6B94T6ylfMkHcVN1VE9Qf22",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 56386,
+    "sha256": "6d976daff788a6b29c7110c50c18b75c7d1547e93da166e9e7ee8065e1a3dc10",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://wikimedia.org/api/rest",
+      "https://doi.org/10.5281/zenodo.7014424"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.7014424"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Construction of Evaluation Datasets for Trend Forecasting Studies",
+      "authors": [
+        "Shogo Matsuno",
+        "Sakae Mizuki",
+        "Takeshi Sakaki"
+      ],
+      "author_countries": [
+        "JP"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "Benchmark or evaluation suite",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Trend Dataset",
+      "platforms": [
+        "Wikipedia/Wikidata",
+        "Search engines/Google Trends"
+      ],
+      "platform_names_verbatim": [
+        "Wikipedia",
+        "Google Trends",
+        "Yahoo! Crowdsourcing"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)",
+        "Survey or crowdsourced contribution"
+      ],
+      "collection_tools": [
+        "Wikimedia REST API",
+        "HottoSNS-w2v",
+        "Wikipedia2Vec",
+        "Word2Vec",
+        "Google Trends",
+        "Yahoo! Crowdsourcing"
+      ],
+      "temporal_coverage_start": "2015-01-01",
+      "temporal_coverage_end": "2019-04-30",
+      "primary_record_unit": "Other",
+      "total_records": 400,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "for a total of 400 entities as the entity master",
+      "modalities": [
+        "Time series or temporal logs",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "ja"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "JP"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Influencers, marketing and the platform economy",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Recommendation or ranking",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "binary classification of trending status",
+        "ranking of degree of trending",
+        "prediction of the trend period"
+      ],
+      "annotation_paradigms": [
+        "Crowdworkers (MTurk, Prolific, etc.)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 400,
+      "num_annotators": 1351,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.7014424"
+      ],
+      "persistent_doi": "10.5281/zenodo.7014424",
+      "code_repository_url": "",
+      "distribution_form": "Aggregated statistics, embeddings or derived features only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "personally identifiable information online is processed in an anonymized format",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "can be searched and accessed via Zenodo (DOI: https://doi.org/10.5281/zenodo.7014424)",
+      "scale_quote": "for a total of 400 entities as the entity master",
+      "annotation_quote": "a crowdsourced questionnaire survey is used to measure public recognition rates on an annual basis",
+      "ethics_quote": "this study assumes that personally identifiable information online is processed in an anonymized format",
+      "license_quote": "licensed under CC BY 4.0",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "supported_tasks includes 'Other' for the paper's 'prediction of the trend period' (closest valid enum). pii_anonymization_applied set true per ethical statement re: Wikipedia editor metadata, though no PII is present in the released dataset."
+    }
+  }
+}

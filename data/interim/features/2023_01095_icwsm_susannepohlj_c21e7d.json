@@ -1,0 +1,35 @@
+{
+  "page_count": 9,
+  "n_chars": 50613,
+  "sha256": "63334f1252ce9b69b5609eff4b8e5f96ee192bf64d55abb6b78c0338945d8276",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.nationalarchives.gov.uk/webarchive/",
+    "https://www.archives.gov/",
+    "https://twitter.com/Ukraine/status/1497594592438497282",
+    "https://www.blockchain.com/",
+    "https://www.cnn.com/2022/03/09/media/biolab-ukrainerussia-qanon-false-conspiracy-theory/index.html",
+    "https://edition.cnn.com/2022/04/26/tech/twitter-free-speechelon-musk/index.html",
+    "https://doi.org/10.7802/2555",
+    "https://doi.org/10.5281/zenodo.7804846"
+  ],
+  "urls_in_references": [
+    "https://www.kaggle.com/datasets/",
+    "https://www.kaggle.com/dsv/4809572",
+    "https://policycommons.net/artifacts/2288078/thewar-in-ukraine-and-its-economic-fallout/3048212/",
+    "https://ieeedataport.org/documents/ukruwar22-collection-ukrainerussia-war-related-tweets#files",
+    "https://www",
+    "https://doi.org/10.17605/OSF.IO/RTQXN",
+    "https://www.kaggle.com/datasets/foklacu/ukrainewar-tweets-dataset-65-days?resource=download",
+    "https://socialmedialab.ca/2022/05/10/navigating-thefog-of-war-during-the-russia-invasion-of-ukraine/",
+    "https://theconversation.com/thenext-war-will-be-an-information-war-and-were-not-readyfor-it-51218",
+    "https://www.kaggle"
+  ],
+  "dois_in_body": [
+    "10.7802/2555",
+    "10.5281/zenodo.7804846"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,42 @@
+{
+  "page_count": 10,
+  "n_chars": 57279,
+  "sha256": "3ec47a53fba2c20fabad79d7da72dfe69df40e4130afc869dd82045865d23e9b",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "http://boards.4chan.org/pol/",
+    "https://github.com/4chan/4chan-API",
+    "http://ndjson.org/",
+    "https://4plebs.org/",
+    "https://www.go-fair.org/fair-principles/",
+    "https://doi.org/10.5281/zenodo.3606810",
+    "https://www.internetlivestats.com/internet-users-by-country/",
+    "https://spacy.io/api/annotation"
+  ],
+  "urls_in_references": [
+    "https://www.adl.org/",
+    "https://bit.ly/2WXhEJR",
+    "https://bit.ly/3dGI9cD",
+    "https://bit.ly/2WSw3qI",
+    "https://time.com/",
+    "https://benpettis",
+    "https://nyti.ms/2R2iEsp",
+    "https://wapo.st/",
+    "https://bit.ly/2X0dfGh",
+    "https://bit.ly/341Gfib",
+    "http://dailym.ai/2UL9AJv",
+    "https://nyti.ms/2RtfddM",
+    "https://www.perspectiveapi.com/",
+    "https://bit.ly/2JnMqnf",
+    "https://bit.ly/",
+    "https://theweek.com/10things/764082/10-things-needknow-today-april-1-2018",
+    "https://trac.torproject",
+    "https://www.theguardian.com/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.3606810"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

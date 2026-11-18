@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "paper_id": "2021_01064_icwsm_consonnic_60681a",
+    "year": 2021,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "https://zenodo.org/record/4027465",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/4027465",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 13,
+    "total_size_mb": 114.29,
+    "file_extensions": ".csv",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 6763,
+    "downloads_unique": 4614,
+    "views_total": 2708,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/MoTiV-project/dataanalysis",
+    "code_url_status": "Dead (404)",
+    "code_url_alive": false,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://zenodo.org/record/4027465",
+      "resolved_url": "https://zenodo.org/records/4027465",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:58+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "4027465",
+    "concept_doi": "10.5281/zenodo.4027464",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 13,
+    "total_size_mb": 114.29,
+    "file_extensions": [
+      ".csv"
+    ],
+    "stats_raw": {
+      "downloads": 6763,
+      "unique_downloads": 4614,
+      "views": 2708,
+      "unique_views": 2274,
+      "version_downloads": 6761,
+      "version_unique_downloads": 4612,
+      "version_unique_views": 2271,
+      "version_views": 2705
+    },
+    "downloads": 6763,
+    "unique_downloads": 4614,
+    "views": 2708,
+    "unique_views": 2274,
+    "version_downloads": 6761,
+    "version_unique_downloads": 4612,
+    "publication_date": "2020-09-14"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 403,
+    "repo": "MoTiV-project/dataanalysis"
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

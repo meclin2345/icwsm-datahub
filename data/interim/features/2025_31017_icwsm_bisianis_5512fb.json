@@ -1,0 +1,25 @@
+{
+  "page_count": 14,
+  "n_chars": 68083,
+  "sha256": "e70de45b6c060d6467c0962833c37458fa11168cf52cc58c3324bd9d87909745",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.7910/DVN/R5XTEO"
+  ],
+  "urls_in_references": [
+    "https://www.publicinterestnews.org.uk/",
+    "https://assets.publishing",
+    "https://publications.parliament.uk/pa/ld5901/",
+    "https://pressgazette.co.uk/publishers/",
+    "https://www.ofcom.org.uk/tv-radio-and-ondemand/information-for-industry/other-general-mediaregulation/local-media-review",
+    "https://www.ofcom.org.uk/siteassets/resources/documents/tvradio-and-on-demand/reviews-and-investigations/localmedia/review-of-local-media-in-the-uk-initialfindings.pdf?v=371109",
+    "https://www.mediareform.org.uk/wpcontent/uploads/2023/10/Who-Owns-the-UK-Media2023.pdf",
+    "https://pressgazette.co.uk/news/most-reach-journalistswork-home-after-covid-19-mail-online-prepares-returnnewsroom/"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/R5XTEO"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

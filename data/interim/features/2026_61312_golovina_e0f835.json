@@ -1,0 +1,28 @@
+{
+  "page_count": 23,
+  "n_chars": 74016,
+  "sha256": "af1801a4b1dbd940f0b7c765478f454d490b2651312317a593429554deef37ca",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/Priesemann-",
+    "https://github.com/PriesemannGroup/telegram",
+    "https://zenodo.org/records/18262126",
+    "https://youtu.be/abcdefghijk\u201d"
+  ],
+  "urls_in_references": [
+    "https://github.com/LlmKira/fast-langdetect",
+    "https://github.com/pyrogram/pyrogram",
+    "https://telegram.org/blog/my-profile-and15-more",
+    "https://github.com/",
+    "https://zenodo.org/",
+    "https://github.com/Priesemann-Group/",
+    "https://t.me/USERNAME",
+    "https://telegramchannels.me/ranking"
+  ],
+  "dois_in_body": [
+    "10.55776/P37280"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

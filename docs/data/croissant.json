@@ -1,0 +1,2357 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "ICWSM-DataHub",
+  "description": "A curated meta-dataset of ICWSM Dataset Track papers (2020-2026): extracted metadata, FAIR indicators and an empirical 2026 accessibility audit of every released dataset.",
+  "url": "https://meclin2345.github.io/icwsm-datahub/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "version": "1.0.0",
+  "isLiveDataset": true,
+  "datePublished": "2026-11-18",
+  "citeAs": "Please cite the ICWSM-DataHub paper (see CITATION.cff).",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "catalog-csv",
+      "name": "catalog-csv",
+      "contentUrl": "icwsm_datahub_catalog.csv",
+      "encodingFormat": "text/csv",
+      "sha256": "6750380d49b902878599228376a3cafade9bb147d580b926dedcdc2439e6ed76"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "papers",
+      "name": "papers",
+      "description": "One record per ICWSM Dataset Track paper.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "papers/paper_id",
+          "name": "paper_id",
+          "dataType": "sc:Text",
+          "description": "Stable identifier: <year>_<slug of PDF name>_<hash>.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "paper_id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/year",
+          "name": "year",
+          "dataType": "sc:Integer",
+          "description": "ICWSM proceedings year (from the folder the PDF came from).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "year"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/pdf_filename",
+          "name": "pdf_filename",
+          "dataType": "sc:Text",
+          "description": "Original PDF file name.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "pdf_filename"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/title",
+          "name": "title",
+          "dataType": "sc:Text",
+          "description": "Full paper title exactly as printed.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "title"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/authors",
+          "name": "authors",
+          "dataType": "sc:Text",
+          "description": "All author names in printed order.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "authors"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/n_authors",
+          "name": "n_authors",
+          "dataType": "sc:Integer",
+          "description": "Number of authors.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "n_authors"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/author_countries",
+          "name": "author_countries",
+          "dataType": "sc:Text",
+          "description": "ISO 3166-1 alpha-2 codes (uppercase) for countries of all author affiliations, deduplicated, e.g. ['US','IN']. [] if affiliations are not printed.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "author_countries"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/author_regions",
+          "name": "author_regions",
+          "dataType": "sc:Text",
+          "description": "World-region(s) of author affiliations (World Bank-style regions).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "author_regions"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/author_global_south",
+          "name": "author_global_south",
+          "dataType": "sc:Boolean",
+          "description": "True if any author affiliation is in the Global South (Brandt-line-style approximation, see normalize.py).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "author_global_south"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/is_industry_collaboration",
+          "name": "is_industry_collaboration",
+          "dataType": "sc:Boolean",
+          "description": "True if at least one author lists a company or industry research lab affiliation.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "is_industry_collaboration"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/contribution_type",
+          "name": "contribution_type",
+          "dataType": "sc:Text",
+          "description": "Main type of resource the paper contributes. Values: New dataset / Extension or new version of an existing dataset / Benchmark or evaluation suite / Tool or infrastructure released with data / Ongoing archive or data collection effort / Other",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "contribution_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/num_datasets_released",
+          "name": "num_datasets_released",
+          "dataType": "sc:Integer",
+          "description": "Number of distinct datasets the paper releases. Usually 1. -1 if unclear.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "num_datasets_released"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/page_count",
+          "name": "page_count",
+          "dataType": "sc:Integer",
+          "description": "Number of PDF pages.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "page_count"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/checklist_detected",
+          "name": "checklist_detected",
+          "dataType": "sc:Boolean",
+          "description": "True if the AAAI/ICWSM paper checklist text is found by regex.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "checklist_detected"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/dataset_name",
+          "name": "dataset_name",
+          "dataType": "sc:Text",
+          "description": "Name or acronym the authors give the released dataset. '' if unnamed.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "dataset_name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/platforms",
+          "name": "platforms",
+          "dataType": "sc:Text",
+          "description": "Every platform whose content is in the RELEASED dataset (not platforms only discussed). Values: Twitter/X / Reddit / YouTube / TikTok / Instagram / Facebook / Threads / Telegram / WhatsApp / Discord / Bluesky / Mastodon/Fediverse / 4chan/8kun/Imageboards / Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute) / LinkedIn / Twitch / Q&A and Forums (Quora/Stack Exchange/other forums) / Chinese platforms (Weibo/Douyin/Bilibili/WeChat) / Regional platforms (VK/ShareChat/Koo/Line/KakaoTalk) / Web/News/Blogs / Wikipedia/Wikidata / Search engines/Google Trends / AI chatbots and LLM output (ChatGPT logs, AI-generated content) / Other",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "platforms"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/platform_families",
+          "name": "platform_families",
+          "dataType": "sc:Text",
+          "description": "Platforms grouped into 10 families used in figures and the explorer.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "platform_families"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/n_platforms",
+          "name": "n_platforms",
+          "dataType": "sc:Integer",
+          "description": "Number of distinct platforms.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "n_platforms"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/platform_names_verbatim",
+          "name": "platform_names_verbatim",
+          "dataType": "sc:Text",
+          "description": "Platform names exactly as written in the paper, e.g. ['Twitter','X (formerly Twitter)'].",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "platform_names_verbatim"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/collection_methods",
+          "name": "collection_methods",
+          "dataType": "sc:Text",
+          "description": "All methods used to gather the data. Values: Official platform API / Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40) / Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud) / Web scraping or browser automation / Data donation (participants export their own data) / Survey or crowdsourced contribution / Rehydration or extension of an existing dataset / Synthetic, LLM-generated or simulated data / Not specified",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "collection_methods"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/collection_tools",
+          "name": "collection_tools",
+          "dataType": "sc:Text",
+          "description": "Named APIs, libraries, services or tools used for collection, verbatim, e.g. ['Twitter Academic API v2','snscrape','CrowdTangle','yt-dlp']. [] if none named.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "collection_tools"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/closed_access_dependencies",
+          "name": "closed_access_dependencies",
+          "dataType": "sc:Text",
+          "description": "Data-access routes used for collection that have since closed (e.g. Twitter/X Academic API, Pushshift, CrowdTangle).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "closed_access_dependencies"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/depends_on_closed_access",
+          "name": "depends_on_closed_access",
+          "dataType": "sc:Boolean",
+          "description": "True if collection relied on at least one closed access route.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "depends_on_closed_access"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/temporal_coverage_start",
+          "name": "temporal_coverage_start",
+          "dataType": "sc:Text",
+          "description": "Earliest date of content in the dataset as YYYY-MM-DD, YYYY-MM or YYYY. '' if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "temporal_coverage_start"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/temporal_coverage_end",
+          "name": "temporal_coverage_end",
+          "dataType": "sc:Text",
+          "description": "Latest date of content in the dataset as YYYY-MM-DD, YYYY-MM or YYYY. '' if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "temporal_coverage_end"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/coverage_end_year",
+          "name": "coverage_end_year",
+          "dataType": "sc:Float",
+          "description": "Year of the last content in the dataset.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "coverage_end_year"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/coverage_days",
+          "name": "coverage_days",
+          "dataType": "sc:Float",
+          "description": "Days between first and last content (null if either date missing).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "coverage_days"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/primary_record_unit",
+          "name": "primary_record_unit",
+          "dataType": "sc:Text",
+          "description": "The main unit counted in the dataset size. Values: Posts or tweets / Comments or replies / Users or accounts / Videos / Images or memes / News articles or web pages / Conversations or threads / Chat messages / Channels, groups or communities / Audio or podcast episodes / Survey responses or participants / Other",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "primary_record_unit"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/total_records",
+          "name": "total_records",
+          "dataType": "sc:Float",
+          "description": "Total count of the primary unit as an integer (14.2 million -> 14200000). -1 if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "total_records"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/log10_records",
+          "name": "log10_records",
+          "dataType": "sc:Float",
+          "description": "log10 of total_records.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "log10_records"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/num_accounts_or_users",
+          "name": "num_accounts_or_users",
+          "dataType": "sc:Float",
+          "description": "Number of distinct accounts, users or channels covered. -1 if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "num_accounts_or_users"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/scale_description_verbatim",
+          "name": "scale_description_verbatim",
+          "dataType": "sc:Text",
+          "description": "The authors' own phrase describing dataset size, e.g. '14.2M tweets from 450K users'.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "scale_description_verbatim"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/modalities",
+          "name": "modalities",
+          "dataType": "sc:Text",
+          "description": "Data modalities present in the RELEASED files. Values: Text / Image / Video / Audio / Network or graph / Tabular user or post metadata / Time series or temporal logs / Geospatial or mobility",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "modalities"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/is_multimodal",
+          "name": "is_multimodal",
+          "dataType": "sc:Boolean",
+          "description": "True if more than one content modality (text, image, video, audio) is released.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "is_multimodal"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/languages_iso",
+          "name": "languages_iso",
+          "dataType": "sc:Text",
+          "description": "ISO 639-1 codes (or ISO 639-3 when no 639-1 exists) of languages in the data, lowercase. Use ['mul'] only when the paper says multilingual without listing languages. [] if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "languages_iso"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/num_languages",
+          "name": "num_languages",
+          "dataType": "sc:Float",
+          "description": "Number of languages, if stated or countable. -1 if unknown.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "num_languages"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/is_multilingual",
+          "name": "is_multilingual",
+          "dataType": "sc:Boolean",
+          "description": "True if more than one language.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "is_multilingual"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/includes_code_mixing",
+          "name": "includes_code_mixing",
+          "dataType": "sc:Boolean",
+          "description": "True only if the paper explicitly mentions code-mixed or code-switched text.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "includes_code_mixing"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/data_geography",
+          "name": "data_geography",
+          "dataType": "sc:Text",
+          "description": "ISO alpha-2 codes of the countries the data is ABOUT or collected FROM (not author countries). ['GLOBAL'] if worldwide without a focus. [] if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "data_geography"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/data_regions",
+          "name": "data_regions",
+          "dataType": "sc:Text",
+          "description": "World-region(s) the data is about.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "data_regions"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/data_global_south",
+          "name": "data_global_south",
+          "dataType": "sc:Boolean",
+          "description": "True if the data is about at least one Global South country.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "data_global_south"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/event_category",
+          "name": "event_category",
+          "dataType": "sc:Text",
+          "description": "Type of real-world event the dataset centres on, if any. Values: Elections / Pandemic or public health crisis / Armed conflict or war / Protest or social movement / Natural disaster or climate event / Economic or financial event / Sports or entertainment event / Platform policy or ownership change / No specific event",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "event_category"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/event_name",
+          "name": "event_name",
+          "dataType": "sc:Text",
+          "description": "Specific event, e.g. '2022 Brazilian general election'. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "event_name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/involves_vulnerable_groups",
+          "name": "involves_vulnerable_groups",
+          "dataType": "sc:Boolean",
+          "description": "True if the data centres on minors, patients, refugees, LGBTQ+ people, or other groups the paper itself flags as vulnerable.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "involves_vulnerable_groups"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/research_domains",
+          "name": "research_domains",
+          "dataType": "sc:Text",
+          "description": "CSS research areas the dataset serves (1-3 values). Values: Misinformation and fact-checking / Hate speech, toxicity and harassment / Political communication and elections / Polarization and ideology / Public health and COVID-19 / Mental health and wellbeing / Bots, coordinated inauthentic behavior and propaganda / Extremism and radicalization / Crisis, disaster and conflict informatics / Social movements and activism / News and journalism / Content moderation and platform governance / Gender, race and identity / Online communities and collective behavior / Influencers, marketing and the platform economy / Science communication and education / Privacy and surveillance / AI-generated content and LLM use / Other",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "research_domains"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/supported_tasks",
+          "name": "supported_tasks",
+          "dataType": "sc:Text",
+          "description": "Downstream tasks the authors propose or demonstrate. Values: Topic or content classification / Stance detection / Sentiment or emotion analysis / Hate or toxicity detection / Misinformation or claim detection / Bot or coordinated account detection / Network or information diffusion analysis / Virality or popularity prediction / Recommendation or ranking / Retrieval or question answering / Summarization or text generation / Entity or information extraction / Multimodal understanding (image/video/audio) / User profiling or demographic inference / Causal or intervention analysis / Descriptive or exploratory social analysis / Other",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "supported_tasks"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/tasks_verbatim",
+          "name": "tasks_verbatim",
+          "dataType": "sc:Text",
+          "description": "Task names exactly as the authors phrase them.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "tasks_verbatim"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/annotation_paradigms",
+          "name": "annotation_paradigms",
+          "dataType": "sc:Text",
+          "description": "How labels or enrichments were produced. Use 'Unlabeled raw corpus' if no labels are released. Values: Unlabeled raw corpus / Expert, author or trained student annotation / Crowdworkers (MTurk, Prolific, etc.) / Distant or weak supervision (hashtags, domain lists, heuristics) / Automated classifier or lexicon (BERT, Perspective API, LIWC) / LLM or generative AI labels / Hybrid human and LLM-in-the-loop / Platform-native signals (Community Notes, moderation logs, votes)",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "annotation_paradigms"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/uses_llm_annotation",
+          "name": "uses_llm_annotation",
+          "dataType": "sc:Boolean",
+          "description": "True if labels come from an LLM or a hybrid human+LLM pipeline.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "uses_llm_annotation"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/uses_crowd",
+          "name": "uses_crowd",
+          "dataType": "sc:Boolean",
+          "description": "True if crowdworkers annotated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "uses_crowd"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/uses_expert",
+          "name": "uses_expert",
+          "dataType": "sc:Boolean",
+          "description": "True if experts, authors or trained students annotated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "uses_expert"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/llms_used",
+          "name": "llms_used",
+          "dataType": "sc:Text",
+          "description": "Specific LLMs used for labeling or generating data, e.g. ['GPT-4o','Llama-3-70B']. [] if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "llms_used"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/num_annotated_records",
+          "name": "num_annotated_records",
+          "dataType": "sc:Float",
+          "description": "Number of manually or automatically labeled items. -1 if none or not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "num_annotated_records"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/num_annotators",
+          "name": "num_annotators",
+          "dataType": "sc:Float",
+          "description": "Number of human annotators per item or in total, as stated. -1 if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "num_annotators"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/iaa_reported",
+          "name": "iaa_reported",
+          "dataType": "sc:Boolean",
+          "description": "True if any inter-annotator agreement value is reported.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "iaa_reported"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/iaa_metrics",
+          "name": "iaa_metrics",
+          "dataType": "sc:Text",
+          "description": "Agreement metrics reported. [] if none. Values: Cohen's kappa / Fleiss' kappa / Krippendorff's alpha / Percent agreement / Correlation or ICC / F1 or accuracy against gold standard / Other metric",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "iaa_metrics"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/iaa_primary_value",
+          "name": "iaa_primary_value",
+          "dataType": "sc:Float",
+          "description": "The main (or average) agreement value reported, as a number between -1 and 1 (convert percentages to 0-1). -1.0 if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "iaa_primary_value"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/iaa_summary_verbatim",
+          "name": "iaa_summary_verbatim",
+          "dataType": "sc:Text",
+          "description": "Verbatim sentence or phrase reporting agreement. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "iaa_summary_verbatim"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/baseline_families",
+          "name": "baseline_families",
+          "dataType": "sc:Text",
+          "description": "Families of models or analyses the authors run ON THIS DATASET in the paper. Values: No experiments / Descriptive statistics only / Statistical models (regression, time series) / Classical ML (SVM, logistic regression, random forest) / Fine-tuned transformer encoders (BERT family) / LLM prompting (zero- or few-shot) / Graph or network models / Vision, audio or multimodal models",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "baseline_families"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/includes_baselines",
+          "name": "includes_baselines",
+          "dataType": "sc:Boolean",
+          "description": "True if any model or analysis beyond descriptive statistics is run.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "includes_baselines"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/release_status",
+          "name": "release_status",
+          "dataType": "sc:Text",
+          "description": "Whether the data was actually released when the paper was published. Values: Released at publication / Partially released / Promised or forthcoming / Available on request only / Not released / Unclear",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "release_status"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/hosting_repositories",
+          "name": "hosting_repositories",
+          "dataType": "sc:Text",
+          "description": "Where the dataset files are hosted. Values: Zenodo / Dataverse (Harvard or other instance) / Figshare / Open Science Framework (OSF) / Hugging Face Hub / GitHub or GitLab / Kaggle / Domain archive (ICPSR, GESIS, Dryad, Mendeley Data) / Personal or lab website, Google Drive, Dropbox / Available on request only / Other / Not stated",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "hosting_repositories"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/primary_host",
+          "name": "primary_host",
+          "dataType": "sc:Text",
+          "description": "First listed hosting venue, shortened.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "primary_host"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/dataset_urls",
+          "name": "dataset_urls",
+          "dataType": "sc:Text",
+          "description": "Every URL pointing to the dataset, its landing page or project page. Repair URLs split across lines or hyphenated by the PDF. Do NOT include URLs of other datasets cited in related work.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "dataset_urls"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/persistent_doi",
+          "name": "persistent_doi",
+          "dataType": "sc:Text",
+          "description": "Dataset DOI as a bare string, e.g. '10.5281/zenodo.1234567'. Not the paper's own DOI. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "persistent_doi"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/has_doi",
+          "name": "has_doi",
+          "dataType": "sc:Boolean",
+          "description": "True if a dataset DOI (not the paper DOI) is reported.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "has_doi"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/code_repository_url",
+          "name": "code_repository_url",
+          "dataType": "sc:Text",
+          "description": "URL of code for collection, hydration or baselines. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "code_repository_url"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/distribution_form",
+          "name": "distribution_form",
+          "dataType": "sc:Text",
+          "description": "What content is shared: full posts, scrubbed full posts, IDs needing re-collection, or derived data. Values: Full raw content / Anonymized or PII-scrubbed full content / Dehydrated IDs only / Aggregated statistics, embeddings or derived features only / Mixed (IDs plus derived features) / Not specified",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "distribution_form"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/access_mechanism",
+          "name": "access_mechanism",
+          "dataType": "sc:Text",
+          "description": "How a researcher obtains the files. Values: Open public download / Credentialed access, form or data use agreement / Email the authors for approval / Not specified",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "access_mechanism"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/license_verbatim",
+          "name": "license_verbatim",
+          "dataType": "sc:Text",
+          "description": "License exactly as named in the paper, e.g. 'CC BY-NC 4.0'. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "license_verbatim"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/license_category",
+          "name": "license_category",
+          "dataType": "sc:Text",
+          "description": "License family of the dataset. Values: CC0 or public domain / CC BY / CC BY-SA / CC BY-NC (any NC variant) / Open Data Commons (ODbL, ODC-By, PDDL) / Software license (MIT, Apache, GPL, BSD) / Custom terms or data use agreement / Platform terms of service only / Not specified",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "license_category"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/data_file_formats",
+          "name": "data_file_formats",
+          "dataType": "sc:Text",
+          "description": "File formats of the release, uppercase, e.g. ['CSV','JSONL','PARQUET']. [] if not stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "data_file_formats"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/explicitly_mentions_fair",
+          "name": "explicitly_mentions_fair",
+          "dataType": "sc:Boolean",
+          "description": "True if the paper names the FAIR principles.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "explicitly_mentions_fair"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/documentation_framework",
+          "name": "documentation_framework",
+          "dataType": "sc:Text",
+          "description": "Standard documentation shipped with the data. Values: Datasheets for Datasets / Data Statements / Data Card or dataset card / Dataset Nutrition Label / Croissant or other machine-readable metadata / Custom README or codebook / None mentioned",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "documentation_framework"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/provides_collection_or_hydration_code",
+          "name": "provides_collection_or_hydration_code",
+          "dataType": "sc:Boolean",
+          "description": "True if code to collect, hydrate or load the data is released.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "provides_collection_or_hydration_code"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/irb_status",
+          "name": "irb_status",
+          "dataType": "sc:Text",
+          "description": "Outcome of institutional ethics review as reported. Values: Approved by IRB or ethics board / Exempt or not human-subjects research (as determined by a board) / Self-assessed or checklist only / Not mentioned",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "irb_status"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/pii_anonymization_applied",
+          "name": "pii_anonymization_applied",
+          "dataType": "sc:Boolean",
+          "description": "True if usernames, user IDs, mentions or other PII were removed, hashed or masked before release.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "pii_anonymization_applied"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/anonymization_details",
+          "name": "anonymization_details",
+          "dataType": "sc:Text",
+          "description": "Short description of privacy steps. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "anonymization_details"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/discusses_platform_tos",
+          "name": "discusses_platform_tos",
+          "dataType": "sc:Boolean",
+          "description": "True if compliance with platform terms of service is discussed.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "discusses_platform_tos"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/discusses_limitations",
+          "name": "discusses_limitations",
+          "dataType": "sc:Boolean",
+          "description": "True if the paper discusses biases or limitations of the dataset.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "discusses_limitations"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/discusses_misuse_risks",
+          "name": "discusses_misuse_risks",
+          "dataType": "sc:Boolean",
+          "description": "True if potential misuse or harms of releasing the data are discussed.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "discusses_misuse_risks"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/includes_paper_checklist",
+          "name": "includes_paper_checklist",
+          "dataType": "sc:Boolean",
+          "description": "True if the AAAI/ICWSM paper or ethics checklist appears in the text.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "includes_paper_checklist"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/ai_usage_disclosed",
+          "name": "ai_usage_disclosed",
+          "dataType": "sc:Boolean",
+          "description": "True if the authors disclose using generative AI for writing or coding.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "ai_usage_disclosed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/availability_quote",
+          "name": "availability_quote",
+          "dataType": "sc:Text",
+          "description": "Verbatim sentence (max 50 words) stating where or how the dataset can be accessed. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "availability_quote"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/scale_quote",
+          "name": "scale_quote",
+          "dataType": "sc:Text",
+          "description": "Verbatim sentence (max 50 words) stating dataset size or collection period. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "scale_quote"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/annotation_quote",
+          "name": "annotation_quote",
+          "dataType": "sc:Text",
+          "description": "Verbatim sentence (max 50 words) describing how labels were produced. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "annotation_quote"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/ethics_quote",
+          "name": "ethics_quote",
+          "dataType": "sc:Text",
+          "description": "Verbatim sentence (max 50 words) on ethics review or privacy. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "ethics_quote"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/license_quote",
+          "name": "license_quote",
+          "dataType": "sc:Text",
+          "description": "Verbatim sentence (max 50 words) naming the license. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "license_quote"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/extraction_confidence",
+          "name": "extraction_confidence",
+          "dataType": "sc:Text",
+          "description": "How clearly the paper reports its dataset metadata. Values: High / Medium / Low",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "extraction_confidence"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/ambiguity_notes",
+          "name": "ambiguity_notes",
+          "dataType": "sc:Text",
+          "description": "One or two sentences naming fields that were contradictory, vague or missing. '' if none.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "ambiguity_notes"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/quotes_grounded_share",
+          "name": "quotes_grounded_share",
+          "dataType": "sc:Float",
+          "description": "Share of evidence quotes found (near-)verbatim in the paper text.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "quotes_grounded_share"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/urls_grounded_share",
+          "name": "urls_grounded_share",
+          "dataType": "sc:Float",
+          "description": "Share of extracted dataset URLs that appear in the paper text.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "urls_grounded_share"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/n_flags",
+          "name": "n_flags",
+          "dataType": "sc:Integer",
+          "description": "Number of automatic consistency flags (see 02_verify.py).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "n_flags"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/flags",
+          "name": "flags",
+          "dataType": "sc:Text",
+          "description": "Automatic consistency flags raised by 02_verify.py.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "flags"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/audit_manual_check",
+          "name": "audit_manual_check",
+          "dataType": "sc:Text",
+          "description": "Date and note of a manual browser check that replaced the automatic link result.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "audit_manual_check"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/audited_at",
+          "name": "audited_at",
+          "dataType": "sc:Text",
+          "description": "UTC time of the repository audit.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "audited_at"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/any_url_alive",
+          "name": "any_url_alive",
+          "dataType": "sc:Boolean",
+          "description": "True if at least one dataset link or the DOI resolved to live content.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "any_url_alive"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/primary_url_status",
+          "name": "primary_url_status",
+          "dataType": "sc:Text",
+          "description": "Outcome category for the first dataset link (Alive, Dead (404), Soft 404, Login wall, ...).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "primary_url_status"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/doi_resolves",
+          "name": "doi_resolves",
+          "dataType": "sc:Boolean",
+          "description": "True if https://doi.org/<doi> resolved to live content.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "doi_resolves"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/verified_repo",
+          "name": "verified_repo",
+          "dataType": "sc:Text",
+          "description": "Repository whose API confirmed the record (Zenodo, Dataverse, Figshare, Hugging Face, GitHub, DataCite).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "verified_repo"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/file_count",
+          "name": "file_count",
+          "dataType": "sc:Float",
+          "description": "Number of files in the repository record (API).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "file_count"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/total_size_mb",
+          "name": "total_size_mb",
+          "dataType": "sc:Float",
+          "description": "Total size of files in MB (API).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "total_size_mb"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/file_extensions",
+          "name": "file_extensions",
+          "dataType": "sc:Text",
+          "description": "File extensions observed in the repository (API).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "file_extensions"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/is_restricted",
+          "name": "is_restricted",
+          "dataType": "sc:Boolean",
+          "description": "True if all files are restricted, embargoed or need manual approval.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "is_restricted"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/files_empty",
+          "name": "files_empty",
+          "dataType": "sc:Boolean",
+          "description": "True if the repository record exists but contains no files.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "files_empty"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/login_wall",
+          "name": "login_wall",
+          "dataType": "sc:Boolean",
+          "description": "True if links only lead to a sign-in page.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "login_wall"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/account_required",
+          "name": "account_required",
+          "dataType": "sc:Boolean",
+          "description": "True if a free account is needed (Kaggle, gated Hugging Face).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "account_required"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/downloads_total",
+          "name": "downloads_total",
+          "dataType": "sc:Float",
+          "description": "Total downloads reported by the repository (definitions differ across repositories).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "downloads_total"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/downloads_unique",
+          "name": "downloads_unique",
+          "dataType": "sc:Float",
+          "description": "Unique downloads where reported (Zenodo, Dataverse).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "downloads_unique"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/views_total",
+          "name": "views_total",
+          "dataType": "sc:Float",
+          "description": "Total views reported by the repository.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "views_total"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/downloads_metric_source",
+          "name": "downloads_metric_source",
+          "dataType": "sc:Text",
+          "description": "Which counter downloads_total comes from. Compare downloads only within one source.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "downloads_metric_source"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/datacite_registered",
+          "name": "datacite_registered",
+          "dataType": "sc:Boolean",
+          "description": "True if the DOI is registered with DataCite.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "datacite_registered"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/datacite_citations",
+          "name": "datacite_citations",
+          "dataType": "sc:Float",
+          "description": "Citations to the dataset DOI recorded by DataCite.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "datacite_citations"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/code_url_alive",
+          "name": "code_url_alive",
+          "dataType": "sc:Boolean",
+          "description": "True if the code repository link resolves.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "code_url_alive"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/code_stars",
+          "name": "code_stars",
+          "dataType": "sc:Float",
+          "description": "GitHub stars of the code repository.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "code_stars"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/dead_link_in_wayback",
+          "name": "dead_link_in_wayback",
+          "dataType": "sc:Boolean",
+          "description": "For dead links: True if the Wayback Machine holds a snapshot of the landing page.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "dead_link_in_wayback"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/paper_doi",
+          "name": "paper_doi",
+          "dataType": "sc:Text",
+          "description": "DOI of the ICWSM paper (OpenAlex).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "paper_doi"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/citations",
+          "name": "citations",
+          "dataType": "sc:Float",
+          "description": "Citations to the ICWSM paper (OpenAlex).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "citations"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/years_since_publication",
+          "name": "years_since_publication",
+          "dataType": "sc:Float",
+          "description": "Years between June of the ICWSM year and the audit date.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "years_since_publication"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/citations_per_year",
+          "name": "citations_per_year",
+          "dataType": "sc:Float",
+          "description": "citations divided by years since publication.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "citations_per_year"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/downloads_per_year",
+          "name": "downloads_per_year",
+          "dataType": "sc:Float",
+          "description": "downloads_total divided by years_since_publication.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "downloads_per_year"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_F1",
+          "name": "fair_F1",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator F1. Persistent identifier: A dataset DOI is reported and is registered with DataCite or resolves.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_F1"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_F2",
+          "name": "fair_F2",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator F2. Rich metadata: A standard documentation framework (datasheet, data card, data statement, Croissant) is used.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_F2"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_F4",
+          "name": "fair_F4",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator F4. Indexed: The dataset DOI is registered and findable in DataCite.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_F4"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_A1",
+          "name": "fair_A1",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator A1. Retrievable: At least one dataset link resolves in the 2026 audit.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_A1"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_A1_1",
+          "name": "fair_A1_1",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator A1.1. Open protocol: Files can be downloaded openly, without forms, approval or login walls.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_A1_1"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_A2",
+          "name": "fair_A2",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator A2. Persistent hosting: Hosted on an archival repository (Zenodo, Dataverse, Figshare, OSF, ICPSR, GESIS...).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_A2"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_I1",
+          "name": "fair_I1",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator I1. Open formats: Released in open, widely readable formats (CSV, JSON(L), Parquet, GraphML...).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_I1"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_R1_1",
+          "name": "fair_R1_1",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator R1.1. Clear license: A license or explicit terms of use are stated.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_R1_1"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_R1_2",
+          "name": "fair_R1_2",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator R1.2. Provenance: Collection method and temporal coverage (start and end) are reported.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_R1_2"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_R1_3",
+          "name": "fair_R1_3",
+          "dataType": "sc:Boolean",
+          "description": "FAIR indicator R1.3. Reusable pipeline: Code to collect, hydrate or load the data is released.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_R1_3"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fair_score",
+          "name": "fair_score",
+          "dataType": "sc:Float",
+          "description": "Share (0-100) of the 10 operational FAIR indicators met.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fair_score"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/fate_2026",
+          "name": "fate_2026",
+          "dataType": "sc:Text",
+          "description": "Mutually exclusive 2026 state: Open and usable; Open, needs closed API to rehydrate; Restricted access (request or agreement); Alive but empty or login-walled; Link dead; Never released / no link.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "fate_2026"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/needs_closed_api",
+          "name": "needs_closed_api",
+          "dataType": "sc:Boolean",
+          "description": "True if content must be rehydrated through a platform API that is no longer free (Twitter/X).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "needs_closed_api"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/funnel_release_claimed",
+          "name": "funnel_release_claimed",
+          "dataType": "sc:Boolean",
+          "description": "Paper claims a release (now, partially, later or on request).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "funnel_release_claimed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/funnel_link_provided",
+          "name": "funnel_link_provided",
+          "dataType": "sc:Boolean",
+          "description": "Paper gives a dataset link or DOI.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "funnel_link_provided"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/funnel_link_alive",
+          "name": "funnel_link_alive",
+          "dataType": "sc:Boolean",
+          "description": "Link alive in the audit.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "funnel_link_alive"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/funnel_open_download",
+          "name": "funnel_open_download",
+          "dataType": "sc:Boolean",
+          "description": "Files openly downloadable (not gated, empty or login-walled).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "funnel_open_download"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/funnel_usable",
+          "name": "funnel_usable",
+          "dataType": "sc:Boolean",
+          "description": "Openly downloadable and usable without a closed API.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "funnel_usable"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/n_manual_overrides",
+          "name": "n_manual_overrides",
+          "dataType": "sc:Integer",
+          "description": "Number of fields corrected by human curators.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "n_manual_overrides"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/body_mentions_misuse",
+          "name": "body_mentions_misuse",
+          "dataType": "sc:Boolean",
+          "description": "Regex: misuse/harm language appears in the main text (before References), i.e. not only in the checklist.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "body_mentions_misuse"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/body_mentions_fair",
+          "name": "body_mentions_fair",
+          "dataType": "sc:Boolean",
+          "description": "Regex: 'FAIR' (upper case) appears in the main text (before References), i.e. not only in the checklist.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "body_mentions_fair"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/body_mentions_datasheet",
+          "name": "body_mentions_datasheet",
+          "dataType": "sc:Boolean",
+          "description": "Regex: datasheet / data card / data statement named in the main text (before References).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "body_mentions_datasheet"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/repo_license",
+          "name": "repo_license",
+          "dataType": "sc:Text",
+          "description": "License recorded on the repository record itself (Zenodo, Dataverse, Figshare, Hugging Face, GitHub).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "repo_license"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/repo_license_present",
+          "name": "repo_license_present",
+          "dataType": "sc:Boolean",
+          "description": "True if the repository record carries a license (only for records the audit could verify).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "repo_license_present"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/model",
+          "name": "model",
+          "dataType": "sc:Text",
+          "description": "LLM requested for extraction.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "model"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/served_model",
+          "name": "served_model",
+          "dataType": "sc:Text",
+          "description": "Model id the API reported serving for this record.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "served_model"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/api_host",
+          "name": "api_host",
+          "dataType": "sc:Text",
+          "description": "API host used for extraction (gateway or Anthropic API).",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "api_host"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/structured_mode",
+          "name": "structured_mode",
+          "dataType": "sc:Text",
+          "description": "native (constrained decoding), prompt (schema in prompt + validation) or prompt-repair.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "structured_mode"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/prompt_version",
+          "name": "prompt_version",
+          "dataType": "sc:Text",
+          "description": "Extraction prompt version.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "prompt_version"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/schema_version",
+          "name": "schema_version",
+          "dataType": "sc:Text",
+          "description": "Extraction schema version.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "schema_version"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "papers/extracted_at",
+          "name": "extracted_at",
+          "dataType": "sc:Text",
+          "description": "UTC time of extraction.",
+          "source": {
+            "fileObject": {
+              "@id": "catalog-csv"
+            },
+            "extract": {
+              "column": "extracted_at"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "paper_id": "2020_tborck_aaai_tekumallar_1036_200fe8",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_TekumallaR-1036.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:16+00:00",
+    "usage": [
+      {
+        "input_tokens": 18322,
+        "output_tokens": 900,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011svy64zZqYRWhhHWYzFLJo0b9",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 38365,
+    "sha256": "56a9a01e046e4a7dd4cafb207e6be5bef8f288aec3afc30cffcc447af155cda7",
+    "checklist_detected": false,
+    "urls_in_body": [],
+    "urls_in_references": [
+      "https://doi.org/10.1093/jamia/ocw028",
+      "https://doi.org/10.1371/journal.pone.0051862",
+      "https://dl.acm.org/citation.cfm?id=3159659",
+      "https://doi.org/10.3389/fgene.2016.00154",
+      "http://citeseerx.ist.psu.edu/viewdoc/",
+      "https://doi.org/10.1038/ng.3830",
+      "http://arxiv.org/abs",
+      "https://doi.org/10.2196/jmir.2503",
+      "https://doi.org/10.2196/jmir.2741",
+      "https://doi.org/10.2165/00002018-20062905000003",
+      "https://doi.org/10.1145/2505515.2505665",
+      "http://papers.nips.cc/paper/5550-convolutional-neural-networkarchitectures-for-matching-natural-language-sentences.pdf",
+      "https://www.aclweb.org/",
+      "https://doi.org/10.1056/NEJMe1516564",
+      "Http://www.Icann.Org/icp/icp-1.Htm",
+      "https://rena.mpdl.mpg.de/rena/",
+      "https://doi.org/10.1145/3038912.3052579",
+      "http://www.nlm.nih.gov/research/umls/rxnorm/",
+      "https://www.ncbi.nlm.nih.gov/",
+      "https://doi.org/10.1093/jamia/ocu041",
+      "https://www.ncbi.nlm.nih.gov/pubmed/25954400",
+      "https://doi.org/",
+      "http://arxiv.org/abs/1903.12008",
+      "http://www.jmlr.org/",
+      "https://github.com/",
+      "https://doi.org/10.1038/nrg.2016.69",
+      "https://doi.org/10.1016/j.jbi.2015.02.004",
+      "https://doi.org/10.4103/0976-500X.120957",
+      "https://github.com/thepanacealab/SMMT",
+      "https://doi.org/10.5281/zenodo.3571328",
+      "https://github.com/DocNow/twarc",
+      "https://www.aaai.org/",
+      "https://doi.org/10.1056/NEJMp1607282",
+      "https://doi.org/10.1038/sdata.2016.18",
+      "http://www.who.int/medicines/areas/quality_safety/safety_efficac",
+      "https://doi.org/10.1145/3077136.3080809"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Mining Archive.org’s Twitter Stream Grab for Pharmacovigilance Research Gold",
+      "authors": [
+        "Ramya Tekumalla",
+        "Javad Rafiei Asl",
+        "Juan M. Banda"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Mining Archive.org's Twitter Stream Grab for Pharmacovigilance Research Gold",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Internet Archive Twitter stream grab",
+        "spaCy"
+      ],
+      "temporal_coverage_start": "2012",
+      "temporal_coverage_end": "2018",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 3346758,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "the 3,346,758 identified tweets for public use in future research",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Public health and COVID-19",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Misinformation or claim detection"
+      ],
+      "tasks_verbatim": [
+        "pharmacovigilance",
+        "identify Adverse Drug Reactions (ADRs)",
+        "drug vs non-drug classification"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 559250,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Vision, audio or multimodal models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.3571328",
+        "https://github.com/thepanacealab/InternetArchive-Pharmacovigilance-Tweets"
+      ],
+      "persistent_doi": "10.5281/zenodo.3571328",
+      "code_repository_url": "https://github.com/thepanacealab/InternetArchive-Pharmacovigilance-Tweets",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Tweet text cannot be shared due to Twitter's terms of service; only tweet identifiers are released.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The released dataset adheres with FAIR principles in the following ways: The dataset is Findable as it can be accessed with a persistent DOI in Zenodo.",
+      "scale_quote": "a data corpus of 3,346,758 carefully filtered tweets",
+      "annotation_quote": "The collected 259,042 tweets from multiple pharmacovigilance papers were labelled as 'drug' tweets. Additionally, we randomly collected 300,208 non-drug tweets and labelled them as 'non-drug'.",
+      "ethics_quote": "Due to Twitter's terms of service, tweet text cannot be shared. Therefore, tweet ids are publicly made available using Zenodo.",
+      "license_quote": "This dataset is released with Creative Commons Attribution 4.0 International for Reusability.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "num_annotated_records (559,250) reflects the assembled training set, not annotations performed by the authors, who state they did not annotate any tweets themselves."
+    }
+  }
+}

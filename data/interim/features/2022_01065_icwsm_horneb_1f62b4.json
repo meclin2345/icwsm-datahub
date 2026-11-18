@@ -1,0 +1,34 @@
+{
+  "page_count": 10,
+  "n_chars": 46242,
+  "sha256": "6d29acc8183b77baa088cb41203475ffff604fd65864a27b049e4440c969f8be",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://dataverse.harvard.edu/dataset.xhtml?persistentId=",
+    "https://www.fcc.gov/general/information-needs-communities",
+    "https://github.com/MEDSL/2018-elections-unoffical/blob/",
+    "https://github.com/kjhealy/us",
+    "https://www.census.gov/programs-surveys/communityresilience-estimates.html",
+    "https://www.census.gov/programs-surveys/communityresilience-estimates/technical-documentation/methodology.html",
+    "https://www.force11.org/group/fairgroup/fairprinciples",
+    "https://data.census.gov/cedsci/profile?g=0500000US25017",
+    "https://www.census.gov/library/stories/2019/09/us-medianhousehold-income-not-significantly-different-from-2017.html",
+    "https://www.news10.com/top-stories/rpi-restores-networkaccess-following-cyber-attack/",
+    "https://sources.mediacloud.org/#/home",
+    "https://dataverse.harvard.edu/",
+    "https://github.com/yinleon/LocalNewsDataset",
+    "https://github.com/MEDSL/2018elections-unoffical/blob/master/election-context-2018.md",
+    "https://www.census.gov/programs-surveys/community-resilienceestimates.html",
+    "https://www.ers.usda.gov/dataproducts/rural-urban-continuum-codes/"
+  ],
+  "urls_in_references": [
+    "https://apo.org.au/node/267591",
+    "http://politicalviolenceataglance"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/GFE66K"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

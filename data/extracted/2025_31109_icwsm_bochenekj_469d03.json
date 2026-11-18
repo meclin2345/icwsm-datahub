@@ -1,0 +1,181 @@
+{
+  "paper_id": "2025_31109_icwsm_bochenekj_469d03",
+  "year": 2025,
+  "pdf_filename": "31109-ICWSM.BochenekJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:08:45+00:00",
+    "usage": [
+      {
+        "input_tokens": 21137,
+        "output_tokens": 1264,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011zxEPMuIneeohUaj1sUGaAA7V",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 51355,
+    "sha256": "e0de0b9708a5f0a98a6546367498b5c5449ca68ac5871d517f3239ccb6538340",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.7910/DVN/5BYHIV"
+    ],
+    "urls_in_references": [
+      "https://www",
+      "https://force11",
+      "https://data.stanford.edu/",
+      "https://github.com/unitedstates/congressionalrecord/",
+      "https://api",
+      "https://github.com/unitedstates/congress-legislators",
+      "https://cha.house.gov/committee-rules"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/5BYHIV"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "You Have the Floor: A Speaker-Aligned Corpus Derived from the Congressional Record",
+      "authors": [
+        "Jennifer L Bochenek",
+        "Jake Ryland Williams"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "speaker-aligned corpus derived from the Congressional Record",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Congressional Record",
+        "Congress.gov"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Congress.gov API"
+      ],
+      "temporal_coverage_start": "1995",
+      "temporal_coverage_end": "2024",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 1403761,
+      "num_accounts_or_users": 1589,
+      "scale_description_verbatim": "1,403,761 speeches from 1,589 legislators",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Polarization and ideology"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Topic or content classification",
+        "Entity or information extraction"
+      ],
+      "tasks_verbatim": [
+        "stance detection",
+        "topic modeling",
+        "rhetorical strategy classification",
+        "co-reference resolution",
+        "entity linking"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/5BYHIV"
+      ],
+      "persistent_doi": "10.7910/DVN/5BYHIV",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC0 1.0 Universal public domain",
+      "license_category": "CC0 or public domain",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Datasets — https://doi.org/10.7910/DVN/5BYHIV",
+      "scale_quote": "The dataset includes a total of 1,589 unique entries when examining legislators by party affiliation.",
+      "annotation_quote": "each speaker is separated into individual files and annotated with metadata including name, political affiliation, years active, district or state represented, and professional social media accounts, if known.",
+      "ethics_quote": "The identifying information of members of Congress (e.g., name, birth-date, office address, social media IDs) in the data are part of public record.",
+      "license_quote": "Yes, the license is CC0 1.0 Universal public domain for the material from the @unitedstates project, while the Congressional Record specifies that —excepting copyrighted articles– there are no restrictions on the republication of the material therein.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Total record count is not explicitly stated; it was computed as the sum of House (922,208) and Senate (487,244) speeches from Table 1. The dataset name is not explicitly stated; the description 'speaker-aligned corpus derived from the Congressional Record' was used."
+    }
+  }
+}

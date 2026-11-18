@@ -1,0 +1,15 @@
+{
+  "page_count": 10,
+  "n_chars": 60631,
+  "sha256": "0ec25814b5ff8565e0d5b0b6ef8aa615afbd0064c90ae4ff4d57193baf3dc35a",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://github.com/TIMANgroup/covid19_misinformation",
+    "https://www.cmu.edu/ideas-social-cybersecurity/research/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

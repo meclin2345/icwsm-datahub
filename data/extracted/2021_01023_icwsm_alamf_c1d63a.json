@@ -1,0 +1,180 @@
+{
+  "paper_id": "2021_01023_icwsm_alamf_c1d63a",
+  "year": 2021,
+  "pdf_filename": "01023-ICWSM.AlamF.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:44+00:00",
+    "usage": [
+      {
+        "input_tokens": 22871,
+        "output_tokens": 1294,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011bplX7ogfbVfWc77uZoSJNKf8",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 52293,
+    "sha256": "e76b6f069a1cedbba2ab3fc654c05ede39c6f357d952296b193d7aa0abde3f2d",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "http://micromappers.qcri.org",
+      "http://doi.org/10.7910/DVN/XYK2UE",
+      "https://en.wikipedia.org/wiki/List",
+      "https://t.co/27xOQyLiiN",
+      "http://tanbih.qcri.org"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7910/DVN/XYK2UE"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Fighting the COVID-19 Infodemic in Social Media: A Holistic Perspective and a Call to Arms",
+      "authors": [
+        "Firoj Alam",
+        "Fahim Dalvi",
+        "Shaden Shaar",
+        "Nadir Durrani",
+        "Hamdy Mubarak",
+        "Alex Nikolov",
+        "Giovanni Da San Martino",
+        "Ahmed Abdelali",
+        "Hassan Sajjad",
+        "Kareem Darwish",
+        "Preslav Nakov"
+      ],
+      "author_countries": [
+        "QA",
+        "BG",
+        "IT"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2020-03",
+      "temporal_coverage_end": "2020-03",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 722,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "We collected frequent tweets (with at least 500 retweets) about COVID-19 in March 2020, in English and Arabic",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en",
+        "ar"
+      ],
+      "num_languages": 2,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "COVID-19 pandemic and the first global infodemic",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Public health and COVID-19",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Misinformation or claim detection"
+      ],
+      "tasks_verbatim": [
+        "binary and multiclass classification of tweets for seven annotation questions"
+      ],
+      "annotation_paradigms": [
+        "Crowdworkers (MTurk, Prolific, etc.)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 722,
+      "num_annotators": -1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa"
+      ],
+      "iaa_primary_value": 0.9,
+      "iaa_summary_verbatim": "Fleiss Kappa was generally high for objective questions, e.g., it was over 0.9 for Q1, and around 0.5 for Q6",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "Classical ML (SVM, logistic regression, random forest)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "http://doi.org/10.7910/DVN/XYK2UE"
+      ],
+      "persistent_doi": "10.7910/DVN/XYK2UE",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We make all resulting annotations publicly available. Our data: http://doi.org/10.7910/DVN/XYK2UE",
+      "scale_quote": "We collected frequent tweets (with at least 500 retweets) about COVID-19 in March 2020, in English and Arabic",
+      "annotation_quote": "In the first stage, 2–5 annotators independently annotated a batch of 25-50 examples",
+      "ethics_quote": "Our dataset was collected from Twitter, following its terms of service",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Collection method (API) is implied, not named; annotation counts for English and Arabic datasets are reported separately but total of 722 derives from summing the two."
+    }
+  }
+}

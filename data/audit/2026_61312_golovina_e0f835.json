@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "paper_id": "2026_61312_golovina_e0f835",
+    "year": 2026,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "https://zenodo.org/records/18262126",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/18262126",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 0,
+    "total_size_mb": 0.0,
+    "file_extensions": "",
+    "is_restricted": true,
+    "files_empty": false,
+    "downloads_total": 1422,
+    "downloads_unique": 1256,
+    "views_total": 2329,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "odc-by",
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/Priesemann-Group/telegram-quality-control",
+    "code_url_status": "Dead (404)",
+    "code_url_alive": false,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://zenodo.org/records/18262126",
+      "resolved_url": "https://zenodo.org/records/18262126",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:14+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "18262126",
+    "concept_doi": "10.5281/zenodo.18262125",
+    "access_right": "restricted",
+    "restricted": true,
+    "license": "odc-by",
+    "file_count": 0,
+    "total_size_mb": 0.0,
+    "file_extensions": [],
+    "stats_raw": {
+      "downloads": 1422,
+      "unique_downloads": 1256,
+      "views": 2329,
+      "unique_views": 1018,
+      "version_downloads": 1142,
+      "version_unique_downloads": 1029,
+      "version_unique_views": 795,
+      "version_views": 894
+    },
+    "downloads": 1422,
+    "unique_downloads": 1256,
+    "views": 2329,
+    "unique_views": 1018,
+    "version_downloads": 1142,
+    "version_unique_downloads": 1029,
+    "publication_date": "2026-01-15"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 404,
+    "repo": "Priesemann-Group/telegram-quality-control"
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

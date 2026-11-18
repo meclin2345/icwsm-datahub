@@ -1,0 +1,22 @@
+{
+  "page_count": 8,
+  "n_chars": 40637,
+  "sha256": "bef196b110ac2446459894a5d3a16182fe2e3b2c597373a7a2fb175d0cd161d3",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.14141549"
+  ],
+  "urls_in_references": [
+    "https://open.clemson.edu/cgi/viewcontent",
+    "https://doi.org/10.7275/2cq4-5396",
+    "https://www.intelligence.senate.gov/sites/default/files/",
+    "https://github.com/",
+    "https://api.semanticscholar.org/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.14141549"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,127 @@
+{
+  "summary": {
+    "paper_id": "2025_31104_icwsm_hagarn_d70c86",
+    "year": 2025,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 4,
+    "any_url_alive": true,
+    "primary_url": "https://huggingface.co/collections/nhagar/cc-domain-counts67645a737b7a300ad3ab539f",
+    "primary_url_status": "Dead (404)",
+    "primary_resolved_url": "https://huggingface.co/collections/nhagar/cc-domain-counts67645a737b7a300ad3ab539f",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": null,
+    "file_count": null,
+    "total_size_mb": null,
+    "file_extensions": "",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": null,
+    "downloads_unique": null,
+    "views_total": null,
+    "downloads_metric_source": null,
+    "repo_license": null,
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/NHagar/cc-genealogy",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 3,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2025-09-28T21:21:45Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://huggingface.co/collections/nhagar/cc-domain-counts67645a737b7a300ad3ab539f",
+      "resolved_url": "https://huggingface.co/collections/nhagar/cc-domain-counts67645a737b7a300ad3ab539f",
+      "http_status": 404,
+      "category": "Dead (404)",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:59+00:00",
+      "error": null
+    },
+    {
+      "url": "https://huggingface.co/collections/nhagar/llm-training-urls67645a94115fa772cb1f89f8",
+      "resolved_url": "https://huggingface.co/collections/nhagar/llm-training-urls67645a94115fa772cb1f89f8",
+      "http_status": 404,
+      "category": "Dead (404)",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:00+00:00",
+      "error": null
+    },
+    {
+      "url": "https://huggingface.co/collections/nhagar/cc-domaincounts-67645a737b7a300ad3ab539f",
+      "resolved_url": "https://huggingface.co/collections/nhagar/cc-domain-counts",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:01+00:00",
+      "error": null
+    },
+    {
+      "url": "https://huggingface.co/collections/nhagar/llm-trainingurls-67645a94115fa772cb1f89f8",
+      "resolved_url": "https://huggingface.co/collections/nhagar/llm-training-urls",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:02+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": true,
+    "repo": "NHagar/cc-genealogy",
+    "stars": 3,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2025-09-28T21:21:45Z",
+    "created_at": "2024-09-23T18:49:54Z",
+    "size_mb": 3.77,
+    "license": "MIT"
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

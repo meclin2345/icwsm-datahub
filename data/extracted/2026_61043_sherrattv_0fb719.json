@@ -1,0 +1,188 @@
+{
+  "paper_id": "2026_61043_sherrattv_0fb719",
+  "year": 2026,
+  "pdf_filename": "61043-SherrattV.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:09:32+00:00",
+    "usage": [
+      {
+        "input_tokens": 23979,
+        "output_tokens": 1332,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0112VTrO7XSUZWz0LNBNRgzIQ9l",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 15,
+    "n_chars": 68000,
+    "sha256": "7c36a2d75d0402857d0e672c1de547c950dfeab41e890318a0d8194d79be84cf",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.17826799",
+      "https://cloud.google.com/vision"
+    ],
+    "urls_in_references": [
+      "https://knowyourmeme.com/memes/surprised-pikachu"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.17826799"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "SemioMeme: A Symbolic–Subsymbolic Knowledge Graph Dataset for Multimodal Meme Analysis",
+      "authors": [
+        "Victoria Sherratt",
+        "Suzanne Elayan",
+        "Nina Dethlefs"
+      ],
+      "author_countries": [],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "SemioMeme",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "KnowYourMeme.com",
+        "KYM",
+        "KYM.com"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "BeautifulSoup",
+        "Google Vision"
+      ],
+      "temporal_coverage_start": "2008-12",
+      "temporal_coverage_end": "2025-07",
+      "primary_record_unit": "Images or memes",
+      "total_records": 757331,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "507,127 Confirmed meme images and 250,179 Submission memes downloaded (757,331 total)",
+      "modalities": [
+        "Text",
+        "Image",
+        "Network or graph",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Hate speech, toxicity and harassment",
+        "Online communities and collective behavior"
+      ],
+      "supported_tasks": [
+        "Retrieval or question answering",
+        "Multimodal understanding (image/video/audio)",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "similarity search",
+        "hybrid queries",
+        "meme classification",
+        "harmful content detection",
+        "retrieval"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "Vision, audio or multimodal models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.17826799"
+      ],
+      "persistent_doi": "10.5281/zenodo.17826799",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV",
+        "TTL",
+        "JSON",
+        "OWL/TTL",
+        "NPY",
+        "FAISS",
+        "PyTorch"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "SemioMeme is available under a CC BY 4.0 license with a persistent identifier and metadata for FAIR compliance",
+      "scale_quote": "In total, this collection consists of 507,127 Confirmed meme images and 250,179 Submission memes downloaded (757,331 total)",
+      "annotation_quote": "We extract the text of individual memes collected using Google Vision’s API service",
+      "ethics_quote": "Our collection applies rate limiting and respects robots.txt directives.",
+      "license_quote": "SemioMeme is available under a CC BY 4.0 license with a persistent identifier and metadata for FAIR compliance",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Raw images are available on request rather than on Zenodo; the paper does not provide a GitHub URL in the body."
+    }
+  }
+}

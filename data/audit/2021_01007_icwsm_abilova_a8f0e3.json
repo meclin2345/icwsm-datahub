@@ -1,0 +1,139 @@
+{
+  "summary": {
+    "paper_id": "2021_01007_icwsm_abilova_a8f0e3",
+    "year": 2021,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.6084/m9.figshare.13571084",
+    "doi_resolves": true,
+    "n_urls_checked": 4,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.6084/m9.figshare.13571084",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://figshare.com/articles/dataset/Voter_Fraud_2020/13571084",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Figshare",
+    "file_count": 1,
+    "total_size_mb": 1.09,
+    "file_extensions": ".tif",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 0,
+    "downloads_unique": null,
+    "views_total": 0,
+    "downloads_metric_source": "Figshare stats",
+    "repo_license": "CC BY 4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "figshare",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/sTechLab/VoterFraud2020",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.6084/m9.figshare.13571084",
+      "resolved_url": "https://figshare.com/articles/dataset/Voter_Fraud_2020/13571084",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:21:48+00:00",
+      "error": null
+    },
+    {
+      "url": "https://voterfraud2020.io",
+      "resolved_url": "https://voterfraud2020.io/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:21:49+00:00",
+      "error": null
+    },
+    {
+      "url": "https://figshare.com/account/projects/96518/articles/",
+      "resolved_url": "https://figshare.com/account/projects/96518/articles/",
+      "http_status": 202,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=UTF-8",
+      "checked_at": "2026-10-29T03:21:52+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/sTechLab/VoterFraud2020",
+      "resolved_url": "https://github.com/sTechLab/VoterFraud2020",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:21:52+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": true,
+    "article_id": "571084",
+    "file_count": 1,
+    "total_size_mb": 1.09,
+    "file_extensions": [
+      ".tif"
+    ],
+    "restricted": false,
+    "license": "CC BY 4.0",
+    "downloads": 0,
+    "views": 0
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false,
+    "api_status": 403,
+    "repo": "sTechLab/VoterFraud2020"
+  },
+  "github_code": {
+    "found": false,
+    "api_status": 403,
+    "repo": "sTechLab/VoterFraud2020"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "figshare",
+    "landing_url": "https://figshare.com/articles/dataset/Voter_Fraud_2020/13571084",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2021"
+  },
+  "wayback": null
+}

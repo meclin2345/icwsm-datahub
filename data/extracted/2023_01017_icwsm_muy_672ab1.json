@@ -1,0 +1,198 @@
+{
+  "paper_id": "2023_01017_icwsm_muy_672ab1",
+  "year": 2023,
+  "pdf_filename": "01017-ICWSM.MuY.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:34:27+00:00",
+    "usage": [
+      {
+        "input_tokens": 19522,
+        "output_tokens": 4475,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011tkZrWbnNroZlXlmEzYp0lPv4",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 54049,
+    "sha256": "92f91621e751b38e291d61a36f5b62a8039e7a683c37731ae0af8a971a0a8350",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.england.nhs.uk/2020/12/landmark-moment-asfirst-nhs-patient-receives-covid-19-vaccination/",
+      "https://www.pfizer.com/news/press-release/press-releasedetail/pfizer-and-biontech-confirm-high-efficacy-and-no-serious",
+      "https://www.ons.gov",
+      "https://github.com/GateNLP/VaxxHesitancy",
+      "https://firstdraftnews.org/long-form-article/covid-19-vaccineresearch-reports/",
+      "https://developer.twitter.com/en/docs/twitter-api",
+      "https://github.com/",
+      "https://coronavirus.data.gov.uk/details/vaccinations",
+      "https://www.ons.gov.uk/",
+      "https://github.com/GateNLP/gate-teamware",
+      "https://www.politifact.com/factchecks/2021/aug/10/viralimage/link-between-covid-19-variant-and-firm-works-5g-ju/",
+      "https://www.politifact.com/factchecks/2021/oct/11/blogposting/bill-gates-didnt-say-he-wanted-use-vaccines-reduce/",
+      "https://www.reuters.com/business/healthcare-",
+      "https://huggingface.co/bert-large-uncased",
+      "https://huggingface.co/digitalepidemiologylab/covid-twitterbert-v2",
+      "https://github.com/huggingface/transformers/tree/main/",
+      "https://huggingface.co/GateNLP/covid-vaccine-twitter-bert",
+      "https://developer.twitter.com/en/docs/twitter-api/tweets/",
+      "http://www.sobigdata.eu"
+    ],
+    "urls_in_references": [
+      "https://developer.twitter.com/en/products/twitter-api",
+      "https://github.com/GateNLP/gate-teamware"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.7601328"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "VaxxHesitancy: A Dataset for Studying Hesitancy towards COVID-19 Vaccination on Twitter",
+      "authors": [
+        "Yida Mu",
+        "Mali Jin",
+        "Charlie Grimshaw",
+        "Carolina Scarton",
+        "Kalina Bontcheva",
+        "Xingyi Song"
+      ],
+      "author_countries": [
+        "GB"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "VaxxHesitancy",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "streaming COVID-19 Twitter API"
+      ],
+      "temporal_coverage_start": "2020-10",
+      "temporal_coverage_end": "2022-05",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 3101,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "To this end, we created a new collection of over 3,101 tweets annotated with users’ attitudes towards COVID-19 vaccination (stance).",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "COVID-19 vaccination",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Public health and COVID-19"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Stance detection",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "vaccine stance classification",
+        "linguistic analysis"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 3101,
+      "num_annotators": 18,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "Impact on annotation quality was measured within each group by calculating the Cohen’s kappa coefficient ( K ) which measures inter-rater reliability for annotator pairs",
+      "baseline_families": [
+        "Descriptive statistics only",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://github.com/GateNLP/VaxxHesitancy"
+      ],
+      "persistent_doi": "10.5281/zenodo.7601328",
+      "code_repository_url": "https://github.com/GateNLP/VaxxHesitancy",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Annotator names are replaced with identifiers; only tweet IDs are shared.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset has been published in the Zenodo dataset sharing service with a unique digital object identifier (DOI: 10.5281/zenodo.7601328).",
+      "scale_quote": "The complete VaxxHesitancy dataset has 3,101 tweets in total, including a training set with 2,670 tweets and a golden test set (double agreed) with 431 tweets",
+      "annotation_quote": "A total of 18 volunteers were recruited to manually annotate the tweets in the subset T.",
+      "ethics_quote": "This work has ethical approval #037567 from our University Research Ethics Committee. Our data collection protocol complies with the Twitter data policies for research. We only share tweets IDs following the Twitter API policy and replace annotator names with identifiers.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The temporal coverage is reported as October 2020–May 2022 for the collected corpus and sampling process, but the VaxxHesitancy row in Table 2 states November 2020–April 2022. The paper reports pairwise Cohen's kappa values but no single primary or average agreement value."
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "paper_id": "2026_61448_led_e57cbd",
+  "year": 2026,
+  "pdf_filename": "61448-LeD.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:13:27+00:00",
+    "usage": [
+      {
+        "input_tokens": 20666,
+        "output_tokens": 1409,
+        "cache_read_input_tokens": 18335,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011TFMHzzCbtAd0jahVO6a9h3tI",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 47249,
+    "sha256": "691bec5abc8f735b7f47deae6a62a209b5e50ee2246a1bf6ae12ca4148c153e9",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/TriAnLe171/MemeMatch-v1.0",
+      "https://doi.org/10.34740/kaggle/dsv/14510064"
+    ],
+    "urls_in_references": [
+      "https://github.com/PaddlePaddle/",
+      "https://maartengr.github.io/",
+      "http://www.phash.org",
+      "https://github.com/mattpodolak/pmaw"
+    ],
+    "dois_in_body": [
+      "10.34740/kaggle/dsv/14510064"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "MemeMatch: A Large-Scale Dual-Context Multimodal Dataset and Retrieval System for Internet Memes",
+      "authors": [
+        "Do Tri An Le",
+        "Donát Akos Köller",
+        "Qixin Deng",
+        "Roland Molontay"
+      ],
+      "author_countries": [
+        "US",
+        "HU"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Tool or infrastructure released with data",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MemeMatch",
+      "platforms": [
+        "Reddit"
+      ],
+      "platform_names_verbatim": [
+        "Reddit",
+        "ImgFlip"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Pushshift Reddit API",
+        "PRAW",
+        "PMAW",
+        "Beautiful Soup"
+      ],
+      "temporal_coverage_start": "2018-01",
+      "temporal_coverage_end": "2023-12",
+      "primary_record_unit": "Images or memes",
+      "total_records": 301000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "≈ 301K memes across 2,083 templates",
+      "modalities": [
+        "Text",
+        "Image",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Hate speech, toxicity and harassment",
+        "AI-generated content and LLM use"
+      ],
+      "supported_tasks": [
+        "Retrieval or question answering",
+        "Multimodal understanding (image/video/audio)",
+        "Sentiment or emotion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "context-aware retrieval by natural language or image query",
+        "exploratory analysis"
+      ],
+      "annotation_paradigms": [
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [
+        "facebook/bart-large-mnli",
+        "twitter-roberta-base-emotion-multilabel",
+        "twitter-roberta-base-sentiment-latest",
+        "all-mpnet-base-v2",
+        "BLIP"
+      ],
+      "num_annotated_records": 301000,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Kaggle",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.34740/kaggle/dsv/14510064",
+        "https://github.com/TriAnLe171/MemeMatch-v1.0"
+      ],
+      "persistent_doi": "10.34740/kaggle/dsv/14510064",
+      "code_repository_url": "https://github.com/TriAnLe171/MemeMatch-v1.0",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV",
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Hosted on Kaggle with a DOI (https://doi.org/10.34740/kaggle/dsv/14510064) and searchable metadata.",
+      "scale_quote": "A large-scale meme dataset (∼ 301K memes across 2,083 templates) combining organic social memes and template-based examples from two major platforms.",
+      "annotation_quote": "To infer communicative intent, we applied zero-shot classification using facebook/bart-large-mnli across 28 predefined usage labels",
+      "ethics_quote": "Because memes may contain sensitive content, the dataset should be used with caution.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states a '∼ 301K' total but the component counts (146,991 Reddit + 153,792 ImgFlip) sum to 300,783. The distribution form is ambiguous between full raw content and mixed, as the paper describes image filenames as unique identifiers and mentions CSV/JSON exports."
+    }
+  }
+}

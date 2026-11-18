@@ -1,0 +1,197 @@
+{
+  "paper_id": "2024_41033_icwsm_lieba_f44437",
+  "year": 2024,
+  "pdf_filename": "41033-ICWSM.LiebA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:05:03+00:00",
+    "usage": [
+      {
+        "input_tokens": 21692,
+        "output_tokens": 1209,
+        "cache_read_input_tokens": 19359,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011JSfbqsVkXQLIWhHfY0BhkW1K",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 60101,
+    "sha256": "2dedd18a0d64f784f9d27b391ac53a34591696f77b934ae6a2e9e7e8c5c572f6",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.heritage.org/civil-rights/report/critical-race-",
+      "https://twitter.com/realchrisrufo/status/1371540368714428416",
+      "https://www.vox.com/2020/9/24/21451220/critical-racetheory-diversity-training-trump",
+      "https://www.npr.org/2020/08/16/902179773/summer-ofracial-reckoning-the-match-lit",
+      "https://www.gdeltproject.org/about.html",
+      "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+      "https://www.foxnews.com/politics/texas",
+      "https://doi.org/10.7910/DVN/QAN5VX",
+      "https://api.gdeltproject.org/api/v2/summary/summary?d=iatv",
+      "https://newsinitiative.withgoogle.com/resources/trainings/",
+      "https://trends.google.com/trends/",
+      "https://doi.org/10.5281/zenodo.10516191"
+    ],
+    "urls_in_references": [
+      "https://zenodo.org/doi/10.5281/zenodo.10516190"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.10516190",
+      "10.7910/DVN/QAN5VX",
+      "10.5281/zenodo.10516191"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Online News Coverage of Critical Race Theory Controversies: A Dataset of Annotated Headlines",
+      "authors": [
+        "Anna Lieb",
+        "Maneesh Arora",
+        "Eni Mustafaraj"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "annotated dataset of 11,704 unique U.S. news headlines related to critical race theory",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "GDELT",
+        "news media",
+        "web news media"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "GDELT Events Database 2.0 DOC API",
+        "GDELT Project DOC 2.0 API",
+        "Pushshift Reddit dumps"
+      ],
+      "temporal_coverage_start": "2020-08",
+      "temporal_coverage_end": "2022-12",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 11704,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "Our dataset includes 11,704 unique news article headlines published as 18,686 unique URLs at 1,684 unique web domains from August 2020 through December 2022",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Political communication and elections",
+        "Polarization and ideology"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Entity or information extraction",
+        "Descriptive or exploratory social analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "headline stance and the primary actor",
+        "tracking online news reporting on U.S. social issues",
+        "computational social science work that investigates how CRT news circulated in the Reddit community"
+      ],
+      "annotation_paradigms": [
+        "LLM or generative AI labels",
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [
+        "GPT-4"
+      ],
+      "num_annotated_records": 11704,
+      "num_annotators": 2,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.7075,
+      "iaa_summary_verbatim": "Cohen’s kappa = 0.742 and 0.673, respectively",
+      "baseline_families": [
+        "LLM prompting (zero- or few-shot)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.10516190",
+        "https://doi.org/10.5281/zenodo.10516191"
+      ],
+      "persistent_doi": "10.5281/zenodo.10516191",
+      "code_repository_url": "https://doi.org/10.5281/zenodo.10516190",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "No user-specific information, submission text, or comment text from Reddit data are included in the dataset.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "Our dataset and replication code is available to access on Zenodo at zenodo.org/doi/10.5281/zenodo.10516190",
+      "scale_quote": "Our dataset includes 11,704 unique news article headlines published as 18,686 unique URLs at 1,684 unique web domains from August 2020 through December 2022",
+      "annotation_quote": "We prompted a pre-trained large language model (OpenAI’s GPT-4) to generate the stance and primary actor labels for each headline in our dataset",
+      "ethics_quote": "This dataset does not contain any personally identifiable information and primarily relies on publicly accessible news data that was produced with the intention of its publication on the web",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Persistent DOI and dataset URLs are ambiguous; the paper mentions both 10.5281/zenodo.10516190 and 10.5281/zenodo.10516191."
+    }
+  }
+}

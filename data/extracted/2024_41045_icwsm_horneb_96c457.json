@@ -1,0 +1,176 @@
+{
+  "paper_id": "2024_41045_icwsm_horneb_96c457",
+  "year": 2024,
+  "pdf_filename": "41045-ICWSM.HorneB.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:05:37+00:00",
+    "usage": [
+      {
+        "input_tokens": 18329,
+        "output_tokens": 1049,
+        "cache_read_input_tokens": 16031,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011QjXxv4hC8p3jw1Ny8e14JaXR",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 43072,
+    "sha256": "0898dc2bf68c5e02375c85cf014120f2fa1f0c1aa23ba0ef83f8f8ee78e4826f",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.7910/",
+      "https://github.com/",
+      "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi",
+      "https://sqlitebrowser.org/",
+      "https://doi.org/10.7910/DVN/YHWTFC"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7910/DVN/YHWTFC"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "NELA-PS: A Dataset of Pink Slime News Articles for the Study of Local News Ecosystems",
+      "authors": [
+        "Benjamin D. Horne",
+        "Maurício Gruppi"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "NELA-PS",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "pink slime news outlets"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "RSS feeds",
+        "SQLite3"
+      ],
+      "temporal_coverage_start": "2021-03-01",
+      "temporal_coverage_end": "2024-01-04",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 7910965,
+      "num_accounts_or_users": 1093,
+      "scale_description_verbatim": "7,910,965 articles from 1093 sources",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Geospatial or mobility"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Misinformation and fact-checking",
+        "Bots, coordinated inauthentic behavior and propaganda"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Content Sharing Networks",
+        "Comparisons between pink slime and authentic local news"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/YHWTFC",
+        "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YHWTFC"
+      ],
+      "persistent_doi": "10.7910/DVN/YHWTFC",
+      "code_repository_url": "https://github.com/MELALab/nela-pink-slime",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY-NC 4.0",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [
+        "SQLite3",
+        "CSV",
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "IP addresses of the news outlets are anonymized as identifiers, e.g. IP Address 10, and author bylines are retained for provenance and research use.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is publicly-available in the NELA Harvard Dataverse repository under CC BY-NC 4.0 License.",
+      "scale_quote": "This collection of pink slime articles ran every day between March 1, 2021 and January 4, 2024, resulting in 7,910,965 articles from 1093 sources.",
+      "annotation_quote": "",
+      "ethics_quote": "We have provided responsible guidelines for the data’s use and have anonymized the data as much as possible without detrimenting provenance and usefulness.",
+      "license_quote": "The dataset is publicly-available in the NELA Harvard Dataverse repository under CC BY-NC 4.0 License.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states the dataset covers over 2.5 years but the exact collection period is 33 months (March 1, 2021 to January 4, 2024). The language of the news articles is not explicitly stated, though they are from U.S. local news outlets."
+    }
+  }
+}

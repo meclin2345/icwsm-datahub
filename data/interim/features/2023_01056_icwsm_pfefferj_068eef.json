@@ -1,0 +1,18 @@
+{
+  "page_count": 9,
+  "n_chars": 45792,
+  "sha256": "a89c06c2757a04fa22e3b79168585a2b10a2d48f8e4574731a956d4c72bbaefa",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.nytimes.com/2022/10/27/technology/elon-musktwitter-deal-complete.html",
+    "https://doi.org/10.7802/2516",
+    "https://www.gesis.org/en/data-services/share-data"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7802/2516"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

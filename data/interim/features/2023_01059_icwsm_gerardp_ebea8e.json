@@ -1,0 +1,17 @@
+{
+  "page_count": 7,
+  "n_chars": 35203,
+  "sha256": "25b7489fbd0fc6637a971f062a5f96fccf636bb82584ad1503735fd87787d862",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://blog.twitter.com/en",
+    "https://doi.org/10.5281/zenodo.7531625"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.7531625"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

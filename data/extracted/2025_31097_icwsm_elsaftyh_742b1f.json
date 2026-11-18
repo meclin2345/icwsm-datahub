@@ -1,0 +1,189 @@
+{
+  "paper_id": "2025_31097_icwsm_elsaftyh_742b1f",
+  "year": 2025,
+  "pdf_filename": "31097-ICWSM.ElsaftyH.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:06:54+00:00",
+    "usage": [
+      {
+        "input_tokens": 19660,
+        "output_tokens": 798,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0110HyxA7WdrRRmer3aIP5QuTAN",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 46440,
+    "sha256": "1173bc2e6f0891d1ac3b1ab56dbb37deb7aceb7eea43224035bd99f6dcf370ea",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://en.mo3jam.com/",
+      "https://3amyah.com/",
+      "https://livingarabic.com",
+      "https://www.lisaanmasry.org/",
+      "https://derja.ninja//",
+      "https://ary.wikipedia.org/",
+      "https://huggingface.co/HossamElsafty/ArDiaBERTv2",
+      "https://huggingface.co/HossamElsafty/ArbianGPT",
+      "https://huggingface.co/HossamElsafty/ArDiaGPT"
+    ],
+    "urls_in_references": [
+      "https://force11"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "ArDia: Improving Arabic Dialectal Language Classification Using a Novel Dataset",
+      "authors": [
+        "Hossam Elsafty",
+        "Bouthaina Abdou",
+        "Tobias Deußer",
+        "Maren Pielka",
+        "Christian Bauckhage",
+        "Rafet Sifa"
+      ],
+      "author_countries": [
+        "DE"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "ArDia",
+      "platforms": [
+        "TikTok",
+        "Web/News/Blogs",
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "TikTok",
+        "YouTube",
+        "online dictionaries",
+        "articles",
+        "Darija Wikipedia"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40)"
+      ],
+      "collection_tools": [
+        "Google Translation API"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 903015,
+      "num_accounts_or_users": 7500,
+      "scale_description_verbatim": "over 900,000 examples, each labeled with its respective dialect",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "ar"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Polarization and ideology",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "Arabic dialect identification",
+        "dialect identification task"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)",
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)",
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Promised or forthcoming",
+      "hosting_repositories": [
+        "Hugging Face Hub",
+        "Not stated"
+      ],
+      "dataset_urls": [],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Not specified",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Self-assessed or checklist only",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "all collected data were anonymized; no personal identifiers were collected, and accounts were labeled solely by dialect",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "we have made the ArDia dataset, pretrained models, and training configurations available under a responsible release policy",
+      "scale_quote": "the ArDia dataset is the largest labeled dialectal Arabic dataset, containing over 900,000 examples, each labeled with its respective dialect",
+      "annotation_quote": "we labeled the user’s dialect and inferred that all of their videos share the same dialect",
+      "ethics_quote": "To ensure ethical compliance and mitigate potential negative outcomes, we anonymized all collected data, employed robust documentation practices, and implemented access controls to safeguard the data",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The dataset's release location is ambiguous: the paper says it is available under a responsible release policy but plans to make it publicly available upon publication, and no dataset URL or DOI is given. The num_accounts_or_users value of 7,500 refers only to TikTok users scraped, not all data sources, and conflicts with the 903,015 total labeled rows."
+    }
+  }
+}

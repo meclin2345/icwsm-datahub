@@ -1,0 +1,168 @@
+{
+  "paper_id": "2022_01100_icwsm_alvarezr_d6bfd5",
+  "year": 2022,
+  "pdf_filename": "01100-ICWSM.AlvarezR.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:33:11+00:00",
+    "usage": [
+      {
+        "input_tokens": 18185,
+        "output_tokens": 1188,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011vGD7P9KlZNtxdtPfsKsoPyUT",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 45619,
+    "sha256": "d0559b78009904fae2ee6b35737d6a327c337b0d2c4453c848f8572f78541b3d",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://zenodo.org/record/5851847\\#.YeO_"
+    ],
+    "urls_in_references": [
+      "https://tinyurl.com/ym2wdvkd"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Turning Stocks into Memes: A Dataset for Understanding How Social Communities Can Drive Wall Street",
+      "authors": [
+        "Richard Alvarez",
+        "Paras Bhatt",
+        "Xingmeng Zhao",
+        "Anthony Rios"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Reddit"
+      ],
+      "platform_names_verbatim": [
+        "Reddit",
+        "r/WallStreetBets"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Python Pushshift.io API Wrapper (PSAW)"
+      ],
+      "temporal_coverage_start": "2021-01-01",
+      "temporal_coverage_end": "2021-03-01",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 100069,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "we obtained a total of 71,075 submissions and 100,069 comments",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "Economic or financial event",
+      "event_name": "GameStop short squeeze",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Influencers, marketing and the platform economy"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "predict whether someone intends to buy a particular stock",
+        "extracting their Support for the GME-related “take down the establishment” campaign"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 5000,
+      "num_annotators": 2,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.81,
+      "iaa_summary_verbatim": "The agreement was measured by Cohen’s Kappa with scores of .81 for intent and .72 for support.",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/5851847#.YeO_vhPML8E"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is Findable and Accessible through Zenodo.",
+      "scale_quote": "we obtained a total of 71,075 submissions and 100,069 comments",
+      "annotation_quote": "In total, two annotators independently completed 3000 annotations.",
+      "ethics_quote": "Our research does not use any individuals personal information, nor any identifiable info to put the individual at risk.",
+      "license_quote": "Moreover, the data is licensed under the Creative Commons Attribution License (CC BY 4.0).",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Dataset is not explicitly named; no DOI or anonymization steps are reported."
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "paper_id": "2021_01066_icwsm_budakc_4456f3",
+  "year": 2021,
+  "pdf_filename": "01066-ICWSM.BudakC.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:29:44+00:00",
+    "usage": [
+      {
+        "input_tokens": 18932,
+        "output_tokens": 1314,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011DKYerjIoPiSs5W2fmDX1pc6B",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 46057,
+    "sha256": "b3c66c29148dc5ca7b74ed2776386cc12f529498c37674cb65afb0acee5aadd8",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.7910/DVN/LWMYAD",
+      "https://huggingface.co/distilbert-base-uncased"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7910/DVN/LWMYAD"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "COVID-19 Coverage By Cable and Broadcast Networks",
+      "authors": [
+        "Ceren Budak",
+        "Ashley Muddiman",
+        "Yujin Kim",
+        "Caroline C. Murray",
+        "Natalie J. Stroud"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "COVID-19 cable and broadcast news dataset",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "CNN",
+        "Fox News",
+        "MSNBC",
+        "ABC World News Tonight",
+        "CBS Evening News",
+        "NBC Nightly News"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Nexis Uni",
+        "LexisNexis"
+      ],
+      "temporal_coverage_start": "2020-01-21",
+      "temporal_coverage_end": "2020-06-12",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 486068,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "486,068 paragraphs across 4,589 transcripts",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "COVID-19",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Public health and COVID-19",
+        "News and journalism"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "build various classifiers",
+        "descriptive analysis"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 44643,
+      "num_annotators": 1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Krippendorff's alpha"
+      ],
+      "iaa_primary_value": 0.86,
+      "iaa_summary_verbatim": "Reliability was high (Direct COVID-19: Krippendorff's alpha = .87; Indirect COVID-19: Krippendorff's alpha = .85).",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/LWMYAD"
+      ],
+      "persistent_doi": "10.7910/DVN/LWMYAD",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Names of networks (e.g., CNN) and network employees (e.g., Jesse Waters) are removed.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The COVID-19 cable and broadcast news dataset is publicly available to the research community, and can be accessed at https://doi.org/10.7910/DVN/LWMYAD.",
+      "scale_quote": "There are a total of 486,068 paragraphs across 4,589 transcripts from the aforementioned programs in the specified time window.",
+      "annotation_quote": "This resulted in a total of 44,643 manually labeled paragraphs.",
+      "ethics_quote": "As such, these data contain newsworthy information that is unlikely to pose privacy concerns.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The number of annotators is ambiguous: two coders were trained and coded the initial 12,298 paragraphs, but a single coder classified the additional 214 broadcasts."
+    }
+  }
+}

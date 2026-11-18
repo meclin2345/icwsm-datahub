@@ -1,0 +1,187 @@
+{
+  "paper_id": "2023_01002_icwsm_arnaouth_4741dc",
+  "year": 2023,
+  "pdf_filename": "01002-ICWSM.ArnaoutH.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:33:53+00:00",
+    "usage": [
+      {
+        "input_tokens": 16520,
+        "output_tokens": 1152,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011bMaB9aSI4YF098EJEK80rlKB",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 33417,
+    "sha256": "be2d1bb02a067dbc3b28188ec0ec170274989b8cfb200cfed12e17bef9efd25d",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.7410436",
+      "https://www.wikidata.org/wiki/Wikidata:List",
+      "https://en.wikipedia.org/wiki/ACM",
+      "https://query.wikidata.org/",
+      "https://wiki-topic.toolforge.org/topic",
+      "https://wikiknowledge.onrender.com/demographics/",
+      "https://render",
+      "https://en.wikipedia.org/wiki/Wikipedia:AfC",
+      "https://www.wikidata.org/wiki/Property:P39",
+      "https://www.wikidata.org/wiki/Q111536437"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.7410436"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Wiki-based Communities of Interest: Demographics and Outliers",
+      "authors": [
+        "Hiba Arnaout",
+        "Simon Razniewski",
+        "Jeff Z. Pan"
+      ],
+      "author_countries": [
+        "DE",
+        "GB"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "Wiki-based Communities of Interest: Demographics and Outliers",
+      "platforms": [
+        "Wikipedia/Wikidata"
+      ],
+      "platform_names_verbatim": [
+        "Wikidata"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "SPARQL query",
+        "Wiki-topic tool",
+        "SBert"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Other",
+      "total_records": 352965,
+      "num_accounts_or_users": 345435,
+      "scale_description_verbatim": "covers 7.5k communities, e.g., members of the White House Coronavirus Task Force, and 345k subjects",
+      "modalities": [
+        "Text",
+        "Network or graph"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Gender, race and identity",
+        "Political communication and elections",
+        "Online communities and collective behavior"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Entity or information extraction",
+        "Recommendation or ranking",
+        "Summarization or text generation"
+      ],
+      "tasks_verbatim": [
+        "demographic analyses",
+        "edit recommender to fill knowledge gaps",
+        "lists of salient statements about queried subjects"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.7410436",
+        "https://wikiknowledge.onrender.com/demographics/"
+      ],
+      "persistent_doi": "10.5281/zenodo.7410436",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our datasets can be downloaded from the Zenodo sharing service at: https://doi.org/10.5281/zenodo.7410436.",
+      "scale_quote": "We release subject-centric and group-centric datasets in JSON format",
+      "annotation_quote": "",
+      "ethics_quote": "In this work, datasets released are based on public information and tools provided by Wikimedia projects. We do not use any personal information.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "No license is named in the paper, so license_category is 'Not specified'. total_records is the combined 7530 group-centric and 345435 subject-centric records."
+    }
+  }
+}

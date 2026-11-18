@@ -1,0 +1,220 @@
+{
+  "paper_id": "2022_01110_icwsm_singhals_0dfe7b",
+  "year": 2022,
+  "pdf_filename": "01110-ICWSM.SinghalS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:33:41+00:00",
+    "usage": [
+      {
+        "input_tokens": 18992,
+        "output_tokens": 1438,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Hgyz82TLD0KdiVHwj8dJbz3v",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.year: got 2022; Extra inputs are not permitted"
+      },
+      {
+        "input_tokens": 20476,
+        "output_tokens": 1398,
+        "cache_read_input_tokens": 16799,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011TAynq8ytBM1jiQfnHkZjYFkd",
+        "structured_mode": "prompt-repair",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 45035,
+    "sha256": "28cb6cee6fc92a346a4b75b5840d1a1423f644524cbfbce39ee6956820b80038",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://indianexpress.com/article/india/214-rise-in-casesrelating-to-fake-news-rumours-7511534/",
+      "https://en.wikipedia.org/wiki/Multilingualism",
+      "https://www.boomlive.in",
+      "https://doi.org/10.5281/zenodo.5854856",
+      "https://zenodo.org/record/5854856",
+      "https://ifcncodeofprinciples.poynter.org/signatories",
+      "https://pypi.org/project/beautifulsoup4/",
+      "https://www.boomlive.in/technologies-will-tackle-irrigationinefficiencies-agricultures-drier-future/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.5854856"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "FactDrill: A Data Repository of Fact-Checked Social Media Content to Study Fake News Incidents in India",
+      "authors": [
+        "Shivangi Singhal",
+        "Rajiv Ratn Shah",
+        "Ponnurangam Kumaraguru"
+      ],
+      "author_countries": [
+        "IN"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "FactDrill",
+      "platforms": [
+        "Web/News/Blogs",
+        "Twitter/X",
+        "Facebook",
+        "WhatsApp",
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "Facebook",
+        "WhatsApp",
+        "Youtube"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Beautiful Soup"
+      ],
+      "temporal_coverage_start": "2013",
+      "temporal_coverage_end": "2020",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 22435,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The dataset comprises news stories from 2013 to 2020, covering 13 different languages spoken in the country.",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video",
+        "Audio",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en",
+        "hi",
+        "bn",
+        "mr",
+        "ml",
+        "te",
+        "ta",
+        "or",
+        "as",
+        "pa",
+        "ur",
+        "si",
+        "my"
+      ],
+      "num_languages": 13,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "IN"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "Entity or information extraction",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "Understand the nature of fake news",
+        "Suppress fake news dissemination at an early stage",
+        "Study bias among fact-checkers",
+        "Model temporal progression of fake news",
+        "Event-centric studies",
+        "Explore multilingual fake news direction"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 22435,
+      "num_annotators": -1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa",
+        "Percent agreement",
+        "Other metric"
+      ],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "We observe a mix of moderate and substantial agreement for the majority of the samples.",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.5854856",
+        "https://zenodo.org/record/5854856"
+      ],
+      "persistent_doi": "10.5281/zenodo.5854856",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "XLSX"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The complete dataset is publicly available at the following link: (Dataset DOI: https://doi.org/10.5281/zenodo.5854856) (Dataset URL: https://zenodo.org/record/5854856)",
+      "scale_quote": "The dataset comprises news stories from 2013 to 2020, covering 13 different languages spoken in the country.",
+      "annotation_quote": "We hired language experts to annotate the samples. For Hindi and English languages, each sample is annotated by two annotators. However, due to the limited expertise in the regional languages, each sample is annotated by a single annotator.",
+      "ethics_quote": "",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "IAA primary value is ambiguous because the paper reports per-website agreement scores in Table 2 rather than a single overall value. Platform content is represented via links in fact-checking articles rather than direct social media APIs, and modalities are inferred from the attribute descriptions."
+    }
+  }
+}

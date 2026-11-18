@@ -1,0 +1,30 @@
+{
+  "page_count": 13,
+  "n_chars": 60952,
+  "sha256": "22c1e152cbe491ff883141c4915585f7658ce02a026e4a58e2a96d8655225c9c",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/aurman21/googletrendarchive",
+    "https://doi.org/10.57967/hf/7531",
+    "https://doi",
+    "https://doi.org/10"
+  ],
+  "urls_in_references": [
+    "https://www.kaggle.com/datasets/adrianjuliusaluoch/dailygoogle-search-trends-us",
+    "https://onlinelibrary.wiley.com/doi/pdf/10.1002/for.1252",
+    "https://force11",
+    "https://blog.google/products-andplatforms/products/search/google-trends-trending-nowupdate/",
+    "https://support.google.com/trends/",
+    "https://developers.google.com/search/blog/2025/",
+    "https://developers.google.com/",
+    "https://doi.org/10.1080/17457289.2013.846346",
+    "https://onlinelibrary.wiley.com/doi/pdf/10.1002/for.3104",
+    "https://wordstat.yandex"
+  ],
+  "dois_in_body": [
+    "10.57967/hf/7531"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

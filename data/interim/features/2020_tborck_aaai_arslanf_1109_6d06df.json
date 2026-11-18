@@ -1,0 +1,23 @@
+{
+  "page_count": 9,
+  "n_chars": 40516,
+  "sha256": "66ec7ddf17b87e180fee0c8723a53deceeaeb97151b98f59d3e9602576ceec03",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "http://doi.org/10.5281/zenodo.3609356",
+    "https://www.politifact.com/",
+    "https://www.debates.org/voter-education/debate-transcripts/",
+    "http://idir.uta.edu/classifyfact",
+    "https://fullfact.org/automated",
+    "https://team.inria.fr/cedar/contentcheck/",
+    "https://reporterslab.org/tech-and-check/",
+    "https://zenodo.org/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.3609356"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

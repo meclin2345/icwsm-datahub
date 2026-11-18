@@ -1,0 +1,202 @@
+{
+  "paper_id": "2023_01090_icwsm_aiyappar_024185",
+  "year": 2023,
+  "pdf_filename": "01090-ICWSM.AiyappaR.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:03:48+00:00",
+    "usage": [
+      {
+        "input_tokens": 18348,
+        "output_tokens": 1274,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011DD1h31nckvyo84af6WDOAZbu",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.venue: got 'ICWSM'; Extra inputs are not permitted | paper.year: got 2023; Extra inputs are not permitted | annotation.annotation_notes: got 'The authors manually reviewed sampled posts (10 per day per platform, 860 total for each ; Extra inputs are not permitted | distribution.access_notes: got 'The paper states they publicly share the collection; per platform ToS, Twitter is shared ; Extra inputs are not permitted | ethics.ethics_notes: got \"IRB exemption (Indiana University protocol 17036); release is stated to be in compliance ; Extra inputs are not permitted"
+      },
+      {
+        "input_tokens": 19783,
+        "output_tokens": 1654,
+        "cache_read_input_tokens": 16031,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011fdDrzoe9J7NpZ4SswanVKHMV",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 44544,
+    "sha256": "58e04d39fc34b8fe9f0cd4ef52a2d9784ac2c45a1a77b2c0c0d61a7293b42c86",
+    "checklist_detected": false,
+    "urls_in_body": [],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Multi-Platform Collection of Social Media Posts about the 2022 U.S. Midterm Elections",
+      "authors": [
+        "Rachith Aiyappa",
+        "Matthew R. DeVerna",
+        "Manita Pote",
+        "Bao Tran Truong",
+        "Wanying Zhao",
+        "David Axelrod",
+        "Aria Pessianzadeh",
+        "Zoher Kachwala",
+        "Munjung Kim",
+        "Ozgur Can Seckin",
+        "Minsuk Kim",
+        "Sunny Gandhi",
+        "Amrutha Manikonda",
+        "Francesco Pierri",
+        "Filippo Menczer",
+        "Kai-Cheng Yang"
+      ],
+      "author_countries": [
+        "US",
+        "IT"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MEIU22",
+      "platforms": [
+        "Twitter/X",
+        "Facebook",
+        "Instagram",
+        "Reddit",
+        "4chan/8kun/Imageboards"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "Facebook",
+        "Instagram",
+        "Reddit",
+        "4chan"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "tweepy",
+        "Pushshift API",
+        "Meta Ad library API",
+        "CrowdTangle"
+      ],
+      "temporal_coverage_start": "2022-06-01",
+      "temporal_coverage_end": "2022-12-25",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 7556646,
+      "num_accounts_or_users": 1011,
+      "scale_description_verbatim": "We report the number of posts collected using the keyword list, the number of posts from candidates, and the number of candidate handles on different platforms.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Elections",
+      "event_name": "2022 U.S. midterm elections",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Misinformation and fact-checking",
+        "Bots, coordinated inauthentic behavior and propaganda"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Bot or coordinated account detection",
+        "Misinformation or claim detection",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "detecting and characterizing inauthentic coordinated behaviors",
+        "investigate the presence and the impact on influence operations taking place across different platforms"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)",
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 860,
+      "num_annotators": 3,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "github.com/osome-iu/MEIU22"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "github.com/osome-iu/MEIU22",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The paper does not describe hashing or removal of PII; Twitter data is released as tweet IDs and Meta ad data as page IDs out of platform ToS restrictions, which is not anonymization.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We provide public access to the dataset as well as the source code of our data collection framework to facilitate replication in other contexts (github.com/osome-iu/MEIU22).",
+      "scale_quote": "In total, the list contains information about 4,508 social platform handles from as many as 1,011 candidates running for the 2022 U.S. House and Senate elections.",
+      "annotation_quote": "we sampled ten posts from each day's collection between October 1 to December 25 (i.e., 860 posts in total for each platform). The authors then manually label each post as a true positive or false positive.",
+      "ethics_quote": "This study has been granted exemption from Institutional Review Board review (Indiana University protocol 17036). The collection and release of the dataset are in compliance with the platforms' terms of service.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "total_records (7,556,646) is a sum computed from Table 3 (6,242,412 + 638,448 + 304,106 + 259,385 + 35,314 + 160,773 + 5,352); the paper does not state a combined total. Languages are assumed English from U.S. election context, but the paper does not explicitly state the language of the posts. The paper states 1,011 candidates but 4,508 handles; num_accounts_or_users is set to 1011 to match the candidate count, and the discrepancy is noted here."
+    }
+  }
+}

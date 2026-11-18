@@ -1,0 +1,28 @@
+{
+  "page_count": 11,
+  "n_chars": 55483,
+  "sha256": "7d8ff57530b52b57aae1d5d7c143107c3c5e4750cbe2bd9dbb2bc51a47c6e3e3",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://aiforensics.org/work/bing-chat-elections"
+  ],
+  "urls_in_references": [
+    "https://algorithmwatch.org/en/bing-chat-election2023/",
+    "https://de.euronews.com/2021/09/26/wahlmanipulationaiwanger-veroffentlicht-exit-polls-zu-fruh-auf-twitter",
+    "https://digital-strategy.ec.europa.eu/en/policies/listdesignated-vlops-and-vloses",
+    "https://blogs.microsoft.com/blog/2023/02/07/reinventingsearch-with-a-new-ai-powered-microsoft-bing-and-edgeyour-copilot-for-the-web/",
+    "https://query.prod.cms",
+    "https://copilot",
+    "https://blogs.windows.com/",
+    "https://learn.microsoft.com/en-us/copilot/faq",
+    "https://aiforensics.org//uploads/AIF",
+    "https://www",
+    "https://www.zdf.de/nachrichten/panorama/aiwangereigenlob-twitter-100.html"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.10517696"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

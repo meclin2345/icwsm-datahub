@@ -1,0 +1,24 @@
+{
+  "page_count": 16,
+  "n_chars": 90891,
+  "sha256": "862c85b6ad945e134bf81ffe5650795e5b6ea2624cde8eea0ce4a33f84cad975",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "http://llmebench.qcri.org",
+    "https://arxiv.org/pdf/2406.05559",
+    "https://www.deepl.com/en/translator",
+    "https://gemini.google.com",
+    "https://goose3.readthedocs.io",
+    "https://newspaper.readthedocs.io/",
+    "https://trafilatura.readthedocs.io",
+    "https://www.nltk.org/_modules/nltk/",
+    "https://ai.meta.com/blog/meta-llama-3/"
+  ],
+  "urls_in_references": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

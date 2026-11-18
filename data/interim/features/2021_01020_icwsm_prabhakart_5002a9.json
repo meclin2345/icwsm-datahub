@@ -1,0 +1,22 @@
+{
+  "page_count": 9,
+  "n_chars": 35405,
+  "sha256": "a4cad52d95ed1e4596de92620eb33e4b4ab259361b489b174dfa94be8f366b60",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://zenodo.org/record/4032629",
+    "https://techcrunch.com/2019/04/02/whatsapp-adds-a-tip-linefor-checking-fakes-in-india-ahead-of-elections/",
+    "http://annotation.test.tattle.co.in.s3-website.ap-south1.amazonaws.com/"
+  ],
+  "urls_in_references": [
+    "https://www.lse.ac.uk/media-andcommunications/research/research-projects/whatsappvigilantes",
+    "https://www.livemint.com/news/india/sharechat-gettinghalf-a-million-new-users-an-hour-since-ban-on-59-chineseapps-11593600168690.html",
+    "http://downloads.bbc.co.uk/mediacentre/dutyidentity-credibility.pdf",
+    "https://www.censusindia.gov.in/2011census/C-17.html",
+    "https://firstdraftnews.org/latest/fake-news-complicated/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

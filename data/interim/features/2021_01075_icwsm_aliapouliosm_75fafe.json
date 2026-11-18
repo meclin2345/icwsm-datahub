@@ -1,0 +1,28 @@
+{
+  "page_count": 9,
+  "n_chars": 46241,
+  "sha256": "a1d6aea95cc1482e9d07dfb9bc73c6a53a931aad4ce8034d07938ecbf33a3e82",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.go-fair.org/fair-principles/"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.5281/zenodo",
+    "https://doi.org/10.5281/",
+    "https://reut.rs/",
+    "https://www.washingtonpost.com/technology/2020/11/10/",
+    "https://www.syracuse.com/us-news/2020/11/what-is-parlerfree-speech-social-network-jumps-in-popularity-after-trumploses-election.html",
+    "https://www.cbsnews.com/news/proud-boys-leader-enriquetarrio-arrested-washington-dc/",
+    "https://wapo.st/2MEa2c5",
+    "https://www.politico.com/news/2020/",
+    "https://benpettis.com/writing/2019/5/",
+    "https://politi.co/3wZnCJU",
+    "https://doi.org/10.5281/zenodo.4442460"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.4442460"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

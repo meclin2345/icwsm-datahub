@@ -1,0 +1,34 @@
+{
+  "page_count": 9,
+  "n_chars": 47459,
+  "sha256": "3398ba37d3007b63ffb1fac4c2c1b92c817e717889b0ca77019b57b77f537fa5",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://zenodo.org/record/4437987",
+    "http://doi.org/10.5281/zenodo.4437987",
+    "https://www.youlikehits",
+    "https://www.like4like.org/",
+    "https://traffup.net/",
+    "https://www.justretweet",
+    "https://www.seleniumhq.org/",
+    "https://developer.twitter.com/en/docs",
+    "https://developers.google.com/youtube/v3",
+    "https://help.twitter.com/en/rules-and-policies/platformmanipulation",
+    "https://support.google.com/youtube/answer/3399767?hl=en",
+    "https://tinyurl.com/y2ztmoqg",
+    "https://developer",
+    "https://developer.twitter.com/en/docs/tweets/datadictionary/overview/user-object",
+    "https://developer.twitter.com/en/docs/tweets/datadictionary/overview/tweet-object",
+    "https://pypi.org/project/langdetect/",
+    "https://pypi.org/project/pycountry/",
+    "https://textblob.readthedocs.io/en/dev/quickstart.html",
+    "http://flask.pocoo.org/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.4437987"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

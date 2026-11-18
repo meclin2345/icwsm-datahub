@@ -1,0 +1,23 @@
+{
+  "page_count": 10,
+  "n_chars": 48779,
+  "sha256": "421b8d8700f45bfe5a0d69fa103f56142ea7b930d7f47ce386e8f9a3a881c743",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.7466262",
+    "https://developers.google.com/youtube/v3",
+    "https://github.com/jdepoix/youtube-transcript-api"
+  ],
+  "urls_in_references": [
+    "https://www",
+    "https://support.google.com/youtube/",
+    "https://www.statista.com/statistics/272014/globalsocial-networks-ranked-by-number-of-users/",
+    "https://en.wikipedia.org/w/index.php?title="
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.7466262"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

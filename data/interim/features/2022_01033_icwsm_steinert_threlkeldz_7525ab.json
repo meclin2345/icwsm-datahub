@@ -1,0 +1,17 @@
+{
+  "page_count": 10,
+  "n_chars": 53268,
+  "sha256": "1c479fcebe7ac047ad3865bf7f819506925cce3f3780b04473720dab38fee6ad",
+  "checklist_detected": false,
+  "urls_in_body": [],
+  "urls_in_references": [
+    "https://doi.org/10.7910/DVN/28075",
+    "https://www.lapatilla.com/2014/11/06/profesoresprotestaron-cerquita-de-miraflores-fotos/",
+    "https://www",
+    "https://doi.org/10"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

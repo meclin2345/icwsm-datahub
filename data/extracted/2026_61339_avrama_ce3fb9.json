@@ -1,0 +1,179 @@
+{
+  "paper_id": "2026_61339_avrama_ce3fb9",
+  "year": 2026,
+  "pdf_filename": "61339-AvramA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:13:10+00:00",
+    "usage": [
+      {
+        "input_tokens": 19094,
+        "output_tokens": 2962,
+        "cache_read_input_tokens": 17992,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011TKMxJBxJh8Jp3SAfNFOlAVJb",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 53163,
+    "sha256": "24825d174f9b80e997c4d4f67d8e0371fe4d13f02631a4e68e6ab896b3f68a0c",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.goodreads.com/",
+      "https://audiotribe.ro",
+      "https://www.cinemagia.ro/",
+      "https://github.com/google/cld3",
+      "https://huggingface.co/meta-llama/Llama-3.1-8B",
+      "https://huggingface.co/Qwen/Qwen3-8B",
+      "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "RoIt-XMASA: Multi-Domain Multilingual Sentiment Analysis Dataset for Romanian and Italian",
+      "authors": [
+        "Andrei-Marius Avram",
+        "Aureliu-Valentin Antonie",
+        "Cosmin-Mircea Croitoru",
+        "Vlad-Andrei Muntean",
+        "Dumitru-Clementin Cercel"
+      ],
+      "author_countries": [
+        "RO"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Extension or new version of an existing dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "RoIt-XMASA",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Amazon",
+        "Goodreads",
+        "Audiotribe",
+        "Cinemagia"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Other",
+      "total_records": 238141,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "36,000 labeled reviews across three domains (books, movies, and music) and 202,141 unlabeled samples.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "it",
+        "ro"
+      ],
+      "num_languages": 2,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "IT",
+        "RO"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Other"
+      ],
+      "supported_tasks": [
+        "Sentiment or emotion analysis"
+      ],
+      "tasks_verbatim": [
+        "sentiment classification"
+      ],
+      "annotation_paradigms": [
+        "Platform-native signals (Community Notes, moderation logs, votes)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 36000,
+      "num_annotators": 6,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Krippendorff's alpha"
+      ],
+      "iaa_primary_value": 0.82,
+      "iaa_summary_verbatim": "The interannotator agreement achieved a Krippendorff’s alpha of 0.82, indicating strong agreement and confirming the reliability of our data quality measures.",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Hugging Face Hub"
+      ],
+      "dataset_urls": [
+        "https://huggingface.co/datasets/avramandrei/RoIt-XMASA"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All personally identifiable information and author metadata were removed, leaving only review text, titles, and ratings.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is available at the following link: https://huggingface.co/datasets/avramandrei/RoIt-XMASA",
+      "scale_quote": "We present RoIt-XMASA, a multilingual dataset that extends the Cross-lingual Multi-domain Amazon Sentiment Analysis to Italian and Romanian, comprising 36,000 labeled reviews across three domains (books, movies, and music) and 202,141 unlabeled samples.",
+      "annotation_quote": "Each review is annotated with ratings from 1 to 5 stars (excluding 3), maintaining the original XMASA structure while adapting to the linguistic characteristics of Italian and Romanian.",
+      "ethics_quote": "To protect user privacy, all personally identifiable information and author metadata were removed, leaving only review text, titles, and ratings.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Total records is interpreted as 36,000 labeled plus 202,141 unlabeled reviews; temporal coverage, file formats, a dataset DOI, and released collection code are not stated."
+    }
+  }
+}

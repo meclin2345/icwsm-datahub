@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "paper_id": "2026_61503_matosb_d46e19",
+    "year": 2026,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://zenodo.org/records/19097541",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/19097541",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 7,
+    "total_size_mb": 116.02,
+    "file_extensions": ".csv, .csv.gz, .zip",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 446,
+    "downloads_unique": 424,
+    "views_total": 139,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": 0,
+    "hf_downloads_30d": 7,
+    "code_url": "https://github.com/brenomatos/msd",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 0,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2026-01-15T19:15:20Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://zenodo.org/records/19097541",
+      "resolved_url": "https://zenodo.org/records/19097541",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:23+00:00",
+      "error": null
+    },
+    {
+      "url": "https://huggingface.co/datasets/brenomatos/msd",
+      "resolved_url": "https://huggingface.co/datasets/brenomatos/msd",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:24+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "19097541",
+    "concept_doi": "10.5281/zenodo.19097540",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 7,
+    "total_size_mb": 116.02,
+    "file_extensions": [
+      ".csv",
+      ".csv.gz",
+      ".zip"
+    ],
+    "stats_raw": {
+      "downloads": 446,
+      "unique_downloads": 424,
+      "views": 139,
+      "unique_views": 123,
+      "version_downloads": 446,
+      "version_unique_downloads": 424,
+      "version_unique_views": 123,
+      "version_views": 139
+    },
+    "downloads": 446,
+    "unique_downloads": 424,
+    "views": 139,
+    "unique_views": 123,
+    "version_downloads": 446,
+    "version_unique_downloads": 424,
+    "publication_date": "2026-03-18"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": true,
+    "repo": "brenomatos/msd",
+    "gated": "manual",
+    "restricted": true,
+    "account_required": false,
+    "private": false,
+    "disabled": false,
+    "downloads_30d": 7,
+    "downloads_all_time": 865,
+    "likes": 0,
+    "file_count": 558,
+    "file_extensions": [
+      ".md",
+      ".mp4",
+      ".txt",
+      ".webm",
+      ".zip"
+    ],
+    "license": null,
+    "last_modified": "2026-03-19T09:08:17.000Z"
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": true,
+    "repo": "brenomatos/msd",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2026-01-15T19:15:20Z",
+    "created_at": "2026-01-15T17:56:12Z",
+    "size_mb": 216.22,
+    "license": "NOASSERTION"
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

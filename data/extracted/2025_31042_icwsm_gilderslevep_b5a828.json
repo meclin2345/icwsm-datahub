@@ -1,0 +1,203 @@
+{
+  "paper_id": "2025_31042_icwsm_gilderslevep_b5a828",
+  "year": 2025,
+  "pdf_filename": "31042-ICWSM.GildersleveP.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:59+00:00",
+    "usage": [
+      {
+        "input_tokens": 22077,
+        "output_tokens": 1532,
+        "cache_read_input_tokens": 19871,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011aGM4LsQrQukraqfTrr5xbCbp",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 57689,
+    "sha256": "7c0aa318422e9aeb980bfb80585edf21ea5981b9eb204d72964988872235d790",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/pgilders/WikiReddit",
+      "https://doi.org/10.5281/zenodo.14653265",
+      "https://github.com/pgilders/"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10.1080/10584609.2023.2207488",
+      "https://papers.ssrn.com/",
+      "https://doi.org/10.1080/10584609.2018.1477506",
+      "https://github",
+      "https://techcrunch.com/2024/02/09/socialnetwork-api-apps-twitter-reddit-threads-mastodonbluesky/",
+      "https://techcrunch.com/2024/05/09/reddit-locks-down-itspublic-data-in-new-content-policy-says-use-now-requiresa-contract/",
+      "https://www.snopes",
+      "https://redditinc.com/",
+      "http://arxiv.org/abs/1910.12596",
+      "https://www.pewresearch.org/journalism/fact-sheet/",
+      "https://www.reddit.com/r/reddit4researchers/comments/",
+      "https://meta"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.14653265"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "WikiReddit: Tracing Information and Attention Flows Between Online Platforms",
+      "authors": [
+        "Patrick Gildersleve",
+        "Anna Beers",
+        "Viviane Ito",
+        "Agustin Orozco",
+        "Francesca Bolla Tripodi"
+      ],
+      "author_countries": [
+        "GB",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "WikiReddit",
+      "platforms": [
+        "Reddit",
+        "Wikipedia/Wikidata"
+      ],
+      "platform_names_verbatim": [
+        "Reddit",
+        "Wikipedia",
+        "Wikidata"
+      ],
+      "collection_methods": [
+        "Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40)",
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Reddit4Researchers API",
+        "Wikipedia APIs",
+        "WikiToolkit",
+        "MediaWiki 2024"
+      ],
+      "temporal_coverage_start": "2020",
+      "temporal_coverage_end": "2023",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 335897,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "336K total posts, 10.2M comments, 1.95M unique links, and 1.26M unique articles spanning 59 languages on Reddit and 276 Wikipedia language subdomains",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Network or graph"
+      ],
+      "languages_iso": [
+        "mul"
+      ],
+      "num_languages": 59,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Misinformation and fact-checking",
+        "Online communities and collective behavior"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Network or information diffusion analysis",
+        "Causal or intervention analysis"
+      ],
+      "tasks_verbatim": [
+        "how attention is driven from one platform to another",
+        "how Wikipedia’s archive of knowledge is used in the larger social web",
+        "how external attention is topically distributed across Wikipedia",
+        "how Wikipedia usage on Reddit contributes to societal benefits and harms"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.14653265",
+        "https://github.com/pgilders/WikiReddit"
+      ],
+      "persistent_doi": "10.5281/zenodo.14653265",
+      "code_repository_url": "https://github.com/pgilders/WikiReddit",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "SQLITE3"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All IDs are securely hashed using SHA-256, and checked for uniqueness. This measure preserves individuals' privacy and also enables future researchers to collect and analyze additional data on entries of interest with access to the Reddit4Researchers API by matching against our hashes.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is shared as a SQLite3 database via Zenodo: https://doi.org/10.5281/zenodo.14653265. Replication code for collection, exploratory analysis, and demo code is provided in the project repository: https://github.com/pgilders/ WikiReddit.",
+      "scale_quote": "The SQL database comprises 336K total posts, 10.2M comments, 1.95M unique links, and 1.26M unique articles spanning 59 languages on Reddit and 276 Wikipedia language subdomains.",
+      "annotation_quote": "",
+      "ethics_quote": "This work was approved by the University of Exeter ethical review procedures (ID 8969882). The dataset is based on public data collected via the Reddit4Researchers and Wikipedia APIs. This research was observational, and no personally identifiable information from Reddit users was included.",
+      "license_quote": "The dataset is licensed CC BY 4.0.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states that the dataset is licensed CC BY 4.0, but the underlying Reddit data is licensed under the 'Reddit License' and Wikipedia data is licensed under CC BY-SA 4.0. The primary_record_unit is coded as 'Posts or tweets' because the scale description's first element is posts, but the dataset equally contains comments, links, and Wikipedia articles, making the 'primary' unit somewhat ambiguous."
+    }
+  }
+}

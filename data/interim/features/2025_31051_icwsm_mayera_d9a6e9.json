@@ -1,0 +1,16 @@
+{
+  "page_count": 10,
+  "n_chars": 45985,
+  "sha256": "c8bb89f227e70194e3050b43c4d70679b8424ad46b60bc4cb1882aea3a376c6a",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.7802/2863"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7802/2863"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

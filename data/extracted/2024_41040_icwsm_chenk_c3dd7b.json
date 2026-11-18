@@ -1,0 +1,189 @@
+{
+  "paper_id": "2024_41040_icwsm_chenk_c3dd7b",
+  "year": 2024,
+  "pdf_filename": "41040-ICWSM.ChenK.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:06:23+00:00",
+    "usage": [
+      {
+        "input_tokens": 22810,
+        "output_tokens": 7013,
+        "cache_read_input_tokens": 20639,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011RbRXz8o6sBIel1an13Tmp5J7",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "JSON syntax error: Expecting value at char 0. Context: ...'Let me analyze the paper carefully and construct the JSON object.\\n\\n**P'..."
+      },
+      {
+        "input_tokens": 29888,
+        "output_tokens": 888,
+        "cache_read_input_tokens": 20639,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011CgpLYL9qutD5Yxj6zGPEDkCb",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 13,
+    "n_chars": 61328,
+    "sha256": "d9ddabd1a0eea2cee7fb518996fbc00a7a08bf98295756d7f10b30cc79b742b4",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://academictorrents.com/",
+      "https://github.com/kaichen23/israel-hamas",
+      "https://doi.org/10.5281/zenodo.10494990"
+    ],
+    "urls_in_references": [
+      "https://force11"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.10494990"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "IsamasRed: A Public Dataset Tracking Reddit Discussions on Israel-Hamas Conflict",
+      "authors": [
+        "Kai Chen",
+        "Zihao He",
+        "Keith Burghardt",
+        "Jingxin Zhang",
+        "Kristina Lerman"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "IsamasRed",
+      "platforms": [
+        "Reddit"
+      ],
+      "platform_names_verbatim": [
+        "Reddit"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Pushshift API",
+        "Academic Torrents"
+      ],
+      "temporal_coverage_start": "2023-08",
+      "temporal_coverage_end": "2023-11",
+      "primary_record_unit": "Conversations or threads",
+      "total_records": 412258,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "In total, we collect over 400K conversations including more than 8M comments.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Armed conflict or war",
+      "event_name": "2023 Israel–Hamas war",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Crisis, disaster and conflict informatics",
+        "Polarization and ideology",
+        "Hate speech, toxicity and harassment"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Sentiment or emotion analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "examining topics, controversy, emotional and moral language trends over time"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)",
+        "Platform-native signals (Community Notes, moderation logs, votes)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "GitHub or GitLab",
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://github.com/kaichen23/israel-hamas",
+        "https://doi.org/10.5281/zenodo.10494990"
+      ],
+      "persistent_doi": "10.5281/zenodo.10494990",
+      "code_repository_url": "https://github.com/kaichen23/israel-hamas",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Email the authors for approval",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "User names were encoded using a hashing function to preserve anonymity.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset and code are publicly available on Github and Zenodo.",
+      "scale_quote": "In total, we collect over 400K conversations including more than 8M comments.",
+      "annotation_quote": "IsamasRed includes a binary controversiality indicator for comments, automatically assigned by Reddit to comments that receive a large number of upvotes and downvotes simultaneously.",
+      "ethics_quote": "The data collection process was exempted from full review by the Institutional Review Board (IRB) at the University of Southern California, as it relied solely on anonymized, publicly accessible data.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The public release contains only a 500-item sample; full dataset access requires contacting the authors, so distribution form and access mechanism reflect this partial release. The total number of distinct users or accounts is not stated as a single figure."
+    }
+  }
+}

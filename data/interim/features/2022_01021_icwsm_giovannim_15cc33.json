@@ -1,0 +1,32 @@
+{
+  "page_count": 9,
+  "n_chars": 42304,
+  "sha256": "f6d3015e354ced05c921fd5a45edb642f23bdd211f4db55c3f9594027bdbd150",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.fda.gov/news-events/press-announcements/fdaapproves-first-covid-19-vaccine",
+    "https://ourworldindata.org/covid-vaccinations",
+    "https://vaccinetracker.ecdc.europa.eu/public/extensions/COVID19/vaccine-tracker.html",
+    "https://osome.iu.edu/tools/covaxxy",
+    "https://github.com/frapierri/VaccinItaly",
+    "http://genomic.elet.polimi.it/vaccinitaly/",
+    "https://developer.twitter.com/en/docs/twitterapi/v1/tweets/filter-realtime/overview",
+    "https://developer.twitter.com/en/docs/twitterapi/tweets/search/introduction",
+    "https://www.internetlivestats.com/twitter-statistics/",
+    "https://doi.org/10.7910/DVN/NZUMZG",
+    "https://github.com/DataSciencePolimi/VaccinEU",
+    "https://www.newsguardtech.com/it/",
+    "https://sites.google",
+    "https://periscopeproject.eu/"
+  ],
+  "urls_in_references": [
+    "https://reutersinstitute.politics.ox.ac.uk/digital-newsreport/2021",
+    "https://www.pewresearch.org/"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/NZUMZG"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

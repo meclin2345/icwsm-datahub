@@ -1,0 +1,184 @@
+{
+  "paper_id": "2020_tborck_aaai_reis_1095_1_4c5ee7",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_Reis-1095 (1).pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:14+00:00",
+    "usage": [
+      {
+        "input_tokens": 15218,
+        "output_tokens": 885,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0116Jq0WnmpFc50H3X4WFCHFLWz",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 6,
+    "n_chars": 29952,
+    "sha256": "340621e2a7b019454170502223d080d6e332beffda18082f812072cc1faf920b",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "http://doi.org/10.5281/",
+      "https://www.nytimes.com/2018/05/14/technology/whatsappindia-elections.html",
+      "https://gitlab.com/bs-detector/bs-detector",
+      "https://github.com/facebook/ThreatExchange/tree/master/",
+      "https://github.com/facebook/ThreatExchange/blob/master/",
+      "https://elpais.com/elpais/2019/03/18/inenglish/1552900378",
+      "https://www.independent.co.uk/news/world/europe/",
+      "https://www.theguardian.com/technology/2019/jan/21/"
+    ],
+    "urls_in_references": [
+      "https://www.livemint.com/Technology/",
+      "https://www.nytimes.com/2018/10/17/opinion/brazilelection-fake-news-whatsapp.html"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Dataset of Fact-Checked Images Shared on WhatsApp During the Brazilian and Indian Elections",
+      "authors": [
+        "Julio C. S. Reis",
+        "Philipe Melo",
+        "Kiran Garimella",
+        "Jussara M. Almeida",
+        "Dean Eckles",
+        "Fabrício Benevenuto"
+      ],
+      "author_countries": [
+        "BR",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "WhatsApp"
+      ],
+      "platform_names_verbatim": [
+        "WhatsApp"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Reverse Google Image search"
+      ],
+      "temporal_coverage_start": "2018-07",
+      "temporal_coverage_end": "2019-06",
+      "primary_record_unit": "Images or memes",
+      "total_records": -1,
+      "num_accounts_or_users": 13653,
+      "scale_description_verbatim": "over 34K and 810K images shared by more than 17k and 63K users on Brazil and India",
+      "modalities": [
+        "Image",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "BR",
+        "IN"
+      ],
+      "event_category": "Elections",
+      "event_name": "2018 Brazilian elections and 2019 Indian elections",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "Network or information diffusion analysis",
+        "Multimodal understanding (image/video/audio)"
+      ],
+      "tasks_verbatim": [
+        "identifying among the images that circulated on WhatsApp during the monitored period, those that contained misinformation",
+        "track the spread of an image (and minor variants of the image) through multiple groups on WhatsApp",
+        "detect fake news automatically"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Platform-native signals (Community Notes, moderation logs, votes)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 2500,
+      "num_annotators": 3,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "http://doi.org/10.5281/zenodo.3734805"
+      ],
+      "persistent_doi": "10.5281/zenodo.3734805",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All sensitive information, i.e., group names and phone numbers, were anonymized.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset can be found in the following link: http://doi.org/10.5281/zenodo.3734805.",
+      "scale_quote": "This lead us to a set of over 34K and 810K images shared by more than 17k and 63K users on Brazil and India.",
+      "annotation_quote": "we also asked three journalists from India to label a sample of 2,500 images",
+      "ethics_quote": "We emphasize that all sensitive information (i.e., group names and phone numbers) were anonymized in order to ensure the privacy of users.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper gives conflicting user counts (17k and 63k users total vs. 919 users in the Brazil MISINFO and 12,713 in the India MISINFO); the 74,000 figure was taken from the dataset construction section."
+    }
+  }
+}

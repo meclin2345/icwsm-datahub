@@ -1,0 +1,22 @@
+paper_id,field,value,reason,curator
+2021_01023_icwsm_alamf_c1d63a,distribution.distribution_form,Full raw content,review: anonymized_form_but_no_pii_step,MJ
+2021_01052_icwsm_alamf_75034a,distribution.distribution_form,Full raw content,review: anonymized_form_but_no_pii_step,MJ
+2023_01059_icwsm_gerardp_ebea8e,distribution.distribution_form,Full raw content,review: anonymized_form_but_no_pii_step,MJ
+2025_31071_icwsm_jow_3b1568,distribution.distribution_form,Full raw content,review: anonymized_form_but_no_pii_step,MJ
+2026_61011_schaferk_500b20,distribution.distribution_form,Full raw content,review: anonymized_form_but_no_pii_step,MJ
+2026_61275_mischingerm_9a294d,distribution.distribution_form,Full raw content,review: anonymized_form_but_no_pii_step,MJ
+2021_01064_icwsm_consonnic_60681a,distribution.hosting_repositories,"[""Zenodo""]",review: code_host_listed_as_dataset_host,MJ
+2024_41028_icwsm_glasebachj_5debcc,distribution.hosting_repositories,"[""Zenodo""]",review: code_host_listed_as_dataset_host,MJ
+2025_31127_icwsm_cooko_bd7a95,distribution.hosting_repositories,"[""Zenodo""]",review: code_host_listed_as_dataset_host,MJ
+2026_61043_sherrattv_0fb719,distribution.hosting_repositories,"[""Zenodo""]",review: code_host_listed_as_dataset_host,MJ
+2026_61503_matosb_d46e19,distribution.hosting_repositories,"[""Zenodo"", ""Hugging Face Hub""]",review: code_host_listed_as_dataset_host,MJ
+2020_tborck_aaai_papasavvaa_1099_49edfa,annotation.annotation_paradigms,"[""Automated classifier or lexicon (BERT, Perspective API, LIWC)""]",review: llm_paradigm_but_no_llm_named,MJ
+2024_41084_icwsm_shangl_ba6d42,distribution.distribution_form,Dehydrated IDs only,review: mixed_form_but_text_says_ids_only,MJ
+2021_01067_icwsm_cortisk_3e881e,ethics.pii_anonymization_applied,false,review: pii_true_for_ids_only_release,MJ
+2023_01017_icwsm_muy_672ab1,ethics.pii_anonymization_applied,false,review: pii_true_for_ids_only_release,MJ
+2026_61332_yaor_5edccd,ethics.pii_anonymization_applied,false,review: pii_true_for_ids_only_release,MJ
+2026_61312_golovina_e0f835,distribution.dataset_urls,"[""https://zenodo.org/records/18262126""]",review: url_not_found_in_text,MJ
+2024_41077_icwsm_romanos_1bcb13,distribution.documentation_framework,None mentioned,documentation audit: answered_no; 5(g) answered No,MJ
+2024_41031_icwsm_dasp_a36461,distribution.documentation_framework,None mentioned,documentation audit: other_framework; model card,MJ
+2026_61500_urmana_431c1b,paper.title,GoogleTrendArchive: A Year-Long Archive of Real-Time Web Search Trends Worldwide,title colon misplaced in PDF extraction,claude
+2026_61552_egglestonc_0c109e,paper.title,"TUBE-CENSUS: A Transparent, Replicable, and Large-Scale Census of YouTube Channels and their Subscriber Counts Over Time",small-caps dataset name lost in PDF title extraction,claude

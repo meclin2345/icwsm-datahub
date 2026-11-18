@@ -1,0 +1,26 @@
+{
+  "page_count": 10,
+  "n_chars": 55891,
+  "sha256": "1c49eff3c73576419a71eed59f8e2c9267b9f4fbf9eb287d3fdefca1500ef576",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://zenodo.org/record/6409736",
+    "https://github.com/Suhavi/TrackingMentalHealth"
+  ],
+  "urls_in_references": [
+    "https://www.ucl.ac.uk/data-protection/sites/data-protection/",
+    "https://www.statista.com/statistics/242606/number-ofactive-twitter-users-in-selected-countries/",
+    "https://www.healthdata.org/research-article/global-regionaland-national-burden-12-mental-disorders-204-countries-and",
+    "https://www",
+    "https://www.healthdata.org/acting-data/new-ihme-analysesshow-depression-and-anxiety-among-top-causes-healthburden-worldwide",
+    "https://www.who",
+    "Https://ourworldindata.org/mental-health",
+    "https://www.statista.com/statistics/283119/agedistribution-of-global-twitter-users/",
+    "https://blog.twitter.com/en",
+    "https://www.who.int/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

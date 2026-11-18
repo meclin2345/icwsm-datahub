@@ -1,0 +1,23 @@
+{
+  "page_count": 10,
+  "n_chars": 52614,
+  "sha256": "e9e372bd841856bc7b41c2bc5c94c0b9308733db6ff35a2a9b32760414e39bb5",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.5828209",
+    "https://github.com/nveldt/fauci-email",
+    "https://doi.org/10.5281/",
+    "https://github.com/"
+  ],
+  "urls_in_references": [
+    "https://github",
+    "https://www.buzzfeednews.com/article/nataliebettendorf/",
+    "http://www.cs"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.5828209"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

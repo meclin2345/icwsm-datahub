@@ -1,0 +1,26 @@
+{
+  "page_count": 12,
+  "n_chars": 60089,
+  "sha256": "fcbef6447dd3a67dd393f200873fa2ccd5e666390d3c14b1cdc6e6b418d054f4",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.18189311"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.1080/10410236.2023.2167584",
+    "https://force11",
+    "https://doi.org/10.1080/10584609.2018.1477506",
+    "https://www",
+    "https://www.iso.org/standard/",
+    "https://www.localnewsimpact.org/wp-content/",
+    "https://doi.org/10.1080/10810730.2024.2439468",
+    "https://www.pewresearch.org/",
+    "https://papers.ssrn.com/sol3/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.18189311"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

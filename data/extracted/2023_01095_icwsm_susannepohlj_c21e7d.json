@@ -1,0 +1,200 @@
+{
+  "paper_id": "2023_01095_icwsm_susannepohlj_c21e7d",
+  "year": 2023,
+  "pdf_filename": "01095-ICWSM.SusannePohlJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:03:59+00:00",
+    "usage": [
+      {
+        "input_tokens": 20593,
+        "output_tokens": 1013,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0112gv8q0D9t9DhH5XOI7GtLZDE",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 50613,
+    "sha256": "63334f1252ce9b69b5609eff4b8e5f96ee192bf64d55abb6b78c0338945d8276",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.nationalarchives.gov.uk/webarchive/",
+      "https://www.archives.gov/",
+      "https://twitter.com/Ukraine/status/1497594592438497282",
+      "https://www.blockchain.com/",
+      "https://www.cnn.com/2022/03/09/media/biolab-ukrainerussia-qanon-false-conspiracy-theory/index.html",
+      "https://edition.cnn.com/2022/04/26/tech/twitter-free-speechelon-musk/index.html",
+      "https://doi.org/10.7802/2555",
+      "https://doi.org/10.5281/zenodo.7804846"
+    ],
+    "urls_in_references": [
+      "https://www.kaggle.com/datasets/",
+      "https://www.kaggle.com/dsv/4809572",
+      "https://policycommons.net/artifacts/2288078/thewar-in-ukraine-and-its-economic-fallout/3048212/",
+      "https://ieeedataport.org/documents/ukruwar22-collection-ukrainerussia-war-related-tweets#files",
+      "https://www",
+      "https://doi.org/10.17605/OSF.IO/RTQXN",
+      "https://www.kaggle.com/datasets/foklacu/ukrainewar-tweets-dataset-65-days?resource=download",
+      "https://socialmedialab.ca/2022/05/10/navigating-thefog-of-war-during-the-russia-invasion-of-ukraine/",
+      "https://theconversation.com/thenext-war-will-be-an-information-war-and-were-not-readyfor-it-51218",
+      "https://www.kaggle"
+    ],
+    "dois_in_body": [
+      "10.7802/2555",
+      "10.5281/zenodo.7804846"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Janina Susanne Pohl**<sup>1</sup> **, Simon Markmann**<sup>1</sup> **, Dennis Assenmacher**<sup>2</sup> **, Christian Grimme**<sup>1</sup>",
+      "authors": [
+        "Janina Susanne Pohl",
+        "Simon Markmann",
+        "Dennis Assenmacher",
+        "Christian Grimme"
+      ],
+      "author_countries": [
+        "DE"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "Invasion@Ukraine",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter Streaming API",
+        "Twitter Search API"
+      ],
+      "temporal_coverage_start": "2022-02-17",
+      "temporal_coverage_end": "2022-03-03",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 8700000,
+      "num_accounts_or_users": 2300000,
+      "scale_description_verbatim": "We gathered 8.7 million original tweets between February 17 and March 3, 2022, produced by 2.3 million individual user accounts in total.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "UA",
+        "RU"
+      ],
+      "event_category": "Armed conflict or war",
+      "event_name": "Russian invasion of Ukraine, 2022",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Content moderation and platform governance",
+        "Bots, coordinated inauthentic behavior and propaganda"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "investigating disinformation, propaganda, campaign narratives, or automation",
+        "detect [scams, conspiracy theories, coordinated campaigns] with machine learning algorithms",
+        "study Twitter’s content moderation efforts",
+        "analyze communication activities of users, state actors, and journalists"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 8700000,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "Statistical models (regression, time series)",
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)",
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7802/2555",
+        "https://doi.org/10.5281/zenodo.7804846"
+      ],
+      "persistent_doi": "10.7802/2555",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "User mentions in unavailable tweets were replaced with hash digests/pseudonyms and associated tweet IDs removed; public dataset contains only IDs.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "This dataset can be found in a GESIS data archive... https://doi.org/10.7802/2555 ... Access to the dataset can be requested here: https://doi.org/10.5281/zenodo.7804846",
+      "scale_quote": "We gathered 8.7 million original tweets between February 17 and March 3, 2022, produced by 2.3 million individual user accounts in total.",
+      "annotation_quote": "we checked each tweet's status via the Twitter Search API for the first time in March 2022 and repeated this process in early January 2023",
+      "ethics_quote": "we replaced all user names mentioned in the tweets with pseudonyms and removed the associated tweet IDs to prevent the association of tweet content and specific users",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states 8.7 million tweets as both the initial collected volume and the post-filtered dataset size, which is contradictory. Two distinct datasets (public ID list in GESIS and restricted pseudonymized content on Zenodo) are released; the restricted Zenodo access mechanism drives the access_mechanism code."
+    }
+  }
+}

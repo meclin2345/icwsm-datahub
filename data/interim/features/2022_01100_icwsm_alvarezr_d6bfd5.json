@@ -1,0 +1,16 @@
+{
+  "page_count": 9,
+  "n_chars": 45619,
+  "sha256": "d0559b78009904fae2ee6b35737d6a327c337b0d2c4453c848f8572f78541b3d",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://zenodo.org/record/5851847\\#.YeO_"
+  ],
+  "urls_in_references": [
+    "https://tinyurl.com/ym2wdvkd"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

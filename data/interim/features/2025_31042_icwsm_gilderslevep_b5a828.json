@@ -1,0 +1,31 @@
+{
+  "page_count": 12,
+  "n_chars": 57689,
+  "sha256": "7c0aa318422e9aeb980bfb80585edf21ea5981b9eb204d72964988872235d790",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/pgilders/WikiReddit",
+    "https://doi.org/10.5281/zenodo.14653265",
+    "https://github.com/pgilders/"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.1080/10584609.2023.2207488",
+    "https://papers.ssrn.com/",
+    "https://doi.org/10.1080/10584609.2018.1477506",
+    "https://github",
+    "https://techcrunch.com/2024/02/09/socialnetwork-api-apps-twitter-reddit-threads-mastodonbluesky/",
+    "https://techcrunch.com/2024/05/09/reddit-locks-down-itspublic-data-in-new-content-policy-says-use-now-requiresa-contract/",
+    "https://www.snopes",
+    "https://redditinc.com/",
+    "http://arxiv.org/abs/1910.12596",
+    "https://www.pewresearch.org/journalism/fact-sheet/",
+    "https://www.reddit.com/r/reddit4researchers/comments/",
+    "https://meta"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.14653265"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

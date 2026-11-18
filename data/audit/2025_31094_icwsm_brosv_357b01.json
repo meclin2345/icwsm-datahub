@@ -1,0 +1,103 @@
+{
+  "summary": {
+    "paper_id": "2025_31094_icwsm_brosv_357b01",
+    "year": 2025,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.34777/6w61-tn46",
+    "doi_resolves": false,
+    "n_urls_checked": 2,
+    "any_url_alive": false,
+    "primary_url": "https://doi.org/10.34777/6w61-tn46",
+    "primary_url_status": "Dead (404)",
+    "primary_resolved_url": "https://www.idiap.ch/en/dataset/suisse-romande-news-dataset",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "DataCite (Idiap Research Institute)",
+    "file_count": null,
+    "total_size_mb": null,
+    "file_extensions": "",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 0,
+    "downloads_unique": null,
+    "views_total": 0,
+    "downloads_metric_source": "DataCite usage",
+    "repo_license": null,
+    "datacite_registered": true,
+    "datacite_publisher": "Idiap Research Institute",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": false,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.34777/6w61-tn46",
+      "resolved_url": "https://www.idiap.ch/en/dataset/suisse-romande-news-dataset",
+      "http_status": 404,
+      "category": "Dead (404)",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:56+00:00",
+      "error": null
+    },
+    {
+      "url": "https://www.idiap.ch/en/scientific-research/data/suisse-romande-news-datasetthat",
+      "resolved_url": "https://www.idiap.ch/en/dataset/suisse-romande-news-datasetthat",
+      "http_status": 404,
+      "category": "Dead (404)",
+      "alive": false,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:00+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Idiap Research Institute",
+    "landing_url": "https://www.idiap.ch/dataset/suisse-romande-news-dataset",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2023"
+  },
+  "wayback": {
+    "archived": false,
+    "timestamp": null,
+    "snapshot_url": null
+  }
+}

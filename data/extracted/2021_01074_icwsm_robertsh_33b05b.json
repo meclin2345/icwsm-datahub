@@ -1,0 +1,269 @@
+{
+  "paper_id": "2021_01074_icwsm_robertsh_33b05b",
+  "year": 2021,
+  "pdf_filename": "01074-ICWSM.RobertsH.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:30:03+00:00",
+    "usage": [
+      {
+        "input_tokens": 26079,
+        "output_tokens": 1531,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011ykhPHaQEgaLHwXmbJ6rIQbF2",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 73274,
+    "sha256": "a28462de1526d50c9cf009a14ac7ea42d683e74807a83bc7df55d91368ef6ab0",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://github.com/mediacloud",
+      "https://tools.mediacloud.org",
+      "https://mediacloud.org/support",
+      "https://github.com/mitmedialab/feed",
+      "https://mediacloud.org/news/2020/7/14/",
+      "https://topics.mediacloud.org/",
+      "https://github.com/buriy/python-readability",
+      "https://github.com/CLD2Owners/cld2",
+      "https://github.com/mediacloud/date",
+      "https://arxiv.org/abs/2104.03702",
+      "https://github.com/mediacloud/backend/blob/release/doc/",
+      "https://pypi.org/project/mediacloud/",
+      "https://explorer.mediacloud.org/",
+      "https://topics",
+      "https://sources.mediacloud.org/",
+      "https://github.com/mediacloud/api-tutorial-notebooks",
+      "https://arxiv.org/abs/2104",
+      "https://internationalsales.lexisnexis.com/nexis-daas",
+      "https://perma.cc/XC5C-3XLS",
+      "https://newsapi.org/",
+      "https://perma.cc/P63U-D8BJ",
+      "https://mediastack.com/sources",
+      "https://eventregistry.org/",
+      "http://newsfeed.ijs.si/",
+      "https://github.com/JozefStefanInstitute/newsfeed",
+      "https://newsapi.ai/",
+      "https://eventregistry.org/documentation?tab=searchArticles",
+      "https://perma.cc/TWN7-D2MR",
+      "http://www.abyznewslinks.com/",
+      "https://doi.org/10.7910/DVN/",
+      "https://doi.org/10.7910/DVN/D1XLWY",
+      "https://explorer.mediacloud.org/#/general/story/details",
+      "https://github.com/mediacloud/api-client",
+      "https://github.com/jandix/mediacloudr"
+    ],
+    "urls_in_references": [
+      "https://www.storybench.org/hownews-media-are-setting-the-2020-election-agenda-chasing-dailycontroversies-often-burying-policy/",
+      "https://www.journalism.org/2020/12/",
+      "https://www.cjr.org/analysis/christchurch-shootingmedia-coverage.php",
+      "https://ojs.aaai.org//index.php/",
+      "https://ssrn",
+      "https://home.connectionlab.org/",
+      "https://youtube.com/playlist?list=",
+      "https://failworkshops.wordpress.com/tracing-eurosceptic-partynetworks-via-hyperlink-network-analysis-and-failng/",
+      "https://gould.usc.edu/why/students/orgs/ilj/",
+      "http://www.religjournal.com/pdf/ijrr09006.pdf",
+      "https://www.gmfus.org/publications/targeting-gretathunberg-case-study-online-misdisinformation",
+      "http://agava.ijs.si/",
+      "http://hdl.handle.net/",
+      "https://www.aaai.org/ocs/index",
+      "https://arxiv.org/abs/1410.3710",
+      "https://www",
+      "http://videolectures.net/",
+      "https://nyti.ms/364KCKJ",
+      "http://data",
+      "https://perma.cc/5CEK-UHSZ",
+      "https://www.defineamerican.com/",
+      "https://fivethirtyeight.com/features/how-the-media-has-andhasnt-covered-tara-reades-allegation-against-joe-biden/",
+      "http://govcom.org/publications/full",
+      "https://ailab.ijs.si/dunja/SiKDD2020/Papers/01%20-%20ADataset-for-Information-Spreading-over-the-News.pdf",
+      "https://hewlett.org/library/social-media-politicalpolarization-political-disinformation-review-scientific-literature/",
+      "https://www.researchgate.net/publication/303211430",
+      "https://politicalviolenceataglance.org/2014/02/20/rainingon-the-parade-some-cautions-regarding-the-global-database-ofevents-language-and-tone-dataset/",
+      "https://ijoc.org/index.php/ijoc/article/view/8782",
+      "https://www.institutmontaigne.org/"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/",
+      "10.7910/DVN/D1XLWY"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "Media Cloud: Massive Open Source Collection of Global News on the Open Web",
+      "authors": [
+        "Hal Roberts",
+        "Rahul Bhargava",
+        "Linas Valiukas",
+        "Dennis Jen",
+        "Momin M. Malik",
+        "Cindy Sherman Bishop",
+        "Emily B. Ndulue",
+        "Aashka Dave",
+        "Justin Clark",
+        "Bruce Etling",
+        "Robert Faris",
+        "Anushka Shah",
+        "Jasmin Rubinovitz",
+        "Alexis Hope",
+        "Catherine D’Ignazio",
+        "Fernando Bermejo",
+        "Yochai Benkler",
+        "Ethan Zuckerman"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Tool or infrastructure released with data",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "Media Cloud",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "open web",
+        "media sources",
+        "RSS, RDF, and Atom feeds"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Feedseeker",
+        "python-readability",
+        "cld2",
+        "Google Speech-to-Text API",
+        "CLIFF-CLAVIN",
+        "Brandwatch",
+        "Pushshift",
+        "Facebook API"
+      ],
+      "temporal_coverage_start": "2008",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 1700000000,
+      "num_accounts_or_users": 1100000,
+      "scale_description_verbatim": "Since 2008, Media Cloud has collected a total of over 1.7 billion stories",
+      "modalities": [
+        "Text",
+        "Network or graph",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Geospatial or mobility"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "News and journalism",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Network or information diffusion analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "study attention, representation, influence, and language in online news",
+        "network visualizations of the media sources involved in a given topic",
+        "influence and linking metrics"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/4F7TZW",
+        "https://doi.org/10.7910/DVN/D1XLWY",
+        "https://tools.mediacloud.org",
+        "https://mediacloud.org/support",
+        "https://topics.mediacloud.org/",
+        "https://explorer.mediacloud.org/",
+        "https://sources.mediacloud.org/"
+      ],
+      "persistent_doi": "10.7910/DVN/4F7TZW",
+      "code_repository_url": "https://github.com/mediacloud",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "These data are available to the public via an open source code base available on GitHub (https://github.com/mediacloud), a suite of free web tools (https://tools.mediacloud.org), and an extensive open API (https://mediacloud.org/support).",
+      "scale_quote": "The underlying Media Cloud database includes over 1.7 billion stories belonging to 1.1 million distinct media sources",
+      "annotation_quote": "",
+      "ethics_quote": "Media Cloud is limited by copyright restrictions from sharing the full text of news articles with external partners; instead, we surface metadata, data about text content of the documents, and URLs of documents indexed.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper releases two sample datasets (geographic media collection and Voter Fraud Topic Data) but provides conflicting or incomplete scale figures: the overall corpus is described as 'over 1.7 billion stories' while the sample datasets have specific counts (e.g., 120,210 stories for Voter Fraud). The exact temporal coverage end date is not specified, though collection started in 2008/2010."
+    }
+  }
+}

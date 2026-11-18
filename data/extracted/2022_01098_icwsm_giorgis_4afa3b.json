@@ -1,0 +1,195 @@
+{
+  "paper_id": "2022_01098_icwsm_giorgis_4afa3b",
+  "year": 2022,
+  "pdf_filename": "01098-ICWSM.GiorgiS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:33:02+00:00",
+    "usage": [
+      {
+        "input_tokens": 19454,
+        "output_tokens": 1356,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0110vHgJFU7CpQ1J4gk2AEZxD6T",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 8,
+    "n_chars": 43741,
+    "sha256": "9ca3bb9fb2431e37cf0d8d40a6ebdc01c9532cdfa99e8291a4468b3027438ef4",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://github.com/dlatk/TwitterMySQL",
+      "https://github.com/Mottl/GetOldTweets3",
+      "http://mallet.cs.umass.edu",
+      "https://github.com/DocNow/twarc",
+      "https://github.com/DocNow/hydrator",
+      "https://github.com/sjgiorgi/blm",
+      "https://osf.io/y9hiq/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Twitter Corpus of the #BlackLivesMatter Movement and Counter Protests: 2013 to 2021",
+      "authors": [
+        "Salvatore Giorgi",
+        "Sharath Chandra Guntuku",
+        "McKenzie Himelein-Wachowiak",
+        "Amy Kwarteng",
+        "Sy Hwang",
+        "Muhammad Rahman",
+        "Brenda Curtis"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Twitter Corpus of the #BlackLivesMatter Movement and Counter Protests: 2013 to 2021",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "TwitterMySQL",
+        "GetOldTweets3",
+        "Mallet",
+        "Gensim"
+      ],
+      "temporal_coverage_start": "2013",
+      "temporal_coverage_end": "2021-12",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 63884799,
+      "num_accounts_or_users": 13061316,
+      "scale_description_verbatim": "63,884,799 tweets, 13,061,316 users",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Geospatial or mobility",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en",
+        "fr",
+        "es",
+        "pt",
+        "ja",
+        "nl",
+        "de"
+      ],
+      "num_languages": 7,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Protest or social movement",
+      "event_name": "Black Lives Matter movement and counter protests (2013 to 2021)",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Social movements and activism",
+        "Political communication and elections",
+        "Polarization and ideology"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Retrieval or question answering"
+      ],
+      "tasks_verbatim": [
+        "analyses of conversations, temporal shifts, and spatial trends",
+        "automatic event extraction"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)",
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": 3,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "All three raters agreed on the 100 topic set for BlackLivesMatter and the 50 topic set for AllLivesMatter.",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://github.com/sjgiorgi/blm"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/sjgiorgi/blm",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Not specified",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Only numeric tweet IDs are distributed per Twitter Terms of Service; no PII removal described.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "All data is available through Zenodo (Giorgi et al. 2022).",
+      "scale_quote": "Our final data set consisted of 63,884,799 tweets.",
+      "annotation_quote": "three of the authors qualitatively ranked the three sets.",
+      "ethics_quote": "Due to Twitter’s Terms of Service, only numeric tweet IDs can be publicly shared.",
+      "license_quote": "we limit the distribution of this data to noncommercial, research entities in hopes of limiting surveillance type tasks by for-profit entities.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Persistent dataset DOI and license not stated in the paper; the 'Rehydration or extension of an existing dataset' method refers to the GetOldTweets3 backfill of collection gaps."
+    }
+  }
+}

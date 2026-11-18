@@ -1,0 +1,178 @@
+{
+  "paper_id": "2021_01052_icwsm_alamf_75034a",
+  "year": 2021,
+  "pdf_filename": "01052-ICWSM.AlamF.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:29:15+00:00",
+    "usage": [
+      {
+        "input_tokens": 27124,
+        "output_tokens": 1310,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011hCRD69BdMhO27GNnTdocNiW3",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 59513,
+    "sha256": "64a56200704abc593ac4cd7604e577b1b633c1af818f2dc6ba275e31cd2ec797",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://en.wikipedia.org/wiki/Disaster_",
+      "https://www.humanitarianresponse.info/",
+      "https://www.mturk.com/",
+      "https://www.figure-eight.com/dataset/",
+      "https://data.world/crowdflower/disasterson-social-media",
+      "http://aidr.qcri.org/",
+      "http://nominatim.org",
+      "https://www.openstreetmap.org",
+      "https://en.wikipedia.org/wiki/",
+      "https://fasttext.cc/docs/en/crawl-"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "HumAID: Human-Annotated Disaster Incidents Data from Twitter with Deep Learning Benchmarks",
+      "authors": [
+        "Firoj Alam",
+        "Umair Qazi",
+        "Muhammad Imran",
+        "Ferda Ofli"
+      ],
+      "author_countries": [
+        "QA"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "HumAID",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "AIDR system",
+        "Twitter streaming API"
+      ],
+      "temporal_coverage_start": "2016",
+      "temporal_coverage_end": "2019",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 77196,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "over 77,000 labeled tweets, which were sampled from 24 million tweets collected during 19 major real-world disasters that took place between 2016 and 2019",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Natural disaster or climate event",
+      "event_name": "19 major real-world disasters between 2016 and 2019 including hurricanes, earthquakes, wildfires, and floods",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Crisis, disaster and conflict informatics",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "classifying each incoming tweet into one or more of a pre-defined set of classes",
+        "humanitarian aid-related information classification"
+      ],
+      "annotation_paradigms": [
+        "Crowdworkers (MTurk, Prolific, etc.)",
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 77196,
+      "num_annotators": -1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa",
+        "Krippendorff's alpha",
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.55,
+      "iaa_summary_verbatim": "The average agreement score varies 55% to 83%.",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Personal or lab website, Google Drive, Dropbox"
+      ],
+      "dataset_urls": [
+        "https://crisisnlp.qcri.org/humaid_dataset.html"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Twitter data redistribution policy",
+      "license_category": "Platform terms of service only",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "We release the dataset by maintaining Twitter data redistribution policy.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset and associated resources are publicly available at https://crisisnlp.qcri.org/humaid_dataset.html.",
+      "scale_quote": "The dataset contains over 77,000 labeled tweets, which were sampled from 24 million tweets collected during 19 major real-world disasters that took place between 2016 and 2019.",
+      "annotation_quote": "For the manual annotation, we opted to use Amazon Mechanical Turk (AMT) platform.",
+      "ethics_quote": "We collected tweets from Twitter using Twitter streaming API by following its terms of service. The annotated dataset can be used to develop a model for humanitarian response tasks.",
+      "license_quote": "We release the dataset by maintaining Twitter data redistribution policy.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Total records reflects the 77,196 agreed annotated tweets; raw pool of 24,859,155 collected tweets is reported but not released. No dataset DOI or explicit license name beyond 'Twitter data redistribution policy' is stated."
+    }
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "paper_id": "2026_61195_goncalvesa_e8a17a",
+  "year": 2026,
+  "pdf_filename": "61195-GoncalvesA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:10:23+00:00",
+    "usage": [
+      {
+        "input_tokens": 19910,
+        "output_tokens": 4597,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011blAAOhdWCldOZ3nPouozAXmM",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 56642,
+    "sha256": "96cae3af3d0a9b7f0c2ca6a202c08982e19405df4588567d9a9b4f0316470c4d",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.13012/B2IDB-9307654_V1",
+      "https://databank.illinois.edu/policies/"
+    ],
+    "urls_in_references": [
+      "https://cloud.ibm.com/apidocs/natural-language-understanding",
+      "https://techcrunch.com/2025/07/10/youtube-is-getting-rid-of-itstrending-page-and-trending-now-list/",
+      "https://www.marketingtechnews.net/news/trending-is-outyoutube-is-now-all-about-your-interests/",
+      "https://www.pewresearch.org/journalism/fact-sheet/social-mediaand-news-fact-sheet/",
+      "https://blog.youtube/news-and-events/update-toyoutube/",
+      "https://www.youtube.com/static?template=terms",
+      "https://www.youtube.com/howyoutubeworks/youtubes-impact/",
+      "https://support.google.com/youtube/answer/7239739",
+      "https://support.google.com/youtube/thread/356702168/changesto-discovering-trending-content-on-youtube?hl=en",
+      "https://blog.youtube/inside-youtube/on-youtubesrecommendation-system/",
+      "https://doi.org/10.13012/B2IDB-9307654_V1"
+    ],
+    "dois_in_body": [
+      "10.13012/B2IDB-9307654_V1"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Global YouTube Trending Dataset (2022-2025): Three Years of PlatformCurated, Cross-National Trends in Digital Culture",
+      "authors": [
+        "Alexandre Goncalves",
+        "Yee Man Margaret Ng"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Global YouTube Trending Dataset (2022-2025)",
+      "platforms": [
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "YouTube Data API v3"
+      ],
+      "temporal_coverage_start": "2022-07-01",
+      "temporal_coverage_end": "2025-06-30",
+      "primary_record_unit": "Videos",
+      "total_records": 78391390,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "78,391,390 trending video entries across 446,971 snapshots",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "ar",
+        "en",
+        "es"
+      ],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "DZ",
+        "EG",
+        "GH",
+        "KE",
+        "LY",
+        "MA",
+        "NG",
+        "SN",
+        "TN",
+        "TZ",
+        "UG",
+        "ZA",
+        "ZW",
+        "AE",
+        "AZ",
+        "BH",
+        "CY",
+        "GE",
+        "HK",
+        "ID",
+        "IL",
+        "IN",
+        "IQ",
+        "JO",
+        "JP",
+        "KR",
+        "KW",
+        "KZ",
+        "LB",
+        "LK",
+        "MY",
+        "NP",
+        "OM",
+        "PH",
+        "PK",
+        "QA",
+        "SA",
+        "SG",
+        "TH",
+        "TR",
+        "TW",
+        "VN",
+        "YE",
+        "AT",
+        "BA",
+        "BE",
+        "BG",
+        "BY",
+        "CH",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "ME",
+        "MK",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "RS",
+        "RU",
+        "SE",
+        "SI",
+        "SK",
+        "UA",
+        "AR",
+        "BO",
+        "BR",
+        "CL",
+        "CO",
+        "CR",
+        "DO",
+        "EC",
+        "GT",
+        "HN",
+        "JM",
+        "MX",
+        "NI",
+        "PA",
+        "PE",
+        "PR",
+        "PY",
+        "SV",
+        "UY",
+        "CA",
+        "US",
+        "AU",
+        "NZ"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Content moderation and platform governance",
+        "Online communities and collective behavior",
+        "News and journalism"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Sentiment or emotion analysis",
+        "Hate or toxicity detection",
+        "Misinformation or claim detection",
+        "Virality or popularity prediction",
+        "Entity or information extraction",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "sentiment, toxicity, framing",
+        "predict virality",
+        "cross-lingual topic classification",
+        "sequence modeling of attention dynamics",
+        "named-entity recognition",
+        "event-driven analyses"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only",
+        "Statistical models (regression, time series)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.13012/B2IDB-9307654_V1"
+      ],
+      "persistent_doi": "10.13012/B2IDB-9307654_V1",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [
+        "CSV",
+        "TAR.BZ2"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Collection was restricted to publicly accessible video and channel metadata; no individual user-account PII, comments, user profiles, or watch histories were gathered.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "Datasets — https://doi.org/10.13012/B2IDB-9307654_V1",
+      "scale_quote": "The dataset comprises 78,391,390 trending video entries across 446,971 snapshots.",
+      "annotation_quote": "",
+      "ethics_quote": "The data collection process was strictly limited to publicly accessible video and channel metadata; no personally identifiable information (PII) from individual user accounts, such as comments, user profiles, or watch histories, was gathered.",
+      "license_quote": "The dataset is distributed under terms permitting academic reuse, promoting transparency and reproducibility, with use restricted to research purposes only.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The total number of distinct channels or users is not stated. The paper describes authorized, research-only access but does not name a specific license."
+    }
+  }
+}

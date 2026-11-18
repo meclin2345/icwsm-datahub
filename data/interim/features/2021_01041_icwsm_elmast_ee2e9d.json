@@ -1,0 +1,27 @@
+{
+  "page_count": 7,
+  "n_chars": 35133,
+  "sha256": "330f6985f43fde5da412754e4a12efbba64008a64d2e24d402445360966acafd",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.4439509",
+    "https://github.com/tugrulz/CensoredTweets",
+    "https://kinsta.com/wordpress-market-share/",
+    "https://ooni.org/",
+    "https://www.lumendatabase.org"
+  ],
+  "urls_in_references": [
+    "https://www.bbc.com/news/worldeurope-39754909",
+    "https://www.redditinc.com/policies/",
+    "https://www.buzzfeednews.com/article/",
+    "https://developer.twitter.com/en/developer-terms/agreement",
+    "https://www.dw.com/en/turkeys-military-offensive-againstkurdish-held-afrin-what-you-need-to-know/a-42287725",
+    "https://blog.twitter.com/en"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.4439509"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,21 @@
+{
+  "page_count": 7,
+  "n_chars": 36102,
+  "sha256": "e2c23756889b11962f3b1cd3341814310865c31646f6c72513d1b65317c5e4f6",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://t.me/durov/176",
+    "https://github.com/sviatlanahoehn/darkplatforms/",
+    "https://omr.com/de/4chan-pleite/_",
+    "https://github.com/sviatlanahoehn/darkplatforms/_",
+    "http://hdl.handle.net/10993/49661_",
+    "https://www.go-fair.org/fair-principles/"
+  ],
+  "urls_in_references": [
+    "https://www.tagesschau.de/investigativ/funk/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,21 @@
+{
+  "page_count": 17,
+  "n_chars": 84637,
+  "sha256": "58214261907111b86550b86833f261e90b1db282932c89f0a3fb9c6c434a95b6",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/zahrasafdari/ParsCN",
+    "https://doi.org/10.5281/zenodo.18266930",
+    "https://tinyurl.com/"
+  ],
+  "urls_in_references": [
+    "https://force11",
+    "https://github.com/zahrasafdari/ParsCN"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.18266930"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

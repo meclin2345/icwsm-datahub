@@ -1,0 +1,40 @@
+name: Monthly accessibility audit
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of every month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Re-audit every dataset (no cache)
+        env:
+          AUDIT_CONTACT_EMAIL: ${{ secrets.AUDIT_CONTACT_EMAIL }}
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          DATAVERSE_TOKEN: ${{ secrets.DATAVERSE_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/03_audit.py --refresh --workers 3
+      - name: Rebuild catalog and explorer data
+        run: |
+          python scripts/05_build_catalog.py
+          python scripts/08_social_card.py
+      - name: Commit results
+        run: |
+          git config user.name "datahub-audit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/audit catalog docs/data docs/social-card.png CITATION.cff .zenodo.json
+          git diff --cached --quiet || git commit -m "Monthly audit $(date -u +%Y-%m-%d)"
+          git push

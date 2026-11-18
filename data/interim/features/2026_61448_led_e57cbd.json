@@ -1,0 +1,22 @@
+{
+  "page_count": 11,
+  "n_chars": 47249,
+  "sha256": "691bec5abc8f735b7f47deae6a62a209b5e50ee2246a1bf6ae12ca4148c153e9",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/TriAnLe171/MemeMatch-v1.0",
+    "https://doi.org/10.34740/kaggle/dsv/14510064"
+  ],
+  "urls_in_references": [
+    "https://github.com/PaddlePaddle/",
+    "https://maartengr.github.io/",
+    "http://www.phash.org",
+    "https://github.com/mattpodolak/pmaw"
+  ],
+  "dois_in_body": [
+    "10.34740/kaggle/dsv/14510064"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

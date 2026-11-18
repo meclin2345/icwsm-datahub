@@ -1,0 +1,31 @@
+{
+  "page_count": 11,
+  "n_chars": 59696,
+  "sha256": "d081ac0aa186e2e6d7d908d0d424e73078e3022b2a30d47b6d977c9fbbe287e3",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://telegram.org/faq#q-what-39s-thedifference-between-groups-and-channels",
+    "https://data.gesis.org/telescope/",
+    "https://Telegram.org/faq",
+    "https://docs.telethon.dev/en/stable/",
+    "https://tgstat.com/",
+    "https://tl.telethon.dev/types/chatfull.html",
+    "https://pypi.org/project/langdetect/",
+    "https://tl.telethon.dev/constructors/message.html",
+    "https://docs.telethon.dev/en/stable/concepts/entities.html",
+    "https://doi.org/",
+    "https://www.re3data.org/repository/r3d100011062",
+    "https://github.com/susmita3107/TeleScope",
+    "https://www.gesis.org/en/services/processing-and-analyzingdata/analysis-of-sensitive-data/secure-data-center-sdc",
+    "https://www.whatsapp.com/legal/privacy-policy",
+    "https://Telegram.org/verify",
+    "https://www"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7802/2825"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

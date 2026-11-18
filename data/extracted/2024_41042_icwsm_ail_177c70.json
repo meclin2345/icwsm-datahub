@@ -1,0 +1,189 @@
+{
+  "paper_id": "2024_41042_icwsm_ail_177c70",
+  "year": 2024,
+  "pdf_filename": "41042-ICWSM.AiL.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:05:28+00:00",
+    "usage": [
+      {
+        "input_tokens": 25101,
+        "output_tokens": 993,
+        "cache_read_input_tokens": 22943,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011km67mwJr2Uh0du7nTtQpoOUS",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 16,
+    "n_chars": 70844,
+    "sha256": "aa0c17bba2abecc4359e37dbc5d71c791bc687ab134e0a54e9a397ab7014e03d",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://labelstud.io/",
+      "https://doi.org/10.5281/zenodo.10499589",
+      "https://developer.twitter.com/en/developer-terms/more-onrestricted-use-cases"
+    ],
+    "urls_in_references": [
+      "https://ww",
+      "https://platform.openai.com/docs/guides/fine-tuning",
+      "https://platform.openai.com/docs/api-reference/chat/create"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.10499589"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Lin Ai, Sameer Gupta, Shreya Oak, Zheng Hui, Zizhou Liu, Julia Hirschberg",
+      "authors": [
+        "Lin Ai",
+        "Sameer Gupta",
+        "Shreya Oak",
+        "Zheng Hui",
+        "Zizhou Liu",
+        "Julia Hirschberg"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "TweetIntent@Crisis",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter Historic Search API",
+        "Twitter Search API"
+      ],
+      "temporal_coverage_start": "2022-02-01",
+      "temporal_coverage_end": "2023-02-28",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 17854,
+      "num_accounts_or_users": 79,
+      "scale_description_verbatim": "our final dataset consists of 17,854 cleaned source tweets",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "RU",
+        "UA"
+      ],
+      "event_category": "Armed conflict or war",
+      "event_name": "Russia-Ukraine crisis",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Entity or information extraction",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "intent binary classification",
+        "interrogative span localization"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Hybrid human and LLM-in-the-loop",
+        "LLM or generative AI labels"
+      ],
+      "llms_used": [
+        "GPT-4",
+        "gpt-4-1106preview",
+        "GPT-3.5-Turbo"
+      ],
+      "num_annotated_records": 17854,
+      "num_annotators": 4,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa",
+        "F1 or accuracy against gold standard"
+      ],
+      "iaa_primary_value": 0.863,
+      "iaa_summary_verbatim": "the Kappa score is 0.863 for CTA identification, and 0.804 for DE identification, both indicating almost perfect agreements",
+      "baseline_families": [
+        "LLM prompting (zero- or few-shot)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.10499589"
+      ],
+      "persistent_doi": "10.5281/zenodo.10499589",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Tweets are released as Tweet IDs due to Twitter ToS; a minimal set of hydrated tweets annotated with CTA or DE is shared under restricted conditions",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "TweetIntent@Crisis is available at the following URL: https://doi.org/10.5281/zenodo.10499589",
+      "scale_quote": "The dataset comprises a total of 17,854 cleaned source tweets. Out of these, 3,691 tweets are human-annotated... The remaining 14,163 tweets are machine-annotated.",
+      "annotation_quote": "Over 3K of these tweets are human-annotated with a meticulously designed annotation schema and process. The remaining 14K are machine-annotated using a pipeline incorporating multiple fine-tuned GPT-3.5-Turbo models.",
+      "ethics_quote": "The collection and annotation of this dataset have been IRB-approved by the Aptima Institutional Review Board for our DARPA SemaFor Project with Kitware Inc.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper reports 17,854 tweets overall but 14,350 Russian and 3,504 Ukrainian accounts' tweets in Table 8, which sums to 17,854, consistent; however, the 79 total accounts (67 Russian, 12 Ukrainian) are stated separately."
+    }
+  }
+}

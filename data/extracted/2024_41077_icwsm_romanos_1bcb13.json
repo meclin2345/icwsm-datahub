@@ -1,0 +1,203 @@
+{
+  "paper_id": "2024_41077_icwsm_romanos_1bcb13",
+  "year": 2024,
+  "pdf_filename": "41077-ICWSM.RomanoS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:01+00:00",
+    "usage": [
+      {
+        "input_tokens": 20479,
+        "output_tokens": 1382,
+        "cache_read_input_tokens": 18079,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011iZSWQ9qYG2ZLbB5cRtBz37rU",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.year: got 2024; Extra inputs are not permitted | annotation.supported_tasks.0: got 'Fact-checking or misinformation detection'; Input should be 'Topic or content classification', 'Stance detection', 'Sentiment or emotion analysis', 'Hate or toxicity detection', 'Misinformation or claim d | annotation.supported_tasks.1: got 'Classification of response quality'; Input should be 'Topic or content classification', 'Stance detection', 'Sentiment or emotion analysis', 'Hate or toxicity detection', 'Misinformation or claim d"
+      },
+      {
+        "input_tokens": 22007,
+        "output_tokens": 1298,
+        "cache_read_input_tokens": 18079,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011k3rBDCXQqkZNnOoYHXZ4f1Z9",
+        "structured_mode": "prompt-repair",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 55483,
+    "sha256": "7d8ff57530b52b57aae1d5d7c143107c3c5e4750cbe2bd9dbb2bc51a47c6e3e3",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://aiforensics.org/work/bing-chat-elections"
+    ],
+    "urls_in_references": [
+      "https://algorithmwatch.org/en/bing-chat-election2023/",
+      "https://de.euronews.com/2021/09/26/wahlmanipulationaiwanger-veroffentlicht-exit-polls-zu-fruh-auf-twitter",
+      "https://digital-strategy.ec.europa.eu/en/policies/listdesignated-vlops-and-vloses",
+      "https://blogs.microsoft.com/blog/2023/02/07/reinventingsearch-with-a-new-ai-powered-microsoft-bing-and-edgeyour-copilot-for-the-web/",
+      "https://query.prod.cms",
+      "https://copilot",
+      "https://blogs.windows.com/",
+      "https://learn.microsoft.com/en-us/copilot/faq",
+      "https://aiforensics.org//uploads/AIF",
+      "https://www",
+      "https://www.zdf.de/nachrichten/panorama/aiwangereigenlob-twitter-100.html"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.10517696"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Dataset to Assess Microsoft Copilot Answers in the Context of Swiss, Bavarian and Hessian Elections",
+      "authors": [
+        "Salvatore Romano",
+        "Riccardo Angius",
+        "Natalie Kerby",
+        "Paul Bouchaud",
+        "Jacopo Amidei",
+        "Andreas Kaltenbrunner"
+      ],
+      "author_countries": [
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "a dataset of Microsoft Copilot answers on Swiss, Bavarian and Hessian elections",
+      "platforms": [
+        "AI chatbots and LLM output (ChatGPT logs, AI-generated content)"
+      ],
+      "platform_names_verbatim": [
+        "Microsoft Copilot",
+        "Bing Chat"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "automated web browsers"
+      ],
+      "temporal_coverage_start": "2023-08-21",
+      "temporal_coverage_end": "2023-10-02",
+      "primary_record_unit": "Conversations or threads",
+      "total_records": 5561,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The paper makes available the full set of 5,561 pairs of prompts and answers, including the URLs referenced in the answers.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en",
+        "de",
+        "fr",
+        "it"
+      ],
+      "num_languages": 4,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "CH",
+        "DE"
+      ],
+      "event_category": "Elections",
+      "event_name": "Swiss general elections and Bavarian and Hessian regional state elections in 2023",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "assess the emerging challenges posed by Generative Artificial Intelligence",
+        "assess the accuracy and comprehensiveness of Microsoft Copilot’s responses"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 1374,
+      "num_annotators": 13,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/doi/10.5281/zenodo.10517696"
+      ],
+      "persistent_doi": "10.5281/zenodo.10517696",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The dataset focuses on public political figures and generic questions, ensuring that no sensitive or personal data was collected.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Findable: We provide the dataset publicly through Zenodo and give it a permanent digital object identifier (https://zenodo.org/doi/10.5281/zenodo.10517696)",
+      "scale_quote": "The paper makes available the full set of 5,561 pairs of prompts and answers, including the URLs referenced in the answers.",
+      "annotation_quote": "A group of thirteen expert coders participated in the process. The prompts in Switzerland were in English, German, French, and Italian...",
+      "ethics_quote": "These questions were carefully selected to be either highly generic or specifically related to well-known political or public figures, thus ensuring that no sensitive or personal data was collected.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "There is a minor discrepancy between '5,561 pairs' in the abstract and '5,562 conversations' in the dataset overview section."
+    }
+  }
+}

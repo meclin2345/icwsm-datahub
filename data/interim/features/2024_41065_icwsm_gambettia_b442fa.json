@@ -1,0 +1,28 @@
+{
+  "page_count": 11,
+  "n_chars": 59526,
+  "sha256": "8ba064b4e59b030b0ebecc6ea43ea3cff6efbf45952259e8131e3b2530827c3e",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.safegraph.com/",
+    "https://platform.openai.com/examples/default-restaurantreview",
+    "https://www.yelp.com/dataset",
+    "https://fusion.yelp.com/",
+    "https://pypi.org/project/textstat/",
+    "https://github.com/iamalegambetti/aigen-foodreview/",
+    "https://www.yelp.com/elite",
+    "https://zenodo",
+    "https://github.com/iamalegambetti/aigen-foodreview"
+  ],
+  "urls_in_references": [
+    "https://www.businessinsider.com/fakeamazon-reviews-for-sale-buy-merchants-amazons-choice2021-2",
+    "https://github.com/guyfloki/ai-image-detector",
+    "https://time.com/6192933/fake-reviews-regulation"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.10511456"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

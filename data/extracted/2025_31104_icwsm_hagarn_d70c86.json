@@ -1,0 +1,176 @@
+{
+  "paper_id": "2025_31104_icwsm_hagarn_d70c86",
+  "year": 2025,
+  "pdf_filename": "31104-ICWSM.HagarN.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:08:37+00:00",
+    "usage": [
+      {
+        "input_tokens": 20148,
+        "output_tokens": 6842,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011nX3EbUNy7DxiVRukmbz9Sj1M",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 57187,
+    "sha256": "3f7996574bddf9caf9ab228fb9e4a69b6221f187f5a0ec08d3934573da7e4740",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://commoncrawl.org/terms-of-use",
+      "https://allenai.org/blog/olmo-1-7-7b-a-24-point-improvementon-mmlu-92b43f7d269d",
+      "https://github.com/NHagar/cc-genealogy",
+      "https://huggingface.co/collections/nhagar/cc-domain-counts67645a737b7a300ad3ab539f",
+      "https://huggingface.co/collections/nhagar/llm-training-urls67645a94115fa772cb1f89f8",
+      "https://huggingface.co/collections/nhagar/cc-domaincounts-67645a737b7a300ad3ab539f",
+      "https://huggingface.co/collections/nhagar/llm-trainingurls-67645a94115fa772cb1f89f8"
+    ],
+    "urls_in_references": [
+      "https://force11",
+      "https://github.com/duckdb/duckdbr"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Practical Datasets for Analyzing LLM Corpora Derived from Common Crawl",
+      "authors": [
+        "Nick Hagar",
+        "Jack Bandy"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "Common Crawl Domain Counts and LLM Training URLs",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Common Crawl"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Amazon Athena",
+        "DuckDB"
+      ],
+      "temporal_coverage_start": "2013",
+      "temporal_coverage_end": "2024",
+      "primary_record_unit": "Other",
+      "total_records": 8582000000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "Our collection comprises two datasets that together enable detailed analysis of LLM training data composition. The first captures 582 million unique domains across 96 Common Crawl snapshots, encompassing 310 billion total URLs. The second contains approximately 8 billion URLs from three prominent LLM training corpora, detailed in Table 4.",
+      "modalities": [
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en",
+        "mul"
+      ],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "AI-generated content and LLM use",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "systematic analysis of LLM training data composition",
+        "comparison analyses"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Hugging Face Hub"
+      ],
+      "dataset_urls": [
+        "https://huggingface.co/collections/nhagar/cc-domain-counts67645a737b7a300ad3ab539f",
+        "https://huggingface.co/collections/nhagar/llm-training-urls67645a94115fa772cb1f89f8",
+        "https://huggingface.co/collections/nhagar/cc-domaincounts-67645a737b7a300ad3ab539f",
+        "https://huggingface.co/collections/nhagar/llm-trainingurls-67645a94115fa772cb1f89f8"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/NHagar/cc-genealogy",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "odc-by/cc0-1.0; odc-by",
+      "license_category": "Open Data Commons (ODbL, ODC-By, PDDL)",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Self-assessed or checklist only",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Raw text is omitted, but raw URLs are preserved and may contain personally identifiable information.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "All collected data are stored in standardized formats on HuggingFace, with unique DOIs for each Common Crawl snapshot and derived dataset.",
+      "scale_quote": "Our collection comprises two datasets that together enable detailed analysis of LLM training data composition. The first captures 582 million unique domains across 96 Common Crawl snapshots, encompassing 310 billion total URLs. The second contains approximately 8 billion URLs from three prominent LLM training corpora, detailed in Table 4.",
+      "annotation_quote": "",
+      "ethics_quote": "While we do not include the text associated with the URLs in the dataset, URLs themselves can sometimes be used to reconstruct private information.",
+      "license_quote": "CulturaX 7,184,124,703 Stable LM 2 family (Bellagente et al. 2024) odc-by/cc0-1.0 Falcon RefinedWeb 968,000,015 Falcon family (Almazrouei et al. 2023) odc-by C4 (English) 365,233,500 LLaMA (Touvron et al. 2023) odc-by",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The two released dataset types use different record units: 582 million domains and approximately 8 billion URLs; the reported combined total is therefore an aggregation of heterogeneous records. The paper says unique DOIs exist but does not print them, does not state file formats, and reports source-corpus licenses rather than an unambiguous license for the complete new release."
+    }
+  }
+}

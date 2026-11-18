@@ -1,0 +1,25 @@
+{
+  "page_count": 11,
+  "n_chars": 50572,
+  "sha256": "9dff564991c0d52db2946332381dd77d147c44087ed3ea07f20da721bc844320",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://zenodo.org/records/14652088"
+  ],
+  "urls_in_references": [
+    "https://catalog.ldc.upenn.edu/LDC2022T04",
+    "https://www.humanetech.com/insights/thewisdom-gap",
+    "https://doi.org/10.1007/s13278-022-00901-z",
+    "https://doi.org/10.1073/pnas.2023301118",
+    "https://doi.org/10.1037/0096-3445.113.1.121",
+    "https://doi.org/",
+    "https://doi.org/10.1007/s41870-025-02484-2",
+    "https://www.pewresearch.org/religion/2011/01/27/future-of-theglobal-muslim-population-regional-middle-east/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.14650735"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

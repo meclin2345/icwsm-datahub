@@ -1,0 +1,182 @@
+{
+  "paper_id": "2020_tborck_aaai_arslanf_1109_6d06df",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_ArslanF-1109.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:26:49+00:00",
+    "usage": [
+      {
+        "input_tokens": 18583,
+        "output_tokens": 1200,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011dD6VlqEIu8dg7xj6bTDO4MSG",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 40516,
+    "sha256": "66ec7ddf17b87e180fee0c8723a53deceeaeb97151b98f59d3e9602576ceec03",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "http://doi.org/10.5281/zenodo.3609356",
+      "https://www.politifact.com/",
+      "https://www.debates.org/voter-education/debate-transcripts/",
+      "http://idir.uta.edu/classifyfact",
+      "https://fullfact.org/automated",
+      "https://team.inria.fr/cedar/contentcheck/",
+      "https://reporterslab.org/tech-and-check/",
+      "https://zenodo.org/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.3609356"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Benchmark Dataset of Check-Worthy Factual Claims",
+      "authors": [
+        "Fatma Arslan",
+        "Naeemul Hassan",
+        "Chengkai Li",
+        "Mark Tremayne"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "ClaimBuster",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "U.S. presidential debate transcripts"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "debates.org debate transcripts"
+      ],
+      "temporal_coverage_start": "1960",
+      "temporal_coverage_end": "2016",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 23533,
+      "num_accounts_or_users": 69,
+      "scale_description_verbatim": "The ClaimBuster dataset of 23,533 statements extracted from all U.S. general election presidential debates",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Elections",
+      "event_name": "U.S. general election presidential debates (1960-2016)",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Recommendation or ranking",
+        "Misinformation or claim detection"
+      ],
+      "tasks_verbatim": [
+        "factual claim detection",
+        "check-worthy claim detection"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Crowdworkers (MTurk, Prolific, etc.)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 23533,
+      "num_annotators": 405,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.95,
+      "iaa_summary_verbatim": "They chose incorrect labels 511 (5%) times.",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "http://doi.org/10.5281/zenodo.3609356"
+      ],
+      "persistent_doi": "10.5281/zenodo.3609356",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The ClaimBuster dataset is publicly available to the research community, and it can be found at http://doi.org/10.5281/zenodo.3609356.",
+      "scale_quote": "The resulting dataset (henceforth referred to as the ClaimBuster dataset) contains 23,533 labeled sentences.",
+      "annotation_quote": "These sentences have been labeled by 101 coders over a 26 months period in multiple phases.",
+      "ethics_quote": "",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper describes AlchemyAPI sentiment scores in the released dataset but does not state a license or whether the computed feature files are part of the Zenodo release; the primary unit 'sentences' was coded as the closest enum value."
+    }
+  }
+}

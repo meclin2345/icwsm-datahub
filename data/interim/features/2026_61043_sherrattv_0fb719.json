@@ -1,0 +1,19 @@
+{
+  "page_count": 15,
+  "n_chars": 68000,
+  "sha256": "7c36a2d75d0402857d0e672c1de547c950dfeab41e890318a0d8194d79be84cf",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.17826799",
+    "https://cloud.google.com/vision"
+  ],
+  "urls_in_references": [
+    "https://knowyourmeme.com/memes/surprised-pikachu"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.17826799"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

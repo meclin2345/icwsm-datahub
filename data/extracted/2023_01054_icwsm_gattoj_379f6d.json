@@ -1,0 +1,194 @@
+{
+  "paper_id": "2023_01054_icwsm_gattoj_379f6d",
+  "year": 2023,
+  "pdf_filename": "01054-ICWSM.GattoJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:36:01+00:00",
+    "usage": [
+      {
+        "input_tokens": 19991,
+        "output_tokens": 1310,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011neFGiBJEluKyrLg5WC43Phvz",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.baseline_families.2: got 'Automated classifier or lexicon'; Input should be 'No experiments', 'Descriptive statistics only', 'Statistical models (regression, time series)', 'Classical ML (SVM, logistic regression, random"
+      },
+      {
+        "input_tokens": 21400,
+        "output_tokens": 1251,
+        "cache_read_input_tokens": 17823,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011nIkRCpwTwDKWrtvvnI37KwH0",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 50327,
+    "sha256": "3b5be970da9d1363c5b31ae6554d330914c8d6f2a7a773fb251c889337fffd2c",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.webmd.com",
+      "https://www.medlineplus.gov",
+      "https://www.cdc.gov",
+      "https://zenodo.org/record/7539392#.Y8SY2HbMKM8",
+      "https://www.mayoclinic.org",
+      "https://aws.amazon.com/comprehend/medical/",
+      "https://cloud.google.com/healthcare-api/",
+      "https://cloud.google.com/healthcare-api/docs/concepts/nlp"
+    ],
+    "urls_in_references": [
+      "https://eligibility.com/medicare/states-most-googledmedical-symptom",
+      "https://github.com/chakkiworks/seqeval"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "HealthE: Recognizing Health Advice & Entities in Online Health Communities",
+      "authors": [
+        "Joseph Gatto",
+        "Parker Seegmiller",
+        "Garrett M Johnston",
+        "Madhusudan Basak",
+        "Sarah Masud Preum"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "HealthE",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "WebMD",
+        "Medline Plus",
+        "CDC",
+        "MayoClinic",
+        "Yahoo! Health",
+        "Healthline"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2021-08-15",
+      "temporal_coverage_end": "2021-09-10",
+      "primary_record_unit": "Other",
+      "total_records": 3400,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The resulting HealthE dataset contains 3,400 health advice statements.",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Public health and COVID-19",
+        "News and journalism",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Entity or information extraction",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "Health Advice Classification (HAC)",
+        "Health Entity Recognition (HER)"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 3400,
+      "num_annotators": 14,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa",
+        "F1 or accuracy against gold standard"
+      ],
+      "iaa_primary_value": 0.71,
+      "iaa_summary_verbatim": "This annotation process resulted in a Fleiss' Kappa coefficient of 0.71, indicating substantial inter-annotator agreement.",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/7539392"
+      ],
+      "persistent_doi": "10.5281/zenodo.7539392",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The released datasets are findable in that they are hosted on the data publishing service Zenodo with the unique DOI.",
+      "scale_quote": "The resulting HealthE dataset contains 3,400 health advice statements.",
+      "annotation_quote": "This annotation process resulted in a Fleiss' Kappa coefficient of 0.71, indicating substantial inter-annotator agreement.",
+      "ethics_quote": "This work only involves humans at the data annotation level. Since the data is collected from OHCs, there is no danger to any human subject in this study concerning the data in HealthE.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Paper states 3,400 advice and 2,256 non-advice statements, but data collection section reports 2,244 new advice samples plus 1,156 from Preclude, creating a minor discrepancy in the total counts."
+    }
+  }
+}

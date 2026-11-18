@@ -1,0 +1,23 @@
+{
+  "page_count": 12,
+  "n_chars": 64824,
+  "sha256": "99a19d782b0db5702f4c57ee80285297ed38ae0a099b330488a45b37c3f5ee13",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.18245669",
+    "https://communitynotes.x.com/guide/en/under-thehood/download-data",
+    "https://transparency.dsa.ec.europa.eu/",
+    "https://www.reddit.com/r/reclassified/",
+    "https://academictorrents.com/details/",
+    "https://zenodo.org/records/5841668",
+    "https://praw.readthedocs.io/en/stable/",
+    "https://force11.org/info/the-fair-data-principles/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.18245669"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

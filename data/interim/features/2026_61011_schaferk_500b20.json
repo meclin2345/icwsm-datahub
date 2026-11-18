@@ -1,0 +1,24 @@
+{
+  "page_count": 11,
+  "n_chars": 61557,
+  "sha256": "7233bb1b9c340bc665651dcdc888f3d45fcfc8dc4eb80a975df12e10c8fe4d21",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.kaggle.com/datasets/promptcloud/walmartproduct-reviews-dataset",
+    "https://cseweb.ucsd.edu/",
+    "https://www.nltk.org/",
+    "https://scipy.org/",
+    "https://doi.org/10.5281/zenodo.18162470",
+    "https://spacy.io/",
+    "https://huggingface.co/sentence-transformers/all-MiniLML6-v2"
+  ],
+  "urls_in_references": [
+    "https://force11"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.18162470"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

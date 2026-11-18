@@ -1,0 +1,20 @@
+{
+  "page_count": 13,
+  "n_chars": 61328,
+  "sha256": "d9ddabd1a0eea2cee7fb518996fbc00a7a08bf98295756d7f10b30cc79b742b4",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://academictorrents.com/",
+    "https://github.com/kaichen23/israel-hamas",
+    "https://doi.org/10.5281/zenodo.10494990"
+  ],
+  "urls_in_references": [
+    "https://force11"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.10494990"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

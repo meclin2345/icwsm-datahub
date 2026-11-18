@@ -1,0 +1,201 @@
+{
+  "paper_id": "2023_01067_icwsm_dasm_15da2d",
+  "year": 2023,
+  "pdf_filename": "01067-ICWSM.DasM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:02:54+00:00",
+    "usage": [
+      {
+        "input_tokens": 22385,
+        "output_tokens": 1281,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011wasMqdSysAFc7QMZFvjEEfZb",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 52917,
+    "sha256": "82030f7554b1feb1cc664aff0ba93927213f51b95cb2dc9dd1fb3d775d88a90e",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.youtube.com/intl/en-GB/about/press/",
+      "https://www.bitchute.com/",
+      "https://odysee.com",
+      "https://en.wikipedia.org/wiki/Alt-tech",
+      "https://doi.org/10.5281/zenodo.7799469",
+      "https://pypi.org/project/bitchute-dl/",
+      "https://support.google.com/youtube/answer/2801939?hl=en",
+      "https://toloka.ai/ml/computer-vision",
+      "https://github.com/kevalvc/Python-Annotator-for-VideoS",
+      "https://alphacephei.com/vosk/",
+      "https://github.com/pyenchant/pyenchant",
+      "https://www.perspectiveapi.com/",
+      "https://textblob.readthedocs.io/en/dev/",
+      "https://spacy.io/",
+      "https://en.wikipedia.org/wiki/Ku",
+      "https://imageai.readthedocs.io/",
+      "https://librosa.org/doc/latest/index.html"
+    ],
+    "urls_in_references": [
+      "http://mastersofmedia.hum.uva.nl/blog/2020/09/27/",
+      "https://blog.youtube/inside-youtube/building-greatertransparency-and-accountability/",
+      "https://www.wsj.com/articles/germany-to-social-networksdelete-hate-speech-faster-or-face-fines-1498757679",
+      "https://beverlyboy.com/videomarketing/2023-video-marketing-statistics-you-simplycant-overlook/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.7799469"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "HateMM: A Multi-Modal Dataset for Hate Video Classification",
+      "authors": [
+        "Mithun Das",
+        "Rohit Raj",
+        "Punjayoj Saha",
+        "Binny Mathew",
+        "Manish Gupta",
+        "Animesh Mukherjee"
+      ],
+      "author_countries": [
+        "IN"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "HATEMM",
+      "platforms": [
+        "Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute)"
+      ],
+      "platform_names_verbatim": [
+        "BitChute"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "BitChutedl",
+        "Bitchute-dl",
+        "Vosk"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Videos",
+      "total_records": 1083,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "We curate one of the largest known datasets of hateful videos consisting of 1083 videos spanning ~43 hours and ~144K frames.",
+      "modalities": [
+        "Video",
+        "Audio",
+        "Text",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Hate or toxicity detection",
+        "Multimodal understanding (image/video/audio)"
+      ],
+      "tasks_verbatim": [
+        "hate video detection",
+        "hate video classification"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 1083,
+      "num_annotators": 6,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.625,
+      "iaa_summary_verbatim": "The Cohen’s kappa for the inter-annotator agreement was κ =0.625.",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Vision, audio or multimodal models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.7799469",
+        "https://github.com/hate-alert/HateMM"
+      ],
+      "persistent_doi": "10.5281/zenodo.7799469",
+      "code_repository_url": "https://github.com/hate-alert/HateMM",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "We only release the dataset for research purposes and do not grant a license for commercial or malicious use.",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The database does not include any personally identifiable information about any user or the Bitchute channel where the videos have been uploaded.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We make the HATEMM dataset public to promote further research in multi-modal hate speech detection.",
+      "scale_quote": "Our final dataset contains 1083 videos spanning over ~43 hours of content.",
+      "annotation_quote": "The annotation process was led by two PhD students as expert annotators and performed by four under-graduate students who were novice annotators.",
+      "ethics_quote": "Our database constitutes videos with labeled annotations and does not include any personally identifiable information about any user or the Bitchute channel where the videos have been uploaded.",
+      "license_quote": "We only release the dataset for research purposes and do not grant a license for commercial or malicious use.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not specify the temporal coverage or the exact file formats of the released dataset."
+    }
+  }
+}

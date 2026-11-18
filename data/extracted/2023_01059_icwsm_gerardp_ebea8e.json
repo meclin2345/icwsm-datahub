@@ -1,0 +1,172 @@
+{
+  "paper_id": "2023_01059_icwsm_gerardp_ebea8e",
+  "year": 2023,
+  "pdf_filename": "01059-ICWSM.GerardP.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:02:51+00:00",
+    "usage": [
+      {
+        "input_tokens": 15424,
+        "output_tokens": 1232,
+        "cache_read_input_tokens": 1951,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011oQpJKFhSsn3fCPkLoYxP9E2M",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 35203,
+    "sha256": "25b7489fbd0fc6637a971f062a5f96fccf636bb82584ad1503735fd87787d862",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://blog.twitter.com/en",
+      "https://doi.org/10.5281/zenodo.7531625"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.7531625"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Truth Social Dataset",
+      "authors": [
+        "Patrick Gerard",
+        "Nicholas Botzer",
+        "Tim Weninger"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Truth Social Dataset",
+      "platforms": [
+        "Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute)"
+      ],
+      "platform_names_verbatim": [
+        "Truth Social"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "custom Web scraper"
+      ],
+      "temporal_coverage_start": "2022-02",
+      "temporal_coverage_end": "2022-10",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 823927,
+      "num_accounts_or_users": 454458,
+      "scale_description_verbatim": "over 823,000 posts to Truth Social and and social network with over 454,000 distinct users",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video",
+        "Network or graph",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Network or information diffusion analysis"
+      ],
+      "tasks_verbatim": [
+        "basic analysis of its content, certain temporal features, and its network",
+        "analyze the spread of misinformation on Truth Social and how it contributes to the alt-right ecosystem",
+        "user behavior on alt-right social media platforms in general"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.7531625"
+      ],
+      "persistent_doi": "10.5281/zenodo.7531625",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "TSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Tables from the database system were exported to text files in a tab-delimited format and are available on the Zenodo data service at https://doi.org/10.5281/zenodo.7531625",
+      "scale_quote": "In total, this dataset contains the content of 823,927 Truths posted by 454,458 users including the full history of the 65,536 most active users.",
+      "annotation_quote": "",
+      "ethics_quote": "this research was determined to be exempt from full ethical review panel by the University of Notre Dame institutional review board.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not state a language, does not state a license, and does not mention code release, collection tool names beyond 'custom Web scraper', or vulnerable groups."
+    }
+  }
+}

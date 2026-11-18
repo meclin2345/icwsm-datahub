@@ -1,0 +1,181 @@
+{
+  "paper_id": "2021_01020_icwsm_prabhakart_5002a9",
+  "year": 2021,
+  "pdf_filename": "01020-ICWSM.PrabhakarT.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:41+00:00",
+    "usage": [
+      {
+        "input_tokens": 16023,
+        "output_tokens": 1279,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011r82cHQen5IB7uzMmdwOolaDZ",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 35405,
+    "sha256": "a4cad52d95ed1e4596de92620eb33e4b4ab259361b489b174dfa94be8f366b60",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://zenodo.org/record/4032629",
+      "https://techcrunch.com/2019/04/02/whatsapp-adds-a-tip-linefor-checking-fakes-in-india-ahead-of-elections/",
+      "http://annotation.test.tattle.co.in.s3-website.ap-south1.amazonaws.com/"
+    ],
+    "urls_in_references": [
+      "https://www.lse.ac.uk/media-andcommunications/research/research-projects/whatsappvigilantes",
+      "https://www.livemint.com/news/india/sharechat-gettinghalf-a-million-new-users-an-hour-since-ban-on-59-chineseapps-11593600168690.html",
+      "http://downloads.bbc.co.uk/mediacentre/dutyidentity-credibility.pdf",
+      "https://www.censusindia.gov.in/2011census/C-17.html",
+      "https://firstdraftnews.org/latest/fake-news-complicated/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Check Mate: Prioritizing User Generated Multi-Media Content for Fact-Checking",
+      "authors": [
+        "Tarunima Prabhakar",
+        "Anushree Gupta",
+        "Kruttika Nadig",
+        "Denny George"
+      ],
+      "author_countries": [],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Tattle CheckMate Database",
+      "platforms": [
+        "Regional platforms (VK/ShareChat/Koo/Line/KakaoTalk)"
+      ],
+      "platform_names_verbatim": [
+        "ShareChat"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2020-03-21",
+      "temporal_coverage_end": "2020-08-04",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 2200,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "In total, there are 2200 annotated posts shared in this dataset.",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "hi"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "IN"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "News and journalism"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Misinformation or claim detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "Prioritizing User Generated Multi-Media Content for Fact-Checking",
+        "Training Models to Prioritize Multi-modal Content for Fact-Checking/Verification",
+        "Understanding Content Virality"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 2200,
+      "num_annotators": 4,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.68,
+      "iaa_summary_verbatim": "The agreement for video type and image type attribute was substantial (greater than 0.6) for both pairs.",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/4032629"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution License (CC BY 4.0)",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Original source URL removed; the release contains only the post itself to mitigate identification risk.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The data is accessible on Zenodo (https://zenodo.org/record/4032629) under Creative Commons Attribution License (CC BY 4.0).",
+      "scale_quote": "In total, there are 2200 annotated posts shared in this dataset.",
+      "annotation_quote": "The four person annotation team was then split into two pairs.",
+      "ethics_quote": "We have however mitigated this risk by removing the original source URL and sharing only the post.",
+      "license_quote": "The data is accessible on Zenodo (https://zenodo.org/record/4032629) under Creative Commons Attribution License (CC BY 4.0).",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Dataset size is consistent (2200 posts; 1800 single-annotator + 400 dual-annotator), but IAA values are ambiguous: text says 'greater than 0.6' while Table 4 reports 0.30–0.85 for individual attributes; a representative pair value of 0.68 was used for the primary field."
+    }
+  }
+}

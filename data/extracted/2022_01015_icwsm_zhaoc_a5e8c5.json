@@ -1,0 +1,176 @@
+{
+  "paper_id": "2022_01015_icwsm_zhaoc_a5e8c5",
+  "year": 2022,
+  "pdf_filename": "01015-ICWSM.ZhaoC.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:30:55+00:00",
+    "usage": [
+      {
+        "input_tokens": 21849,
+        "output_tokens": 1322,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011KYSSGLgVAznEQAMYTVNZTDFV",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 54580,
+    "sha256": "2989c0b6e3439361c8627f6ea0f7d27bd29d70fa969bc4cd0dfcc20786adf0e4",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.6406870"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.6406870"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "PrivacyAlert: A Dataset for Image Privacy Prediction",
+      "authors": [
+        "Chenye Zhao",
+        "Jasmine Mangat",
+        "Sujay Koujalgi",
+        "Anna Squicciarini",
+        "Cornelia Caragea"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "PrivacyAlert",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Flickr"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Flickr API"
+      ],
+      "temporal_coverage_start": "2011",
+      "temporal_coverage_end": "2021",
+      "primary_record_unit": "Images or memes",
+      "total_records": 20000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "We crawl 190,000 images and corresponding image tags (tags that attached by the users to describe image contents) using keywords of the 10 privacy categories. We then randomly select 20,000 images from the crawled images to perform annotation.",
+      "modalities": [
+        "Image",
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Privacy and surveillance",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Multimodal understanding (image/video/audio)",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "image privacy prediction",
+        "binary image privacy prediction"
+      ],
+      "annotation_paradigms": [
+        "Crowdworkers (MTurk, Prolific, etc.)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 20000,
+      "num_annotators": -1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa",
+        "Other metric"
+      ],
+      "iaa_primary_value": 0.81,
+      "iaa_summary_verbatim": "When using 3 annotators, we obtain an average value of 0.81 on all classes, which shows high agreement.",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "Vision, audio or multimodal models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.6406870"
+      ],
+      "persistent_doi": "10.5281/zenodo.6406870",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Public Domain Dedication, Public Domain Mark",
+      "license_category": "CC0 or public domain",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset is publicly available at: https://doi.org/10.5281/zenodo.6406870.",
+      "scale_quote": "We crawl 190,000 images and corresponding image tags using keywords of the 10 privacy categories. We then randomly select 20,000 images from the crawled images to perform annotation.",
+      "annotation_quote": "To annotate our data, we use the Amazon Mechanical Turk (AMT) crowd-sourcing platform.",
+      "ethics_quote": "We use the “Public Domain Dedication” and the “Public Domain Mark” licenses in Flickr API for image crawling. Accordingly, our dataset only includes images with a public license.",
+      "license_quote": "We use the “Public Domain Dedication” and the “Public Domain Mark” licenses in Flickr API for image crawling.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper states it crawled 190,000 images but released 20,000 annotated ones, with 10,000 used for training and 10,000 for validation/test; language and exact file formats are not specified."
+    }
+  }
+}

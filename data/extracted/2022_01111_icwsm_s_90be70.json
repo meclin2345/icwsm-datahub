@@ -1,0 +1,181 @@
+{
+  "paper_id": "2022_01111_icwsm_s_90be70",
+  "year": 2022,
+  "pdf_filename": "01111-ICWSM.S.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:33:39+00:00",
+    "usage": [
+      {
+        "input_tokens": 21973,
+        "output_tokens": 1061,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011oe6Zo3CsvSrZsgj2Rzxoyw1n",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 55891,
+    "sha256": "1c49eff3c73576419a71eed59f8e2c9267b9f4fbf9eb287d3fdefca1500ef576",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://zenodo.org/record/6409736",
+      "https://github.com/Suhavi/TrackingMentalHealth"
+    ],
+    "urls_in_references": [
+      "https://www.ucl.ac.uk/data-protection/sites/data-protection/",
+      "https://www.statista.com/statistics/242606/number-ofactive-twitter-users-in-selected-countries/",
+      "https://www.healthdata.org/research-article/global-regionaland-national-burden-12-mental-disorders-204-countries-and",
+      "https://www",
+      "https://www.healthdata.org/acting-data/new-ihme-analysesshow-depression-and-anxiety-among-top-causes-healthburden-worldwide",
+      "https://www.who",
+      "Https://ourworldindata.org/mental-health",
+      "https://www.statista.com/statistics/283119/agedistribution-of-global-twitter-users/",
+      "https://blog.twitter.com/en",
+      "https://www.who.int/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Twitter-STMHD: An Extensive User-Level Database of Multiple Mental Health Disorders",
+      "authors": [
+        "Suhavi",
+        "Asmit Kumar Singh",
+        "Udit Arora",
+        "Somyadeep Shrivastava",
+        "Aryaveer Singh",
+        "Rajiv Ratn Shah",
+        "Ponnurangam Kumaraguru"
+      ],
+      "author_countries": [
+        "IN"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Twitter-STMHD",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2017-01",
+      "temporal_coverage_end": "2021-05",
+      "primary_record_unit": "Users or accounts",
+      "total_records": 25860,
+      "num_accounts_or_users": 25860,
+      "scale_description_verbatim": "The dataset contains 25,860 unique users belonging to at least one of the eight disorder categories and approximately 8000 control users.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "COVID-19",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Mental health and wellbeing",
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Stance detection"
+      ],
+      "tasks_verbatim": [],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 76000,
+      "num_annotators": 9,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/6409736"
+      ],
+      "persistent_doi": "10.5281/zenodo.6409736",
+      "code_repository_url": "https://github.com/Suhavi/TrackingMentalHealth",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "Data Usage Agreement",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Personally identifiable information such as profile name, user links, and cross-platform identity mapping links were removed or replaced with anonymous media links to prevent traceability.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is findable, as it is has been hosted on a data publishing service, Zenodo which assigned the data set a DOI 10.5281/zenodo.6409736",
+      "scale_quote": "The dataset contains 25,860 unique users belonging to at least one of the eight disorder categories and approximately 8000 control users.",
+      "annotation_quote": "We annotated around 76000 tweets, out of which around 26000 were identified as true positives.",
+      "ethics_quote": "To decrease traceability, we took great care in how the data and analyses were presented in the study for each disorder, for example, by omitting any personally identifying information such as tagged users or web-links in the data we provide.",
+      "license_quote": "The dataset can be requested for use through a Data Usage Agreement (DUA) protecting the concerned users’ privacy.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The exact number of control users is approximated as 8000 and the total user count of 25860 excludes control users. The paper does not explicitly list the specific Twitter API names used for collection."
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "paper_id": "2026_61388_al_mohannadia_3f74c2",
+  "year": 2026,
+  "pdf_filename": "61388-Al-MohannadiA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:13:09+00:00",
+    "usage": [
+      {
+        "input_tokens": 24734,
+        "output_tokens": 515,
+        "cache_read_input_tokens": 22431,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011poN18kHqBgJustVYrNIjzUf1",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.baseline_families.0: got 'Multimodal models'; Input should be 'No experiments', 'Descriptive statistics only', 'Statistical models (regression, time series)', 'Classical ML (SVM, logistic regression, random | distribution: MISSING - this required field was left out; include it | ethics: MISSING - this required field was left out; include it | evidence: MISSING - this required field was left out; include it"
+      },
+      {
+        "input_tokens": 25388,
+        "output_tokens": 802,
+        "cache_read_input_tokens": 22431,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011C1JghIsPntvAkUo6BIzT9Ybr",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 59703,
+    "sha256": "b12db224be1ae6f463f066be23147c4f4f182aab38e9d36f0d5159dc47a9b850",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.18267769",
+      "https://github.com/qcri/DisasterVQA",
+      "https://zenodo.org/"
+    ],
+    "urls_in_references": [
+      "https://www.fema.gov/emergencymanagers/national-preparedness/frameworks/response#esf",
+      "https://force11",
+      "https://ai.meta.com/blog/llama-3-2-connect-2024-visionedge-mobile-devices/",
+      "https://mistral",
+      "https://openai.com/index/gpt-4omini-advancing-cost-efficient-intelligence/",
+      "https://openai"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.18267769"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "DisasterVQA: A Visual Question Answering Benchmark Dataset for Disaster Scenes",
+      "authors": [
+        "Aisha Al-Mohannadi",
+        "Ayisha Firoz",
+        "Yin Yang",
+        "Muhammad Imran",
+        "Ferda Ofli"
+      ],
+      "author_countries": [
+        "QA"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Benchmark or evaluation suite",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "DisasterVQA",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "CrisisMMD",
+        "Incidents1M",
+        "MEDIC"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Images or memes",
+      "total_records": 4405,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "1,395 images paired with 4,405 questions",
+      "modalities": [
+        "Image",
+        "Text"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Natural disaster or climate event",
+      "event_name": "Natural and human-induced disasters (floods, wildfires, earthquakes)",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Crisis, disaster and conflict informatics",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Multimodal understanding (image/video/audio)",
+        "Entity or information extraction"
+      ],
+      "tasks_verbatim": [
+        "visual question answering",
+        "identifying built environment damage, determining hazard type and severity, evaluating accessibility, and assessing movement restrictions and controls"
+      ],
+      "annotation_paradigms": [
+        "LLM or generative AI labels",
+        "Expert, author or trained student annotation",
+        "Hybrid human and LLM-in-the-loop"
+      ],
+      "llms_used": [
+        "GPT-4o"
+      ],
+      "num_annotated_records": 4405,
+      "num_annotators": 4,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "F1 or accuracy against gold standard"
+      ],
+      "iaa_primary_value": 0.995,
+      "iaa_summary_verbatim": "The expert audit revealed an overall judge accuracy of 99.5%",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.18267769"
+      ],
+      "persistent_doi": "10.5281/zenodo.18267769",
+      "code_repository_url": "https://github.com/qcri/DisasterVQA",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Researchers are expected to avoid reidentification; no PII scrubbing described.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The DisasterVQA dataset is available at https://zenodo.org/records/18267770.",
+      "scale_quote": "The final DisasterVQA dataset comprises 1,395 images paired with 4,405 questions, representing a diverse array of crisis scenarios.",
+      "annotation_quote": "we utilized GPT-4o to generate three distinct types of questions for each image",
+      "ethics_quote": "Researchers using DisasterVQA are expected to adhere to ethical data handling practices, avoid attempts at reidentification, and refrain from deploying models evaluated on this benchmark without appropriate privacy safeguards.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "paper_id": "2025_31080_icwsm_alherakih_0702b8",
+  "year": 2025,
+  "pdf_filename": "31080-ICWSM.AlHerakiH.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:08:57+00:00",
+    "usage": [
+      {
+        "input_tokens": 19531,
+        "output_tokens": 1227,
+        "cache_read_input_tokens": 17311,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011cpArevXfNttyeBp5KROeV1ev",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 50572,
+    "sha256": "9dff564991c0d52db2946332381dd77d147c44087ed3ea07f20da721bc844320",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://zenodo.org/records/14652088"
+    ],
+    "urls_in_references": [
+      "https://catalog.ldc.upenn.edu/LDC2022T04",
+      "https://www.humanetech.com/insights/thewisdom-gap",
+      "https://doi.org/10.1007/s13278-022-00901-z",
+      "https://doi.org/10.1073/pnas.2023301118",
+      "https://doi.org/10.1037/0096-3445.113.1.121",
+      "https://doi.org/",
+      "https://doi.org/10.1007/s41870-025-02484-2",
+      "https://www.pewresearch.org/religion/2011/01/27/future-of-theglobal-muslim-population-regional-middle-east/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.14650735"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Analyzing Digital Polarization on Hijab: A Dataset of Annotated YouTube Comments",
+      "authors": [
+        "Heba Al Heraki",
+        "Wajdi Zaghouani"
+      ],
+      "author_countries": [
+        "QA"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Not specified"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 9745,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The dataset consists of two fully annotated corpora totaling 9,745 YouTube comments.",
+      "modalities": [
+        "Text",
+        "Time series or temporal logs"
+      ],
+      "languages_iso": [
+        "ar"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Polarization and ideology",
+        "Hate speech, toxicity and harassment",
+        "Gender, race and identity"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Stance detection",
+        "Hate or toxicity detection",
+        "Entity or information extraction",
+        "Descriptive or exploratory social analysis",
+        "User profiling or demographic inference"
+      ],
+      "tasks_verbatim": [
+        "analyze sentiment trends in YouTube comments regarding the Hijab, study the argumentative strategies employed in these comments, and explore gender representation within this context"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 9745,
+      "num_annotators": 4,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa",
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.68,
+      "iaa_summary_verbatim": "stance had an agreement of 84% with a Kappa score of 0.68",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/14652088"
+      ],
+      "persistent_doi": "10.5281/zenodo.14650735",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All user data were anonymized, and usernames were not disclosed in the paper.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Datasets — https://zenodo.org/records/14652088. DOI: 10.5281/zenodo.14650735",
+      "scale_quote": "The dataset consists of two fully annotated corpora totaling 9,745 YouTube comments.",
+      "annotation_quote": "The full dataset was primarily annotated by the first author (24 years old) during the second year of her master's program.",
+      "ethics_quote": "All user data were anonymized, and usernames were not disclosed in the paper.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Data collection method is not clearly specified (likely YouTube API, but not stated), and temporal coverage of the dataset is not given. The paper states approximately 10,000 comments, but the dataset size section reports 9,745, which was used for total_records."
+    }
+  }
+}

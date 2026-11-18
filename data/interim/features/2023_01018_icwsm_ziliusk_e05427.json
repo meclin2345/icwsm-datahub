@@ -1,0 +1,34 @@
+{
+  "page_count": 10,
+  "n_chars": 50735,
+  "sha256": "560266c47daca7bc5aec54c36cb2eb11a0b453255b90c341a2d612f75f9b4a2d",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://help.twitter.com/en/rules-and-policies/platformmanipulation",
+    "https://bitcointalk.org/index.php?board=238.0",
+    "https://bitcointalk.org/",
+    "https://zenodo.org/record/7539178",
+    "https://bitcointalk.org/index.php?topic=5",
+    "https://bitcointalk.org/index.php?action=stats",
+    "https://github.com/psf/requests",
+    "https://github.com/waylan/beautifulsoup",
+    "https://docs.gspread.org/en/v5.7.0/",
+    "https://bitcointalk.org/index.php?board=238.page_",
+    "https://bitcointalk.org/index.php?topic=thread_",
+    "https://bitcointalk.org/index.php?action=profile;u=user_",
+    "https:///www.docs.google.com/spreadsheets",
+    "https://docs.python.org/3/library/re.html",
+    "https://github.com/tesseract-ocr/tesserac",
+    "https://coinmarketcap.com/charts/",
+    "https://bitcointalk.org/index.php?topic=5208423.0"
+  ],
+  "urls_in_references": [
+    "https://force11.org/info/the-fair-data-principles/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.7539178"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

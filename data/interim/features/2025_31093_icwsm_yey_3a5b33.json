@@ -1,0 +1,22 @@
+{
+  "page_count": 10,
+  "n_chars": 46206,
+  "sha256": "d48db213615c5ac464e794c98cd103c1efa363182f72e03c35e57a66edefc4f9",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://github.com/YiranYe/NoisyHate",
+    "https://zenodo.org/records/14654784",
+    "https://perspectiveapi.com/",
+    "https://huggingface.co/datasets/NoisyHate/Noisy"
+  ],
+  "urls_in_references": [
+    "https://pyspellchecker",
+    "https://force11",
+    "https://perspectiveapi.com/",
+    "https://www"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

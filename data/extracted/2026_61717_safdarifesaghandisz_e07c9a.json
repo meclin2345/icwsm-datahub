@@ -1,0 +1,191 @@
+{
+  "paper_id": "2026_61717_safdarifesaghandisz_e07c9a",
+  "year": 2026,
+  "pdf_filename": "61717-SafdariFesaghandisZ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:14:04+00:00",
+    "usage": [
+      {
+        "input_tokens": 28115,
+        "output_tokens": 1379,
+        "cache_read_input_tokens": 25759,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011bZ5S5I5AVO3nioxTIQ75zmiW",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 17,
+    "n_chars": 84637,
+    "sha256": "58214261907111b86550b86833f261e90b1db282932c89f0a3fb9c6c434a95b6",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/zahrasafdari/ParsCN",
+      "https://doi.org/10.5281/zenodo.18266930",
+      "https://tinyurl.com/"
+    ],
+    "urls_in_references": [
+      "https://force11",
+      "https://github.com/zahrasafdari/ParsCN"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.18266930"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "ParsCN: A Persian Dataset for Counter-Narrative Generation to Combat Online Hate Speech",
+      "authors": [
+        "Zahra Safdari Fesaghandis",
+        "Suman Kalyan Maity"
+      ],
+      "author_countries": [
+        "TR",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "ParsCN",
+      "platforms": [],
+      "platform_names_verbatim": [],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset",
+        "Synthetic, LLM-generated or simulated data",
+        "Survey or crowdsourced contribution"
+      ],
+      "collection_tools": [
+        "GPT-4o",
+        "Gemini 2.0 Flash",
+        "Claude 3.7 Sonnet",
+        "",
+        "Google Translate",
+        "paraphrase-multilingual-mpnet-base-v2"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Other",
+      "total_records": 1100,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The dataset comprises a total of 1100 hate speech–counter-narrative pairs.",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "fa"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "IR"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "AI-generated content and LLM use",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Summarization or text generation",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Persian counter-narrative generation",
+        "counter-narrative classification",
+        "stance analysis"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "LLM or generative AI labels",
+        "Hybrid human and LLM-in-the-loop"
+      ],
+      "llms_used": [
+        "GPT-4o",
+        "Gemini 2.0 Flash",
+        "Claude 3.7 Sonnet",
+        ""
+      ],
+      "num_annotated_records": 1100,
+      "num_annotators": 3,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.724,
+      "iaa_summary_verbatim": "0.724 for Relevance, 0.692 for Effectiveness, 0.655 for Fluency, and 0.770 for Tone Appropriateness",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.18266930",
+        "https://github.com/zahrasafdari/ParsCN"
+      ],
+      "persistent_doi": "10.5281/zenodo.18266930",
+      "code_repository_url": "https://github.com/zahrasafdari/ParsCN",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The dataset does not contain PII, however, since it includes hate speeches, offensive content is included.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "Datasets — https://doi.org/10.5281/zenodo.18266930",
+      "scale_quote": "The dataset comprises a total of 1100 hate speech–counter-narrative pairs.",
+      "annotation_quote": "annotation was conducted by three native Persian speakers with prior research experience in hate speech and counter speech",
+      "ethics_quote": "Ethical approval was obtained under institutional research guidelines, with full anonymization and voluntary participation.",
+      "license_quote": "The materials are publicly released under a CC BY 4.0 license.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Platforms are not specified for the released pairs since the dataset was built from pre-existing corpora and LLMs rather than direct social media collection."
+    }
+  }
+}

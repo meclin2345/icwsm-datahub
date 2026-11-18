@@ -1,0 +1,23 @@
+{
+  "page_count": 10,
+  "n_chars": 45035,
+  "sha256": "28cb6cee6fc92a346a4b75b5840d1a1423f644524cbfbce39ee6956820b80038",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://indianexpress.com/article/india/214-rise-in-casesrelating-to-fake-news-rumours-7511534/",
+    "https://en.wikipedia.org/wiki/Multilingualism",
+    "https://www.boomlive.in",
+    "https://doi.org/10.5281/zenodo.5854856",
+    "https://zenodo.org/record/5854856",
+    "https://ifcncodeofprinciples.poynter.org/signatories",
+    "https://pypi.org/project/beautifulsoup4/",
+    "https://www.boomlive.in/technologies-will-tackle-irrigationinefficiencies-agricultures-drier-future/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.5854856"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

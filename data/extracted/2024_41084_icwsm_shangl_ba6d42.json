@@ -1,0 +1,200 @@
+{
+  "paper_id": "2024_41084_icwsm_shangl_ba6d42",
+  "year": 2024,
+  "pdf_filename": "41084-ICWSM.ShangL.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:33+00:00",
+    "usage": [
+      {
+        "input_tokens": 18724,
+        "output_tokens": 4394,
+        "cache_read_input_tokens": 16490,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_01196nfYh4tDHsevFe5W3q5E90K",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | annotation.research_domains.2: got 'Descriptive or exploratory social analysis'; Input should be 'Misinformation and fact-checking', 'Hate speech, toxicity and harassment', 'Political communication and elections', 'Polarization and ideology'"
+      },
+      {
+        "input_tokens": 20055,
+        "output_tokens": 1281,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011L9nCaRNxv7FvF4SHZEnGmg4A",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 51774,
+    "sha256": "17c518178d35436d010a5dbf8ac5649587d9e01af60c25ce1a1844cb5f214662",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://droughtweb.web.illinois.edu/",
+      "https://droughtmonitor.unl.edu/",
+      "https://developer.twitter.com/en/use-cases/doresearch/academic-research",
+      "https://news.google.com/",
+      "https://doi.org/10.5281/zenodo.10516342"
+    ],
+    "urls_in_references": [
+      "https://force11",
+      "https://doi.org/10.5281/zenodo.10516342"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.10516342"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "SocialDrought: A Social and News Media Driven Dataset and Analytical Platform towards Understanding Societal Impact of Drought",
+      "authors": [
+        "Lanyu Shang",
+        "Bozhang Chen",
+        "Anav Vora",
+        "Yang Zhang",
+        "Ximing Cai",
+        "Dong Wang"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "SocialDrought",
+      "platforms": [
+        "Twitter/X",
+        "Web/News/Blogs",
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "Twitter (also known as “X”)",
+        "Google News",
+        "U.S. Drought Monitor"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation",
+        "Not specified"
+      ],
+      "collection_tools": [
+        "Twitter Academic API",
+        "Google News",
+        "U.S. Drought Monitor"
+      ],
+      "temporal_coverage_start": "2012-01",
+      "temporal_coverage_end": "2023-12",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 1636199,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "1,636,199 social media posts, 1,482 news articles, and 31,977 meteorological records",
+      "modalities": [
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Natural disaster or climate event",
+      "event_name": "Drought in the United States",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Crisis, disaster and conflict informatics",
+        "News and journalism",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Sentiment or emotion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "Topic Analysis",
+        "Sentiment Analysis"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 49331,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.10516342",
+        "https://droughtweb.web.illinois.edu/"
+      ],
+      "persistent_doi": "10.5281/zenodo.10516342",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The release provides only tweet IDs for social media, URLs for news articles, and public DSCI records; usernames, user profiles, and associated personally identifiable information were not obtained or released.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The SocialDrought dataset is accessible through an open-access data repository Zenodo.",
+      "scale_quote": "To the best of our knowledge, SocialDrought is the first large-scale public dataset that contains 1,636,199 social media posts, 1,482 news articles, and 31,977 meteorological records.",
+      "annotation_quote": "domain experts in our team manually verify the content and assign a categorical label about the article topic (e.g., “strategy”, “status”, “technology”) for each article.",
+      "ethics_quote": "The research protocol was approved by the Institutional Review Board (IRB) at our institution.",
+      "license_quote": "The SocialDrought dataset is re-usable under a Creative Commons Attribution 4.0 International license",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The release is described as tweet IDs, article URLs, and public DSCI records, but the presence of derived sentiment labels in the released files is not stated. The number of annotated records combines 1,482 manually categorized articles with sentiment inferences for 47,849 geolocated posts, although the latter labels are not explicitly said to be included in the release."
+    }
+  }
+}

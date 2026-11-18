@@ -1,0 +1,220 @@
+{
+  "paper_id": "2024_41027_icwsm_mekachera_cda00a",
+  "year": 2024,
+  "pdf_filename": "41027-ICWSM.MekacherA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:04:06+00:00",
+    "usage": [
+      {
+        "input_tokens": 23128,
+        "output_tokens": 806,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011v42gqDm7pcGNyDBLJV1otLr0",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 58775,
+    "sha256": "ffdcc6b45791db3d682d2eebd2f647b9edbf71a1a763e4f928bcce4c4c58e94a",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.kooapp.com/api/**"
+    ],
+    "urls_in_references": [
+      "https://restofworld.org/2021/",
+      "https://www.premiumtimesng.com/news/topnews/544341-police-raid-peoples-gazette-office-arrestfive-staffers.html?tztc=1",
+      "https://www.theguardian.com/world/2022/jan/13/nigerialifts-twitter-ban-seven-months-after-site-deletedpresidents-post",
+      "https://gnet-research.org/2023/10/09/far-right-extremistexploitation-of-ai-and-alt-tech-the-need-for-p-cveresponses-to-an-emerging-technological-trend/",
+      "https://www.npr.org/2022/10/",
+      "https://www.scientificamerican.com/",
+      "https://www.indiatoday.in/india/story/sant-rampal-lifeimprisonment-murder-1368904-2018-10-16",
+      "https://www.ft.com/content/bd296702-18ad-4303-8192bbb1268e3b56",
+      "https://www.reuters.com/",
+      "https://businessday.ng/businesseconomy/article/how-buharis-train-to-nowhere-worsensnigerias-debt-woes/",
+      "https://www.businesstoday.in/technology/news/story/madein-india-twitter-rival-koo-enters-brazil-with-support-forportuguese-language-353635-2022-11-21",
+      "https://restofworld.org/2023/nigeria-koo-twitter-rival-flop/",
+      "https://force11",
+      "https://www.wired.com/story/gopdebate-rumble-livestream-nick-fuentes/",
+      "https://restofworld",
+      "https://precog.iiit.ac.in/",
+      "https://www.nytimes.com/2024/01/",
+      "https://info",
+      "https://www.theguardian.com/us-news/2023/oct/16/bidencampaign-joins-truth-social-trump",
+      "https://www.indiatoday.in/",
+      "https://doi.org/10",
+      "https://theprint.in/world/brazilian-president-lulajoins-indias-twitter-rival-koo-gets-over-50000-followersin-4-hours/1245516/",
+      "https://www.thecable.ng/group-to-hold-osinbajo-dayon-sunday-describes-him-as-nigerias-future-for-2023",
+      "https://www.jota.info/justica/ciro-gomes-devera-indenizardcm-por-dizer-que-e-tudo-picareta-contratado-pelo-pt06022023",
+      "https://www.washingtonpost.com/world/2021/06/",
+      "https://www.reuters.com/business/mediatelecom/indian-twitter-rival-staging-koo-2021-02-10/",
+      "https://brazilian.report/newsletters/brazil-weekly/",
+      "https://www.cnbctv18.com/business/companies/koobecomes-second-largest-microblogging-platform-in-theworld-after-twitter-15179881.htm",
+      "https://tech.hindustantimes.com/",
+      "https://tech.hindustantimes.com/howto/koo-app-yellow-tick-of-verification-here-is-how-to-getit-71637228876715.html",
+      "https://www.premiumtimesng.com/news/morenews/282609-presidency-attacks-punch-newspaper.html",
+      "https://doi"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Koo Dataset: An Indian Microblogging Platform with Global Ambitions",
+      "authors": [
+        "Amin Mekacher",
+        "Max Falkenberg",
+        "Andrea Baronchelli"
+      ],
+      "author_countries": [
+        "GB"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "The Koo Dataset",
+      "platforms": [
+        "Regional platforms (VK/ShareChat/Koo/Line/KakaoTalk)"
+      ],
+      "platform_names_verbatim": [
+        "Koo"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Koo public API"
+      ],
+      "temporal_coverage_start": "2020",
+      "temporal_coverage_end": "2023-09",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 72000000,
+      "num_accounts_or_users": 1400000,
+      "scale_description_verbatim": "providing detailed metadata for 72M posts, 75M comments, 40M shares, 284M likes and 1.4M user profiles",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Network or graph"
+      ],
+      "languages_iso": [
+        "hi",
+        "en",
+        "pt",
+        "te",
+        "kn",
+        "mr",
+        "ta",
+        "bn",
+        "gu"
+      ],
+      "num_languages": 10,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "IN",
+        "NG",
+        "BR"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Online communities and collective behavior",
+        "News and journalism"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Network or information diffusion analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "a study of political rhetoric",
+        "cross-platform comparisons of political rhetoric",
+        "map the news ecosystem shared among users",
+        "identify the most salient topics users discuss"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments",
+        "Descriptive statistics only",
+        "Graph or network models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.10476212"
+      ],
+      "persistent_doi": "10.5281/zenodo.10476212",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "We do not release metadata related to geolocation. All data released are available publicly and results are aggregated across accounts.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We provide the URL at which our data are publicly available. See https://doi.org/10.5281/zenodo.10476212",
+      "scale_quote": "providing detailed metadata for 72M posts, 75M comments, 40M shares, 284M likes and 1.4M user profiles",
+      "annotation_quote": "",
+      "ethics_quote": "To ensure that our data collection pipeline and data sharing complies with the relevant regulations, we have completed a Data Protection Impact Assessment which has been approved by our institution.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

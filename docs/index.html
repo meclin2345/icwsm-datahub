@@ -1,0 +1,1054 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ICWSM-DataHub: seven years of social media datasets</title>
+<meta name="description" content="Every ICWSM Dataset Track paper from 2020 to 2026, searchable, with a live check of whether each dataset can still be downloaded and used.">
+<link rel="canonical" href="https://meclin2345.github.io/icwsm-datahub/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Seven years of ICWSM datasets, and what became of them">
+<meta property="og:description" content="124 dataset papers. Almost every link still works, but can you still use the data? Search the catalog and see.">
+<meta property="og:url" content="https://meclin2345.github.io/icwsm-datahub/">
+<meta property="og:image" content="https://meclin2345.github.io/icwsm-datahub/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ICWSM-DataHub: from 124 dataset papers to the share whose data is usable today">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://meclin2345.github.io/icwsm-datahub/social-card.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+<script src="vendor/d3.min.js"></script>
+<style>
+:root {
+  --paper: #F3F5F6; --surface: #FFFFFF; --ink: #1B2830; --muted: #56646C; --faint: #87949B;
+  --rule: #D6DDE1; --chip: #E7ECEF; --focus: #0072B2; --watermark: #E2E7EA; --band: #E9EDEF;
+  --usable: #009E73; --needs: #56B4E9; --gated: #E69F00; --dead: #D55E00; --never: #9A9A9A;
+  --serif: "Literata", Georgia, "Times New Roman", serif;
+  --sans: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #11181D; --surface: #18222A; --ink: #E5ECEF; --muted: #A5B2B9; --faint: #7B8990;
+    --rule: #2C3940; --chip: #22303A; --focus: #56B4E9; --watermark: #1C272E; --band: #1E2A31;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #11181D; --surface: #18222A; --ink: #E5ECEF; --muted: #A5B2B9; --faint: #7B8990;
+  --rule: #2C3940; --chip: #22303A; --focus: #56B4E9; --watermark: #1C272E; --band: #1E2A31;
+  color-scheme: dark;
+}
+html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 72px); scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.55 var(--sans); -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+a { color: var(--focus); text-underline-offset: 2px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* header */
+.site-header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 9; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.site-header .wrap { display: flex; align-items: center; gap: 24px; min-height: 60px; flex-wrap: wrap; }
+.brand { font-family: var(--serif); font-weight: 600; font-size: 1.15rem; color: var(--ink); text-decoration: none; }
+.site-nav { display: flex; gap: 20px; margin-left: auto; }
+.site-nav a { color: var(--muted); text-decoration: none; font-size: .95rem; }
+.site-nav a:hover { color: var(--ink); text-decoration: underline; }
+.demo-note { flex-basis: 100%; margin: 0 0 10px; padding: 8px 12px; border: 1px solid var(--gated); border-radius: 6px; font-size: .9rem; color: var(--ink); }
+.demo-note[hidden] { display: none; }
+
+/* hero */
+.hero { padding: 40px 0 24px; }
+.hero h1 { font-family: var(--serif); font-weight: 600; font-size: clamp(2rem, 4.2vw, 3.3rem); line-height: 1.1; letter-spacing: -0.01em; margin: 0 0 14px; max-width: 20ch; }
+.lede { font-size: 1.12rem; color: var(--muted); max-width: 62ch; margin: 0 0 22px; }
+.gm { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 16px 16px 10px; }
+.gm-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin-bottom: 6px; }
+.play { font: 700 1rem var(--sans); color: var(--surface); background: var(--ink); border: 0; border-radius: 999px; padding: 9px 20px 9px 16px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+.play svg { width: 14px; height: 14px; fill: currentColor; }
+.year-slider { flex: 1 1 220px; display: flex; align-items: center; gap: 10px; }
+.year-slider input { flex: 1; accent-color: var(--ink); }
+.year-slider output { font-weight: 700; min-width: 3ch; font-variant-numeric: tabular-nums; }
+.axis-pick { display: flex; gap: 12px; flex-wrap: wrap; font-size: .92rem; color: var(--muted); }
+.axis-pick label { display: flex; align-items: center; gap: 6px; }
+select, input[type="search"] { font: inherit; font-size: .95rem; color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px; }
+.gm-chart { position: relative; width: 100%; }
+.gm-year { font-family: var(--sans); font-weight: 700; fill: var(--watermark); pointer-events: none; }
+.gm-bubble { stroke: var(--surface); stroke-width: 1.2; cursor: pointer; }
+.gm-bubble.dim { opacity: .18; }
+.gm-label { font-size: 13px; fill: var(--ink); pointer-events: none; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; }
+.trail-line { fill: none; stroke-width: 1.4; opacity: .55; }
+.trail-dot { opacity: .45; }
+.tooltip { position: absolute; pointer-events: none; background: var(--ink); color: var(--paper); font-size: .85rem; line-height: 1.4; padding: 8px 10px; border-radius: 6px; max-width: 240px; opacity: 0; transition: opacity .12s; z-index: 2; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; padding: 0; list-style: none; }
+.chip { font: inherit; font-size: .88rem; color: var(--ink); background: var(--chip); border: 1px solid transparent; border-radius: 999px; padding: 4px 11px 4px 9px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; }
+.gm-note { font-size: .9rem; color: var(--muted); margin: 6px 0 4px; }
+details.numbers { font-size: .9rem; margin-top: 4px; overflow-x: auto; }
+details.numbers summary { cursor: pointer; color: var(--muted); }
+table.data { border-collapse: collapse; width: 100%; margin-top: 8px; font-variant-numeric: tabular-nums; }
+table.data th, table.data td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--rule); }
+table.data td.num, table.data th.num { text-align: right; }
+
+/* axes */
+.axis text { fill: var(--muted); font: 12px var(--sans); }
+.axis path, .axis line { stroke: var(--rule); }
+.grid line { stroke: var(--rule); stroke-opacity: .7; }
+.grid path { display: none; }
+.axis-title { fill: var(--muted); font: 13px var(--sans); }
+.band { fill: var(--band); }
+.band-label { fill: var(--muted); font: 12px var(--sans); }
+.val { fill: var(--ink); font: 12px var(--sans); font-variant-numeric: tabular-nums; }
+.end-label { font: 13px var(--sans); }
+
+/* story */
+.story { padding: 48px 0 16px; }
+.section-title { font-family: var(--serif); font-weight: 600; font-size: clamp(1.6rem, 2.6vw, 2.2rem); margin: 0 0 8px; }
+.guess { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 22px; margin: 20px 0 40px; max-width: 780px; }
+.guess p { margin: 0 0 12px; font-family: var(--serif); font-size: 1.25rem; line-height: 1.4; }
+.guess-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.guess-row input { flex: 1 1 240px; accent-color: var(--ink); }
+.guess-row output { font-weight: 700; font-size: 1.2rem; min-width: 4ch; font-variant-numeric: tabular-nums; }
+.btn { font: 700 .95rem var(--sans); color: var(--ink); background: var(--surface); border: 1.5px solid var(--ink); border-radius: 999px; padding: 7px 16px; cursor: pointer; }
+.btn.primary { background: var(--ink); color: var(--paper); }
+.guess-result { margin-top: 14px; font-size: 1.05rem; }
+.guess-result strong { font-size: 1.6rem; font-family: var(--serif); }
+.chapter { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 36px; padding: 34px 0; border-top: 1px solid var(--rule); align-items: start; }
+.chapter h3 { font-family: var(--serif); font-weight: 600; font-size: clamp(1.35rem, 2.2vw, 1.75rem); line-height: 1.25; margin: 0 0 12px; }
+.chapter p { color: var(--muted); margin: 0 0 12px; max-width: 52ch; }
+.chart { width: 100%; min-height: 120px; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 999px; padding: 3px; margin-bottom: 10px; background: var(--surface); }
+.seg button { font: inherit; font-size: .88rem; border: 0; background: transparent; color: var(--muted); padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.html-legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .85rem; color: var(--muted); margin-top: 6px; }
+.html-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.html-legend .sw { width: 12px; height: 12px; border-radius: 2px; }
+
+/* catalog */
+.catalog { padding: 48px 0; border-top: 1px solid var(--rule); }
+.cat-layout { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 32px; margin-top: 18px; }
+.filters { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 76px); align-self: start; display: grid; gap: 18px; font-size: .92rem; max-height: calc(100vh - 100px); overflow: auto; padding-right: 4px; }
+.filters fieldset { border: 0; padding: 0; margin: 0; }
+.filters legend, .filters .flabel { font-weight: 700; margin-bottom: 6px; padding: 0; color: var(--ink); }
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chips .chip { font-size: .82rem; }
+.check { display: flex; align-items: center; gap: 8px; margin: 3px 0; }
+.year-range { display: flex; align-items: center; gap: 8px; }
+.filters-toggle { display: none; }
+.search-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.search-row input[type="search"] { flex: 1 1 280px; padding: 10px 12px; font-size: 1rem; }
+.result-meta { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: center; color: var(--muted); font-size: .92rem; margin: 14px 0 6px; }
+.results { list-style: none; margin: 0; padding: 0; }
+.result { border-bottom: 1px solid var(--rule); }
+.result button { all: unset; box-sizing: border-box; display: grid; grid-template-columns: 150px minmax(0, 1fr) auto; gap: 4px 18px; width: 100%; padding: 14px 6px; cursor: pointer; border-radius: 6px; }
+.result button:hover { background: var(--surface); }
+.result button:focus-visible { outline: 3px solid var(--focus); }
+.status { display: inline-flex; align-items: center; gap: 7px; font-size: .85rem; color: var(--ink); }
+.status .dot { width: 9px; height: 9px; }
+.r-year { font-size: .85rem; color: var(--muted); margin-top: 2px; }
+.r-title { font-weight: 700; line-height: 1.35; }
+.r-sub { font-size: .88rem; color: var(--muted); margin-top: 3px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.r-sub .fam { display: inline-flex; align-items: center; gap: 5px; }
+.r-nums { text-align: right; font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.r-nums b { color: var(--ink); font-weight: 700; }
+.fairbar { display: inline-block; width: 56px; height: 6px; background: var(--chip); border-radius: 3px; vertical-align: middle; margin-left: 6px; overflow: hidden; }
+.fairbar i { display: block; height: 100%; background: var(--ink); }
+.empty { padding: 28px 0; color: var(--muted); }
+.more { margin: 18px 0 0; }
+
+/* detail dialog */
+dialog.detail { width: min(760px, 100vw); max-width: 100vw; height: 100%; max-height: 100%; margin: 0 0 0 auto; padding: 0; border: 0; background: var(--surface); color: var(--ink); box-shadow: -12px 0 40px rgba(0, 0, 0, .18); }
+dialog.detail::backdrop { background: rgba(10, 18, 23, .45); }
+.detail-inner { padding: calc(env(safe-area-inset-top, 0px) + 22px) 28px calc(env(safe-area-inset-bottom, 0px) + 40px); }
+.detail-close { float: right; }
+.detail h2 { font-family: var(--serif); font-size: 1.45rem; line-height: 1.25; margin: 4px 0 6px; padding-right: 80px; }
+.detail .authors { color: var(--muted); font-size: .95rem; margin: 0 0 14px; }
+.detail h3 { font-size: 1rem; margin: 26px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
+.detail dl { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 6px 16px; margin: 0; font-size: .93rem; }
+.detail dt { color: var(--muted); }
+.detail dd { margin: 0; overflow-wrap: anywhere; }
+.fair-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: .92rem; }
+.fair-list li { display: grid; grid-template-columns: 22px 54px minmax(0, 1fr); gap: 8px; align-items: baseline; }
+.fair-list .yes { color: var(--usable); font-weight: 700; }
+.fair-list .no { color: var(--dead); font-weight: 700; }
+blockquote.evidence { margin: 0; padding: 10px 14px; border-left: 3px solid var(--rule); color: var(--muted); font-family: var(--serif); font-size: .98rem; }
+pre.bib { background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 12px; font-size: .8rem; overflow-x: auto; white-space: pre; }
+
+/* cite */
+.cite { padding: 48px 0 64px; border-top: 1px solid var(--rule); }
+.cite-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; margin-top: 16px; }
+.downloads { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.downloads li { display: grid; gap: 2px; }
+.downloads span { color: var(--muted); font-size: .9rem; }
+.cite p { max-width: 62ch; }
+footer { border-top: 1px solid var(--rule); padding: 22px 0 36px; color: var(--muted); font-size: .88rem; }
+.load-error { padding: 40px 0; }
+.ai-note { margin: 0 0 16px; padding: 10px 14px; border-left: 3px solid var(--faint); background: var(--surface); border-radius: 0 6px 6px 0; font-size: .92rem; color: var(--muted); max-width: 80ch; }
+.ai-note a, .fix-link { color: inherit; text-decoration: underline; }
+.fix-link { font-size: .85rem; color: var(--muted); }
+.chapter p.sublabel { margin: 0 0 4px; font-size: .85rem; font-weight: 700; color: var(--ink); }
+
+@media (max-width: 900px) {
+  .chapter { grid-template-columns: 1fr; gap: 14px; }
+  .cat-layout { grid-template-columns: 1fr; }
+  .filters { position: static; max-height: none; display: none; }
+  .filters.open { display: grid; }
+  .filters-toggle { display: inline-block; }
+  .cite-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .wrap { padding: 0 16px; }
+  .site-nav { gap: 14px; margin-left: 0; }
+  .result button { grid-template-columns: minmax(0, 1fr); }
+  .r-nums { text-align: left; }
+  .detail dl { grid-template-columns: 1fr; gap: 2px; }
+  .detail dt { margin-top: 6px; }
+  .detail-inner { padding-left: 18px; padding-right: 18px; }
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top">ICWSM-DataHub</a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#story">Story</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#cite">Download and cite</a>
+    </nav>
+    <p class="demo-note" id="demo-note" hidden>You’re looking at synthetic demo data. Every number on this page is invented until the real catalog is built.</p>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <h1 id="hero-title">Seven years of ICWSM datasets, and what became of them</h1>
+    <p class="lede" id="lede">Every dataset paper in the ICWSM Dataset Track, what it shared, and whether you can still use the data today. Press play to watch the field move.</p>
+
+    <div class="gm" id="gm">
+      <div class="gm-controls">
+        <button class="play" id="gm-play" type="button" aria-label="Play animation">
+          <svg viewBox="0 0 14 14" aria-hidden="true"><path id="gm-play-icon" d="M2 1l11 6-11 6z"/></svg><span id="gm-play-text">Play</span>
+        </button>
+        <div class="year-slider">
+          <label class="visually-hidden" for="gm-year">Year</label>
+          <input type="range" id="gm-year" step="1">
+          <output id="gm-year-out" for="gm-year"></output>
+        </div>
+        <div class="axis-pick">
+          <label>Across <select id="gm-x"></select></label>
+          <label>Up <select id="gm-y"></select></label>
+        </div>
+      </div>
+      <div class="gm-chart" id="gm-chart"><div class="tooltip" id="gm-tip" role="status"></div></div>
+      <ul class="legend" id="gm-legend" aria-label="Platform families. Select one to trace its path."></ul>
+      <p class="gm-note">Each bubble is a platform family; its size is the number of datasets that year. Select a bubble or a name to trace its path over time.</p>
+      <details class="numbers"><summary>Show the numbers for this year</summary><div id="gm-table"></div></details>
+    </div>
+  </section>
+
+  <section class="story wrap" id="story" aria-labelledby="story-title">
+    <h2 class="section-title" id="story-title">The story in seven findings</h2>
+    <div class="guess" id="guess">
+      <p>Before you read on: what share of the datasets published here can you download and use today, exactly as the paper describes?</p>
+      <div class="guess-row">
+        <label class="visually-hidden" for="guess-input">Your guess, in percent</label>
+        <input type="range" id="guess-input" min="0" max="100" value="50" step="1">
+        <output id="guess-out" for="guess-input">50%</output>
+        <button class="btn primary" id="guess-btn" type="button">Check my guess</button>
+      </div>
+      <div class="guess-result" id="guess-result" aria-live="polite"></div>
+    </div>
+    <div id="chapters"></div>
+  </section>
+
+  <section class="catalog" id="catalog" aria-labelledby="cat-title">
+    <div class="wrap">
+      <h2 class="section-title" id="cat-title">Find a dataset</h2>
+      <p class="ai-note" id="ai-note">These entries were extracted from each paper by an AI model and checked automatically against the paper text, but some will contain errors. If you spot one, especially in your own paper, <a class="fix-any" href="#cite">please suggest a correction</a>. Each fix is logged.</p>
+      <div class="search-row">
+        <label class="visually-hidden" for="q">Search the catalog</label>
+        <input type="search" id="q" placeholder="Search titles, datasets, authors, topics and events" autocomplete="off">
+        <button class="btn filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters">Filters</button>
+      </div>
+      <div class="cat-layout">
+        <aside class="filters" id="filters" aria-label="Filters">
+          <fieldset><legend>Can you use it today?</legend><div class="chips" id="f-fate"></div></fieldset>
+          <fieldset><legend>Platform</legend><div class="chips" id="f-fam"></div></fieldset>
+          <div><span class="flabel">Published</span>
+            <div class="year-range"><label class="visually-hidden" for="f-y0">From year</label><select id="f-y0"></select><span>to</span><label class="visually-hidden" for="f-y1">To year</label><select id="f-y1"></select></div>
+          </div>
+          <div><label class="flabel" for="f-mod">Contains</label><br><select id="f-mod"><option value="">Any content</option></select></div>
+          <fieldset><legend>Only show datasets that</legend>
+            <label class="check"><input type="checkbox" id="f-doi"> have a dataset DOI</label>
+            <label class="check"><input type="checkbox" id="f-llm"> use LLM labels</label>
+            <label class="check"><input type="checkbox" id="f-ml"> are multilingual</label>
+          </fieldset>
+          <div><button class="btn" id="f-clear" type="button">Clear filters</button></div>
+        </aside>
+        <div>
+          <div class="result-meta">
+            <span id="r-count" aria-live="polite"></span>
+            <span><label for="sort">Sort by </label><select id="sort">
+              <option value="newest">Newest first</option><option value="oldest">Oldest first</option>
+              <option value="cited">Most cited</option><option value="downloads">Most downloaded</option>
+              <option value="fair">Highest FAIR score</option><option value="size">Largest</option>
+            </select>
+            <button class="btn" id="export" type="button">Export results as CSV</button></span>
+          </div>
+          <ul class="results" id="results"></ul>
+          <div class="more"><button class="btn" id="more" type="button">Show 30 more</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cite wrap" id="cite" aria-labelledby="cite-title">
+    <h2 class="section-title" id="cite-title">Download and cite</h2>
+    <div class="cite-grid">
+      <div>
+        <ul class="downloads">
+          <li><a href="data/icwsm_datahub_catalog.csv">Catalog as CSV</a><span>One row per paper, lists joined with semicolons. Opens in any spreadsheet.</span></li>
+          <li><a href="data/icwsm_datahub_catalog.parquet">Catalog as Parquet</a><span>Same table with list columns kept as lists. Best for pandas and R.</span></li>
+          <li><a href="data/icwsm_datahub_catalog.json">Full catalog as JSON</a><span>Nested records with extraction provenance and audit details.</span></li>
+          <li><a href="data/DATA_DICTIONARY.md">Data dictionary</a><span>Every column, where it comes from and what it means.</span></li>
+          <li><a href="data/croissant.json">Croissant metadata</a><span>Machine-readable description for dataset search and ML tooling.</span></li>
+        </ul>
+        <p id="doi-line"></p>
+      </div>
+      <div>
+        <h3>How this catalog was made</h3>
+        <p>Each paper was read by an AI model (Claude) against a 65-field codebook, with a verbatim quote from the paper backing every key claim. The quotes, links and DOIs were then checked automatically against the paper text: about 9 in 10 quotes and 97% of dataset links were found word for word. Records the checks flagged were reviewed by hand. Finally every dataset link, DOI and repository record was tested live, on <span id="audit-date">the audit date</span>. A link can be down for a day, so treat a single failed check as a hint, not a verdict.</p>
+        <p>Something wrong? Corrections are logged as documented overrides, so every fix is traceable. <a id="issues-link" class="fix-any" href="#cite">Suggest a correction</a>.</p>
+        <pre class="bib" id="bib-site"></pre>
+      </div>
+    </div>
+  </section>
+  <section class="wrap load-error" id="load-error" hidden>
+    <h2 class="section-title">The catalog didn’t load</h2>
+    <p>The page couldn’t read <code>data/catalog.json</code>. Build it with <code>python scripts/05_build_catalog.py</code>, or serve this folder over HTTP (for example <code>python -m http.server</code>) instead of opening the file directly.</p>
+  </section>
+</main>
+<footer><div class="wrap" id="footer-text">ICWSM-DataHub. Code under the MIT license, data under CC BY 4.0.</div></footer>
+
+<dialog class="detail" id="detail" aria-labelledby="d-title"><div class="detail-inner" id="detail-inner"></div></dialog>
+
+<script type="application/json" id="embedded-data"></script>
+<script>
+"use strict";
+(() => {
+const REDUCED = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)").matches : false;
+const fmtInt = d3.format(",");
+const compact = v => (v == null || !isFinite(v)) ? "–" : d3.format(".2~s")(v).replace("G", "B");
+const pctf = v => (v == null || !isFinite(v)) ? "–" : `${Math.round(v)}%`;
+const share = (arr, pred) => arr.length ? arr.filter(pred).length / arr.length : NaN;
+const $ = id => document.getElementById(id);
+
+function h(tag, attrs, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === "class") el.className = v;
+    else if (k === "text") el.textContent = v;
+    else if (k === "style") el.setAttribute("style", v);
+    else if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    else el.setAttribute(k, v === true ? "" : v);
+  }
+  for (const kid of kids.flat()) {
+    if (kid == null || kid === false) continue;
+    el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+  }
+  return el;
+}
+const safeUrl = u => (typeof u === "string" && /^https?:\/\//i.test(u)) ? u : null;
+const link = (u, text) => safeUrl(u) ? h("a", { href: u, target: "_blank", rel: "noopener" }, text || u) : (text || u || "–");
+
+async function loadData() {
+  try {
+    const res = await fetch("data/catalog.json", { cache: "no-cache" });
+    if (res.ok) return await res.json();
+  } catch (e) { /* fall through to embedded copy */ }
+  const emb = $("embedded-data");
+  if (emb && emb.textContent.trim().length > 2) return JSON.parse(emb.textContent);
+  throw new Error("No catalog data found");
+}
+
+const FATE_SHORT = {
+  "Open and usable": "Open and usable",
+  "Open, needs closed API to rehydrate": "IDs only, needs X API",
+  "Restricted access (request or agreement)": "Restricted access",
+  "Alive but empty or login-walled": "Empty or sign-in only",
+  "Link dead": "Link not reachable",
+  "Never released / no link": "No link in paper",
+};
+const FATE_HELP = {
+  "Open and usable": "Files download openly and contain the content itself.",
+  "Open, needs closed API to rehydrate": "Files are open but hold only post IDs. Rebuilding the posts needs the Twitter/X API, which is no longer free.",
+  "Restricted access (request or agreement)": "Files are available after a request, form or data use agreement, often to protect the people in the data.",
+  "Alive but empty or login-walled": "The link works, but the record holds no data files, or only a sign-in page loads.",
+  "Link dead": "No dataset link or DOI loaded in our latest check. It may be temporarily down, or the data may have moved.",
+  "Never released / no link": "We found no dataset link or DOI in the paper. The data may be available from the authors.",
+};
+const ARRAY_FIELDS = ["authors", "families", "platforms", "modalities", "languages", "domains", "tasks", "annotation",
+  "llms", "urls", "closed", "geo", "geo_regions", "aff", "aff_regions", "fair_ind"];
+
+let R = [], META = {}, YEARS = [], FAMILIES = [], COLORS = {}, FATE_COLORS = {}, FATES = [];
+const renderers = [];
+
+function init(data) {
+  META = data.meta || {};
+  R = (data.records || []).map(r => {
+    const o = { ...r, year: +r.year };
+    for (const f of ARRAY_FIELDS) o[f] = Array.isArray(r[f]) ? r[f] : [];
+    o.hay = [o.title, o.name, o.authors.join(" "), o.platforms.join(" "), o.families.join(" "), o.domains.join(" "),
+      o.tasks.join(" "), o.event_name, o.event, o.llms.join(" "), o.geo.join(" ")].filter(Boolean).join(" ").toLowerCase();
+    return o;
+  });
+  YEARS = (META.years && META.years.length ? META.years : [...new Set(R.map(r => r.year))]).map(Number).sort((a, b) => a - b);
+  COLORS = META.family_colors || {};
+  FAMILIES = (META.family_order || Object.keys(COLORS)).filter(f => R.some(r => r.families.includes(f)));
+  FATES = META.fate_order || Object.keys(FATE_SHORT);
+  FATE_COLORS = META.fate_colors || {};
+  if (META.is_demo) $("demo-note").hidden = false;
+  $("lede").textContent = `Every one of the ${fmtInt(R.length)} dataset papers in the ICWSM Dataset Track from ${YEARS[0]} to ${YEARS.at(-1)}, what each one shared, and whether you can still use the data today. Press play to watch the field move.`;
+
+  Gapminder();
+  Story();
+  Catalog();
+  Cite();
+  let t;
+  window.addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => renderers.forEach(fn => fn()), 160); });
+  openFromHash();
+}
+
+/* ======================================================================== Gapminder */
+const METRICS = {
+  fair: { label: "Mean FAIR score", domain: [0, 100], fmt: v => Math.round(v), get: rs => d3.mean(rs, r => r.fair) },
+  usable: { label: "Openly usable today (%)", domain: [0, 100], fmt: pctf, get: rs => 100 * share(rs, r => r.fate === "Open and usable") },
+  alive: { label: "Link still works (%)", domain: [0, 100], fmt: pctf, get: rs => 100 * share(rs, r => r.alive === true) },
+  doi: { label: "Has a dataset DOI (%)", domain: [0, 100], fmt: pctf, get: rs => 100 * share(rs, r => !!r.doi) },
+  llm: { label: "Uses LLM labels (%)", domain: [0, 100], fmt: pctf, get: rs => 100 * share(rs, r => !!r.llm) },
+  size: { label: "Median size (records)", domain: [1e2, 1e8], log: true, fmt: compact,
+    get: rs => d3.median(rs.filter(r => r.records > 0), r => r.records) },
+};
+
+function Gapminder() {
+  const el = $("gm-chart"), tip = $("gm-tip"), slider = $("gm-year"), out = $("gm-year-out");
+  const st = { year: YEARS[0], x: "fair", y: "usable", playing: false, timer: null, trails: new Set(), hover: null };
+  const agg = new Map();
+  for (const y of YEARS) for (const f of FAMILIES) {
+    const rs = R.filter(r => r.year === y && r.families.includes(f));
+    if (!rs.length) continue;
+    const o = { year: y, family: f, n: rs.length };
+    for (const [k, m] of Object.entries(METRICS)) o[k] = m.get(rs);
+    agg.set(`${y}|${f}`, o);
+  }
+  const maxN = d3.max([...agg.values()], d => d.n) || 1;
+  const last = {};
+  let svg, gx, gy, ggx, ggy, water, gTrails, gB, gL, xT, yT, xS, yS, rS, W, H;
+  const m = { t: 14, r: 18, b: 50, l: 56 };
+
+  for (const sel of [$("gm-x"), $("gm-y")]) {
+    for (const [k, v] of Object.entries(METRICS)) sel.append(h("option", { value: k }, v.label));
+  }
+  $("gm-x").value = st.x; $("gm-y").value = st.y;
+  $("gm-x").addEventListener("change", e => { st.x = e.target.value; draw(true); });
+  $("gm-y").addEventListener("change", e => { st.y = e.target.value; draw(true); });
+  slider.min = YEARS[0]; slider.max = YEARS.at(-1); slider.value = st.year;
+  slider.addEventListener("input", () => { stop(); setYear(+slider.value, true); });
+  $("gm-play").addEventListener("click", () => st.playing ? stop() : play());
+
+  const legend = $("gm-legend");
+  for (const f of FAMILIES) {
+    const b = h("button", { class: "chip", type: "button", "aria-pressed": "false", "data-fam": f,
+      onclick: () => toggleTrail(f), onmouseenter: () => { st.hover = f; highlight(); }, onmouseleave: () => { st.hover = null; highlight(); } },
+      h("span", { class: "dot", style: `background:${COLORS[f]}` }), f);
+    legend.append(h("li", {}, b));
+  }
+
+  function build() {
+    el.querySelectorAll("svg").forEach(s => s.remove());
+    W = Math.max(el.clientWidth || 0, 320); H = W < 640 ? 340 : 470;
+    svg = d3.select(el).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("width", "100%").attr("height", H)
+      .attr("role", "img").attr("aria-label", "Animated bubble chart of platform families by year. The table below gives the same numbers.");
+    water = svg.append("text").attr("class", "gm-year").attr("text-anchor", "middle").attr("dominant-baseline", "central")
+      .attr("x", m.l + (W - m.l - m.r) / 2).attr("y", m.t + (H - m.t - m.b) / 2).style("font-size", `${Math.min(W * 0.24, 230)}px`);
+    ggx = svg.append("g").attr("class", "grid").attr("transform", `translate(0,${H - m.b})`);
+    ggy = svg.append("g").attr("class", "grid").attr("transform", `translate(${m.l},0)`);
+    gx = svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`);
+    gy = svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`);
+    xT = svg.append("text").attr("class", "axis-title").attr("x", W - m.r).attr("y", H - 10).attr("text-anchor", "end");
+    yT = svg.append("text").attr("class", "axis-title").attr("transform", `translate(14,${m.t}) rotate(-90)`).attr("text-anchor", "end");
+    gTrails = svg.append("g"); gB = svg.append("g"); gL = svg.append("g");
+    rS = d3.scaleSqrt().domain([0, maxN]).range([0, W < 640 ? 28 : 46]);
+    draw(false);
+  }
+
+  function scales() {
+    const mx = METRICS[st.x], my = METRICS[st.y];
+    xS = (mx.log ? d3.scaleLog() : d3.scaleLinear()).domain(mx.domain).range([m.l, W - m.r]).clamp(true);
+    yS = (my.log ? d3.scaleLog() : d3.scaleLinear()).domain(my.domain).range([H - m.b, m.t]).clamp(true);
+  }
+
+  function rowsFor(year) {
+    return FAMILIES.map(f => {
+      const d = agg.get(`${year}|${f}`);
+      const ok = d && isFinite(d[st.x]) && isFinite(d[st.y]);
+      return ok ? { ...d, ok: true } : { family: f, n: 0, ok: false };
+    });
+  }
+
+  function draw(animate) {
+    scales();
+    const dur = animate && !REDUCED ? 750 : 0;
+    const mx = METRICS[st.x], my = METRICS[st.y];
+    const nT = W < 640 ? 4 : 7;
+    gx.transition().duration(dur).call(d3.axisBottom(xS).ticks(nT, mx.log ? "~s" : undefined).tickSizeOuter(0));
+    gy.transition().duration(dur).call(d3.axisLeft(yS).ticks(5, my.log ? "~s" : undefined).tickSizeOuter(0));
+    ggx.transition().duration(dur).call(d3.axisBottom(xS).ticks(nT).tickSize(-(H - m.t - m.b)).tickFormat(""));
+    ggy.transition().duration(dur).call(d3.axisLeft(yS).ticks(5).tickSize(-(W - m.l - m.r)).tickFormat(""));
+    xT.text(mx.label); yT.text(my.label);
+    water.text(st.year);
+    out.value = st.year; out.textContent = st.year; slider.value = st.year;
+
+    const rows = rowsFor(st.year);
+    const pos = d => d.ok ? [xS(d[st.x]), yS(d[st.y])] : (last[d.family] || [xS(mx.domain[0]), yS(my.domain[0])]);
+    const sel = gB.selectAll("circle").data(rows, d => d.family)
+      .join(enter => enter.append("circle").attr("class", "gm-bubble").attr("r", 0)
+        .attr("cx", d => pos(d)[0]).attr("cy", d => pos(d)[1]).style("fill", d => COLORS[d.family])
+        .on("mousemove", (ev, d) => showTip(ev, d)).on("mouseleave", hideTip)
+        .on("click", (ev, d) => toggleTrail(d.family)));
+    sel.sort((a, b) => b.n - a.n);
+    sel.transition().duration(dur).ease(d3.easeCubicInOut)
+      .attr("cx", d => pos(d)[0]).attr("cy", d => pos(d)[1]).attr("r", d => d.ok ? Math.max(rS(d.n), 3) : 0);
+    rows.forEach(d => { if (d.ok) last[d.family] = pos(d); });
+
+    const top = rows.filter(d => d.ok).sort((a, b) => b.n - a.n).slice(0, 3).map(d => d.family);
+    const labelled = rows.filter(d => d.ok && (top.includes(d.family) || st.trails.has(d.family)));
+    gL.selectAll("text").data(labelled, d => d.family)
+      .join(enter => enter.append("text").attr("class", "gm-label").attr("dominant-baseline", "central")
+        .attr("x", d => pos(d)[0]).attr("y", d => pos(d)[1]))
+      .text(d => d.family.split(" (")[0])
+      .transition().duration(dur).ease(d3.easeCubicInOut)
+      .attr("x", d => pos(d)[0] + Math.max(rS(d.n), 3) + 5).attr("y", d => pos(d)[1]);
+    drawTrails();
+    highlight();
+    table(rows);
+  }
+
+  function drawTrails() {
+    gTrails.selectAll("*").remove();
+    for (const f of st.trails) {
+      const pts = YEARS.filter(y => y <= st.year).map(y => agg.get(`${y}|${f}`))
+        .filter(d => d && isFinite(d[st.x]) && isFinite(d[st.y])).map(d => ({ ...d, p: [xS(d[st.x]), yS(d[st.y])] }));
+      gTrails.append("path").attr("class", "trail-line").style("stroke", COLORS[f]).attr("d", d3.line()(pts.map(d => d.p)));
+      gTrails.selectAll(null).data(pts.slice(0, -1)).join("circle").attr("class", "trail-dot")
+        .attr("cx", d => d.p[0]).attr("cy", d => d.p[1]).attr("r", d => Math.max(rS(d.n) * 0.35, 2.5)).style("fill", COLORS[f]);
+    }
+  }
+
+  function highlight() {
+    const focus = st.hover || (st.trails.size ? null : null);
+    gB.selectAll("circle").classed("dim", d => (focus && d.family !== focus) || (!focus && st.trails.size > 0 && !st.trails.has(d.family)));
+    legend.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", st.trails.has(b.dataset.fam) ? "true" : "false"));
+  }
+
+  function toggleTrail(f) { st.trails.has(f) ? st.trails.delete(f) : st.trails.add(f); draw(false); }
+
+  function showTip(ev, d) {
+    if (!d.ok) return;
+    const [x, y] = d3.pointer(ev, el);
+    tip.replaceChildren(h("strong", {}, d.family), h("br"),
+      `${d.year}: ${d.n} dataset${d.n === 1 ? "" : "s"}`, h("br"),
+      `${METRICS[st.x].label}: ${METRICS[st.x].fmt(d[st.x])}`, h("br"),
+      `${METRICS[st.y].label}: ${METRICS[st.y].fmt(d[st.y])}`);
+    tip.style.left = `${Math.min(x + 14, el.clientWidth - 250)}px`; tip.style.top = `${Math.max(y - 20, 0)}px`; tip.style.opacity = 1;
+  }
+  function hideTip() { tip.style.opacity = 0; }
+
+  function table(rows) {
+    const t = h("table", { class: "data" },
+      h("thead", {}, h("tr", {}, h("th", {}, "Platform family"), h("th", { class: "num" }, "Datasets"),
+        h("th", { class: "num" }, METRICS[st.x].label), h("th", { class: "num" }, METRICS[st.y].label))),
+      h("tbody", {}, rows.filter(d => d.ok).sort((a, b) => b.n - a.n).map(d => h("tr", {},
+        h("td", {}, h("span", { class: "dot", style: `background:${COLORS[d.family]};margin-right:6px` }), d.family),
+        h("td", { class: "num" }, d.n), h("td", { class: "num" }, METRICS[st.x].fmt(d[st.x])),
+        h("td", { class: "num" }, METRICS[st.y].fmt(d[st.y]))))));
+    $("gm-table").replaceChildren(h("p", { style: "margin:6px 0 0;color:var(--muted)" }, `Year ${st.year}`), t);
+  }
+
+  function setYear(y, animate) { st.year = y; draw(animate); }
+  function setPlayUI(on) {
+    $("gm-play-text").textContent = on ? "Pause" : "Play";
+    $("gm-play").setAttribute("aria-label", on ? "Pause animation" : "Play animation");
+    $("gm-play-icon").setAttribute("d", on ? "M2 1h3.5v12H2zM8.5 1H12v12H8.5z" : "M2 1l11 6-11 6z");
+  }
+  function play() {
+    if (st.year >= YEARS.at(-1)) setYear(YEARS[0], false);
+    st.playing = true; setPlayUI(true); tick();
+  }
+  function tick() {
+    st.timer = setTimeout(() => {
+      if (!st.playing) return;
+      if (st.year >= YEARS.at(-1)) { stop(); return; }
+      setYear(st.year + 1, true); tick();
+    }, REDUCED ? 1500 : 1150);
+  }
+  function stop() { st.playing = false; clearTimeout(st.timer); setPlayUI(false); }
+
+  build();
+  renderers.push(build);
+}
+
+/* ======================================================================== chart helpers */
+function frame(el, height, margin, aria) {
+  el.replaceChildren();
+  const W = Math.max(el.clientWidth || 0, 300), H = height;
+  const svg = d3.select(el).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("width", "100%").attr("height", H)
+    .attr("role", "img").attr("aria-label", aria);
+  return { svg, W, H, m: margin };
+}
+
+function spread(values, gap) {
+  const idx = values.map((v, i) => i).sort((a, b) => values[a] - values[b]);
+  const out = values.slice();
+  for (let k = 1; k < idx.length; k++) if (out[idx[k]] - out[idx[k - 1]] < gap) out[idx[k]] = out[idx[k - 1]] + gap;
+  return out;
+}
+
+function lineChart(el, o) {
+  const { svg, W, H, m } = frame(el, o.height || 260, { t: 18, r: 132, b: 30, l: 42 }, o.aria);
+  const xs = o.xValues;
+  const x = d3.scaleLinear().domain(d3.extent(xs)).range([m.l, W - m.r]);
+  const yMax = o.yMax || Math.max(10, (d3.max(o.series, s => d3.max(s.points, p => p.y)) || 0) * 1.12);
+  const y = d3.scaleLinear().domain([0, yMax]).nice().range([H - m.b, m.t]);
+  if (o.band) {
+    const a = Math.max(x.range()[0], x(o.band.from)), b = Math.min(x.range()[1], x(o.band.to));
+    if (b > a) {
+      svg.append("rect").attr("class", "band").attr("x", a).attr("width", b - a).attr("y", m.t).attr("height", H - m.b - m.t);
+      svg.append("text").attr("class", "band-label").attr("x", (a + b) / 2).attr("y", m.t + 12).attr("text-anchor", "middle").text(o.band.label);
+    }
+  }
+  svg.append("g").attr("class", "grid").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(-(W - m.l - m.r)).tickFormat(""));
+  svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`)
+    .call(d3.axisBottom(x).tickValues(xs).tickFormat(o.xFmt || (d => d)).tickSizeOuter(0));
+  svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d => `${d}%`).tickSizeOuter(0));
+  const line = d3.line().defined(p => p.y != null && isFinite(p.y)).x(p => x(p.x)).y(p => y(p.y));
+  const ends = [];
+  for (const s of o.series) {
+    svg.append("path").attr("d", line(s.points)).attr("fill", "none").style("stroke", s.color).attr("stroke-width", 2.2);
+    svg.selectAll(null).data(s.points.filter(p => p.y != null && isFinite(p.y))).join("circle")
+      .attr("cx", p => x(p.x)).attr("cy", p => y(p.y)).attr("r", 3.2).style("fill", s.color);
+    const lastP = [...s.points].reverse().find(p => p.y != null && isFinite(p.y));
+    if (lastP) ends.push({ s, y: y(lastP.y), x: x(lastP.x) });
+  }
+  const ys = spread(ends.map(e => e.y), 15);
+  ends.forEach((e, i) => svg.append("text").attr("class", "end-label").attr("x", e.x + 8).attr("y", ys[i])
+    .attr("dominant-baseline", "central").style("fill", e.s.color).text(`${e.s.name} ${pctf(e.s.points.filter(p => p.y != null).at(-1).y)}`));
+}
+
+function barChart(el, data, aria) {
+  const { svg, W, H, m } = frame(el, 230, { t: 20, r: 10, b: 28, l: 10 }, aria);
+  const x = d3.scaleBand().domain(data.map(d => d.label)).range([m.l, W - m.r]).padding(0.28);
+  const y = d3.scaleLinear().domain([0, d3.max(data, d => d.value) || 1]).range([H - m.b, m.t]);
+  svg.selectAll(null).data(data).join("rect").attr("x", d => x(d.label)).attr("width", x.bandwidth())
+    .attr("y", d => y(d.value)).attr("height", d => y(0) - y(d.value)).attr("rx", 2).style("fill", "var(--ink)");
+  svg.selectAll(null).data(data).join("text").attr("class", "val").attr("x", d => x(d.label) + x.bandwidth() / 2)
+    .attr("y", d => y(d.value) - 6).attr("text-anchor", "middle").text(d => d.value);
+  svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickSizeOuter(0));
+}
+
+function funnelChart(el, stages, aria) {
+  const { svg, W, H, m } = frame(el, 34 * stages.length + 10, { t: 4, r: 70, b: 4, l: Math.min(200, (el.clientWidth || 300) * 0.42) }, aria);
+  const x = d3.scaleLinear().domain([0, stages[0].value || 1]).range([m.l, W - m.r]);
+  const y = d3.scaleBand().domain(stages.map(s => s.label)).range([m.t, H - m.b]).padding(0.22);
+  svg.selectAll(null).data(stages).join("rect").attr("x", m.l).attr("y", d => y(d.label)).attr("height", y.bandwidth())
+    .attr("width", d => x(d.value) - m.l).attr("rx", 2)
+    .style("fill", (d, i) => i === stages.length - 1 ? "var(--usable)" : "var(--ink)").style("opacity", (d, i) => i === stages.length - 1 ? 1 : 0.35 + 0.1 * i);
+  svg.selectAll(null).data(stages).join("text").attr("class", "val").attr("x", m.l - 8).attr("y", d => y(d.label) + y.bandwidth() / 2)
+    .attr("text-anchor", "end").attr("dominant-baseline", "central").text(d => d.label);
+  svg.selectAll(null).data(stages).join("text").attr("class", "val").attr("x", d => x(d.value) + 6)
+    .attr("y", d => y(d.label) + y.bandwidth() / 2).attr("dominant-baseline", "central").style("font-weight", 700)
+    .text(d => pctf(100 * d.value / stages[0].value));
+}
+
+function stackedBars(el, years, cats, colors, values, aria) {
+  const { svg, W, H, m } = frame(el, 240, { t: 10, r: 10, b: 28, l: 40 }, aria);
+  const x = d3.scaleBand().domain(years).range([m.l, W - m.r]).padding(0.25);
+  const y = d3.scaleLinear().domain([0, 100]).range([H - m.b, m.t]);
+  const series = d3.stack().keys(cats)(years.map(yr => ({ yr, ...values[yr] })));
+  series.forEach(s => svg.append("g").style("fill", colors[s.key]).selectAll("rect").data(s).join("rect")
+    .attr("x", d => x(d.data.yr)).attr("width", x.bandwidth()).attr("y", d => y(d[1])).attr("height", d => Math.max(0, y(d[0]) - y(d[1]))));
+  svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickSizeOuter(0));
+  svg.append("g").attr("class", "axis").attr("transform", `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d => `${d}%`).tickSizeOuter(0));
+}
+
+function pairedBars(el, rows, aria) {
+  const { svg, W, H, m } = frame(el, rows.length * 38 + 30, { t: 6, r: 46, b: 24, l: Math.min(190, (el.clientWidth || 300) * 0.4) }, aria);
+  const x = d3.scaleLinear().domain([0, Math.max(10, d3.max(rows, r => Math.max(r.a, r.b)))]).nice().range([m.l, W - m.r]);
+  const y = d3.scaleBand().domain(rows.map(r => r.label)).range([m.t, H - m.b]).padding(0.2);
+  const hh = y.bandwidth() / 2;
+  svg.append("g").attr("class", "grid").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(4).tickSize(-(H - m.t - m.b)).tickFormat(""));
+  svg.selectAll(null).data(rows).join("rect").attr("x", m.l).attr("y", r => y(r.label)).attr("height", hh - 1)
+    .attr("width", r => x(r.a) - m.l).style("fill", "var(--ink)");
+  svg.selectAll(null).data(rows).join("rect").attr("x", m.l).attr("y", r => y(r.label) + hh).attr("height", hh - 1)
+    .attr("width", r => x(r.b) - m.l).style("fill", "#56B4E9");
+  svg.selectAll(null).data(rows).join("text").attr("class", "val").attr("x", m.l - 8).attr("y", r => y(r.label) + hh)
+    .attr("text-anchor", "end").attr("dominant-baseline", "central").text(r => r.label);
+  svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(4).tickFormat(d => `${d}%`).tickSizeOuter(0));
+}
+
+function swatchLegend(items) {
+  return h("div", { class: "html-legend" }, items.map(([label, color]) => h("span", {}, h("i", { class: "sw", style: `background:${color}` }), label)));
+}
+
+/* ======================================================================== Story */
+function Story() {
+  const Y0 = YEARS[0], Y1 = YEARS.at(-1);
+  const byYear = y => R.filter(r => r.year === y);
+  const famShare = (rs, f) => 100 * share(rs, r => r.families.includes(f));
+  const usableAll = 100 * share(R, r => r.fate === "Open and usable");
+
+  // guess
+  const gi = $("guess-input"), go = $("guess-out");
+  gi.addEventListener("input", () => { go.value = `${gi.value}%`; go.textContent = `${gi.value}%`; });
+  $("guess-btn").addEventListener("click", () => {
+    const g = +gi.value, a = Math.round(usableAll), diff = g - a;
+    const verdict = Math.abs(diff) <= 5 ? "Spot on." : diff > 0 ? `You were ${diff} points too optimistic.` : `You were ${-diff} points too pessimistic.`;
+    $("guess-result").replaceChildren(h("strong", {}, `${a}%`), ` of datasets are openly usable today, exactly as published. You guessed ${g}%. ${verdict} The findings below show why.`);
+  });
+
+  const host = $("chapters");
+  const chapter = (title, paras, extra) => {
+    const fig = h("div", {});
+    const art = h("article", { class: "chapter" }, h("div", {}, h("h3", {}, title), paras.map(p => h("p", {}, p))), fig);
+    host.append(art);
+    if (extra) extra(fig);
+    return fig;
+  };
+
+  // 1 growth
+  const perYear = YEARS.map(y => ({ label: String(y), value: byYear(y).length }));
+  chapter(`${fmtInt(R.length)} datasets in ${YEARS.length} years, and more every year`,
+    [`ICWSM published ${perYear[0].value} dataset papers in ${Y0} and ${perYear.at(-1).value} in ${Y1}. Together they cover ${compact(d3.sum(R, r => r.records || 0))} records of social media content.`],
+    fig => { const c = h("div", { class: "chart" }); fig.append(c); const r = () => barChart(c, perYear, "Dataset papers per year"); r(); renderers.push(r); });
+
+  // 2 platforms
+  const tw0 = famShare(byYear(Y0), "Twitter/X"), tw1 = famShare(byYear(Y1), "Twitter/X");
+  const lineFams = ["Twitter/X", "Reddit", "TikTok", "Messaging (Telegram/WhatsApp/Discord)"].filter(f => FAMILIES.includes(f));
+  chapter(`Twitter/X went from ${pctf(tw0)} of datasets to ${pctf(tw1)}`,
+    ["In 2023 and 2024 the free Twitter/X API, Pushshift, Reddit’s free API and CrowdTangle all closed. Researchers moved to TikTok, Telegram, Bluesky and data donation.",
+      "Switch to collection year to see the break when it happened, one or two publication cycles before it reached the proceedings."],
+    fig => {
+      const seg = h("div", { class: "seg", role: "group", "aria-label": "Time axis" });
+      const c = h("div", { class: "chart" });
+      let mode = "pub";
+      const btns = [["pub", "By publication year"], ["data", "By collection year"]].map(([k, label]) =>
+        h("button", { type: "button", "aria-pressed": k === mode ? "true" : "false", onclick: () => { mode = k; btns.forEach(b => b.setAttribute("aria-pressed", b.dataset.k === mode ? "true" : "false")); r(); }, "data-k": k }, label));
+      seg.append(...btns);
+      fig.append(seg, c);
+      const r = () => {
+        let xs, groupOf;
+        if (mode === "pub") { xs = YEARS; groupOf = x => byYear(x); }
+        else {
+          const counts = d3.rollup(R.filter(r => r.end_year), v => v.length, r => +r.end_year);
+          xs = [...counts].filter(([, n]) => n >= 8).map(([k]) => k).sort((a, b) => a - b);
+          groupOf = x => R.filter(r => +r.end_year === x);
+        }
+        if (!xs.length) { c.replaceChildren(h("p", {}, "Not enough dated datasets yet.")); return; }
+        lineChart(c, { xValues: xs, xFmt: d => `’${String(d).slice(2)}`, aria: "Share of datasets by platform over time",
+          band: mode === "data" ? { from: 2023.0, to: 2024.7, label: "API closures" } : null,
+          series: lineFams.map(f => ({ name: f.split(" (")[0], color: COLORS[f], points: xs.map(x => ({ x, y: famShare(groupOf(x), f) })) })) });
+      };
+      r(); renderers.push(r);
+    });
+
+  // 3 annotation
+  const groups = [["LLM", r => r.llm, "#D55E00"], ["Crowdworkers", r => r.annotation.some(a => a.startsWith("Crowd")), "#0072B2"],
+    ["Experts", r => r.annotation.some(a => a.startsWith("Expert")), "#009E73"]];
+  const l0 = 100 * share(byYear(Y0), r => r.llm), l1 = 100 * share(byYear(Y1), r => r.llm);
+  chapter(`LLM-made labels went from ${pctf(l0)} of datasets to ${pctf(l1)}`,
+    ["Crowdworkers and hand-coding by experts still matter, but large language models are now a routine part of labeling, often with people checking their output."],
+    fig => { const c = h("div", { class: "chart" }); fig.append(c);
+      const r = () => lineChart(c, { xValues: YEARS, xFmt: d => d, aria: "Share of datasets by label source",
+        series: groups.map(([name, fn, color]) => ({ name, color, points: YEARS.map(y => ({ x: y, y: 100 * share(byYear(y), fn) })) })) });
+      r(); renderers.push(r); });
+
+  // 4 link rot
+  const linked = R.filter(r => r.urls.length || r.doi);
+  const doiAlive = 100 * share(linked.filter(r => r.doi), r => r.alive === true);
+  const plainAlive = 100 * share(linked.filter(r => !r.doi), r => r.alive === true);
+  chapter(`${pctf(doiAlive)} of DOI links still work, against ${pctf(plainAlive)} of plain links`,
+    ["Links have held up remarkably well. A DOI on Zenodo, Dataverse or Figshare points to a record the repository commits to keep, and nearly all of them still resolve. Plain links to GitHub, lab pages or cloud drives carry no such promise, and most of the few broken links are of that kind."],
+    fig => { const c = h("div", { class: "chart" }); fig.append(c);
+      const r = () => lineChart(c, { xValues: YEARS, xFmt: d => d, yMax: 100, aria: "Share of dataset links alive by publication year",
+        series: [["With DOI", true, "#0072B2"], ["Plain link", false, "#D55E00"]].map(([name, flag, color]) => ({ name, color,
+          points: YEARS.map(y => { const g = linked.filter(r => r.year === y && !!r.doi === flag); return { x: y, y: g.length >= 3 ? 100 * share(g, r => r.alive === true) : null }; }) })) });
+      r(); renderers.push(r); });
+
+  // 5 funnel
+  const stages = [
+    { label: "Papers", value: R.length },
+    { label: "Link or DOI given", value: linked.length },
+    { label: "Link works today", value: linked.filter(r => r.alive === true).length },
+    { label: "Openly downloadable", value: R.filter(r => ["Open and usable", "Open, needs closed API to rehydrate"].includes(r.fate)).length },
+    { label: "Usable as published", value: R.filter(r => r.fate === "Open and usable").length },
+  ];
+  chapter(`${pctf(usableAll)} of datasets can be used today exactly as published`,
+    ["A working link is not the end of the story. Some datasets are restricted on purpose, behind a request form or agreement; a few records are empty. Many Twitter/X datasets share only post IDs, and rebuilding the posts now requires a paid API."],
+    fig => {
+      const c1 = h("div", { class: "chart" }), c2 = h("div", { class: "chart", style: "margin-top:18px" });
+      fig.append(c1, c2, swatchLegend(FATES.map(f => [FATE_SHORT[f] || f, FATE_COLORS[f]])));
+      const vals = {};
+      for (const y of YEARS) { const g = byYear(y); vals[y] = {}; for (const f of FATES) vals[y][f] = 100 * share(g, r => r.fate === f); }
+      const r = () => { funnelChart(c1, stages, "From papers to usable data"); stackedBars(c2, YEARS, FATES, FATE_COLORS, vals, "State of each year’s datasets today"); };
+      r(); renderers.push(r);
+    });
+
+  // 6 geography
+  const regions = ["North America", "Europe & Central Asia", "East Asia & Pacific", "South Asia", "Latin America & Caribbean", "Middle East & North Africa", "Sub-Saharan Africa"];
+  const SHORT_REGION = { "Europe & Central Asia": "Europe & C. Asia", "Latin America & Caribbean": "Latin America",
+    "Middle East & North Africa": "Mideast & N. Africa" };
+  const rows = regions.map(g => ({ label: SHORT_REGION[g] || g, a: 100 * share(R, r => r.aff_regions.includes(g)), b: 100 * share(R, r => r.geo_regions.includes(g)) }));
+  const gap = rows.slice().sort((p, q) => (q.b - q.a) - (p.b - p.a))[0];
+  const title6 = gap && gap.b - gap.a > 2
+    ? `${gap.label}: the subject of ${pctf(gap.b)} of datasets, home to authors on ${pctf(gap.a)} of papers`
+    : "Where authors work, and where their data comes from";
+  chapter(title6, ["Comparing where authors work with where their data comes from shows which communities are studied mostly from elsewhere."],
+    fig => { const c = h("div", { class: "chart" }); fig.append(c, swatchLegend([["Authors work there", "var(--ink)"], ["Data is about there", "#56B4E9"]]));
+      const r = () => pairedBars(c, rows, "Author regions compared with data regions"); r(); renderers.push(r); });
+
+  // 7 the paper checklist: what papers say vs how data is shared
+  const CK = 2024;
+  const pre = R.filter(r => r.year < CK), post = R.filter(r => r.year >= CK);
+  if (pre.length >= 10 && post.length >= 10) {
+    const fi = code => (META.fair_indicators || []).findIndex(d => d.code === code);
+    const ind = code => r => r.fair_ind[fi(code)] === true;
+    const pp = (fn, keep = () => true) => {
+      const a = pre.filter(keep), b = post.filter(keep);
+      return { a: 100 * share(a, fn), b: 100 * share(b, fn) };
+    };
+    const say = [
+      ["Discusses misuse risks", pp(r => r.misuse === true)],
+      ["…in the main text", pp(r => r.misuse_body === true)],
+      ["States a license", pp(ind("R1.1"))],
+      ["Names a datasheet", pp(ind("F2"))],
+    ];
+    const doRows = [
+      ["Gives a dataset DOI", pp(r => r.has_doi === true || !!r.doi)],
+      ["Archival host", pp(ind("A2"))],
+      ["Repository license", pp(r => r.repo_license === true, r => r.repo_license === true || r.repo_license === false)],
+      ["Usable today", pp(r => r.fate === "Open and usable")],
+    ];
+    const mis = say[0][1], misB = say[1][1], doi = doRows[0][1], lic = doRows[2][1], use = doRows[3][1];
+    chapter(`Since the ${CK} paper checklist, papers discussing misuse went from ${pctf(mis.a)} to ${pctf(mis.b)}`,
+      [`ICWSM added a paper checklist in ${CK} that asks authors about ethics, misuse and documentation. Papers now say much more: they state licenses and name datasheets far more often. Part of the jump is the checklist itself; in the main text alone, misuse discussion went from ${pctf(misB.a)} to ${pctf(misB.b)}.`,
+        `How the data is actually shared barely moved. Dataset DOIs went from ${pctf(doi.a)} to ${pctf(doi.b)}, and licenses on the repository page from ${pctf(lic.a)} to ${pctf(lic.b)}, both already high. The checklist changed what papers say more than how data is shared. The share usable today rose from ${pctf(use.a)} to ${pctf(use.b)}, a gap small enough to be chance.`],
+      fig => {
+        const c1 = h("div", { class: "chart" }), c2 = h("div", { class: "chart", style: "margin-top:18px" });
+        fig.append(h("p", { class: "sublabel" }, "What the paper says"), c1,
+          h("p", { class: "sublabel", style: "margin-top:16px" }, "How the data is shared"), c2,
+          swatchLegend([[`Before ${CK} (${pre.length} papers)`, "var(--ink)"], [`${CK} on (${post.length} papers)`, "#56B4E9"]]));
+        const toRows = list => list.map(([label, v]) => ({ label, a: v.a, b: v.b }));
+        const r = () => { pairedBars(c1, toRows(say), "What papers say, before and after the checklist");
+          pairedBars(c2, toRows(doRows), "How data is shared, before and after the checklist"); };
+        r(); renderers.push(r);
+      });
+  }
+}
+
+/* ======================================================================== Catalog */
+function Catalog() {
+  const st = { q: "", fams: new Set(), fates: new Set(), y0: YEARS[0], y1: YEARS.at(-1), mod: "", doi: false, llm: false, ml: false, sort: "newest", shown: 30 };
+  const chipGroup = (host, values, set, labelFn, colorFn) => {
+    for (const v of values) host.append(h("button", { class: "chip", type: "button", "aria-pressed": "false",
+      onclick: e => { set.has(v) ? set.delete(v) : set.add(v); e.currentTarget.setAttribute("aria-pressed", set.has(v)); st.shown = 30; render(); } },
+      h("span", { class: "dot", style: `background:${colorFn(v)}` }), labelFn(v)));
+  };
+  chipGroup($("f-fate"), FATES, st.fates, f => FATE_SHORT[f] || f, f => FATE_COLORS[f]);
+  chipGroup($("f-fam"), FAMILIES, st.fams, f => f.split(" (")[0], f => COLORS[f]);
+  for (const id of ["f-y0", "f-y1"]) for (const y of YEARS) $(id).append(h("option", { value: y }, y));
+  $("f-y0").value = st.y0; $("f-y1").value = st.y1;
+  const mods = [...new Set(R.flatMap(r => r.modalities))].sort();
+  for (const mo of mods) $("f-mod").append(h("option", { value: mo }, mo));
+
+  const on = (id, ev, fn) => $(id).addEventListener(ev, e => { fn(e); st.shown = 30; render(); });
+  let qt;
+  $("q").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() => { st.q = e.target.value.trim().toLowerCase(); st.shown = 30; render(); }, 120); });
+  on("f-y0", "change", e => st.y0 = +e.target.value);
+  on("f-y1", "change", e => st.y1 = +e.target.value);
+  on("f-mod", "change", e => st.mod = e.target.value);
+  on("f-doi", "change", e => st.doi = e.target.checked);
+  on("f-llm", "change", e => st.llm = e.target.checked);
+  on("f-ml", "change", e => st.ml = e.target.checked);
+  on("sort", "change", e => st.sort = e.target.value);
+  $("more").addEventListener("click", () => { st.shown += 30; render(); });
+  $("f-clear").addEventListener("click", clear);
+  $("filters-toggle").addEventListener("click", e => {
+    const open = $("filters").classList.toggle("open"); e.currentTarget.setAttribute("aria-expanded", open);
+  });
+  $("export").addEventListener("click", () => exportCsv(filtered()));
+
+  function clear() {
+    Object.assign(st, { q: "", y0: YEARS[0], y1: YEARS.at(-1), mod: "", doi: false, llm: false, ml: false, shown: 30 });
+    st.fams.clear(); st.fates.clear();
+    $("q").value = ""; $("f-y0").value = st.y0; $("f-y1").value = st.y1; $("f-mod").value = "";
+    for (const id of ["f-doi", "f-llm", "f-ml"]) $(id).checked = false;
+    document.querySelectorAll("#f-fate .chip, #f-fam .chip").forEach(b => b.setAttribute("aria-pressed", "false"));
+    render();
+  }
+
+  function filtered() {
+    const terms = st.q.split(/\s+/).filter(Boolean);
+    const lo = Math.min(st.y0, st.y1), hi = Math.max(st.y0, st.y1);
+    const rs = R.filter(r => r.year >= lo && r.year <= hi
+      && (!terms.length || terms.every(t => r.hay.includes(t)))
+      && (!st.fams.size || r.families.some(f => st.fams.has(f)))
+      && (!st.fates.size || st.fates.has(r.fate))
+      && (!st.mod || r.modalities.includes(st.mod))
+      && (!st.doi || !!r.doi) && (!st.llm || !!r.llm) && (!st.ml || (r.n_languages || r.languages.length) > 1));
+    const key = { newest: r => -r.year, oldest: r => r.year, cited: r => -(r.citations || 0), downloads: r => -(r.downloads || 0),
+      fair: r => -(r.fair || 0), size: r => -(r.records || 0) }[st.sort];
+    return rs.sort((a, b) => key(a) - key(b) || String(a.title).localeCompare(String(b.title)));
+  }
+
+  function render() {
+    const rs = filtered();
+    $("r-count").textContent = rs.length === R.length ? `${fmtInt(rs.length)} datasets` : `${fmtInt(rs.length)} of ${fmtInt(R.length)} datasets match`;
+    const list = $("results");
+    if (!rs.length) {
+      list.replaceChildren(h("li", { class: "empty" }, "No datasets match these filters. ",
+        h("button", { class: "btn", type: "button", onclick: clear }, "Clear filters")));
+      $("more").hidden = true; return;
+    }
+    list.replaceChildren(...rs.slice(0, st.shown).map(row));
+    $("more").hidden = rs.length <= st.shown;
+    $("more").textContent = `Show ${Math.min(30, rs.length - st.shown)} more`;
+  }
+
+  function row(r) {
+    const fams = r.families.map(f => h("span", { class: "fam" }, h("span", { class: "dot", style: `background:${COLORS[f]}` }), f.split(" (")[0]));
+    return h("li", { class: "result" }, h("button", { type: "button", onclick: () => openDetail(r) },
+      h("div", {}, statusEl(r.fate), h("div", { class: "r-year" }, `ICWSM ${r.year}`)),
+      h("div", {}, h("div", { class: "r-title" }, r.title || "Untitled"),
+        h("div", { class: "r-sub" }, r.name ? h("span", {}, r.name) : null, fams,
+          r.records ? h("span", {}, `${compact(r.records)} ${(r.unit || "records").toLowerCase()}`) : null)),
+      h("div", { class: "r-nums" }, h("div", {}, "FAIR ", h("b", {}, r.fair == null ? "–" : Math.round(r.fair)),
+        h("span", { class: "fairbar", "aria-hidden": "true" }, h("i", { style: `width:${r.fair || 0}%` }))),
+        h("div", {}, r.citations != null ? [h("b", {}, fmtInt(r.citations)), " citations"] : ""))));
+  }
+  render();
+}
+
+function statusEl(fate) {
+  return h("span", { class: "status", title: FATE_HELP[fate] || "" },
+    h("span", { class: "dot", style: `background:${FATE_COLORS[fate] || "var(--never)"}` }), FATE_SHORT[fate] || fate || "Not audited");
+}
+
+/* ======================================================================== Detail dialog */
+function bibtex(r) {
+  const first = (r.authors[0] || "anon").split(" ").at(-1).replace(/[^A-Za-z]/g, "").toLowerCase();
+  const word = (r.title || "").split(/\s+/).find(w => w.length > 3) || "data";
+  return [`@inproceedings{${first}${r.year}${word.replace(/[^A-Za-z]/g, "").toLowerCase()},`,
+    `  title     = {${r.title}},`, `  author    = {${r.authors.join(" and ")}},`,
+    `  booktitle = {Proceedings of the International AAAI Conference on Web and Social Media},`,
+    `  year      = {${r.year}},`, r.paper_doi ? `  doi       = {${r.paper_doi}},` : null, "}"].filter(Boolean).join("\n");
+}
+
+function openDetail(r) {
+  const dl = pairs => h("dl", {}, pairs.filter(p => p[1] != null && p[1] !== "" && !(Array.isArray(p[1]) && !p[1].length))
+    .flatMap(([k, v]) => [h("dt", {}, k), h("dd", {}, Array.isArray(v) ? v.join(", ") : v)]));
+  const fairList = h("ul", { class: "fair-list" }, (META.fair_indicators || []).map((ind, i) => {
+    const ok = r.fair_ind[i];
+    return h("li", {}, h("span", { class: ok ? "yes" : "no", "aria-label": ok ? "Met" : "Not met" }, ok ? "✓" : "✕"),
+      h("span", {}, ind.code), h("span", {}, h("strong", {}, ind.label), ". ", ind.explain));
+  }));
+  const bib = bibtex(r);
+  const copyBtn = h("button", { class: "btn", type: "button", onclick: async e => {
+    try { await navigator.clipboard.writeText(bib); e.target.textContent = "Copied"; }
+    catch { const s = window.getSelection(); const rg = document.createRange(); rg.selectNodeContents(pre); s.removeAllRanges(); s.addRange(rg); e.target.textContent = "Selected, press Ctrl+C"; }
+  } }, "Copy BibTeX");
+  const pre = h("pre", { class: "bib" }, bib);
+  const inner = $("detail-inner");
+  inner.replaceChildren(
+    h("button", { class: "btn detail-close", type: "button", onclick: closeDetail }, "Close"),
+    statusEl(r.fate), h("h2", { id: "d-title" }, r.title || "Untitled"),
+    h("p", { class: "authors" }, `${r.authors.join(", ")}. ICWSM ${r.year}.`),
+    h("p", { style: "margin:0;color:var(--muted)" }, FATE_HELP[r.fate] || ""),
+    h("h3", {}, "Get the data"),
+    dl([["Dataset DOI", r.doi ? link(`https://doi.org/${r.doi}`, r.doi) : null],
+      ["Links", r.urls.length ? h("span", {}, r.urls.map((u, i) => [i ? h("br") : null, link(u)])) : null],
+      ["Code", r.code ? link(r.code) : null], ["Hosted on", r.host], ["Link status", r.status],
+      ["Archived copy", r.wayback === true ? "The Wayback Machine has a snapshot of the landing page" : null],
+      ["Shared as", r.form], ["Access", r.access], ["License", r.license],
+      ["Downloads", r.downloads != null ? `${fmtInt(r.downloads)} (${r.dl_source || "repository counter"})` : null],
+      ["Last checked", r.audited_at ? r.audited_at.slice(0, 10) : null],
+      ["Paper", r.paper_doi ? link(`https://doi.org/${r.paper_doi}`, r.paper_doi) : null]]),
+    h("h3", {}, "What’s in it"),
+    dl([["Dataset name", r.name], ["Platforms", r.platforms], ["Content", r.modalities], ["Size", r.records ? `${fmtInt(r.records)} ${(r.unit || "records").toLowerCase()}` : null],
+      ["Collected", r.start || r.end ? `${r.start || "?"} to ${r.end || "?"}` : null], ["Languages", r.languages],
+      ["About", r.geo], ["Event", r.event_name || (r.event !== "No specific event" ? r.event : null)],
+      ["Collected via closed routes", r.closed]]),
+    h("h3", {}, "Labels and research use"),
+    dl([["Research areas", r.domains], ["Tasks", r.tasks], ["Labels from", r.annotation], ["LLMs used", r.llms],
+      ["Agreement reported", r.iaa == null ? null : r.iaa ? "Yes" : "No"], ["Citations", r.citations != null ? fmtInt(r.citations) : null]]),
+    h("h3", {}, `FAIR indicators: ${r.fair == null ? "–" : Math.round(r.fair)} of 100`), fairList,
+    r.quote ? [h("h3", {}, "In the authors’ words"), h("blockquote", { class: "evidence" }, `“${r.quote}”`)] : null,
+    h("h3", {}, "Cite this paper"), pre, copyBtn,
+    h("p", { style: "font-size:.85rem;color:var(--muted);margin-top:18px" }, `Extracted by an AI model; confidence ${(r.confidence || "–").toLowerCase()}. Last checked ${r.audited_at ? r.audited_at.slice(0, 10) : "–"}. Record ${r.id}. `,
+      safeUrl(META.repo_url) ? h("a", { class: "fix-link", target: "_blank", rel: "noopener",
+        href: `${META.repo_url}/issues/new?labels=correction&title=${encodeURIComponent(`Correction: ${r.id}`)}&body=${encodeURIComponent(`Paper: ${r.title}\nRecord: ${r.id}\n\nWhat is wrong, and what it should be (a page or section of the paper helps):\n`)}` },
+        "Suggest a correction for this entry") : null));
+  const dlg = $("detail");
+  if (typeof dlg.showModal === "function") { if (!dlg.open) dlg.showModal(); } else dlg.setAttribute("open", "");
+  try { history.replaceState(null, "", `#paper-${r.id}`); } catch (e) { /* ignore */ }
+}
+function closeDetail() {
+  const dlg = $("detail");
+  if (typeof dlg.close === "function") dlg.close(); else dlg.removeAttribute("open");
+}
+$("detail").addEventListener("close", () => { try { history.replaceState(null, "", "#catalog"); } catch (e) { /* ignore */ } });
+$("detail").addEventListener("click", e => { if (e.target === $("detail")) closeDetail(); });
+function openFromHash() {
+  const m = (location.hash || "").match(/^#paper-(.+)$/);
+  if (m) { const r = R.find(x => x.id === decodeURIComponent(m[1])); if (r) openDetail(r); }
+}
+
+/* ======================================================================== Cite + export */
+function Cite() {
+  const audited = R.map(r => r.audited_at).filter(Boolean).sort().at(-1);
+  $("audit-date").textContent = audited ? audited.slice(0, 10) : "the audit date";
+  $("doi-line").replaceChildren(META.zenodo_doi
+    ? h("span", {}, "Archived on Zenodo: ", link(`https://doi.org/${META.zenodo_doi}`, META.zenodo_doi))
+    : "A Zenodo DOI is added at release.");
+  if (safeUrl(META.repo_url)) document.querySelectorAll(".fix-any").forEach(a => {
+    a.href = `${META.repo_url}/issues/new?labels=correction&title=Correction`; a.target = "_blank"; a.rel = "noopener"; });
+  const gen = (META.generated_at || "").slice(0, 4) || String(new Date().getFullYear());
+  $("bib-site").textContent = ["@misc{icwsm_datahub,", META.author_name ? `  author = {${META.author_name}},` : null,
+    "  title  = {{ICWSM-DataHub}: a catalog and accessibility audit of ICWSM Dataset Track datasets (2020--2026)},",
+    `  year   = {${gen}},`, `  note   = {Catalog version ${META.catalog_version || "1.0.0"}},`,
+    safeUrl(META.site_url) ? `  url    = {${META.site_url}},` : null, META.zenodo_doi ? `  doi    = {${META.zenodo_doi}},` : null, "}"].filter(Boolean).join("\n");
+  $("footer-text").textContent = `${META.author_name ? META.author_name + ". " : ""}ICWSM-DataHub, catalog version ${META.catalog_version || "–"}, built ${(META.generated_at || "").slice(0, 10)}. Code under the MIT license, data under CC BY 4.0.`;
+}
+
+function exportCsv(rs) {
+  const cols = ["id", "year", "title", "name", "families", "fate", "fair", "doi", "urls", "records", "citations", "downloads"];
+  const esc = v => { const s = Array.isArray(v) ? v.join("; ") : (v == null ? "" : String(v)); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
+  const csv = [cols.join(","), ...rs.map(r => cols.map(c => esc(r[c])).join(","))].join("\n");
+  const a = h("a", { href: URL.createObjectURL(new Blob([csv], { type: "text/csv" })), download: "icwsm_datahub_selection.csv" });
+  document.body.append(a); a.click(); a.remove();
+}
+
+loadData().then(init).catch(err => { $("load-error").hidden = false; console.error(err); });
+})();
+</script>
+</body>
+</html>

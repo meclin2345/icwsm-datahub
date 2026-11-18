@@ -1,0 +1,168 @@
+{
+  "paper_id": "2024_41022_icwsm_ohn_17a4f7",
+  "year": 2024,
+  "pdf_filename": "41022-ICWSM.OhN.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:04:13+00:00",
+    "usage": [
+      {
+        "input_tokens": 23469,
+        "output_tokens": 1309,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011hM7ca144rXgTWJ4pOKUnmRpJ",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 62279,
+    "sha256": "8ef25ce675d7f678c60cc0530b1c94a8a4bcbacd43a34050ed24a59723e334ef",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://github.com/socius-org/sentibank",
+      "https://pypi.org/project/sentibank/",
+      "https://zenodo.org/doi/10.5281/zenodo.10514542"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.10514542"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "sentibank: A Unified Resource of Sentiment Lexicons and Dictionaries",
+      "authors": [
+        "Nick Oh"
+      ],
+      "author_countries": [],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "sentibank",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "GitHub",
+        "Python Package Index",
+        "Zenodo"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Other",
+      "total_records": -1,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "a large-scale unified database consolidating 15 original sentiment dictionaries and 43 preprocessed dictionaries, spanning 7 genres and 6 domains",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Other"
+      ],
+      "supported_tasks": [
+        "Sentiment or emotion analysis",
+        "Misinformation or claim detection",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "Validating New Sentiment Lexicons",
+        "Baseline Sentiment Analysis"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "GitHub or GitLab",
+        "Zenodo",
+        "Other"
+      ],
+      "dataset_urls": [
+        "https://github.com/socius-org/sentibank",
+        "https://pypi.org/project/sentibank/",
+        "https://zenodo.org/doi/10.5281/zenodo.10514542"
+      ],
+      "persistent_doi": "10.5281/zenodo.10514542",
+      "code_repository_url": "https://github.com/socius-org/sentibank",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY-NC-SA 4.0",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [
+        "CSV",
+        "PICKLE",
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is hosted in a public GitHub repository (https://github.com/socius-org/sentibank), Python Package Index (https://pypi.org/project/sentibank/), and Zenodo (https://zenodo.org/doi/10.5281/zenodo.10514542) under the CC BY-NC-SA 4.0 licence",
+      "scale_quote": "a large-scale unified database consolidating 15 original sentiment dictionaries and 43 preprocessed dictionaries, spanning 7 genres and 6 domains",
+      "annotation_quote": "",
+      "ethics_quote": "Researchers and practitioners building models utilising sentibank are highly advised to carefully consider issues highlighted in the Ethics Sheet for Sentiment Analysis by Venkit et al. (2023, pp. 13750-13751)",
+      "license_quote": "The dataset is hosted in a public GitHub repository (https://github.com/socius-org/sentibank), Python Package Index (https://pypi.org/project/sentibank/), and Zenodo (https://zenodo.org/doi/10.5281/zenodo.10514542) under the CC BY-NC-SA 4.0 licence, allowing sharing and adaptation for non-commercial purposes with attribution",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Platform fields reflect the host sources of the dictionaries (GitHub, PyPI, Zenodo) rather than content platforms; no author country affiliation was printed."
+    }
+  }
+}

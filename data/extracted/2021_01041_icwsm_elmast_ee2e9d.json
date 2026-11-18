@@ -1,0 +1,181 @@
+{
+  "paper_id": "2021_01041_icwsm_elmast_ee2e9d",
+  "year": 2021,
+  "pdf_filename": "01041-ICWSM.ElmasT.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:29:06+00:00",
+    "usage": [
+      {
+        "input_tokens": 16316,
+        "output_tokens": 888,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011MXdN7KEmYV24ufgbRyBldP2e",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 35133,
+    "sha256": "330f6985f43fde5da412754e4a12efbba64008a64d2e24d402445360966acafd",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.4439509",
+      "https://github.com/tugrulz/CensoredTweets",
+      "https://kinsta.com/wordpress-market-share/",
+      "https://ooni.org/",
+      "https://www.lumendatabase.org"
+    ],
+    "urls_in_references": [
+      "https://www.bbc.com/news/worldeurope-39754909",
+      "https://www.redditinc.com/policies/",
+      "https://www.buzzfeednews.com/article/",
+      "https://developer.twitter.com/en/developer-terms/agreement",
+      "https://www.dw.com/en/turkeys-military-offensive-againstkurdish-held-afrin-what-you-need-to-know/a-42287725",
+      "https://blog.twitter.com/en"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.4439509"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Dataset of State-Censored Tweets",
+      "authors": [
+        "Tu˘grulcan Elmas",
+        "Rebekah Overdorf",
+        "Karl Aberer"
+      ],
+      "author_countries": [
+        "CH"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Twitter Stream Grab",
+        "Twitter User Lookup API endpoint"
+      ],
+      "temporal_coverage_start": "2012",
+      "temporal_coverage_end": "2020-07",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 22667196,
+      "num_accounts_or_users": 155715,
+      "scale_description_verbatim": "583,437 censored tweets from 155,715 unique users. 4,301 censored accounts. 22,083,759 additional tweets from users who posted at least one censored tweet and retweets of those tweets.",
+      "modalities": [
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "TR",
+        "DE",
+        "FR",
+        "IN",
+        "RU"
+      ],
+      "event_category": "Armed conflict or war",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Content moderation and platform governance",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Topic or content classification"
+      ],
+      "tasks_verbatim": [
+        "exploratory analysis",
+        "building a hate speech dataset",
+        "hate speech detection"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.4439509"
+      ],
+      "persistent_doi": "10.5281/zenodo.4439509",
+      "code_repository_url": "https://github.com/tugrulz/CensoredTweets",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The dataset consists only of tweet ids and user ids, complying with Twitter Terms of Service; no PII in content is shared.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We made the dataset available at Zenodo: https://doi.org/10.5281/zenodo.4439509. The dataset only consists of tweet ids and user ids in order to comply with Twitter Terms of Service.",
+      "scale_quote": "We release a dataset of 583,437 tweets by 155,715 users that were censored between 2012-2020 July.",
+      "annotation_quote": "",
+      "ethics_quote": "Sharing only the ids also complies with Twitter’s Terms of Service.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "num_datasets_released coded as 1 because the paper presents the censored tweets, censored accounts and supplementary tweets as one released dataset; total_records sums all three components (583,437 + 4,301 + 22,083,759) and may double-count accounts vs tweets. languages_iso is empty because the paper only lists per-country language frequencies for its analysis, not a stated dataset language set."
+    }
+  }
+}

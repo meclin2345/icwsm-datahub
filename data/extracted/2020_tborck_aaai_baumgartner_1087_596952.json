@@ -1,0 +1,195 @@
+{
+  "paper_id": "2020_tborck_aaai_baumgartner_1087_596952",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_Baumgartner-1087.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:27:04+00:00",
+    "usage": [
+      {
+        "input_tokens": 23178,
+        "output_tokens": 1202,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011lZyNKaNJQZ16824lkw9VXb4A",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 56839,
+    "sha256": "8ba8b6d542302c29af687b8e9deea8ab162ba57b3f9184a55afbb2db83c7f475",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://files.pushshift.io/reddit/",
+      "https://pushshift.io/api-parameters/",
+      "https://www.reddit.com/r/AskReddit/|",
+      "http://ndjson.org/",
+      "https://www.go-fair.org/fair-principles/",
+      "https://zenodo.org/record/3608135"
+    ],
+    "urls_in_references": [
+      "https://nyti.ms/39ner99",
+      "https://archive.org/",
+      "https://mck.co/2WHYgAx",
+      "https://bit.ly/39i03yZ",
+      "https://github.com/",
+      "http://site.icu-project.org/home",
+      "https://www.elastic.co/",
+      "https://data.stackexchange",
+      "https://dumps",
+      "https://bit.ly/33NTFhx",
+      "https://bit.ly/3akqFAw",
+      "http://www",
+      "https://bit.ly/2JgCkEP",
+      "https://bit.ly/2WKrfnl",
+      "https://bit.ly/3amqBQV",
+      "https://www.reddit.com/dev/",
+      "https://bit.ly/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.3608135"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Pushshift Reddit Dataset",
+      "authors": [
+        "Jason Baumgartner",
+        "Savvas Zannettou",
+        "Brian Keegan",
+        "Megan Squire",
+        "Jeremy Blackburn"
+      ],
+      "author_countries": [],
+      "is_industry_collaboration": false,
+      "contribution_type": "Ongoing archive or data collection effort",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Pushshift Reddit dataset",
+      "platforms": [
+        "Reddit"
+      ],
+      "platform_names_verbatim": [
+        "Reddit"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Pushshift API",
+        "Slackbot",
+        "PostgreSQL",
+        "Elastic Search"
+      ],
+      "temporal_coverage_start": "2005-06",
+      "temporal_coverage_end": "2019-04",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 6253109583,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "651,778,198 submissions and 5,601,331,385 comments posted on 2,888,885 subreddits",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Network or graph"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Content moderation and platform governance",
+        "Misinformation and fact-checking"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Entity or information extraction",
+        "Network or information diffusion analysis"
+      ],
+      "tasks_verbatim": [],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Personal or lab website, Google Drive, Dropbox",
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://files.pushshift.io/reddit/",
+        "https://zenodo.org/record/3608135"
+      ],
+      "persistent_doi": "10.5281/zenodo.3608135",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "In this paper, we assist to the goal of providing open APIs and data dumps to researchers by releasing the Pushshift Reddit dataset.",
+      "scale_quote": "The dataset consists of 651,778,198 submissions and 5,601,331,385 comments posted on 2,888,885 subreddits.",
+      "annotation_quote": "",
+      "ethics_quote": "",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not explicitly state a total combined record count; the sum of submissions and comments (6,253,109,583) was used for total_records. The paper does not explicitly mention code-mixing, so includes_code_mixing is set to false."
+    }
+  }
+}

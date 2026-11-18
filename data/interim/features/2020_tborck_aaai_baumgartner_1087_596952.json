@@ -1,0 +1,39 @@
+{
+  "page_count": 10,
+  "n_chars": 56839,
+  "sha256": "8ba8b6d542302c29af687b8e9deea8ab162ba57b3f9184a55afbb2db83c7f475",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://files.pushshift.io/reddit/",
+    "https://pushshift.io/api-parameters/",
+    "https://www.reddit.com/r/AskReddit/|",
+    "http://ndjson.org/",
+    "https://www.go-fair.org/fair-principles/",
+    "https://zenodo.org/record/3608135"
+  ],
+  "urls_in_references": [
+    "https://nyti.ms/39ner99",
+    "https://archive.org/",
+    "https://mck.co/2WHYgAx",
+    "https://bit.ly/39i03yZ",
+    "https://github.com/",
+    "http://site.icu-project.org/home",
+    "https://www.elastic.co/",
+    "https://data.stackexchange",
+    "https://dumps",
+    "https://bit.ly/33NTFhx",
+    "https://bit.ly/3akqFAw",
+    "http://www",
+    "https://bit.ly/2JgCkEP",
+    "https://bit.ly/2WKrfnl",
+    "https://bit.ly/3amqBQV",
+    "https://www.reddit.com/dev/",
+    "https://bit.ly/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.3608135"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

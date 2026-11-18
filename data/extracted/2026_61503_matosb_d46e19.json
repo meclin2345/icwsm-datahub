@@ -1,0 +1,193 @@
+{
+  "paper_id": "2026_61503_matosb_d46e19",
+  "year": 2026,
+  "pdf_filename": "61503-MatosB.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:12:14+00:00",
+    "usage": [
+      {
+        "input_tokens": 21492,
+        "output_tokens": 1298,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011WR9F9Ugqbbaj78EB3NefNmX0",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 57842,
+    "sha256": "52ee1679d18a39fa770547649474e4d2ea8123db116e7704cb1125527f1e7296",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.globalmediainsight.com/blog/youtube-usersstatistics/",
+      "https://www.aosfatos.org/",
+      "https://escriba.aosfatos.org/en/",
+      "https://huggingface.co/neuralmind/bert-base-portuguesecased",
+      "https://github.com/doccano/doccano",
+      "https://zenodo.org/records/19097541",
+      "https://huggingface.co/datasets/brenomatos/msd",
+      "https://github.com/brenomatos/msd",
+      "https://huggingface.co/unicamp-dl/ptt5-base-portuguesevocab"
+    ],
+    "urls_in_references": [
+      "https://www.aosfatos.org/todas-as-declaracoesde-bolsonaro/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Misinformation Span Detection in Videos via Audio Transcripts",
+      "authors": [
+        "Breno Matos",
+        "Rennan C. Lima",
+        "Savvas Zannettou",
+        "Fabrício Benevenuto",
+        "Rodrygo L.T. Santos"
+      ],
+      "author_countries": [
+        "DE",
+        "BR",
+        "NL"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "BOL4Y and EI22",
+      "platforms": [
+        "YouTube",
+        "Facebook",
+        "TikTok"
+      ],
+      "platform_names_verbatim": [
+        "YouTube",
+        "Facebook",
+        "TikTok"
+      ],
+      "collection_methods": [
+        "Data donation (participants export their own data)",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "OpenAI Whisper",
+        "Escriba"
+      ],
+      "temporal_coverage_start": "2019",
+      "temporal_coverage_end": "2022",
+      "primary_record_unit": "Other",
+      "total_records": 341052,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "two datasets of more than 500 videos with over 2,400 segments containing annotated fact-checked claims",
+      "modalities": [
+        "Text",
+        "Video",
+        "Audio"
+      ],
+      "languages_iso": [
+        "pt"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "BR"
+      ],
+      "event_category": "Elections",
+      "event_name": "2022 Brazilian presidential election",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Misinformation or claim detection"
+      ],
+      "tasks_verbatim": [
+        "misinformation span detection"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 2433,
+      "num_annotators": 2,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.9924,
+      "iaa_summary_verbatim": "resulting in 2,355 total segments with a 99.24% agreement rate between annotators",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "Hugging Face Hub",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/19097541",
+        "https://huggingface.co/datasets/brenomatos/msd"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/brenomatos/msd",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "All datasets are available in a Zenodo repository (https://zenodo.org/records/19097541)",
+      "scale_quote": "resulting in two datasets of more than 500 videos with over 2,400 segments containing annotated fact-checked claims",
+      "annotation_quote": "We use the open-source text annotation tool Doccano to speed up the annotation procedure.",
+      "ethics_quote": "Did you describe steps taken to prevent or mitigate potential negative outcomes of the research, such as data and model documentation, data anonymization, responsible release, access control, and the reproducibility of findings? Yes",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "BOL4Y segment counts differ slightly across the paper (336,855 vs 336,885 negatives; 339K total in Table 1). The 'upon request' HuggingFace hosting is coded as open download because the Zenodo CSV release is directly accessible and no access restriction is stated."
+    }
+  }
+}

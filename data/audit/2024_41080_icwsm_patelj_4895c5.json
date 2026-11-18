@@ -1,0 +1,167 @@
+{
+  "summary": {
+    "paper_id": "2024_41080_icwsm_patelj_4895c5",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 3,
+    "any_url_alive": true,
+    "primary_url": "https://zenodo.org/records/10516043",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/10516043",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 5,
+    "total_size_mb": 20971.27,
+    "file_extensions": ".ndjson",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 873,
+    "downloads_unique": 849,
+    "views_total": 524,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-nc-sa-2.0",
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": 1,
+    "hf_downloads_30d": 806,
+    "code_url": "https://github.com/idramalab/iDRAMA-scored-2024",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 3,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2024-11-09T16:53:54Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://zenodo.org/records/10516043",
+      "resolved_url": "https://zenodo.org/records/10516043",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:28+00:00",
+      "error": null
+    },
+    {
+      "url": "https://hf.co/datasets/iDRAMALab/iDRAMA-scored-2024",
+      "resolved_url": "https://huggingface.co/datasets/iDRAMALab/iDRAMA-scored-2024",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:29+00:00",
+      "error": null
+    },
+    {
+      "url": "https://github.com/idramalab/iDRAMA-scored-2024",
+      "resolved_url": "https://github.com/idramalab/iDRAMA-scored-2024",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:32+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "10516043",
+    "concept_doi": "10.5281/zenodo.10516042",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-nc-sa-2.0",
+    "file_count": 5,
+    "total_size_mb": 20971.27,
+    "file_extensions": [
+      ".ndjson"
+    ],
+    "stats_raw": {
+      "downloads": 873,
+      "unique_downloads": 849,
+      "views": 524,
+      "unique_views": 486,
+      "version_downloads": 873,
+      "version_unique_downloads": 849,
+      "version_unique_views": 486,
+      "version_views": 524
+    },
+    "downloads": 873,
+    "unique_downloads": 849,
+    "views": 524,
+    "unique_views": 486,
+    "version_downloads": 873,
+    "version_unique_downloads": 849,
+    "publication_date": "2024-05-16"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": true,
+    "repo": "iDRAMALab/iDRAMA-scored-2024",
+    "gated": false,
+    "restricted": false,
+    "account_required": false,
+    "private": false,
+    "disabled": false,
+    "downloads_30d": 806,
+    "downloads_all_time": 17271,
+    "likes": 1,
+    "file_count": 85,
+    "file_extensions": [
+      ".md",
+      ".parquet",
+      ".png"
+    ],
+    "license": "cc-by-nc-sa-4.0",
+    "last_modified": "2024-11-05T14:57:44.000Z"
+  },
+  "github_data": {
+    "found": true,
+    "repo": "idramalab/iDRAMA-scored-2024",
+    "stars": 3,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-11-09T16:53:54Z",
+    "created_at": "2024-01-16T01:12:23Z",
+    "size_mb": 0.03,
+    "license": null
+  },
+  "github_code": {
+    "found": true,
+    "repo": "idramalab/iDRAMA-scored-2024",
+    "stars": 3,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-11-09T16:53:54Z",
+    "created_at": "2024-01-16T01:12:23Z",
+    "size_mb": 0.03,
+    "license": null
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

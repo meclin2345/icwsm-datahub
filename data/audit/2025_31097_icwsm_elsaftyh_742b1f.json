@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "paper_id": "2025_31097_icwsm_elsaftyh_742b1f",
+    "year": 2025,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 0,
+    "any_url_alive": false,
+    "primary_url": null,
+    "primary_url_status": "No dataset link",
+    "primary_resolved_url": null,
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": null,
+    "file_count": null,
+    "total_size_mb": null,
+    "file_extensions": "",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": null,
+    "downloads_unique": null,
+    "views_total": null,
+    "downloads_metric_source": null,
+    "repo_license": null,
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

@@ -1,0 +1,20 @@
+{
+  "page_count": 9,
+  "n_chars": 43072,
+  "sha256": "0898dc2bf68c5e02375c85cf014120f2fa1f0c1aa23ba0ef83f8f8ee78e4826f",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.7910/",
+    "https://github.com/",
+    "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi",
+    "https://sqlitebrowser.org/",
+    "https://doi.org/10.7910/DVN/YHWTFC"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7910/DVN/YHWTFC"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

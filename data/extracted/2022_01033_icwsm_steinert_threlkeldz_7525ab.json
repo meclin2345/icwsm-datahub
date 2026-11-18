@@ -1,0 +1,171 @@
+{
+  "paper_id": "2022_01033_icwsm_steinert_threlkeldz_7525ab",
+  "year": 2022,
+  "pdf_filename": "01033-ICWSM.Steinert-ThrelkeldZ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:31:33+00:00",
+    "usage": [
+      {
+        "input_tokens": 22732,
+        "output_tokens": 1247,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Nn5VfqFaF1jsQAZFkp5CWAsj",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 53268,
+    "sha256": "1c479fcebe7ac047ad3865bf7f819506925cce3f3780b04473720dab38fee6ad",
+    "checklist_detected": false,
+    "urls_in_body": [],
+    "urls_in_references": [
+      "https://doi.org/10.7910/DVN/28075",
+      "https://www.lapatilla.com/2014/11/06/profesoresprotestaron-cerquita-de-miraflores-fotos/",
+      "https://www",
+      "https://doi.org/10"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "MMCHIVED: Multimodal Chile and Venezuela Protest Event Data",
+      "authors": [
+        "Zachary Steinert-Threlkeld",
+        "Jungseock Joo"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MMCHIVED",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "one percent streaming endpoint",
+        "Twitter API"
+      ],
+      "temporal_coverage_start": "2014-11-01",
+      "temporal_coverage_end": "2019-12-31",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": -1,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "MMCHIVED records protests in Venezuela from November 1, 2014 - February 10, 2015 and in Chile from October 1, 2019 - December 31, 2019.",
+      "modalities": [
+        "Text",
+        "Image"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "CL",
+        "VE"
+      ],
+      "event_category": "Protest or social movement",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Social movements and activism",
+        "Crisis, disaster and conflict informatics"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Multimodal understanding (image/video/audio)",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "measurement of protest size, protester and state violence, protester demographics, and emotions",
+        "modeling protest dynamics"
+      ],
+      "annotation_paradigms": [
+        "Crowdworkers (MTurk, Prolific, etc.)",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 40764,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Vision, audio or multimodal models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/3BTUXJ"
+      ],
+      "persistent_doi": "10.7910/DVN/3BTUXJ",
+      "code_repository_url": "",
+      "distribution_form": "Aggregated statistics, embeddings or derived features only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "No images or individual tweets are shared; all metadata are aggregated at the city-day level.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset can be accessed via Dataverse (Steinert-Threlkeld and Joo 2021).",
+      "scale_quote": "MMCHIVED records protests in Venezuela from November 1, 2014 - February 10, 2015 and in Chile from October 1, 2019 - December 31, 2019.",
+      "annotation_quote": "A CNN is trained on these data and applied to tweets, generating 40,764 images for workers on Amazon Mechanical Turk (AMT) to code.",
+      "ethics_quote": "To protect the identities of protest participants and Twitter users, we do not share any images or individual tweets.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper reports no total tweet count for MMCHIVED, so total_records remains -1; individual-level PII exclusion is coded as anonymization, while the released city-day files contain no user identifiers."
+    }
+  }
+}

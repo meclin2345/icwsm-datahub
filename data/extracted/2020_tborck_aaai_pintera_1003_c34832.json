@@ -1,0 +1,207 @@
+{
+  "paper_id": "2020_tborck_aaai_pintera_1003_c34832",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_PinterA-1003.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:06+00:00",
+    "usage": [
+      {
+        "input_tokens": 15943,
+        "output_tokens": 1258,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011ALbh7Zseq07P10FTdCQi4ltp",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 8,
+    "n_chars": 34032,
+    "sha256": "d0819cbb8a3464244d3a28088101ce7bb175306431a1e2349410235175665155",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "http://yelp.com",
+      "https://www.tripadvisor.com",
+      "https://www.metacritic.com",
+      "https://pitchfork.com",
+      "https://www.pandora.com",
+      "https://newsroom.spotify.com/company-info/",
+      "https://developer.spotify.com/documentation/web-api/",
+      "https://www.spotify.com/us/discoverweekly/",
+      "https://artists.spotify.com/blog/say-hello-to-release-radar",
+      "https://obscurifymusic.com/",
+      "https://nijianmo.github.io/amazon/index.html",
+      "https://selenium.dev",
+      "https://pitchfork.com/reviews/albums/",
+      "https://docs.python.org/3/library/urllib.request.html",
+      "https://beautiful-soup-4.readthedocs.io/en/latest/",
+      "https://docs.python.org/3/library/difflib.html",
+      "https://zenodo.org/record/3603330#.XheASC3MzOQ",
+      "https://github.com/cuinfoscience/objectivelyreviewed",
+      "https://www.condenast.com/user-agreement/",
+      "https://developer.spotify.com/terms/#iv",
+      "http://creativecommons.org/licenses/by/4.0/",
+      "https://www.gnu.org/licenses/gpl-3.0.en.html",
+      "https://developer.spotify.com/documentation/web-",
+      "https://developer.spotify.com/documentation/webapi/reference/tracks/get-audio-features/",
+      "https://www.pandora.com/about/mgp"
+    ],
+    "urls_in_references": [
+      "https://blogs.brown.edu/econ-1400-s01/files/2015/",
+      "https://www.instagram.com/p/BMAbBslAHgx/",
+      "https://www.viget.com/articles/auto-generated-musicattributes-and-the-stories-they-tell/",
+      "https://www.nsgrantham.com/pitchfork-reviews",
+      "http://ethicsgirls"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.3603330"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "P4KxSpotify: A Dataset of Pitchfork Music Reviews and Spotify Musical Features",
+      "authors": [
+        "Anthony T. Pinter",
+        "Jacob M. Paul",
+        "Jessie Smith",
+        "Jed R. Brubaker"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "P4KxSpotify",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Pitchfork",
+        "Spotify"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Selenium",
+        "URLlib.request",
+        "BeautifulSoup",
+        "Spotify API",
+        "difflib"
+      ],
+      "temporal_coverage_start": "1957",
+      "temporal_coverage_end": "2019",
+      "primary_record_unit": "Other",
+      "total_records": 18403,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The P4KxSpotify dataset consists of 18,403 records described by 18 columns.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Influencers, marketing and the platform economy",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Recommendation or ranking",
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "Investigating Bias in Reviews",
+        "Applications in Recommendation Systems",
+        "Applications in Computational Musicology"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/3603330#.XheASC3MzOQ",
+        "https://github.com/cuinfoscience/objectivelyreviewed"
+      ],
+      "persistent_doi": "10.5281/zenodo.3603330",
+      "code_repository_url": "https://github.com/cuinfoscience/objectivelyreviewed",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons - Attribution - 4.0 International (CC-NY 4.0)",
+      "license_category": "CC BY",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The P4KxSpotify dataset is published on Zenodo at https://zenodo.org/record/3603330#.XheASC3MzOQ and can be referenced with the DOI 10.5281/zenodo.3603330.",
+      "scale_quote": "The P4KxSpotify dataset consists of 18,403 records described by 18 columns.",
+      "annotation_quote": "",
+      "ethics_quote": "While both Conde Nast (Pitchfork’s parent company) and Spotify have provisions in their terms of service and/or user agreement prohibiting scraping",
+      "license_quote": "The dataset is released under the Creative Commons - Attribution - 4.0 International (CC-NY 4.0) license.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper notes the authors mislabeled the license as 'CC-NY 4.0' although the intended license is CC BY 4.0. The primary record unit is ambiguous (albums vs. reviews)."
+    }
+  }
+}

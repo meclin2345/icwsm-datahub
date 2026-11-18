@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "paper_id": "2022_01100_icwsm_alvarezr_d6bfd5",
+    "year": 2022,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "https://zenodo.org/record/5851847",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/5851847",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 2,
+    "total_size_mb": 1.1,
+    "file_extensions": ".csv, .docx",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 793,
+    "downloads_unique": 667,
+    "views_total": 1941,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://zenodo.org/record/5851847",
+      "resolved_url": "https://zenodo.org/records/5851847",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:24+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "5851847",
+    "concept_doi": "10.5281/zenodo.5851686",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 2,
+    "total_size_mb": 1.1,
+    "file_extensions": [
+      ".csv",
+      ".docx"
+    ],
+    "stats_raw": {
+      "downloads": 793,
+      "unique_downloads": 667,
+      "views": 1941,
+      "unique_views": 1835,
+      "version_downloads": 603,
+      "version_unique_downloads": 502,
+      "version_unique_views": 1022,
+      "version_views": 1099
+    },
+    "downloads": 793,
+    "unique_downloads": 667,
+    "views": 1941,
+    "unique_views": 1835,
+    "version_downloads": 603,
+    "version_unique_downloads": 502,
+    "publication_date": "2022-01-14"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

@@ -1,0 +1,184 @@
+{
+  "paper_id": "2021_01068_icwsm_crawfordb_4d22a6",
+  "year": 2021,
+  "pdf_filename": "01068-ICWSM.CrawfordB.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:30:03+00:00",
+    "usage": [
+      {
+        "input_tokens": 19989,
+        "output_tokens": 1243,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011eFtKLTxUf99KE9hIL76GlIQC",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 56251,
+    "sha256": "e0137ca8a0921713215306df659d57ef32b9614b913860ad358f2d18a5da6318",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.4669960",
+      "https://comfyneetpepe.tumblr.com/",
+      "http://knowyourmeme.com"
+    ],
+    "urls_in_references": [
+      "https://gnet-research.org/2020/02/04/accelerationismin-america-threat-perceptions/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.4669960"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Memes, Radicalisation, and the Promotion of Violence on Chan Sites",
+      "authors": [
+        "Blyth Crawford",
+        "Florence Keen",
+        "Guillermo Suarez-Tangil"
+      ],
+      "author_countries": [
+        "GB",
+        "ES"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "4chan/8kun/Imageboards"
+      ],
+      "platform_names_verbatim": [
+        "chan sites",
+        "4chan",
+        "8kun",
+        "/pol/",
+        "/k/"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "TOR (The Onion Router)",
+        "Perceptual Hashing",
+        "DBSCAN"
+      ],
+      "temporal_coverage_start": "2020-03",
+      "temporal_coverage_end": "2020-06",
+      "primary_record_unit": "Images or memes",
+      "total_records": 135000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "dataset of 135K images across different chans",
+      "modalities": [
+        "Image",
+        "Tabular user or post metadata",
+        "Network or graph"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Hate speech, toxicity and harassment",
+        "Extremism and radicalization"
+      ],
+      "supported_tasks": [
+        "Multimodal understanding (image/video/audio)",
+        "Network or information diffusion analysis",
+        "Topic or content classification",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "determine the most popular images",
+        "track how images are discussed",
+        "examine the visual similarity between memes",
+        "examine dominant themes in far-right online spaces"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.4669960"
+      ],
+      "persistent_doi": "10.5281/zenodo.4669960",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "To foster research in the area, we make our dataset available: https://doi.org/10.5281/zenodo.4669960",
+      "scale_quote": "Over all we collect a dataset of 135K images across different chans",
+      "annotation_quote": "",
+      "ethics_quote": "This study has been conducted with approval from the Centre for Research and Evidence on Security Threats' (CREST) Security Research Ethics Committee (SREC) in addition to King's College London's Research Ethics Committee",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states the dataset consists of 135K images but also refers to 'the top 200 images shared within each of the chan sites' and 'top 200 images shared between chan sites', making it unclear if 135K is the total collected or if it comprises two subsets of 200 each from 10 sites (4000 total)."
+    }
+  }
+}

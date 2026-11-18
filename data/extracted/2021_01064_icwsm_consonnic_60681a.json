@@ -1,0 +1,202 @@
+{
+  "paper_id": "2021_01064_icwsm_consonnic_60681a",
+  "year": 2021,
+  "pdf_filename": "01064-ICWSM.ConsonniC.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:29:31+00:00",
+    "usage": [
+      {
+        "input_tokens": 20671,
+        "output_tokens": 1314,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011WlhrJuASFMjKdKaQmDSAoPX1",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 52060,
+    "sha256": "51afe18aff7fd0eaf1ff420428b911462eb3f2b652aff376a96ecb1b42187e9d",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.microsoft.com/en-us/research/project/geolifebuilding-social-networks-using-human-location-history/#!",
+      "https://sites.google.com/site/yangdingqi/home/foursquaredataset",
+      "https://data.world/datasets/trips",
+      "https://zenodo.org/record/4027465",
+      "https://github.com/MoTiV-project/dataanalysis",
+      "https://www.oecd.org/",
+      "https://openweathermap.org/",
+      "http://epsg.io/7030-ellipsoid"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10.1007/",
+      "https://ideas.repec.org/",
+      "https://ideas.repec.org/a/gam/",
+      "https://doi.org/10.1007/s10796-015-9600-3",
+      "https://doi.org/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "What’s Your Value of Travel Time? Collecting Traveler-Centered Mobility Data via Crowdsourcing",
+      "authors": [
+        "Cristian Consonni",
+        "Silvia Basile",
+        "Matteo Manca",
+        "Ludovico Boratto",
+        "André Freitas",
+        "Tatiana Kovacikova",
+        "Ghadir Pourhashem",
+        "Yannick Cornet"
+      ],
+      "author_countries": [
+        "ES",
+        "PT",
+        "SK"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MoTiV",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "dedicated mobile application",
+        "Woorti"
+      ],
+      "collection_methods": [
+        "Data donation (participants export their own data)",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Woorti",
+        "OpenWeatherMap"
+      ],
+      "temporal_coverage_start": "2019-05-01",
+      "temporal_coverage_end": "2019-12-13",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 64098,
+      "num_accounts_or_users": 3269,
+      "scale_description_verbatim": "The dataset is comprised of 13 tables saved as commaseparated value (.csv) files:",
+      "modalities": [
+        "Text",
+        "Network or graph",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Geospatial or mobility"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "BE",
+        "HR",
+        "FI",
+        "FR",
+        "IT",
+        "NO",
+        "PT",
+        "SK",
+        "ES",
+        "CH"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Other"
+      ],
+      "supported_tasks": [
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "comparing corresponding trip legs with different transport modes, studying experience factors that negatively impact users",
+        "User profiling and clustering",
+        "Recommender systems",
+        "Cost-benefit Analyses"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/4027465"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/MoTiV-project/dataanalysis",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Leg coordinates are anonymized based on urban/suburban/rural classification using OECD functional urban area data, with latitude and longitude rounded to varying precision (third decimal for urban, rounded to 0.5 at third decimal for sub-urban, rounded to 0.5 at second decimal for rural).",
+      "discusses_platform_tos": false,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset can be downloaded at: https://zenodo.org/record/4027465.",
+      "scale_quote": "The dataset is comprised of 13 tables saved as commaseparated value (.csv) files:",
+      "annotation_quote": "",
+      "ethics_quote": "The data collection process was overseen and approved by an independently appointed ethics advisor and the ethics committee at the University of Zilina, MoTiV’s coordinator.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper does not state a license or mention the FAIR principles; total record counts are only given for the case-study sample (Table 5) rather than for the full released dataset, and no explicit dataset size in users/trips is provided for the full release."
+    }
+  }
+}

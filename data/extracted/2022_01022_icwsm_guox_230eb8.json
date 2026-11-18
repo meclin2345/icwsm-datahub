@@ -1,0 +1,179 @@
+{
+  "paper_id": "2022_01022_icwsm_guox_230eb8",
+  "year": 2022,
+  "pdf_filename": "01022-ICWSM.GuoX.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:31:27+00:00",
+    "usage": [
+      {
+        "input_tokens": 15371,
+        "output_tokens": 1197,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011AQMWvVPiyFW0x4UK13Eb9lOp",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 6,
+    "n_chars": 29311,
+    "sha256": "b9108ea227d5c958d9c006e3aab2c54fa83344c9838f3b053fe174c9b8227dcb",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://transparency.twitter.com/en/reports/informationoperations.html",
+      "https://www.reddit.com/r/announcements/comments/8bb85p/",
+      "https://doi.org/10.7910/DVN/NO3I34",
+      "https://archive.org/details/twitterstream",
+      "https://pypi.org/project/ImageHash/",
+      "http://xx"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7910/DVN/NO3I34"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "A Large-Scale Longitudinal Multimodal Dataset of State-Backed Information Operations on Twitter",
+      "authors": [
+        "Xiaobo Guo",
+        "Soroush Vosoughi"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Twitter Transparency report about information operation",
+        "Twitter Stream Grab of Internet Archive",
+        "stream API"
+      ],
+      "temporal_coverage_start": "2015-03",
+      "temporal_coverage_end": "2018-12",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 14132304,
+      "num_accounts_or_users": 690653,
+      "scale_description_verbatim": "IDs and metadata for 10,189,437 text-only positive (i.e., propaganda) tweets and 2,575,521 positive tweets with images.",
+      "modalities": [
+        "Text",
+        "Image",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en",
+        "ar",
+        "es"
+      ],
+      "num_languages": 67,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "logistic regression analysis on all of our data"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Statistical models (regression, time series)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/NO3I34"
+      ],
+      "persistent_doi": "10.7910/DVN/NO3I34",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset is hosted by Harvard Dataverse with the following link: https://doi.org/10.7910/DVN/NO3I34.",
+      "scale_quote": "IDs and metadata for 22,850 state-sponsored accounts and 667,803 “normal” accounts.",
+      "annotation_quote": "We leverage hashtags to filter tweets to ensure that positive and negative tweets are of similar topics.",
+      "ethics_quote": "We do not release any data that is not part of these two public repositories.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Total records aggregated all four tweet subsets (14,132,304); accounts total 690,653 (22,850 state-sponsored + 667,803 normal)."
+    }
+  }
+}

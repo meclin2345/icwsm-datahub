@@ -1,0 +1,23 @@
+{
+  "page_count": 11,
+  "n_chars": 58298,
+  "sha256": "9693a3662a12e6ee0577198b9e7177a5f89cf5f907dbff5a9ed2a49f84b15c86",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.14659362",
+    "https://github.com/GateNLP/chinese-news-framing",
+    "https://mediabiasfactcheck.com/",
+    "https://huggingface.co/sentence-transformers/paraphrasemultilingual-MiniLM-L12-v2",
+    "https://github.com/GateNLP/gate-teamware",
+    "https://huggingface.co/FacebookAI/xlm-roberta-base",
+    "https://doi.org/10.5281/zenodo"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.14659362",
+    "10.5281/zenodo"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

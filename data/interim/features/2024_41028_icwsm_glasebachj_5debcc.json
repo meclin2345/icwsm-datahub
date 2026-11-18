@@ -1,0 +1,17 @@
+{
+  "page_count": 12,
+  "n_chars": 64610,
+  "sha256": "ef256728a8e0e2f318409ce8ffda70f72b8c15696ee44b13325ef27f7e20c5b5",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.10513452",
+    "https://ccwi.github.io/corpus-gmhp7k/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.10513452"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,181 @@
+{
+  "paper_id": "2025_31029_icwsm_seckino_db19a8",
+  "year": 2025,
+  "pdf_filename": "31029-ICWSM.SeckinO.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:45+00:00",
+    "usage": [
+      {
+        "input_tokens": 19711,
+        "output_tokens": 1326,
+        "cache_read_input_tokens": 17311,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011K85k4HuYLK9xtRFogrU23132",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 8,
+    "n_chars": 40637,
+    "sha256": "bef196b110ac2446459894a5d3a16182fe2e3b2c597373a7a2fb175d0cd161d3",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.14141549"
+    ],
+    "urls_in_references": [
+      "https://open.clemson.edu/cgi/viewcontent",
+      "https://doi.org/10.7275/2cq4-5396",
+      "https://www.intelligence.senate.gov/sites/default/files/",
+      "https://github.com/",
+      "https://api.semanticscholar.org/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.14141549"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Labeled Datasets for Research on Information Operations",
+      "authors": [
+        "Ozgur Can Seckin",
+        "Manita Pote",
+        "Alexander C. Nwala",
+        "Lake Yin",
+        "Luca Luceri",
+        "Alessandro Flammini",
+        "Filippo Menczer"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "Labeled Datasets for Research on Information Operations",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "Twitter (now X)"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "platform’s Application Program Interface (API)"
+      ],
+      "temporal_coverage_start": "2009",
+      "temporal_coverage_end": "2020",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 13000000,
+      "num_accounts_or_users": 303000,
+      "scale_description_verbatim": "over 13M posts by 303k accounts",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Bots, coordinated inauthentic behavior and propaganda",
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Bot or coordinated account detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "characterize IO accounts",
+        "uncover their tactics",
+        "propose methods for their detection"
+      ],
+      "annotation_paradigms": [
+        "Platform-native signals (Community Notes, moderation logs, votes)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.14141549"
+      ],
+      "persistent_doi": "10.5281/zenodo.14141549",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Exempt or not human-subjects research (as determined by a board)",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Anonymized all PII through a one-way hashing algorithm, including account IDs, post IDs, URLs, usernames, and location information removed.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The datasets are available at https://doi.org/10.5281/zenodo.14141549.",
+      "scale_quote": "over 13M posts by 303k accounts",
+      "annotation_quote": "Records from IO campaigns are marked as False in the is_control column, while control records are marked as True.",
+      "ethics_quote": "The collection and release of the dataset was deemed exempt from review by the Indiana University IRB (protocol 1102004860) as it contains de-identified public data with minimal or no risks to the subjects.",
+      "license_quote": "The license of the new datasets is indicated in the data repository.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper mentions 26 campaigns but provides combined statistics for IO and control data; the exact number of distinct datasets released is inferred as two main types (IO and control) but could be considered as 26 campaign-specific pairs. The license is stated to be in the repository but not explicitly named in the paper text."
+    }
+  }
+}

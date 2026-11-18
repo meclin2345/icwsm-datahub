@@ -1,0 +1,27 @@
+{
+  "page_count": 11,
+  "n_chars": 61899,
+  "sha256": "fbb7e537d83386a44206a2f32eb139baa81bf91de541c00e244be191c7a5ea0e",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://zenodo.org/records/14590709",
+    "https://www.data.go.kr/en/data/15081036/fileData.do",
+    "https://stcis.go.kr/wps/main.do",
+    "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+    "https://www.data.go.kr/en/data/15048032/fileData.do",
+    "https://www.data.go.kr/en/data/15060424/fileData.do",
+    "https://www.data.go.kr/en/data/3057229/fileData.do",
+    "https://www.data.go.kr/en/data/15002503/fileData.do",
+    "https://data.ny.gov/Transportation/MTA-Subway-HourlyRidership-Beginning-February-202/wujg-7c2s",
+    "https://ncv.kdca.go.kr/pot/cv/trend/dmstc/selectMntrgSttus.do",
+    "https://github.com/nychealth/coronavirus-"
+  ],
+  "urls_in_references": [
+    "https://tianchi",
+    "https://www.nyc.gov/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

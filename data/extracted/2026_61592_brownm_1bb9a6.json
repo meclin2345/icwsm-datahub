@@ -1,0 +1,209 @@
+{
+  "paper_id": "2026_61592_brownm_1bb9a6",
+  "year": 2026,
+  "pdf_filename": "61592-BrownM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:13:54+00:00",
+    "usage": [
+      {
+        "input_tokens": 17193,
+        "output_tokens": 1568,
+        "cache_read_input_tokens": 15007,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011HUodnoqwTakHJOUL7uc3oPwX",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 43162,
+    "sha256": "21858ed19e13914a0dfab5e0b53992d4b36d8203fdb1128d70679c61ac2643cf",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.3886/sqhd-kv39",
+      "https://socialmediaarchive.org"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.3886/sqhd-kv39"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Candidata: United States 2024 Elections Candidates and Social Media Handles",
+      "authors": [
+        "Megan A. Brown",
+        "Maggie Macdonald",
+        "Josephine Lukito",
+        "Cameron Hickey",
+        "Kaitlyn Dowling",
+        "Myra Miranda"
+      ],
+      "author_countries": [
+        "US",
+        "DK"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Candidata",
+      "platforms": [
+        "Facebook",
+        "Instagram",
+        "Threads",
+        "TikTok",
+        "Twitter/X",
+        "YouTube",
+        "Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute)",
+        "Telegram"
+      ],
+      "platform_names_verbatim": [
+        "Facebook",
+        "Instagram",
+        "Threads",
+        "TikTok",
+        "X (Twitter)",
+        "YouTube",
+        "Gettr",
+        "Rumble",
+        "Telegram",
+        "Truth Social"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation",
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Junkipedia",
+        "Crowdtangle",
+        "proxy-based scraping API",
+        "third-party API",
+        "official YouTube Data API",
+        "RSS feeds"
+      ],
+      "temporal_coverage_start": "2023-01-01",
+      "temporal_coverage_end": "2024-12-31",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 3100000,
+      "num_accounts_or_users": 2118,
+      "scale_description_verbatim": "In total, our dataset includes about 3.1 million posts from 2024 primary candidates posted between January 1, 2023 and December 31, 2024.",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video",
+        "Time series or temporal logs",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Elections",
+      "event_name": "2024 United States federal primary and general elections",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Misinformation and fact-checking",
+        "Polarization and ideology"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Topic or content classification",
+        "Multimodal understanding (image/video/audio)",
+        "Misinformation or claim detection",
+        "Network or information diffusion analysis"
+      ],
+      "tasks_verbatim": [
+        "analyzing the full scope of social media use in political campaigns",
+        "analyzing differences in messaging strategies, audience engagement, and emotional appeals across video platforms compared to text-based ones",
+        "identify, track, and compare instances of misinformation shared by political candidates",
+        "multimodal analyses of how actors combine visual and linguistic elements to persuade voters"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)",
+        "Other"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.3886/sqhd-kv39",
+        "https://socialmediaarchive.org",
+        "https://www.candidata24.org/"
+      ],
+      "persistent_doi": "10.3886/sqhd-kv39",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [
+        "CSV",
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "For access to the full data, researchers can apply for access through the Social Media Archive at ICPSR (see https://doi.org/10.3886/sqhd-kv39).",
+      "scale_quote": "In total, our dataset includes about 3.1 million posts from 2024 primary candidates posted between January 1, 2023 and December 31, 2024.",
+      "annotation_quote": "",
+      "ethics_quote": "The politicians in this dataset are public figures who make public statements across a variety of platforms, including social media platforms.",
+      "license_quote": "Did you mention the license of the assets? The license of the data is that provided by SOMAR.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "num_accounts_or_users (2,118) reflects the CTCL list of primary candidates described, not a stated count of distinct accounts in the released handle dataset, which also covers Senate candidates not running in 2024; the paper's exact license is attributed to SOMAR without naming a specific license family."
+    }
+  }
+}

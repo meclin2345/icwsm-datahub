@@ -1,0 +1,29 @@
+{
+  "page_count": 11,
+  "n_chars": 56642,
+  "sha256": "96cae3af3d0a9b7f0c2ca6a202c08982e19405df4588567d9a9b4f0316470c4d",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://doi.org/10.13012/B2IDB-9307654_V1",
+    "https://databank.illinois.edu/policies/"
+  ],
+  "urls_in_references": [
+    "https://cloud.ibm.com/apidocs/natural-language-understanding",
+    "https://techcrunch.com/2025/07/10/youtube-is-getting-rid-of-itstrending-page-and-trending-now-list/",
+    "https://www.marketingtechnews.net/news/trending-is-outyoutube-is-now-all-about-your-interests/",
+    "https://www.pewresearch.org/journalism/fact-sheet/social-mediaand-news-fact-sheet/",
+    "https://blog.youtube/news-and-events/update-toyoutube/",
+    "https://www.youtube.com/static?template=terms",
+    "https://www.youtube.com/howyoutubeworks/youtubes-impact/",
+    "https://support.google.com/youtube/answer/7239739",
+    "https://support.google.com/youtube/thread/356702168/changesto-discovering-trending-content-on-youtube?hl=en",
+    "https://blog.youtube/inside-youtube/on-youtubesrecommendation-system/",
+    "https://doi.org/10.13012/B2IDB-9307654_V1"
+  ],
+  "dois_in_body": [
+    "10.13012/B2IDB-9307654_V1"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

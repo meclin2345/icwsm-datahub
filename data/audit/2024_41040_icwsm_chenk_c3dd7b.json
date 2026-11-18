@@ -1,0 +1,145 @@
+{
+  "summary": {
+    "paper_id": "2024_41040_icwsm_chenk_c3dd7b",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.10494990",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://github.com/kaichen23/israel-hamas",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://github.com/kaichen23/israel-hamas",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 5,
+    "total_size_mb": 143.14,
+    "file_extensions": ".csv, .json",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 703,
+    "downloads_unique": 523,
+    "views_total": 495,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://github.com/kaichen23/israel-hamas",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 12,
+    "code_forks": 2,
+    "code_archived": false,
+    "code_last_push": "2024-01-19T18:45:11Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://github.com/kaichen23/israel-hamas",
+      "resolved_url": "https://github.com/kaichen23/israel-hamas",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:16+00:00",
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.10494990",
+      "resolved_url": "https://zenodo.org/records/10494990",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:16+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "10494990",
+    "concept_doi": "10.5281/zenodo.10494989",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 5,
+    "total_size_mb": 143.14,
+    "file_extensions": [
+      ".csv",
+      ".json"
+    ],
+    "stats_raw": {
+      "downloads": 703,
+      "unique_downloads": 523,
+      "views": 495,
+      "unique_views": 473,
+      "version_downloads": 703,
+      "version_unique_downloads": 523,
+      "version_unique_views": 473,
+      "version_views": 495
+    },
+    "downloads": 703,
+    "unique_downloads": 523,
+    "views": 495,
+    "unique_views": 473,
+    "version_downloads": 703,
+    "version_unique_downloads": 523,
+    "publication_date": "2024-01-12"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": true,
+    "repo": "kaichen23/israel-hamas",
+    "stars": 12,
+    "forks": 2,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-01-19T18:45:11Z",
+    "created_at": "2024-01-02T21:50:44Z",
+    "size_mb": 39.82,
+    "license": null
+  },
+  "github_code": {
+    "found": true,
+    "repo": "kaichen23/israel-hamas",
+    "stars": 12,
+    "forks": 2,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-01-19T18:45:11Z",
+    "created_at": "2024-01-02T21:50:44Z",
+    "size_mb": 39.82,
+    "license": null
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/doi/10.5281/zenodo.10494990",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2024"
+  },
+  "wayback": null
+}

@@ -1,0 +1,180 @@
+{
+  "paper_id": "2023_01026_icwsm_abdaljalils_59a4ec",
+  "year": 2023,
+  "pdf_filename": "01026-ICWSM.AbdaljalilS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:34:44+00:00",
+    "usage": [
+      {
+        "input_tokens": 21282,
+        "output_tokens": 857,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011LA9mA1ttRZZRPWd0uYynZoZI",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 53069,
+    "sha256": "98cdfe62c97eb271d88d7f3e6bcdfe271abc77711ece58a00a2824a984ba8e72",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "http://diab.edublogs.org/dataset-for-arabic-documentclassification/",
+      "http://www.sentiment140.com/",
+      "http://sentistrength.wlv.ac.uk/",
+      "https://huggingface.co/UBC-NLP/MARBERT",
+      "https://huggingface.co/aubmindlab/bert-base-arabertv02",
+      "https://huggingface.co/aubmindlab/bert-base-arabertv02-",
+      "https://huggingface.co/qarib/bert-base-qarib",
+      "https://huggingface.co/CAMeL-Lab/bert-base-arabic-",
+      "https://huggingface.co/aubmindlab/bertbase-arabertv02-twitter"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10",
+      "https://doi.org/10.7910/DVN/LBXV9O"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Towards Generalization of Machine Learning Models: A Case Study of Arabic Sentiment Analysis",
+      "authors": [
+        "Samir Abdaljalil",
+        "Shaimaa Hassanein",
+        "Hamdy Mubarak",
+        "Ahmed Abdelali"
+      ],
+      "author_countries": [
+        "QA",
+        "EG"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter API"
+      ],
+      "temporal_coverage_start": "2009",
+      "temporal_coverage_end": "2020",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 1640000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "We share the dataset of approximately 1.64M tweets (through their IDs) and their corresponding sentiment classification",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "ar"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment"
+      ],
+      "supported_tasks": [
+        "Sentiment or emotion analysis"
+      ],
+      "tasks_verbatim": [
+        "sentiment analysis",
+        "sentiment classification"
+      ],
+      "annotation_paradigms": [
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.91,
+      "iaa_summary_verbatim": "we found that both annotators had an agreement of approximately 91% in their labels",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/LBXV9O"
+      ],
+      "persistent_doi": "10.7910/DVN/LBXV9O",
+      "code_repository_url": "",
+      "distribution_form": "Dehydrated IDs only",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "To comply with Twitter Privacy Policy, the tweet texts and user handles are not shared; only tweet IDs are released.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We share the dataset of approximately 1.64M tweets (through their IDs) and their corresponding sentiment classification used to train the cascaded models balanced with the community through Zenodo (Abdaljalil et al. 2023).",
+      "scale_quote": "We collect approximately 2M tweets that were created between 2009 and 2020. We ended up with a training set of approximately 399K. Then we balanced the positive and negative classes in the dataset and trained a new model on 1.64M tweets.",
+      "annotation_quote": "The most consistent model is trained using a dataset labelled by a cascaded approach of two models, one that labels neutral tweets and another that identifies positive/negative tweets based on the Arabic emoji lexicon after class balancing.",
+      "ethics_quote": "To comply with Twitter Privacy Policy, we share the tweets by IDs, and ensure that the corresponding tweet texts as well as the user handles, are not shared.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The dataset name is not given a specific title in the paper, and the hosting repository URL is not provided; instead, only the citation and DOI are mentioned. Also, it's unclear if the released dataset includes raw tweets (text) or just the sentiment labels."
+    }
+  }
+}

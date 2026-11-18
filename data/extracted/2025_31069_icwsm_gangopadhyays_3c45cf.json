@@ -1,0 +1,209 @@
+{
+  "paper_id": "2025_31069_icwsm_gangopadhyays_3c45cf",
+  "year": 2025,
+  "pdf_filename": "31069-ICWSM.GangopadhyayS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:08:28+00:00",
+    "usage": [
+      {
+        "input_tokens": 21239,
+        "output_tokens": 976,
+        "cache_read_input_tokens": 18847,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011FQCYpT3Gv9t4tVENaag8RN7o",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 11,
+    "n_chars": 59696,
+    "sha256": "d081ac0aa186e2e6d7d908d0d424e73078e3022b2a30d47b6d977c9fbbe287e3",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://telegram.org/faq#q-what-39s-thedifference-between-groups-and-channels",
+      "https://data.gesis.org/telescope/",
+      "https://Telegram.org/faq",
+      "https://docs.telethon.dev/en/stable/",
+      "https://tgstat.com/",
+      "https://tl.telethon.dev/types/chatfull.html",
+      "https://pypi.org/project/langdetect/",
+      "https://tl.telethon.dev/constructors/message.html",
+      "https://docs.telethon.dev/en/stable/concepts/entities.html",
+      "https://doi.org/",
+      "https://www.re3data.org/repository/r3d100011062",
+      "https://github.com/susmita3107/TeleScope",
+      "https://www.gesis.org/en/services/processing-and-analyzingdata/analysis-of-sensitive-data/secure-data-center-sdc",
+      "https://www.whatsapp.com/legal/privacy-policy",
+      "https://Telegram.org/verify",
+      "https://www"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7802/2825"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "TeleScope: A Longitudinal Dataset for Investigating Online Discourse and Information Interaction on Telegram",
+      "authors": [
+        "Susmita Gangopadhyay",
+        "Danilo Dessí",
+        "Dimitar Dimitrov",
+        "Stefan Dietze"
+      ],
+      "author_countries": [
+        "DE",
+        "AE"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 3
+    },
+    "collection": {
+      "dataset_name": "TeleScope",
+      "platforms": [
+        "Telegram"
+      ],
+      "platform_names_verbatim": [
+        "Telegram"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "Telethon",
+        "TGStat"
+      ],
+      "temporal_coverage_start": "2024-02-01",
+      "temporal_coverage_end": "2024-10-29",
+      "primary_record_unit": "Channels, groups or communities",
+      "total_records": 534137,
+      "num_accounts_or_users": 534137,
+      "scale_description_verbatim": "534,137 channels discovered through a snowball sampling approach",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Network or graph"
+      ],
+      "languages_iso": [
+        "ru",
+        "uk",
+        "en",
+        "fa",
+        "de",
+        "tl",
+        "sw",
+        "ca",
+        "pa",
+        "so",
+        "lt"
+      ],
+      "num_languages": 47,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections",
+        "Online communities and collective behavior"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Topic or content classification",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "information spread and message-forwarding patterns",
+        "media monitoring, influence detection",
+        "detecting clusters and influencers"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://data.gesis.org/telescope/",
+        "https://github.com/susmita3107/TeleScope",
+        "https://www.re3data.org/repository/r3d100011062"
+      ],
+      "persistent_doi": "10.7802/2825",
+      "code_repository_url": "https://github.com/susmita3107/TeleScope",
+      "distribution_form": "Aggregated statistics, embeddings or derived features only",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON",
+        "CSV",
+        "JSONL"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Only message metadata is released, excluding actual message content; raw message data is available only via GESIS Secure Data Center.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our dataset is Findable and available on Archiving BASIS, an open repository managed by GESIS Data Services with a DOI: https://doi.org/10.7802/2825.",
+      "scale_quote": "The dataset contains information about each channel and includes details such as username, creation date, number of subscribers, whether a channel is fake or scam, whether there are restrictions imposed on the channel, etc.",
+      "annotation_quote": "We compute the primary language of Telegram channels using the Python Langdetect library, a language detection tool that supports the identification of 55 languages and stores in a CSV file.",
+      "ethics_quote": "To address privacy concerns, we release only message metadata, excluding the actual message content.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper describes a dataset suite of three components; total_records codes the channel metadata count (534,137), while 120,024,020 messages from 71,048 channels are also released. The distribution form is coded as derived features only since message content is withheld and entities/enrichments are released."
+    }
+  }
+}

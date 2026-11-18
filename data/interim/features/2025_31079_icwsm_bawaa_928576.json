@@ -1,0 +1,28 @@
+{
+  "page_count": 10,
+  "n_chars": 53356,
+  "sha256": "c7dbc8c8eb154c9f1f3529c9daef46ed9f427cea720367c7a27b54815a08d349",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://force11.org/info/the-fair-dataprinciples/",
+    "https://doi.org/10.6084/m9.figshare"
+  ],
+  "urls_in_references": [
+    "https://www.isdglobal.org/digital",
+    "https://gjia.georgetown.edu/2024/02/02/russiaukraine-through-the-eyes-of-social-media/",
+    "https://www.cnn.com/2023/02/14/europe/russiayevgeny-prigozhin-internet-research-agencyintl/index.html",
+    "https://www.levada.ru/2023/04/20/osnovnyeistochniki-informatsii-i-populyarnye-zhurnalisty/",
+    "https://oporaua.org/report/polit",
+    "https://rerussia.net/en/review/263/",
+    "https://docs.telethon.dev/en/stable/index.html",
+    "https://tgstat.ru/en/politics",
+    "https://www.themoscowtimes.com/2023/01/23/telegramsurpasses-whatsapp-traffic-volume-in-russia-a80012",
+    "https://doi.org/10.6084/m9.figshare.28208729.v1"
+  ],
+  "dois_in_body": [
+    "10.6084/m9.figshare"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

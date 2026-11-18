@@ -1,0 +1,23 @@
+{
+  "page_count": 9,
+  "n_chars": 50963,
+  "sha256": "3a5af041fb4f1e0d90af993e94a64f27313b4287a93a5a1db0180f4af7de8816",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.5851729",
+    "https://github.com/valentinhofmann/politosphere",
+    "https://files.pushshift.io/reddit/comments",
+    "https://web.archive.org/web/20190103121805/https",
+    "https://github.com/CLD2Owners/cld2",
+    "https://www.michelecoscia.com/?page",
+    "https://www.ssa.gov/oact/babynames/limits.html",
+    "https://www.reddit.com/r/autowikibot/wiki/redditbots"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.5851729"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

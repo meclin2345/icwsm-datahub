@@ -1,0 +1,30 @@
+{
+  "page_count": 10,
+  "n_chars": 51744,
+  "sha256": "2c229fca5ef8a856b3c539a08f0c5e1372e85f834f4fe6acd5befa790cb2e3b8",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.who.int/emergencies/diseases/novelcoronavirus-2019/interactive-timeline#event-0",
+    "https://www.who.int/health-topics/infodemic",
+    "https://www.doi.org/10.5281/zenodo.5854656",
+    "https://toolbox.google.com/factcheck/explorer",
+    "https://tranco-list.eu/list/X74N",
+    "https://webscraper.io/",
+    "https://archive.org/web/",
+    "https://www.nltk.org/api/nltk.html",
+    "https://www.who.int/en/activities/tracking-SARS-CoV-2variants/",
+    "https://www.who.int/news/item/31-05-2021-who-announcessimple-easy-to-say-labels-for-sars-cov-2-variants-of-interestand-concern",
+    "https://spacy.io/api/entityrecognizer",
+    "https://www.statista.com/statistics/272014/global-socialnetworks-ranked-by-number-of-users/",
+    "https://scikit-learn.org/stable/modules/generated/sklearn",
+    "https://www.who.int/emergencies/diseases/novelcoronavirus-2019/advice-for-public/myth-busters",
+    "https://maartengr.github.io/BERTopic/index.html"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.5854656"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

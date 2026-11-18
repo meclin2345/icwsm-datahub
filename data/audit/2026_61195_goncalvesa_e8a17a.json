@@ -1,0 +1,86 @@
+{
+  "summary": {
+    "paper_id": "2026_61195_goncalvesa_e8a17a",
+    "year": 2026,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.13012/B2IDB-9307654_V1",
+    "doi_resolves": true,
+    "n_urls_checked": 1,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.13012/B2IDB-9307654_V1",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://databank.illinois.edu/datasets/IDB-9307654",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "DataCite (University of Illinois Urbana-Champaign)",
+    "file_count": null,
+    "total_size_mb": null,
+    "file_extensions": "",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 0,
+    "downloads_unique": null,
+    "views_total": 0,
+    "downloads_metric_source": "DataCite usage",
+    "repo_license": null,
+    "datacite_registered": true,
+    "datacite_publisher": "University of Illinois Urbana-Champaign",
+    "datacite_citations": 1,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.13012/B2IDB-9307654_V1",
+      "resolved_url": "https://databank.illinois.edu/datasets/IDB-9307654",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:25:10+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "University of Illinois Urbana-Champaign",
+    "landing_url": "https://databank.illinois.edu/datasets/IDB-9307654",
+    "views": 0,
+    "downloads": 0,
+    "citations": 1,
+    "registered_year": "2025"
+  },
+  "wayback": null
+}

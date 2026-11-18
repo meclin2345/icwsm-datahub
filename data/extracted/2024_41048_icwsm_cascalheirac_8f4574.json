@@ -1,0 +1,216 @@
+{
+  "paper_id": "2024_41048_icwsm_cascalheirac_8f4574",
+  "year": 2024,
+  "pdf_filename": "41048-ICWSM.CascalheiraC.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:06:27+00:00",
+    "usage": [
+      {
+        "input_tokens": 19153,
+        "output_tokens": 5346,
+        "cache_read_input_tokens": 17567,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011oRp4K59sbQDkRRCNPSQyHhfc",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 53580,
+    "sha256": "62469ae918c4382cb6e0c7c5b74e2c1b0224fb937af1aad8f80e8c070bf55c7f",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://osf.io/qgah8/",
+      "https://doi.org/10.7910/DVN/GPRSXH",
+      "https://github.com/CJCascalheira/lgbtq_stress_dataset"
+    ],
+    "urls_in_references": [
+      "https://www.apa.org/ethics/code/index",
+      "https://www.aaai.org/Conferences/code-of-ethicsand-conduct.php",
+      "https://doi.org/10.1037/a0023244",
+      "https://doi.org/10.5555/944919.944937",
+      "https://doi.org/10.2196/47256",
+      "https://doi.org/10.3389/frph.2023.1303218",
+      "https://doi.org/10.1177/2056305121988931",
+      "https://doi.org/10.1089/lgbt.2021.0106",
+      "https://doi.org/10.1016/j.yfrne.2018.03.001",
+      "https://doi.org/10.1007/s11121-013-0393-7",
+      "https://hatebase.org/",
+      "https://doi.org/10.1037/a0029597",
+      "https://doi.org/10.1177/1049732305276687",
+      "https://doi.org/10.1037/sgd0000439",
+      "https://doi.org/10.1037/0033-2909.129.5.674",
+      "https://doi.org/10.2307/2137286",
+      "https://doi.org/10.1037/0022-0167.52.2.250",
+      "https://doi.org/10.1177/1609406919899220",
+      "https://doi.org/10.1037/bul0000271",
+      "https://repositories.lib.utexas.edu/bitstream/handle/2152/31333/LIWC2015_LanguageManual.pdf",
+      "https://doi.org/10.1145/3361108",
+      "https://doi.org/10.1371/journal.pone.0073791",
+      "https://doi.org/10.1037/amp0001183",
+      "https://doi.org/10.5555/3270332.3270380"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/GPRSXH"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "The LGBTQ+ Minority Stress on Social Media (MiSSoM) Dataset: A Labeled Dataset for Natural Language Processing and Machine Learning",
+      "authors": [
+        "Cory J. Cascalheira",
+        "Santosh Chapagain",
+        "Ryan E. Flinn",
+        "Dannie Klooster",
+        "Danica Laprade",
+        "Yuxuan Zhao",
+        "Emily M. Lund",
+        "Alejandra Gonzalez",
+        "Kelsey Corro",
+        "Rikki Wheatley",
+        "Ana Gutierrez",
+        "Oziel Garcia Villanueva",
+        "Koustuv Saha",
+        "Munmun De Choudhury",
+        "Jillian R. Scheer",
+        "Shah M. Hamdi"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "LGBTQ+ MiSSoM; LGBTQ+ MiSSoM+",
+      "platforms": [
+        "Reddit"
+      ],
+      "platform_names_verbatim": [
+        "Reddit",
+        "Reddit.com"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)"
+      ],
+      "collection_tools": [
+        "PushShift"
+      ],
+      "temporal_coverage_start": "2012-08-18",
+      "temporal_coverage_end": "2021-09-18",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 27709,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "LGBTQ+ MiSSoM ( N = 27,709) includes both human- and machine-annotated labels and comes preprocessed with features (e.g., topic models, psycholinguistic attributes, sentiment, clinical keywords, word embeddings, n-grams, lexicons).",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Mental health and wellbeing",
+        "Gender, race and identity",
+        "Hate speech, toxicity and harassment"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "minority stress detection",
+        "Sentence-level prediction of minority stress in social media",
+        "explore the motivation of minority stress disclosures online",
+        "understand LGBTQ+ help-seeking for minority stress"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 27709,
+      "num_annotators": 9,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa",
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.8,
+      "iaa_summary_verbatim": "Cohen’s 𝜅≥ 0.80 or simple percent agreement ≥ 0.90",
+      "baseline_families": [
+        "Statistical models (regression, time series)",
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/GPRSXH"
+      ],
+      "persistent_doi": "10.7910/DVN/GPRSXH",
+      "code_repository_url": "https://github.com/CJCascalheira/lgbtq_stress_dataset",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "license_category": "CC BY",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Self-assessed or checklist only",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Data are accessible using the Harvard Dataverse. The metadata are always visible. Clear instructions on accessing LGBTQ+ MiSSoM and MiSSoM+ are provided.",
+      "scale_quote": "First, we provide the publicly available LGBTQ+ MiSSoM dataset ( N = 27,709), an NLP dataset created from Reddit.com posts and comments.",
+      "annotation_quote": "The team coded 5,789 Reddt.com posts and comments; after preprocessing (see Preprocessing and Feature Generation), a total of 5,772 posts and comments with human-annotated labels remained.",
+      "ethics_quote": "As with all electronic data of a sensitive nature, the possibility for misuse or misrepresentation of these datasets (with or without the intent to cause harm) remains.",
+      "license_quote": "Both LGBTQ+ MiSSoM and MiSSoM+ are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The MiSSoM+ sentence-level subset is reported as both 5,789 and 5,772 records, and the final collection is reported as 27,796 scraped and 27,709 released posts. The two versions have different access levels: MiSSoM is openly downloadable, while MiSSoM+ requires a request, disclosures, a data-protection plan, and ethical approval."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "page_count": 10,
+  "n_chars": 56251,
+  "sha256": "e0137ca8a0921713215306df659d57ef32b9614b913860ad358f2d18a5da6318",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.4669960",
+    "https://comfyneetpepe.tumblr.com/",
+    "http://knowyourmeme.com"
+  ],
+  "urls_in_references": [
+    "https://gnet-research.org/2020/02/04/accelerationismin-america-threat-perceptions/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.4669960"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

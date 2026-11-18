@@ -1,0 +1,191 @@
+{
+  "paper_id": "2022_01012_icwsm_bensona_444a8b",
+  "year": 2022,
+  "pdf_filename": "01012-ICWSM.BensonA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:30:54+00:00",
+    "usage": [
+      {
+        "input_tokens": 22159,
+        "output_tokens": 1231,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011txVikSc8P083bKCWc1Z84J2y",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | collection.primary_record_unit: got 'Emails'; Input should be 'Posts or tweets', 'Comments or replies', 'Users or accounts', 'Videos', 'Images or memes', 'News articles or web pages', 'Conversations or thre"
+      },
+      {
+        "input_tokens": 23485,
+        "output_tokens": 1252,
+        "cache_read_input_tokens": 19871,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0118DgSioMSUSsvy6o3JBloqRGK",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 52614,
+    "sha256": "e9e372bd841856bc7b41c2bc5c94c0b9308733db6ff35a2a9b32760414e39bb5",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.5828209",
+      "https://github.com/nveldt/fauci-email",
+      "https://doi.org/10.5281/",
+      "https://github.com/"
+    ],
+    "urls_in_references": [
+      "https://github",
+      "https://www.buzzfeednews.com/article/nataliebettendorf/",
+      "http://www.cs"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.5828209"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "fauci-email: a json Digest of Anthony Fauci's Released Emails",
+      "authors": [
+        "Austin R. Benson",
+        "Nate Veldt",
+        "David F. Gleich"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "fauci-email",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "emails",
+        "email"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "pdftotext"
+      ],
+      "temporal_coverage_start": "2020-02",
+      "temporal_coverage_end": "2020-04",
+      "primary_record_unit": "Chat messages",
+      "total_records": 2761,
+      "num_accounts_or_users": 1309,
+      "scale_description_verbatim": "The final digest contains 2,761 emails among 1,309 individuals in 1,289 email threads.",
+      "modalities": [
+        "Text",
+        "Network or graph",
+        "Time series or temporal logs",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "United States government response to the COVID-19 pandemic",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Online communities and collective behavior",
+        "Public health and COVID-19"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "network, a hypergraph, a temporal sequence, and a tensor",
+        "cluster analysis",
+        "local diffusions",
+        "temporal communicability and temporal modularity",
+        "tensor centrality scores"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.5828209",
+        "https://github.com/nveldt/fauci-email"
+      ],
+      "persistent_doi": "10.5281/zenodo.5828209",
+      "code_repository_url": "https://github.com/nveldt/fauci-email",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Names and email addresses of participants are left as-is; portions of the original emails are redacted in the source PDF.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Our datasets are published on the Zenodo website and freely accessible at https://doi.org/10.5281/zenodo.5828209.",
+      "scale_quote": "The final digest contains 2,761 emails among 1,309 individuals in 1,289 email threads.",
+      "annotation_quote": "",
+      "ethics_quote": "Our datasets abide by FAIR principles: they are findable, accessible, interoperable, and reusable.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper releases one master json digest plus several derived graphs, a hypergraph and tensors; they are counted as a single released resource. Languages and license are not stated, and the temporal coverage uses the approximate start and end months given for the emails."
+    }
+  }
+}

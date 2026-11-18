@@ -1,0 +1,203 @@
+{
+  "paper_id": "2021_01007_icwsm_abilova_a8f0e3",
+  "year": 2021,
+  "pdf_filename": "01007-ICWSM.AbilovA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:28:28+00:00",
+    "usage": [
+      {
+        "input_tokens": 24564,
+        "output_tokens": 1399,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011CkeSEgGhPYLkVMfhSj3Tv2HH",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 64617,
+    "sha256": "6ecc84560ac6ee11946619de69939f18bcfffe108e47d8fc68f615d031dd96c3",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://voterfraud2020.io",
+      "https://figshare.com/account/projects/96518/articles/",
+      "https://github.com/sTechLab/VoterFraud2020",
+      "https://github.com/vegetable68/Midterm-2020candidates"
+    ],
+    "urls_in_references": [
+      "https://cpb-us-e1.wpmucdn.com/sites.dartmouth.edu/",
+      "https://arxiv.org/abs/2010",
+      "https://nytimes.com/2021/01/11/technology/twitterremoves-70000-qanon-accounts.html",
+      "https://purl.stanford.edu/",
+      "https://nytimes.com/",
+      "https://mediamatters.org/google/youtube-has-allowedconspiracy-theories-about-interference-voting-machinesgo-viral",
+      "https://npr.org/2020/12/09/",
+      "https://fullstackml.com/wavelet-image-hash-in-python3504fdd282b5",
+      "https://nytimes.com/2020/11/10/",
+      "https://developers.google.com/youtube/v3",
+      "https://washingtonpost.com/graphics/2020/elections/voterturnout/",
+      "https://blog.twitter.com/official/en",
+      "https://developer",
+      "https://blog.twitter.com/en"
+    ],
+    "dois_in_body": [
+      "10.6084/m9.figshare.13571084"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "VoterFraud2020 : a Multi-modal Dataset of Election Fraud Claims on Twitter",
+      "authors": [
+        "Anton Abilov",
+        "Yiqing Hua",
+        "Hana Matatov",
+        "Ofra Amir",
+        "Mor Naaman"
+      ],
+      "author_countries": [
+        "US",
+        "IL"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "VoterFraud2020",
+      "platforms": [
+        "Twitter/X",
+        "YouTube"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "YouTube"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter streaming API",
+        "YouTube's Data API"
+      ],
+      "temporal_coverage_start": "2020-10-23",
+      "temporal_coverage_end": "2020-12-16",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 3781524,
+      "num_accounts_or_users": 2559018,
+      "scale_description_verbatim": "we collected 3,781,524 original tweets, 25,566,698 retweets, and 3,821,579 quote tweets",
+      "modalities": [
+        "Text",
+        "Network or graph",
+        "Tabular user or post metadata",
+        "Image"
+      ],
+      "languages_iso": [
+        "en",
+        "ja",
+        "es"
+      ],
+      "num_languages": 3,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US"
+      ],
+      "event_category": "Elections",
+      "event_name": "2020 U.S. presidential election",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis",
+        "Bot or coordinated account detection"
+      ],
+      "tasks_verbatim": [
+        "study the spread, reach, and dynamics of the voter fraud campaign on Twitter",
+        "understand the role of bots and other coordinated activities",
+        "characterize the suspended users"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": 2,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Figshare"
+      ],
+      "dataset_urls": [
+        "https://voterfraud2020.io",
+        "https://figshare.com/account/projects/96518/articles/",
+        "https://github.com/sTechLab/VoterFraud2020"
+      ],
+      "persistent_doi": "10.6084/m9.figshare.13571084",
+      "code_repository_url": "https://github.com/sTechLab/VoterFraud2020",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "Data does not include raw tweet data beyond the ID, according to Twitter's ToS.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is Findable as it is publicly available on Figshare, with a digital object identifier (DOI): 10.6084/m9.figshare.13571084.",
+      "scale_quote": "we collected 3,781,524 original tweets, 25,566,698 retweets, and 3,821,579 quote tweets",
+      "annotation_quote": "we used a data-driven approach to generate a list of keywords and hashtags related to election fraud claims in an iterative manner",
+      "ethics_quote": "The publicly released VoterFraud2020 data was collected and made available according to Twitter's Terms of Service for academic researchers",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states 2.6M users in the abstract but 2,559,018 users in Section 2.1; the former is an approximation. Additionally, the paper releases a set of URLs and YouTube video metadata as part of the dataset, which could be interpreted as a second dataset, but it is integrated into the main VoterFraud2020 release."
+    }
+  }
+}

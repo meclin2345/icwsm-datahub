@@ -1,0 +1,35 @@
+{
+  "page_count": 10,
+  "n_chars": 53396,
+  "sha256": "d59abb165bd6074a6e60565b7008e8da08f79fd82b9c157930245912490dd810",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://enterprise.wikimedia.com/",
+    "https://cloud.sdu.dk/app/dashboard",
+    "https://en.wikipedia.org/wiki/Talk:Twitter",
+    "https://www.mediawiki.org/wiki/API:Redirects",
+    "https://en.wikipedia.org/w/index.php?title=Talk:Twitter&action=history",
+    "https://query.wikidata.org/",
+    "https://en.wikipedia.org/wiki/User",
+    "https://en.m.wikipedia.org/wiki/Twitter",
+    "https://en.wikipedia.org/wiki/Main",
+    "https://en.wikipedia.org/wiki/Twitter#Technology",
+    "https://github.com/meier-flo/TWikiL",
+    "https://botometer.osome.iu.edu/",
+    "https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews"
+  ],
+  "urls_in_references": [
+    "https://mash",
+    "https://doi.org/10.5281/zenodo.5845374",
+    "https://tech",
+    "https://blog.twitter.com/official/en",
+    "https://deve",
+    "https://meta",
+    "https://www.mediaw",
+    "https://about.ze"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

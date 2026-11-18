@@ -1,0 +1,17 @@
+{
+  "page_count": 9,
+  "n_chars": 46057,
+  "sha256": "b3c66c29148dc5ca7b74ed2776386cc12f529498c37674cb65afb0acee5aadd8",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.7910/DVN/LWMYAD",
+    "https://huggingface.co/distilbert-base-uncased"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7910/DVN/LWMYAD"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

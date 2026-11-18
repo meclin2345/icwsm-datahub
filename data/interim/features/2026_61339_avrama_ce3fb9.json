@@ -1,0 +1,21 @@
+{
+  "page_count": 12,
+  "n_chars": 53163,
+  "sha256": "24825d174f9b80e997c4d4f67d8e0371fe4d13f02631a4e68e6ab896b3f68a0c",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://www.goodreads.com/",
+    "https://audiotribe.ro",
+    "https://www.cinemagia.ro/",
+    "https://github.com/google/cld3",
+    "https://huggingface.co/meta-llama/Llama-3.1-8B",
+    "https://huggingface.co/Qwen/Qwen3-8B",
+    "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+    "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": false,
+  "mentions_dataverse": false
+}

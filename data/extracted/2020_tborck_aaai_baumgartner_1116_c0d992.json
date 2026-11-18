@@ -1,0 +1,175 @@
+{
+  "paper_id": "2020_tborck_aaai_baumgartner_1116_c0d992",
+  "year": 2020,
+  "pdf_filename": "tborck,+AAAI_Baumgartner-1116.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:27:07+00:00",
+    "usage": [
+      {
+        "input_tokens": 15582,
+        "output_tokens": 1044,
+        "cache_read_input_tokens": 3999,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011GJZf6NlJFPJBFQLQ6cNoQS8I",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 8,
+    "n_chars": 33001,
+    "sha256": "d65ed55cb7753fcf77b63b88c0b86f06daab3fe630a3ba552990f6e235fe6060",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://zenodo.org/record/",
+      "https://github.com/pushshift/telegram",
+      "https://docs.telethon.dev/en/latest/",
+      "https://tl.telethon.dev/",
+      "https://tl.telethon",
+      "https://tl.telethon.dev/constructors/message.html",
+      "https://www.go-fair.org/fair-principles/",
+      "https://zenodo.org/",
+      "https://zenodo.org/record/3607497"
+    ],
+    "urls_in_references": [
+      "https://www.adl.org/blog/",
+      "https://www.businessofapps.com/data/telegramstatistics/",
+      "https://www.theverge.com/2019/1/21/18191455/whatsappforwarding-limit-five-messages-misinformation-battle",
+      "https://amp.insider.com/"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.3607497"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Pushshift Telegram Dataset",
+      "authors": [
+        "Jason Baumgartner",
+        "Savvas Zannettou",
+        "Megan Squire",
+        "Jeremy Blackburn"
+      ],
+      "author_countries": [],
+      "is_industry_collaboration": false,
+      "contribution_type": "Ongoing archive or data collection effort",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Pushshift Telegram Dataset",
+      "platforms": [
+        "Telegram"
+      ],
+      "platform_names_verbatim": [
+        "Telegram"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Telethon",
+        "PostgreSQL"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Chat messages",
+      "total_records": 317224715,
+      "num_accounts_or_users": 2200040,
+      "scale_description_verbatim": "our dataset comprises 27,801 channels and 317,224,715 messages from 2,200,040 unique users",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Social movements and activism",
+        "Extremism and radicalization",
+        "Misinformation and fact-checking"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis",
+        "Network or information diffusion analysis"
+      ],
+      "tasks_verbatim": [],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/record/3607497",
+        "https://github.com/pushshift/telegram"
+      ],
+      "persistent_doi": "10.5281/zenodo.3607497",
+      "code_repository_url": "https://github.com/pushshift/telegram",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSONL"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": false,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The most current snapshot is available at https://zenodo.org/record/3607497",
+      "scale_quote": "our dataset comprises 27,801 channels and 317,224,715 messages from 2,200,040 unique users",
+      "annotation_quote": "",
+      "ethics_quote": "",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": ""
+    }
+  }
+}

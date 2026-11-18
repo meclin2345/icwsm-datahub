@@ -1,0 +1,177 @@
+{
+  "paper_id": "2025_31051_icwsm_mayera_d9a6e9",
+  "year": 2025,
+  "pdf_filename": "31051-ICWSM.MayerA.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:08:19+00:00",
+    "usage": [
+      {
+        "input_tokens": 20863,
+        "output_tokens": 1403,
+        "cache_read_input_tokens": 18591,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011mBcbmMA2bHfccJQUD0jTZLne",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 45985,
+    "sha256": "c8bb89f227e70194e3050b43c4d70679b8424ad46b60bc4cb1882aea3a376c6a",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.7802/2863"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.7802/2863"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "News on TikTok: An Annotated Dataset of TikTok Videos from German-Speaking News Outlets in 2023",
+      "authors": [
+        "Anna-Theresa Mayer",
+        "Lion Wedel",
+        "Jan Batzner",
+        "Jonathan Hendrickx",
+        "Emma Bremer",
+        "Alexander Iwan",
+        "Volker Stocker",
+        "Jakob Ohme"
+      ],
+      "author_countries": [
+        "DE",
+        "DK"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "News on TikTok",
+      "platforms": [
+        "TikTok"
+      ],
+      "platform_names_verbatim": [
+        "TikTok"
+      ],
+      "collection_methods": [
+        "Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40)",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "TikTok Research API",
+        "Zeeschuimer browser extension"
+      ],
+      "temporal_coverage_start": "2023-01",
+      "temporal_coverage_end": "2023-12",
+      "primary_record_unit": "Videos",
+      "total_records": 8623,
+      "num_accounts_or_users": 18,
+      "scale_description_verbatim": "an annotated dataset of 8,623 TikTok videos published by 18 major German-speaking news outlets in 2023",
+      "modalities": [
+        "Video",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "DE",
+        "AT",
+        "CH"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "AI-generated content and LLM use"
+      ],
+      "supported_tasks": [
+        "Multimodal understanding (image/video/audio)",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "develop and validate automated tools for analyzing visual and auditory elements of news content",
+        "systematic exploration of news content on TikTok"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 7978,
+      "num_annotators": 2,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Krippendorff's alpha"
+      ],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "until the variables exhibited satisfactory intercoder reliability values of Krippendorff's α ≥ 0.800",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7802/2863"
+      ],
+      "persistent_doi": "10.7802/2863",
+      "code_repository_url": "",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International license",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Self-assessed or checklist only",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The dataset contains neither the TikTok videos nor the video descriptions; it provides unique video IDs and video URLs, and does not save personally identifiable information on the level of single individuals.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset can be found in the open-access GESIS repository (Wedel et al. 2025): https://doi.org/10.7802/2863",
+      "scale_quote": "The dataset encompasses all annotated TikTok videos published in 2023 by 18 major Germanspeaking news outlets (N = 8,623).",
+      "annotation_quote": "The human annotation of the videos with a codebook was subsequently conducted from September 2024 and February 2025.",
+      "ethics_quote": "We did not seek formal approval from the Institutional Review Board (IRB) at our institutions, but oriented our research according to the basic guidelines for safeguarding good research practice",
+      "license_quote": "The dataset is re-usable under the Creative Commons Attribution 4.0 International license.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper does not report a single numeric IAA value; only a threshold of Krippendorff's alpha ≥ 0.800 and per-variable alphas in Appendix Table 4 are given, so iaa_primary_value is -1.0."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "page_count": 12,
+  "n_chars": 67343,
+  "sha256": "8c57a77538a8b4a91d3933fc08b73c0bdba8c758c8bd4e576dc07829c9c8dd00",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://zenodo.org/records/18190030"
+  ],
+  "urls_in_references": [
+    "https://folha.com/e0cxpbns",
+    "https://www.reuters.com/world/americas/brazil-health-regulatorapproves-pfizer-covid-19-shot-ages-5-11-2021-12-16/",
+    "https://www.reuters.com/world/americas/brazil-alertafter-third-case-omicron-variant-2021-12-01/",
+    "https://folha.com/o8t1fdrg",
+    "https://www.who.int/news/item/15-07-2025global-childhood-vaccination-coverage-holds-steady-yet-over-14million-infants-remain-unvaccinated-who-unicef"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

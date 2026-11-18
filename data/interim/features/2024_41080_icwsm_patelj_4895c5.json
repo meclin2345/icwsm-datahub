@@ -1,0 +1,32 @@
+{
+  "page_count": 11,
+  "n_chars": 57710,
+  "sha256": "f3e870c7c7707a7268126c2bd4a9c921143e79c3b22ecb83182b227a1d7cb867",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://scored.co",
+    "https://developers.virustotal.com/reference/overview",
+    "https://web.archive.org/web/20200630065948/https",
+    "https://web.archive.org/web/",
+    "https://communities.win/p/11S13qIEl9/",
+    "https://web.archive",
+    "https://communities.win/",
+    "https://help.scored.co/knowledgebase/content-policy/",
+    "https://github.com/xlang-ai/instructor-embedding",
+    "https://IP2alwayswins.com",
+    "https://saidit.net/s/SaidIt/"
+  ],
+  "urls_in_references": [
+    "https://www.vice.com/en/article/43pv3g/gamergate-",
+    "https://force11",
+    "https://www.dailydot.com/",
+    "https://www.theverge.com/2020/6/29/21304947/reddit-",
+    "https://www.reddit.com/r/announcements/comments/",
+    "https://www.reddit.com/r/redditsecurity/comments/",
+    "https://www.pewresearch"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

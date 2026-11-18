@@ -1,0 +1,200 @@
+{
+  "paper_id": "2025_31050_icwsm_suwailehr_6e81b6",
+  "year": 2025,
+  "pdf_filename": "31050-ICWSM.SuwailehR.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:08:13+00:00",
+    "usage": [
+      {
+        "input_tokens": 34587,
+        "output_tokens": 1443,
+        "cache_read_input_tokens": 32415,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011E22IbtqIHUfCCYETV8VzXszm",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 16,
+    "n_chars": 90891,
+    "sha256": "862c85b6ad945e134bf81ffe5650795e5b6ea2624cde8eea0ce4a33f84cad975",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "http://llmebench.qcri.org",
+      "https://arxiv.org/pdf/2406.05559",
+      "https://www.deepl.com/en/translator",
+      "https://gemini.google.com",
+      "https://goose3.readthedocs.io",
+      "https://newspaper.readthedocs.io/",
+      "https://trafilatura.readthedocs.io",
+      "https://www.nltk.org/_modules/nltk/",
+      "https://ai.meta.com/blog/meta-llama-3/"
+    ],
+    "urls_in_references": [
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "ThatiAR : Subjectivity Detection in Arabic News Sentences",
+      "authors": [
+        "Reem Suwaileh",
+        "Maram Hasanain",
+        "Fatema Hubail",
+        "Wajdi Zaghouani",
+        "Firoj Alam"
+      ],
+      "author_countries": [
+        "QA",
+        "DE"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "ThatiAR",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Arabic news outlets"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset",
+        "Web scraping or browser automation",
+        "Synthetic, LLM-generated or simulated data"
+      ],
+      "collection_tools": [
+        "Goose3",
+        "Newspaper3k",
+        "Trafilatura"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 3661,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "3,661 sentences with 66.6% agreement, of which 1,579 were subjective and 2,082 were objective sentences.",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "ar",
+        "en"
+      ],
+      "num_languages": 2,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Misinformation and fact-checking",
+        "Political communication and elections"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Summarization or text generation",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "subjectivity detection",
+        "subjectivity task",
+        "instruction-following dataset"
+      ],
+      "annotation_paradigms": [
+        "Crowdworkers (MTurk, Prolific, etc.)",
+        "LLM or generative AI labels",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [
+        "GPT-4",
+        "GPT-4o"
+      ],
+      "num_annotated_records": 3661,
+      "num_annotators": -1,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa",
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.54,
+      "iaa_summary_verbatim": "We found the agreement to be approximately 0.54, indicating a reasonable level of agreement for the subjectivity annotation.",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Hugging Face Hub"
+      ],
+      "dataset_urls": [
+        "https://huggingface.co/datasets/QCRI/ThatiAR",
+        "http://llmebench.qcri.org"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "http://llmebench.qcri.org",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International License",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV",
+        "JSONL"
+      ],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We release the dataset and resources to the community. Code — http://llmebench.qcri.org Datasets — https://huggingface.co/datasets/QCRI/ThatiAR",
+      "scale_quote": "As a result, we obtained 3,661 sentences with 66.6% agreement, of which 1,579 were subjective and 2,082 were objective sentences.",
+      "annotation_quote": "We utilized GPT-4 to validate and rationalize the human subjectivity annotations. Specifically, for each sentence in ThatiAR, we prompted GPT-4 with the sentence and its label, and asked it, as an expert linguist, to \"Write a simple and short explanation\" for its given annotation.",
+      "ethics_quote": "In any of the data collection and annotation process we do not collect any personally identifiable information.",
+      "license_quote": "The ThatiAR dataset is released under the Creative Commons Attribution 4.0 International License: https://creativecommons.org/licenses/by/4.0/ legalcode.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The collection of GPT-4o-based explanations and instructions is a synthetic component of the released dataset, so 'Synthetic, LLM-generated or simulated data' was coded alongside the rehydration and scraping methods. The platform name 'Web/News/Blogs' was inferred from the data source (news articles) rather than an explicit label in the paper."
+    }
+  }
+}

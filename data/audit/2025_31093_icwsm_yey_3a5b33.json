@@ -1,0 +1,164 @@
+{
+  "summary": {
+    "paper_id": "2025_31093_icwsm_yey_3a5b33",
+    "year": 2025,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.14654784",
+    "doi_resolves": true,
+    "n_urls_checked": 3,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.14654784",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/14654784",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 1,
+    "total_size_mb": 0.4,
+    "file_extensions": ".csv",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 133,
+    "downloads_unique": 104,
+    "views_total": 206,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": 0,
+    "hf_downloads_30d": 33,
+    "code_url": "https://github.com/YiranYe/NoisyHate",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": 0,
+    "code_forks": 0,
+    "code_archived": false,
+    "code_last_push": "2024-11-14T03:51:40Z",
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.14654784",
+      "resolved_url": "https://zenodo.org/records/14654784",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:56+00:00",
+      "error": null
+    },
+    {
+      "url": "https://zenodo.org/records/14654784",
+      "resolved_url": "https://zenodo.org/records/14654784",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:57+00:00",
+      "error": null
+    },
+    {
+      "url": "https://huggingface.co/datasets/NoisyHate/Noisy_Hate_Data",
+      "resolved_url": "https://huggingface.co/datasets/NoisyHate/Noisy_Hate_Data",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:58+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "14654784",
+    "concept_doi": "10.5281/zenodo.14654783",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 1,
+    "total_size_mb": 0.4,
+    "file_extensions": [
+      ".csv"
+    ],
+    "stats_raw": {
+      "downloads": 133,
+      "unique_downloads": 104,
+      "views": 206,
+      "unique_views": 189,
+      "version_downloads": 133,
+      "version_unique_downloads": 104,
+      "version_unique_views": 189,
+      "version_views": 206
+    },
+    "downloads": 133,
+    "unique_downloads": 104,
+    "views": 206,
+    "unique_views": 189,
+    "version_downloads": 133,
+    "version_unique_downloads": 104,
+    "publication_date": "2025-01-15"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": true,
+    "repo": "NoisyHate/Noisy_Hate_Data",
+    "gated": false,
+    "restricted": false,
+    "account_required": false,
+    "private": false,
+    "disabled": false,
+    "downloads_30d": 33,
+    "downloads_all_time": 769,
+    "likes": 0,
+    "file_count": 5,
+    "file_extensions": [
+      ".csv",
+      ".md"
+    ],
+    "license": null,
+    "last_modified": "2023-05-20T15:37:38.000Z"
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": true,
+    "repo": "YiranYe/NoisyHate",
+    "stars": 0,
+    "forks": 0,
+    "archived": false,
+    "disabled": false,
+    "pushed_at": "2024-11-14T03:51:40Z",
+    "created_at": "2023-04-01T00:04:02Z",
+    "size_mb": 30.1,
+    "license": "MIT"
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/doi/10.5281/zenodo.14654784",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2025"
+  },
+  "wayback": null
+}

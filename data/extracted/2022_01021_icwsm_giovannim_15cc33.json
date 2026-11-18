@@ -1,0 +1,196 @@
+{
+  "paper_id": "2022_01021_icwsm_giovannim_15cc33",
+  "year": 2022,
+  "pdf_filename": "01021-ICWSM.GiovanniM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:31:15+00:00",
+    "usage": [
+      {
+        "input_tokens": 18458,
+        "output_tokens": 1322,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011PcZ0iaCg0TpLhqyYkfYnSzw2",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 9,
+    "n_chars": 42304,
+    "sha256": "f6d3015e354ced05c921fd5a45edb642f23bdd211f4db55c3f9594027bdbd150",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://www.fda.gov/news-events/press-announcements/fdaapproves-first-covid-19-vaccine",
+      "https://ourworldindata.org/covid-vaccinations",
+      "https://vaccinetracker.ecdc.europa.eu/public/extensions/COVID19/vaccine-tracker.html",
+      "https://osome.iu.edu/tools/covaxxy",
+      "https://github.com/frapierri/VaccinItaly",
+      "http://genomic.elet.polimi.it/vaccinitaly/",
+      "https://developer.twitter.com/en/docs/twitterapi/v1/tweets/filter-realtime/overview",
+      "https://developer.twitter.com/en/docs/twitterapi/tweets/search/introduction",
+      "https://www.internetlivestats.com/twitter-statistics/",
+      "https://doi.org/10.7910/DVN/NZUMZG",
+      "https://github.com/DataSciencePolimi/VaccinEU",
+      "https://www.newsguardtech.com/it/",
+      "https://sites.google",
+      "https://periscopeproject.eu/"
+    ],
+    "urls_in_references": [
+      "https://reutersinstitute.politics.ox.ac.uk/digital-newsreport/2021",
+      "https://www.pewresearch.org/"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/NZUMZG"
+    ],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "VaccinEU: COVID-19 Vaccine Conversations on Twitter in French, German and Italian",
+      "authors": [
+        "Marco Di Giovanni",
+        "Francesco Pierri",
+        "Christopher Torres-Lugo",
+        "Marco Brambilla"
+      ],
+      "author_countries": [
+        "IT",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "VaccinEU",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Filter API v1.1",
+        "Search API v2",
+        "GET statuses/lookup"
+      ],
+      "temporal_coverage_start": "2020-11-01",
+      "temporal_coverage_end": "2021-11-15",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 70352366,
+      "num_accounts_or_users": 2857966,
+      "scale_description_verbatim": "70,352,366 unique tweets from 2,857,966 users",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Network or graph"
+      ],
+      "languages_iso": [
+        "fr",
+        "de",
+        "it"
+      ],
+      "num_languages": 3,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "FR",
+        "DE",
+        "IT"
+      ],
+      "event_category": "Pandemic or public health crisis",
+      "event_name": "COVID-19 pandemic",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Public health and COVID-19",
+        "Misinformation and fact-checking",
+        "Bots, coordinated inauthentic behavior and propaganda"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "stance detection",
+        "coordinated activity",
+        "descriptive statistics of the data collected in terms of volumes, hashtags, news sources and geolocation"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 3000,
+      "num_annotators": 3,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Graph or network models"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/NZUMZG",
+        "https://github.com/DataSciencePolimi/VaccinEU"
+      ],
+      "persistent_doi": "10.7910/DVN/NZUMZG",
+      "code_repository_url": "https://github.com/DataSciencePolimi/VaccinEU",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "Data can be fully accessed in a Dataverse repository and a GitHub repository.",
+      "scale_quote": "We collected over 70 million tweets in three different languages, from November 1st 2020 to November 15th 2021",
+      "annotation_quote": "we manually annotated a random sample of 1,000 tweets with four labels (Pro-vaccines, Anti-Vaccines, Neutral, Out-of-context)",
+      "ethics_quote": "we provide public access to this data in agreement with Twitter terms of service by releasing ids of tweets which can be used to retrieve full objects via APIs",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "Total record count and user count were computed by summing per-language figures from Table 3; the paper states 'over 70 million tweets' but does not give an explicit aggregate total."
+    }
+  }
+}

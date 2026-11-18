@@ -1,0 +1,208 @@
+{
+  "paper_id": "2025_31107_icwsm_haouarif_f61f85",
+  "year": 2025,
+  "pdf_filename": "31107-ICWSM.HaouariF.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:08:31+00:00",
+    "usage": [
+      {
+        "input_tokens": 30104,
+        "output_tokens": 3000,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011qbMK8jNHsfycOYfKntcY1ZES",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 19,
+    "n_chars": 96933,
+    "sha256": "6cd96a55cc54ca6dfe92a1c520855b82242f14675fde6ce4361020db9b5dbb2b",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.15228071",
+      "https://doi.org/10.5281/zenodo.15228283",
+      "https://github.com/GateNLP/UKElectionNarratives",
+      "https://huggingface.co/google/gemma-2-9b-it",
+      "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+      "https://gatenlp.github.io/gate-teamware/development/",
+      "https://huggingface.co/thenlper/gte-base",
+      "https://scikit-learn.org/stable/modules/generated/sklearn",
+      "https://huggingface.co/FacebookAI/roberta-base",
+      "https://huggingface.co/FacebookAI/roberta-large",
+      "https://www.vigilantproject.eu"
+    ],
+    "urls_in_references": [
+      "https://force11",
+      "https://www.sheffield.ac.uk/rpi/ethics-integrity",
+      "https://www.sheffield.ac.uk/media/29459/download?",
+      "https://doi.org/10.5281/zenodo.15228283",
+      "https://www.gov.uk/data-protection",
+      "https://developer.x.com/en/more/developer-terms/agreement-",
+      "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+    ],
+    "dois_in_body": [
+      "10.5281/zenodo.15228071",
+      "10.5281/zenodo.15228283"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "UKElectionNarratives: A Dataset of Misleading Narratives Surrounding Recent UK General Elections",
+      "authors": [
+        "Fatima Haouari",
+        "Carolina Scarton",
+        "Nicolò Faggiani",
+        "Nikolaos Nikolaidis",
+        "Bonka Kotseva",
+        "Ibrahim Abu Farha",
+        "Jens Linge",
+        "Kalina Bontcheva"
+      ],
+      "author_countries": [
+        "GB",
+        "IT",
+        "GR"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "UKElectionNarratives",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter"
+      ],
+      "collection_methods": [
+        "Official platform API"
+      ],
+      "collection_tools": [
+        "Twitter streaming API (V1.1)"
+      ],
+      "temporal_coverage_start": "2019-11",
+      "temporal_coverage_end": "2024-07-04",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 2000,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "2,000 tweets",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GB"
+      ],
+      "event_category": "Elections",
+      "event_name": "UK General Elections 2019 and 2024",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Misinformation and fact-checking",
+        "Political communication and elections",
+        "Polarization and ideology"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Misinformation or claim detection",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "detecting election-related misleading narratives",
+        "topic modeling analysis"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation",
+        "Hybrid human and LLM-in-the-loop",
+        "LLM or generative AI labels"
+      ],
+      "llms_used": [
+        "gemma 2",
+        "Llama3.1",
+        "Mistral-7B",
+        "GPT-4o"
+      ],
+      "num_annotated_records": 2000,
+      "num_annotators": 15,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa"
+      ],
+      "iaa_primary_value": 0.34,
+      "iaa_summary_verbatim": "The overall Cohen’s kappa in Stage 1 is 0.34 which indicates fair agreement.",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)",
+        "LLM prompting (zero- or few-shot)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.15228071",
+        "https://doi.org/10.5281/zenodo.15228283"
+      ],
+      "persistent_doi": "10.5281/zenodo.15228283",
+      "code_repository_url": "https://github.com/GateNLP/UKElectionNarratives",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC-BY-NC-SA 4.0",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Approved by IRB or ethics board",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The released dataset contains tweet IDs with their respective annotations rather than tweet content; no demographic information is provided.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is available in the following link: https://doi.org/10.5281/zenodo.15228283",
+      "scale_quote": "In total, we selected 2,000 tweets to be manually annotated.",
+      "annotation_quote": "We split our data (2,000 tweets) into 20 batches with 100 tweets each, and each batch was annotated by two annotators independently.",
+      "ethics_quote": "The annotation task has been approved by the University Research and Ethics Committee (UREC) with reference number 059166.",
+      "license_quote": "Adhering to X T&Cs, we only release tweet IDs together with their respective annotations under a CC-BY-NC-SA 4.0 license.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The released dataset contains 2,000 sampled and annotated tweets, while the larger collection pools contained more than 60 million tweets for 2019 and more than 500,000 for 2024. The number of distinct users covered, released file formats, and collection API used for the 2024 historical tweets are not stated."
+    }
+  }
+}

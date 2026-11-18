@@ -1,0 +1,199 @@
+{
+  "paper_id": "2021_01035_icwsm_alamf_1997d7",
+  "year": 2021,
+  "pdf_filename": "01035-ICWSM.AlamF.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:29:00+00:00",
+    "usage": [
+      {
+        "input_tokens": 24111,
+        "output_tokens": 1043,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0110oZ2iIUeJ0nKo3ZlQts15Zlw",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 56764,
+    "sha256": "910a353dac71706232b16ccaa7cc73ba2858988581febba84fda590f8039ed0d",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://crisisnlp.qcri.org/",
+      "https://en.wikipedia.org/wiki/Disaster_",
+      "https://appen.com/datasets/combined-",
+      "https://data.world/crowdflower/disasters-",
+      "https://en.wikipedia.org/wiki/",
+      "https://github.com/brendano/ark-tweet-nlp",
+      "http://en.wikipedia.org/wiki/2012_",
+      "http://t.co/Knb407Fw",
+      "http://t.co/U2hw0LWW",
+      "http://t.co/MpQskYt1”",
+      "http://t.co/qb5UuYf9_|queensland",
+      "http://t.co/oH93niFiAS”",
+      "http://t.co/Th5Yzvdg5m_|_numerous",
+      "https://t.co/WMpmu27P9X”_",
+      "https://cloud.google.com/translate/docs/",
+      "http://t.co/WBsKGZHHSj”_"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": false,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "CrisisBench: Benchmarking Crisis-related Social Media Datasets for Humanitarian Information Processing",
+      "authors": [
+        "Firoj Alam",
+        "Hassan Sajjad",
+        "Muhammad Imran",
+        "Ferda Ofli"
+      ],
+      "author_countries": [
+        "QA"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Benchmark or evaluation suite",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "CrisisBench",
+      "platforms": [
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "tweets"
+      ],
+      "collection_methods": [
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [],
+      "temporal_coverage_start": "2010",
+      "temporal_coverage_end": "2017",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 166098,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "we provide 166.1k and 141.5k tweets for informativeness and humanitarian classification tasks, respectively",
+      "modalities": [
+        "Text",
+        "Image",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en",
+        "es",
+        "ru",
+        "ms",
+        "hi",
+        "nl",
+        "id",
+        "bn",
+        "fr",
+        "co",
+        "ht",
+        "tl",
+        "ceb",
+        "gl",
+        "ja",
+        "ca",
+        "pt"
+      ],
+      "num_languages": 19,
+      "includes_code_mixing": true,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "Natural disaster or climate event",
+      "event_name": "natural disasters",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Crisis, disaster and conflict informatics",
+        "Misinformation and fact-checking"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Multimodal understanding (image/video/audio)"
+      ],
+      "tasks_verbatim": [
+        "informativeness classification",
+        "humanitarian information type classification"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Classical ML (SVM, logistic regression, random forest)",
+        "Fine-tuned transformer encoders (BERT family)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Personal or lab website, Google Drive, Dropbox"
+      ],
+      "dataset_urls": [
+        "https://crisisnlp.qcri.org/ crisis_datasets_benchmarks.html"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "the license of existing resources",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": false,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "We make the dataset and scripts available at https://crisisnlp.qcri.org/ crisis_datasets_benchmarks.html.",
+      "scale_quote": "We consolidate eight human-annotated datasets and provide 166.1k and 141.5k tweets for informativeness and humanitarian classification tasks, respectively.",
+      "annotation_quote": "We create a set of common class labels by manually mapping semantically similar labels into one cluster.",
+      "ethics_quote": "We release the dataset by maintaining the license of existing resources.",
+      "license_quote": "We release the dataset by maintaining the license of existing resources.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "The paper states it provides 166.1k and 141.5k tweets, but Table 3 and Table 4 report totals of 166,098 and 141,533 respectively, which are used here. The dataset consolidates eight existing datasets, so the collection method is an extension, and the number of annotated records is not specified in the paper."
+    }
+  }
+}

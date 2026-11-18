@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "paper_id": "2024_41082_icwsm_jangrah_b6a062",
+    "year": 2024,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.8347427",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://precog.iiit.ac.in/research/put-your-money/",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://precog.iiit.ac.in/research/put-your-money/",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 4,
+    "total_size_mb": 16175.77,
+    "file_extensions": ".zip",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 266,
+    "downloads_unique": 205,
+    "views_total": 314,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": "cc-by-4.0",
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": "https://precog.iiit.ac.in/research/put-your-money/",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://precog.iiit.ac.in/research/put-your-money/",
+      "resolved_url": "https://precog.iiit.ac.in/research/put-your-money/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html",
+      "checked_at": "2026-10-29T03:23:29+00:00",
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.8347427",
+      "resolved_url": "https://zenodo.org/records/8347427",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:23:30+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "8347427",
+    "concept_doi": "10.5281/zenodo.8347426",
+    "access_right": "open",
+    "restricted": false,
+    "license": "cc-by-4.0",
+    "file_count": 4,
+    "total_size_mb": 16175.77,
+    "file_extensions": [
+      ".zip"
+    ],
+    "stats_raw": {
+      "downloads": 266,
+      "unique_downloads": 205,
+      "views": 314,
+      "unique_views": 292,
+      "version_downloads": 266,
+      "version_unique_downloads": 205,
+      "version_unique_views": 291,
+      "version_views": 313
+    },
+    "downloads": 266,
+    "unique_downloads": 205,
+    "views": 314,
+    "unique_views": 292,
+    "version_downloads": 266,
+    "version_unique_downloads": 205,
+    "publication_date": "2023-09-15"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/record/8347427",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2023"
+  },
+  "wayback": null
+}

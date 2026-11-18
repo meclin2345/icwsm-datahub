@@ -1,0 +1,17 @@
+measure,key,before 2024 (%),2024 on (%),n before,n after,Fisher p
+Paper checklist present,checklist_detected,0.0,100.0,64,60,7.010127256912114e-37
+"Discusses misuse risks (LLM coding, whole paper)",discusses_misuse_risks,29.7,88.3,64,60,1.394463142891086e-11
+Misuse language in main text (before References),body_mentions_misuse,25.0,50.0,64,60,0.005222843132276796
+"Mentions FAIR (LLM coding, whole paper)",explicitly_mentions_fair,56.2,91.7,64,60,6.013433542449295e-06
+FAIR in main text (before References),body_mentions_fair,56.2,65.0,64,60,0.36099024309875494
+Discusses platform ToS,discusses_platform_tos,50.0,40.0,64,60,0.2837455663020181
+PII anonymized before release,pii_anonymization_applied,26.6,43.3,64,60,0.06015450309295095
+Practice: dataset DOI,has_doi,81.2,78.3,64,60,0.8233131946818539
+Practice: license stated in the paper,fair_R1_1,21.9,65.0,64,60,1.6436350961226263e-06
+Practice: license on the repository record (checklist-independent),repo_license_present,86.2,83.9,58,56,0.7965245248191308
+Practice: standard documentation named in the paper,fair_F2,6.2,55.0,64,60,2.251817976517889e-09
+Datasheet/data card named in main text (before References),body_mentions_datasheet,7.8,11.7,64,60,0.5512441164212096
+Practice: code to collect or load the data,fair_R1_3,40.6,50.0,64,60,0.3670355732883033
+Practice: archival repository,fair_A2,89.1,86.7,64,60,0.785707775603459
+Outcome: openly usable in 2026,funnel_usable,65.6,78.3,64,60,0.16196381024800505
+"Practice: FAIR score (0-100, mean, not %)",fair_score,67.0,75.2,64,60,0.003235051075888221

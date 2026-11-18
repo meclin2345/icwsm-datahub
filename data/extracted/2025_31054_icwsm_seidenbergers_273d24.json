@@ -1,0 +1,197 @@
+{
+  "paper_id": "2025_31054_icwsm_seidenbergers_273d24",
+  "year": 2025,
+  "pdf_filename": "31054-ICWSM.SeidenbergerS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt",
+      "prompt-repair"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:06:31+00:00",
+    "usage": [
+      {
+        "input_tokens": 21746,
+        "output_tokens": 889,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_0114T55fhoNfPXGibaNYXvGpqXi",
+        "structured_mode": "prompt",
+        "first_attempt_errors": "paper.title: MISSING - this required field was left out; include it | collection.collection_methods.1: got 'Other'; Input should be 'Official platform API', 'Researcher access program (TikTok Research API, Meta Content Library, DSA Art. 40)', 'Third-party archive or service ("
+      },
+      {
+        "input_tokens": 22827,
+        "output_tokens": 1311,
+        "cache_read_input_tokens": 19615,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011YHHpEx6prRSsqYT9jXkLO9m1",
+        "structured_mode": "prompt-repair"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 61570,
+    "sha256": "81e0c7d3910be694edb9d1dd34ea1cd34f1b6da223b035742a8c809d1f28d92c",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://scenerules.org/",
+      "https://osf.io/9eh47/",
+      "https://doi.org/10.17605/OSF.IO/9EH47",
+      "https://academictorrents.com/details/"
+    ],
+    "urls_in_references": [
+      "https://1337x.to",
+      "https://github.com/",
+      "https://cybernews.com/",
+      "https://pypi.org/project/parse-torrent-name",
+      "https://www.bittorrent.com",
+      "https://www.vice.com/en/article/bittorrent-usage-increasesnetflix-streaming-sites",
+      "https://btdig.com",
+      "https://www.digitalmusicnews",
+      "https://archive.org/details/torrent",
+      "https://github",
+      "https://www",
+      "https://www.lifewire.com/high-streaming-prices-bringback-pirating-8717968",
+      "https://www.wired.com/",
+      "https://rarbg.to",
+      "https://thepiratebay",
+      "https://www.uschamber.com/",
+      "https://webtorrent.io"
+    ],
+    "dois_in_body": [
+      "10.17605/OSF.IO/9EH47"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "MagnetDB: A Longitudinal Torrent Discovery Dataset with IMDb-Matched Movies and TV Shows",
+      "authors": [
+        "Scott Seidenberger",
+        "Noah Pursell",
+        "Anindya Maiti"
+      ],
+      "author_countries": [
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MagnetDB",
+      "platforms": [
+        "Other"
+      ],
+      "platform_names_verbatim": [
+        "BitTorrent DHT"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "magnetico"
+      ],
+      "temporal_coverage_start": "2018-12-30",
+      "temporal_coverage_end": "2024-09-29",
+      "primary_record_unit": "Other",
+      "total_records": 28606694,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "28,606,694 torrents with 950,660,089 files",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Video"
+      ],
+      "languages_iso": [],
+      "num_languages": -1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Other"
+      ],
+      "supported_tasks": [
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "examining distribution trends, subcultural practices, and the gift economy within piracy ecosystems"
+      ],
+      "annotation_paradigms": [
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 1562573,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Open Science Framework (OSF)",
+        "Other"
+      ],
+      "dataset_urls": [
+        "https://osf.io/9eh47/",
+        "https://academictorrents.com/details/1ce8202af7a500469177ed99de5cd9bf66078de0"
+      ],
+      "persistent_doi": "10.17605/OSF.IO/9EH47",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "CSV"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Data Card or dataset card",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "OSF URL: https://osf.io/9eh47/ DOI: https://doi.org/10.17605/OSF.IO/9EH47 Academic Torrents: https://academictorrents.com/details/1ce8202af7a500469177ed99de5cd9bf66078de0",
+      "scale_quote": "Over the 300-week collection period—from December 30, 2018, through September 29, 2024—we gathered 28.6 million torrents consisting of more than 950.6 million individual files.",
+      "annotation_quote": "We matched titles against the IMDb dataset using an Elasticsearch index with BM25 scores and a predefined threshold of 138.",
+      "ethics_quote": "We do not distribute magnet links themselves in the publicly accessible version of MagnetDB, balancing transparency for academic inquiry with a commitment to minimize unethical or illicit use.",
+      "license_quote": "We support re-usability of the dataset with our choice of license (CC BY 4.0), clear data provenance, and a breadth and depth of data attributes.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "BitTorrent DHT and magnet link crawling does not map neatly to standard platform/API categories; no language codes or distinct user counts are reported."
+    }
+  }
+}

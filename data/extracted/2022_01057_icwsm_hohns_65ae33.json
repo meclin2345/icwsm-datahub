@@ -1,0 +1,183 @@
+{
+  "paper_id": "2022_01057_icwsm_hohns_65ae33",
+  "year": 2022,
+  "pdf_filename": "01057-ICWSM.HohnS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T17:31:48+00:00",
+    "usage": [
+      {
+        "input_tokens": 16407,
+        "output_tokens": 1268,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011OQIlnWTBlHhxOWaE7DlYFryi",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 7,
+    "n_chars": 36102,
+    "sha256": "e2c23756889b11962f3b1cd3341814310865c31646f6c72513d1b65317c5e4f6",
+    "checklist_detected": false,
+    "urls_in_body": [
+      "https://t.me/durov/176",
+      "https://github.com/sviatlanahoehn/darkplatforms/",
+      "https://omr.com/de/4chan-pleite/_",
+      "https://github.com/sviatlanahoehn/darkplatforms/_",
+      "http://hdl.handle.net/10993/49661_",
+      "https://www.go-fair.org/fair-principles/"
+    ],
+    "urls_in_references": [
+      "https://www.tagesschau.de/investigativ/funk/"
+    ],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "BelElect: A New Dataset for Bias Research from a ”Dark” Platform",
+      "authors": [
+        "Sviatlana Hohn",
+        "Sjouke Mauw",
+        "Nicholas Asher"
+      ],
+      "author_countries": [
+        "LU",
+        "FR"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "BelElect",
+      "platforms": [
+        "Telegram"
+      ],
+      "platform_names_verbatim": [
+        "Telegram"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "built-in function of the desktop version of Telegram"
+      ],
+      "temporal_coverage_start": "2020-08-01",
+      "temporal_coverage_end": "2021-04-14",
+      "primary_record_unit": "Posts or tweets",
+      "total_records": 140388,
+      "num_accounts_or_users": 8,
+      "scale_description_verbatim": "It contains 140 . 388 Telegram posts (76 . 918 opposition and 63 . 470 state)",
+      "modalities": [
+        "Text",
+        "Image",
+        "Video",
+        "Audio",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "ru",
+        "be"
+      ],
+      "num_languages": 2,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "BY"
+      ],
+      "event_category": "Elections",
+      "event_name": "2020 Belarusian presidential election",
+      "involves_vulnerable_groups": true
+    },
+    "annotation": {
+      "research_domains": [
+        "Political communication and elections",
+        "Polarization and ideology"
+      ],
+      "supported_tasks": [
+        "Stance detection",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "research on linguistic bias in political news"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab",
+        "Domain archive (ICPSR, GESIS, Dryad, Mendeley Data)"
+      ],
+      "dataset_urls": [
+        "https://github.com/sviatlanahoehn/darkplatforms/",
+        "http://hdl.handle.net/10993/49661"
+      ],
+      "persistent_doi": "10.5281/zenodo.5844350",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "JSON",
+        "TGZ"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "None mentioned",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": false,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is findable : it can be downloaded from currently three open-access, indexed and searchable repositories: Zenodo (DOI: 10.5281/zenodo.5844350 ), GitHub ( https://github.com/sviatlanahoehn/darkplatforms/ ) and Orbilu ( http://hdl.handle.net/10993/49661 )",
+      "scale_quote": "It contains 140 . 388 Telegram posts (76 . 918 opposition and 63 . 470 state); 109 . 721 posts contain non-empty text (58 . 976 opposition and 50 . 745 state).",
+      "annotation_quote": "",
+      "ethics_quote": "The data have been downloaded only from public channels acting as or even maintained by news agencies. We did not collect any personal messages or personal data from individual users.",
+      "license_quote": "",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper mentions a JSON file containing 'annotations' but does not specify what is annotated in the released corpus; no license is named in the text."
+    }
+  }
+}

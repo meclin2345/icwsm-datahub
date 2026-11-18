@@ -1,0 +1,19 @@
+{
+  "page_count": 9,
+  "n_chars": 42776,
+  "sha256": "df09b5ac02ade883c248a0d17010842349274c1ed0a75da43327c9eda47212ee",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://t",
+    "https://zenodo.org/records/14661891",
+    "https://docs",
+    "https://www"
+  ],
+  "urls_in_references": [
+    "https://telegra"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

@@ -1,0 +1,177 @@
+{
+  "paper_id": "2024_41028_icwsm_glasebachj_5debcc",
+  "year": 2024,
+  "pdf_filename": "41028-ICWSM.GlasebachJ.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:04:42+00:00",
+    "usage": [
+      {
+        "input_tokens": 23722,
+        "output_tokens": 1411,
+        "cache_read_input_tokens": 21407,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011Ex1zYT8pO1gKbjAhyQZpfC2b",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 12,
+    "n_chars": 64610,
+    "sha256": "ef256728a8e0e2f318409ce8ffda70f72b8c15696ee44b13325ef27f7e20c5b5",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.5281/zenodo.10513452",
+      "https://ccwi.github.io/corpus-gmhp7k/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [
+      "10.5281/zenodo.10513452"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "GMHP7k: A Corpus of German Misogynistic Hatespeech Posts",
+      "authors": [
+        "Jonas Glasebach",
+        "Max-Emanuel Keller",
+        "Alexander Döschl",
+        "Peter Mandl"
+      ],
+      "author_countries": [
+        "DE"
+      ],
+      "is_industry_collaboration": true,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "GMHP7k",
+      "platforms": [
+        "Facebook",
+        "Twitter/X"
+      ],
+      "platform_names_verbatim": [
+        "Facebook",
+        "X (formerly Twitter)"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Twitter API",
+        "GET /2/tweets/search/stream",
+        "GET /2/users/:id/tweets"
+      ],
+      "temporal_coverage_start": "2022-03-16",
+      "temporal_coverage_end": "2022-03-18",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 7061,
+      "num_accounts_or_users": 5,
+      "scale_description_verbatim": "7,061 user posts",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "de"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "DE"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "Gender, race and identity"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Hate or toxicity detection"
+      ],
+      "tasks_verbatim": [
+        "detection and differentiation of general hatespeech and the specific case of misogynistic hatespeech",
+        "classification of new texts according to hate speech and misogynistic content"
+      ],
+      "annotation_paradigms": [
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [],
+      "num_annotated_records": 7061,
+      "num_annotators": 6,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Fleiss' kappa"
+      ],
+      "iaa_primary_value": 0.6409,
+      "iaa_summary_verbatim": "The interrater reliability over all annotators according to Fleiss’ Kappa is 0.6409 for hatespeech and 0.8258 for misogynistic hatespeech.",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo",
+        "GitHub or GitLab"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.5281/zenodo.10513452",
+        "https://ccwi.github.io/corpus-gmhp7k/"
+      ],
+      "persistent_doi": "10.5281/zenodo.10513452",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Creative Commons Attribution 4.0 International",
+      "license_category": "CC BY",
+      "data_file_formats": [],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All occurrences of usernames in the texts are anonymized, and identities of annotators were pseudonymized.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset of the corpus on German Misogynistic Hatespeech Posts (GMHP7k) is publicly available.",
+      "scale_quote": "We provide a German corpus consisting of 7,061 posts authored by users of social media platforms.",
+      "annotation_quote": "A group of volunteers annotated each post according to hatespeech and misogynistic/misogynous hatespeech in a binary fashion.",
+      "ethics_quote": "The privacy of all authors of tweets is preserved as all occurrences of usernames in the texts are anonymized.",
+      "license_quote": "on Zenodo (https://doi.org/10.5281/zenodo.10513452) and a website (https://ccwi.github.io/corpus-gmhp7k/), licensed under Creative Commons Attribution 4.0 International.",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "Temporal coverage is unclear as multiple collection periods are mentioned (May 2019, March 2022, mid-February to April 2022) but no overall start and end dates are explicitly stated for the released dataset. The exact collection tools for Facebook are not specified."
+    }
+  }
+}

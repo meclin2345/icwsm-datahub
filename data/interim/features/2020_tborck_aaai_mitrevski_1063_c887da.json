@@ -1,0 +1,28 @@
+{
+  "page_count": 7,
+  "n_chars": 35821,
+  "sha256": "e748fc2246c13871689b1d6e721527a033d3b9663c9569157b5e318facabda8f",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.3605388",
+    "https://www.mediawiki.org",
+    "https://en.wikipedia.org/wiki/Help:Wikitext",
+    "https://en.wikipedia.org/w/api.php",
+    "https://phabricator.wikimedia.org/T182351",
+    "https://dumps.wikimedia.org/enwiki/",
+    "https://www.mediawiki.org/w/index.php?title=Help",
+    "https://archive.org/web/",
+    "https://www.mediawiki.org/wiki/MediaWiki",
+    "https://www.mediawiki.org/wiki/Extension",
+    "https://www.mediawiki.org/wiki/Extension:Scribunto",
+    "https://en.wikipedia.org/w/index.php?title=Docker",
+    "https://dumps.wikimedia.org/other/clickstream/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.5281/zenodo.3605388"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

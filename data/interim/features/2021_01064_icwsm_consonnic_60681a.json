@@ -1,0 +1,27 @@
+{
+  "page_count": 10,
+  "n_chars": 52060,
+  "sha256": "51afe18aff7fd0eaf1ff420428b911462eb3f2b652aff376a96ecb1b42187e9d",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://www.microsoft.com/en-us/research/project/geolifebuilding-social-networks-using-human-location-history/#!",
+    "https://sites.google.com/site/yangdingqi/home/foursquaredataset",
+    "https://data.world/datasets/trips",
+    "https://zenodo.org/record/4027465",
+    "https://github.com/MoTiV-project/dataanalysis",
+    "https://www.oecd.org/",
+    "https://openweathermap.org/",
+    "http://epsg.io/7030-ellipsoid"
+  ],
+  "urls_in_references": [
+    "https://doi.org/10.1007/",
+    "https://ideas.repec.org/",
+    "https://ideas.repec.org/a/gam/",
+    "https://doi.org/10.1007/s10796-015-9600-3",
+    "https://doi.org/"
+  ],
+  "dois_in_body": [],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

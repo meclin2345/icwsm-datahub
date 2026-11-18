@@ -1,0 +1,110 @@
+{
+  "summary": {
+    "paper_id": "2025_31050_icwsm_suwailehr_6e81b6",
+    "year": 2025,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": null,
+    "doi_resolves": false,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://huggingface.co/datasets/QCRI/ThatiAR",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://huggingface.co/datasets/QCRI/ThatiAR",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Hugging Face",
+    "file_count": 9,
+    "total_size_mb": null,
+    "file_extensions": ".json, .md, .tsv, .txt",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 1093,
+    "downloads_unique": null,
+    "views_total": null,
+    "downloads_metric_source": "Hugging Face (all time)",
+    "repo_license": "cc-by-nc-sa-4.0",
+    "datacite_registered": false,
+    "datacite_publisher": null,
+    "datacite_citations": null,
+    "hf_likes": 1,
+    "hf_downloads_30d": 51,
+    "code_url": "http://llmebench.qcri.org",
+    "code_url_status": "Alive",
+    "code_url_alive": true,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://huggingface.co/datasets/QCRI/ThatiAR",
+      "resolved_url": "https://huggingface.co/datasets/QCRI/ThatiAR",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:39+00:00",
+      "error": null
+    },
+    {
+      "url": "http://llmebench.qcri.org",
+      "resolved_url": "https://github.com/qcri/LLMeBench/",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:24:40+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": false
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": true,
+    "repo": "QCRI/ThatiAR",
+    "gated": false,
+    "restricted": false,
+    "account_required": false,
+    "private": false,
+    "disabled": false,
+    "downloads_30d": 51,
+    "downloads_all_time": 1093,
+    "likes": 1,
+    "file_count": 9,
+    "file_extensions": [
+      ".json",
+      ".md",
+      ".tsv",
+      ".txt"
+    ],
+    "license": "cc-by-nc-sa-4.0",
+    "last_modified": "2024-10-21T13:12:24.000Z"
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": false
+  },
+  "wayback": null
+}

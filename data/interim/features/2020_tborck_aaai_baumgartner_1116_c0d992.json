@@ -1,0 +1,29 @@
+{
+  "page_count": 8,
+  "n_chars": 33001,
+  "sha256": "d65ed55cb7753fcf77b63b88c0b86f06daab3fe630a3ba552990f6e235fe6060",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://zenodo.org/record/",
+    "https://github.com/pushshift/telegram",
+    "https://docs.telethon.dev/en/latest/",
+    "https://tl.telethon.dev/",
+    "https://tl.telethon",
+    "https://tl.telethon.dev/constructors/message.html",
+    "https://www.go-fair.org/fair-principles/",
+    "https://zenodo.org/",
+    "https://zenodo.org/record/3607497"
+  ],
+  "urls_in_references": [
+    "https://www.adl.org/blog/",
+    "https://www.businessofapps.com/data/telegramstatistics/",
+    "https://www.theverge.com/2019/1/21/18191455/whatsappforwarding-limit-five-messages-misinformation-battle",
+    "https://amp.insider.com/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.3607497"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

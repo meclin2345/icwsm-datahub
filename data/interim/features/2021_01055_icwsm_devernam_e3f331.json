@@ -1,0 +1,29 @@
+{
+  "page_count": 8,
+  "n_chars": 33878,
+  "sha256": "f4140d740311dc8b94a00d42241bf3afb5183cef224b5b321824e7a7ba883fcb",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://developer.twitter.com/en/docs/twitter-api/v1/tweets/",
+    "https://doi.org/10.5281/zenodo.4526494",
+    "https://github.com/DocNow/hydrator",
+    "https://github.com/DocNow/twarc",
+    "https://covidtracking.com/",
+    "https://covid19obs.fbk.eu",
+    "https://ourworldindata.org/covid-vaccinations",
+    "https://osome.iu.edu/tools/covaxxy",
+    "https://www.nytimes.com/2021/01/06/us/politics/protesters-",
+    "https://iffy.news/iffy-plus/"
+  ],
+  "urls_in_references": [
+    "https://www.pewresearch.org/science/2020/12/03/intentto-get-a-covid-19-vaccine-rises-to-60-as-confidence-inresearch-and-development-process-increases/",
+    "https://www.kff.org/coronavirus-covid19/report/kff-covid-19-vaccine-monitor-december-2020",
+    "https://www.pewresearch.org/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.4526494"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

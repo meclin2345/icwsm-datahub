@@ -1,0 +1,21 @@
+{
+  "page_count": 6,
+  "n_chars": 29311,
+  "sha256": "b9108ea227d5c958d9c006e3aab2c54fa83344c9838f3b053fe174c9b8227dcb",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://transparency.twitter.com/en/reports/informationoperations.html",
+    "https://www.reddit.com/r/announcements/comments/8bb85p/",
+    "https://doi.org/10.7910/DVN/NO3I34",
+    "https://archive.org/details/twitterstream",
+    "https://pypi.org/project/ImageHash/",
+    "http://xx"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [
+    "10.7910/DVN/NO3I34"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

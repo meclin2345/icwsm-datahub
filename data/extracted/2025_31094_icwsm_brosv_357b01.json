@@ -1,0 +1,179 @@
+{
+  "paper_id": "2025_31094_icwsm_brosv_357b01",
+  "year": 2025,
+  "pdf_filename": "31094-ICWSM.BrosV.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:08:56+00:00",
+    "usage": [
+      {
+        "input_tokens": 13999,
+        "output_tokens": 1218,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011F15BNgNTFOCUdnk9ven2NJFR",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 6,
+    "n_chars": 29015,
+    "sha256": "4855b6f6bb4d0bad05621807b3503965831012318e7c6a30aa251f1840b1448f",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.idiap.ch/en/scientific-research/data/",
+      "https://doi.org/10.34777/6w61-tn46"
+    ],
+    "urls_in_references": [
+      "https://www",
+      "https://www.swissinfo.ch/eng/"
+    ],
+    "dois_in_body": [
+      "10.34777/6w61-tn46"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "The Suisse Romande Local News Dataset",
+      "authors": [
+        "Victor Bros",
+        "Daniel Gatica-Perez"
+      ],
+      "author_countries": [
+        "CH"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "Suisse Romande Local News Dataset",
+      "platforms": [
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Le Nouvelliste",
+        "La Côte",
+        "Arc Info"
+      ],
+      "collection_methods": [
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "BeautifulSoup"
+      ],
+      "temporal_coverage_start": "2015-01",
+      "temporal_coverage_end": "2022-06",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 130155,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "The articles, totaling 130,155 items, are stored in their original French language.",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "fr"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "CH"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Sentiment or emotion analysis",
+        "Descriptive or exploratory social analysis",
+        "Other"
+      ],
+      "tasks_verbatim": [
+        "language modeling",
+        "topic modeling",
+        "sentiment analysis",
+        "studies on media content and discourse analysis",
+        "investigating trends in local news reporting",
+        "the evolution of regional media landscapes"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Other"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.34777/6w61-tn46",
+        "https://www.idiap.ch/en/scientific-research/data/suisse-romande-news-datasetthat"
+      ],
+      "persistent_doi": "10.34777/6w61-tn46",
+      "code_repository_url": "",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Credentialed access, form or data use agreement",
+      "license_verbatim": "specific terms that allow for reuse in academic research",
+      "license_category": "Custom terms or data use agreement",
+      "data_file_formats": [
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "Journalists’ names have been anonymized and replaced with unique identifiers.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is accessible via a DOI link.",
+      "scale_quote": "The articles, totaling 130,155 items, are stored in their original French language.",
+      "annotation_quote": "The collected data encompasses all articles available on the respective web platforms.",
+      "ethics_quote": "To respect privacy and legal considerations, journalists’ names have been anonymized, and the dataset is made available for research purposes under a specific agreement with ESH M´edias.",
+      "license_quote": "The dataset is shared under specific terms that allow for reuse in academic research.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "num_accounts_or_users is not stated; the dataset is article-based, so user counts are not applicable."
+    }
+  }
+}

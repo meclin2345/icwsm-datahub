@@ -1,0 +1,190 @@
+{
+  "paper_id": "2026_61013_vermap_a42350",
+  "year": 2026,
+  "pdf_filename": "61013-VermaP.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-29T03:09:21+00:00",
+    "usage": [
+      {
+        "input_tokens": 23024,
+        "output_tokens": 1288,
+        "cache_read_input_tokens": 4767,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011imX7xGLo0i1fhJTmW9XlGPfF",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 14,
+    "n_chars": 65384,
+    "sha256": "b4aeb25fb9d4bfaf4e1636b79c84d855233e519a5051ba4891aa9fae52d4de21",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://www.allsides.com/",
+      "https://github.com/kokiljaidka/mediaspin",
+      "https://doi.org/10.7910/DVN/MOCQTZ"
+    ],
+    "urls_in_references": [
+      "https://doi.org/10.7910/DVN/MOCQTZ",
+      "https://github.com/kokiljaidka/mediaspin",
+      "https://doi.org/10.7910/DVN/MOCQTZ.|"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/MOCQTZ"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "The MediaSpin Dataset: Post-Publication News Headline Edits Annotated for Media Bias",
+      "authors": [
+        "Preetika Verma",
+        "Kokil Jaidka"
+      ],
+      "author_countries": [
+        "US",
+        "SG"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "Extension or new version of an existing dataset",
+      "num_datasets_released": 2
+    },
+    "collection": {
+      "dataset_name": "MediaSpin",
+      "platforms": [
+        "Twitter/X",
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "X (Twitter)",
+        "NewsEdits"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "X API"
+      ],
+      "temporal_coverage_start": "",
+      "temporal_coverage_end": "",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 78910,
+      "num_accounts_or_users": 819,
+      "scale_description_verbatim": "The dataset contains 78,910 headline pairs annotated for 13 types of media bias",
+      "modalities": [
+        "Text"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "US",
+        "CA"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Network or information diffusion analysis",
+        "Causal or intervention analysis"
+      ],
+      "tasks_verbatim": [
+        "cross-national analysis of how country references are added or removed during editing",
+        "transformer-based bias classification at both binary and fine-grained levels",
+        "behavioral analysis of biased headlines on X (Twitter)"
+      ],
+      "annotation_paradigms": [
+        "LLM or generative AI labels",
+        "Expert, author or trained student annotation"
+      ],
+      "llms_used": [
+        "GPT-3.5-turbo",
+        "GPT-4o-mini"
+      ],
+      "num_annotated_records": 78910,
+      "num_annotators": 2,
+      "iaa_reported": true,
+      "iaa_metrics": [
+        "Cohen's kappa",
+        "Percent agreement"
+      ],
+      "iaa_primary_value": 0.67,
+      "iaa_summary_verbatim": "The overall inter-annotator agreement (pairwise percentage agreement) was 84.9%, with a corresponding Cohen’s κ of 0.67",
+      "baseline_families": [
+        "Fine-tuned transformer encoders (BERT family)",
+        "Statistical models (regression, time series)"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/MOCQTZ"
+      ],
+      "persistent_doi": "10.7910/DVN/MOCQTZ",
+      "code_repository_url": "https://github.com/kokiljaidka/mediaspin",
+      "distribution_form": "Mixed (IDs plus derived features)",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "Not specified",
+      "license_category": "Not specified",
+      "data_file_formats": [
+        "CSV",
+        "JSON"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "No personal information is included; all data derive from publicly available headlines.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The dataset is available at https://doi.org/10.7910/DVN/MOCQTZ.",
+      "scale_quote": "The dataset contains 78,910 headline pairs annotated for 13 types of media bias",
+      "annotation_quote": "We annotated editorial bias using an LLM pipeline, specifically GPT-3.5-turbo, following the prompt in the Appendix Figure 3.",
+      "ethics_quote": "No personal information is included; all data derive from publicly available headlines.",
+      "license_quote": "",
+      "extraction_confidence": "Medium",
+      "ambiguity_notes": "num_accounts_or_users (819) comes from the MediaSpin-in-the-Wild dataset, not MediaSpin; the paper does not state a distinct account count for MediaSpin."
+    }
+  }
+}

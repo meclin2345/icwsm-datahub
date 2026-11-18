@@ -1,0 +1,20 @@
+# Never commit the papers or their full text
+data/papers/
+data/interim/text/
+data/audit/_cache/
+demo/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Local run files that are not part of the public release
+data/interim/api_capabilities.json
+data/interim/failed_raw/
+venv/
+
+# personal files, never publish
+.zshrc
+overnight_run.log
+*.log
+.vscode/

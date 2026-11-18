@@ -1,0 +1,187 @@
+{
+  "paper_id": "2025_31007_icwsm_mitrovicdankulovm_a4b8e3",
+  "year": 2025,
+  "pdf_filename": "31007-ICWSM.MitrovicDankulovM.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:27+00:00",
+    "usage": [
+      {
+        "input_tokens": 18112,
+        "output_tokens": 1520,
+        "cache_read_input_tokens": 15775,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011s9ftip30EUWgw2aKMyevsSfv",
+        "structured_mode": "prompt"
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 10,
+    "n_chars": 48464,
+    "sha256": "b887013fec00c2c12fde00577ca9f1aa58a399529a91a3d50666d64213f16201",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://zenodo.org/records/14637314",
+      "https://pypi.org/project/pymadoc/",
+      "https://github.com/atomashevic/rMADOC",
+      "https://zenodo.org/records/"
+    ],
+    "urls_in_references": [],
+    "dois_in_body": [],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": true,
+    "mentions_dataverse": false
+  },
+  "extraction": {
+    "paper": {
+      "title": "Multi-Platform Aggregated Dataset of Online Communities (MADOC)",
+      "authors": [
+        "Marija Mitrović Dankulov",
+        "Aleksandar Tomašević",
+        "Slobodan Maletić",
+        "Miroslav Anđelković",
+        "Ana Vranić",
+        "Darja Cvetković",
+        "Boris Stupovski",
+        "Dušan Vudragović",
+        "Sara Major",
+        "Aleksandar Bogojević"
+      ],
+      "author_countries": [
+        "RS"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 1
+    },
+    "collection": {
+      "dataset_name": "MADOC",
+      "platforms": [
+        "Reddit",
+        "Alt-Tech (Gab/Parler/Truth Social/Rumble/BitChute)",
+        "Bluesky",
+        "Regional platforms (VK/ShareChat/Koo/Line/KakaoTalk)"
+      ],
+      "platform_names_verbatim": [
+        "Reddit",
+        "Voat",
+        "Bluesky",
+        "Koo"
+      ],
+      "collection_methods": [
+        "Third-party archive or service (Pushshift, CrowdTangle, Internet Archive, MediaCloud)",
+        "Rehydration or extension of an existing dataset"
+      ],
+      "collection_tools": [
+        "Pushshift.io",
+        "LDA"
+      ],
+      "temporal_coverage_start": "2012",
+      "temporal_coverage_end": "2024",
+      "primary_record_unit": "Comments or replies",
+      "total_records": 255000000,
+      "num_accounts_or_users": 23100000,
+      "scale_description_verbatim": "Comprising 18.9 million posts and 236 million comments from 23.1 million unique users",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GLOBAL"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "Hate speech, toxicity and harassment",
+        "Online communities and collective behavior",
+        "Content moderation and platform governance"
+      ],
+      "supported_tasks": [
+        "Sentiment or emotion analysis",
+        "Hate or toxicity detection",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "comparative analyses of user behavior, interaction networks, and content sentiment",
+        "studying societal phenomena such as community formation, toxic behavior propagation, and user migration patterns",
+        "developing and evaluating natural language processing models, particularly in areas like toxic content detection, cross-platform user behavior prediction, and community dynamics modeling"
+      ],
+      "annotation_paradigms": [
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "No experiments"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Zenodo"
+      ],
+      "dataset_urls": [
+        "https://zenodo.org/records/14637314"
+      ],
+      "persistent_doi": "",
+      "code_repository_url": "https://github.com/atomashevic/rMADOC",
+      "distribution_form": "Anonymized or PII-scrubbed full content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY 4.0 International License",
+      "license_category": "CC BY",
+      "data_file_formats": [
+        "PARQUET"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Datasheets for Datasets",
+      "provides_collection_or_hydration_code": true
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": true,
+      "anonymization_details": "All post and user identifiers across all platforms are pseudonymized using UUID-based hashing.",
+      "discusses_platform_tos": false,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": true,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": true
+    },
+    "evidence": {
+      "availability_quote": "Dataset — https://zenodo.org/records/14637314",
+      "scale_quote": "Comprising 18.9 million posts and 236 million comments from 23.1 million unique users",
+      "annotation_quote": "For sentiment analysis, we applied two complementary approaches using lexicon and rule-based models: VADER (Hutto and Gilbert 2014) and TextBlob.",
+      "ethics_quote": "All post and user identifiers across all platforms are pseudonymized using UUID-based hashing, which maintains referential integrity while preventing casual reidentification.",
+      "license_quote": "The MADOC dataset is released under CC BY 4.0 International License to ensure broad accessibility while maintaining attribution requirements.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "The paper states the dataset spans 2012-2024, while platform statistics indicate 2014-2020 for Reddit, 2013-2020 for Voat, 2023-2024 for Bluesky, and 2020-2023 for Koo. The 2012 start date is likely a typo or refers to pre-2014 Reddit data not explicitly detailed in the platform statistics table."
+    }
+  }
+}

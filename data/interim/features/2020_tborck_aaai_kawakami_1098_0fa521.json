@@ -1,0 +1,35 @@
+{
+  "page_count": 10,
+  "n_chars": 48855,
+  "sha256": "e42dd011ccf8fe0e815850d882a34c7ee779baa618f9caffb1d119b396490ecd",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.7910/DVN/0ZLHOK",
+    "https://en.wikipedia.org/wiki/Krishna",
+    "http://mediashift.org/2010/02/google-news-to-publishers-letsmake-love-not-war035/",
+    "https://searchengineland.com/google-replaces-news-box-topstories-desktop-264993",
+    "https://pjmedia.com/trending/google-search-results-show-",
+    "https://www.nytimes.com/2018/09/05/technology/googletrump-bias.html",
+    "https://fivethirtyeight.com/features/whosbehaving-like-a-2020-presidential-candidate/",
+    "https://www.oddsshark.com/other/2020-usa-presidentialodds-futures",
+    "https://www.pewresearch.org/fact-",
+    "https://searchengineland.com/amp-top-stories-now-live-",
+    "https://www.latimes.com/politics/la-na-pol-democraticpresidential-candidates-2020-pasadena-immigration-20190531story.html",
+    "https://www.apnews.com/492900cdfa464d35b9e154e13c368",
+    "https://www.staradvertiser.com/2019/01/11/breakingnews/bernie-sanders-faces-questions-about-political-future/",
+    "https://dataverse.harvard.edu/dataset.xhtml?",
+    "https://developer.nytimes.com/docs/articlesearchproduct/1/overview",
+    "https://www.politico.com/politics",
+    "https://www.theatlantic.com/politics/archive/2019/07/juliancastros-fight-attention/594679/"
+  ],
+  "urls_in_references": [
+    "https://www.gdeltproject.org/"
+  ],
+  "dois_in_body": [
+    "10.7910/DVN/0ZLHOK",
+    "10.7910/DVN/QAN5VX"
+  ],
+  "mentions_fair_regex": false,
+  "mentions_zenodo": false,
+  "mentions_dataverse": true
+}

@@ -1,0 +1,17 @@
+{
+  "page_count": 10,
+  "n_chars": 48464,
+  "sha256": "b887013fec00c2c12fde00577ca9f1aa58a399529a91a3d50666d64213f16201",
+  "checklist_detected": true,
+  "urls_in_body": [
+    "https://zenodo.org/records/14637314",
+    "https://pypi.org/project/pymadoc/",
+    "https://github.com/atomashevic/rMADOC",
+    "https://zenodo.org/records/"
+  ],
+  "urls_in_references": [],
+  "dois_in_body": [],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

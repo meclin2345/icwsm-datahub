@@ -1,0 +1,197 @@
+{
+  "paper_id": "2025_31017_icwsm_bisianis_5512fb",
+  "year": 2025,
+  "pdf_filename": "31017-ICWSM.BisianiS.pdf",
+  "provenance": {
+    "model": "claude-fable-5-1",
+    "served_model": [
+      "claude-fable-5-1"
+    ],
+    "api_host": "claude.opuscode.pro",
+    "prompt_version": "2026-10-v5",
+    "schema_version": "2.0.0",
+    "input_mode": "markdown",
+    "request_mode": "sync",
+    "structured_modes": [
+      "prompt"
+    ],
+    "effort": null,
+    "extracted_at": "2026-10-28T22:07:42+00:00",
+    "usage": [
+      {
+        "input_tokens": 23883,
+        "output_tokens": 1450,
+        "cache_read_input_tokens": 21663,
+        "cache_creation_input_tokens": 0,
+        "response_model": "claude-fable-5-1",
+        "response_id": "msg_011vhTSnSvwIpF5BiT07m4Ymb3s",
+        "structured_mode": "prompt",
+        "filled_fields": [
+          "paper.title (from PDF text, model left it out)"
+        ]
+      }
+    ]
+  },
+  "deterministic": {
+    "page_count": 14,
+    "n_chars": 68083,
+    "sha256": "e70de45b6c060d6467c0962833c37458fa11168cf52cc58c3324bd9d87909745",
+    "checklist_detected": true,
+    "urls_in_body": [
+      "https://doi.org/10.7910/DVN/R5XTEO"
+    ],
+    "urls_in_references": [
+      "https://www.publicinterestnews.org.uk/",
+      "https://assets.publishing",
+      "https://publications.parliament.uk/pa/ld5901/",
+      "https://pressgazette.co.uk/publishers/",
+      "https://www.ofcom.org.uk/tv-radio-and-ondemand/information-for-industry/other-general-mediaregulation/local-media-review",
+      "https://www.ofcom.org.uk/siteassets/resources/documents/tvradio-and-on-demand/reviews-and-investigations/localmedia/review-of-local-media-in-the-uk-initialfindings.pdf?v=371109",
+      "https://www.mediareform.org.uk/wpcontent/uploads/2023/10/Who-Owns-the-UK-Media2023.pdf",
+      "https://pressgazette.co.uk/news/most-reach-journalistswork-home-after-covid-19-mail-online-prepares-returnnewsroom/"
+    ],
+    "dois_in_body": [
+      "10.7910/DVN/R5XTEO"
+    ],
+    "mentions_fair_regex": true,
+    "mentions_zenodo": false,
+    "mentions_dataverse": true
+  },
+  "extraction": {
+    "paper": {
+      "title": "UKTwitNewsCor: A Dataset of Online Local News Articles for the Study of Local News Provision",
+      "authors": [
+        "Simona Bisiani",
+        "Agnes Gulyas",
+        "John Wihbey",
+        "Bahareh Heravi"
+      ],
+      "author_countries": [
+        "GB",
+        "US"
+      ],
+      "is_industry_collaboration": false,
+      "contribution_type": "New dataset",
+      "num_datasets_released": 4
+    },
+    "collection": {
+      "dataset_name": "UKTwitNewsCor",
+      "platforms": [
+        "Twitter/X",
+        "Web/News/Blogs"
+      ],
+      "platform_names_verbatim": [
+        "Twitter",
+        "X (then Twitter)",
+        "web domains"
+      ],
+      "collection_methods": [
+        "Official platform API",
+        "Web scraping or browser automation"
+      ],
+      "collection_tools": [
+        "Twitter Academic API",
+        "AcademicTwitteR",
+        "newspaper3k"
+      ],
+      "temporal_coverage_start": "2020-01-01",
+      "temporal_coverage_end": "2022-12-31",
+      "primary_record_unit": "News articles or web pages",
+      "total_records": 2534705,
+      "num_accounts_or_users": -1,
+      "scale_description_verbatim": "over 2.5 million online local news articles published between January 2020 and December 2022 from 360 local outlets",
+      "modalities": [
+        "Text",
+        "Tabular user or post metadata",
+        "Time series or temporal logs",
+        "Geospatial or mobility"
+      ],
+      "languages_iso": [
+        "en"
+      ],
+      "num_languages": 1,
+      "includes_code_mixing": false,
+      "data_geography": [
+        "GB"
+      ],
+      "event_category": "No specific event",
+      "event_name": "",
+      "involves_vulnerable_groups": false
+    },
+    "annotation": {
+      "research_domains": [
+        "News and journalism",
+        "Online communities and collective behavior",
+        "Other"
+      ],
+      "supported_tasks": [
+        "Topic or content classification",
+        "Network or information diffusion analysis",
+        "Descriptive or exploratory social analysis"
+      ],
+      "tasks_verbatim": [
+        "Defining Local Media through Spatial Coverage",
+        "Examining Content Repurposing Across Domains",
+        "Impact of Ownership Consolidation on News Topics",
+        "Evaluating Local News Provision",
+        "Analysing Patterns of News Diffusion"
+      ],
+      "annotation_paradigms": [
+        "Unlabeled raw corpus",
+        "Automated classifier or lexicon (BERT, Perspective API, LIWC)",
+        "Distant or weak supervision (hashtags, domain lists, heuristics)"
+      ],
+      "llms_used": [],
+      "num_annotated_records": -1,
+      "num_annotators": -1,
+      "iaa_reported": false,
+      "iaa_metrics": [],
+      "iaa_primary_value": -1.0,
+      "iaa_summary_verbatim": "",
+      "baseline_families": [
+        "Descriptive statistics only"
+      ]
+    },
+    "distribution": {
+      "release_status": "Released at publication",
+      "hosting_repositories": [
+        "Dataverse (Harvard or other instance)"
+      ],
+      "dataset_urls": [
+        "https://doi.org/10.7910/DVN/R5XTEO"
+      ],
+      "persistent_doi": "10.7910/DVN/R5XTEO",
+      "code_repository_url": "",
+      "distribution_form": "Full raw content",
+      "access_mechanism": "Open public download",
+      "license_verbatim": "CC BY-NC 4.0",
+      "license_category": "CC BY-NC (any NC variant)",
+      "data_file_formats": [
+        "CSV",
+        "SQLite3"
+      ],
+      "explicitly_mentions_fair": true,
+      "documentation_framework": "Custom README or codebook",
+      "provides_collection_or_hydration_code": false
+    },
+    "ethics": {
+      "irb_status": "Not mentioned",
+      "pii_anonymization_applied": false,
+      "anonymization_details": "The released articles include article_author fields (the authors of the articles), and no privacy steps are described.",
+      "discusses_platform_tos": true,
+      "discusses_limitations": true,
+      "discusses_misuse_risks": false,
+      "includes_paper_checklist": true,
+      "ai_usage_disclosed": false
+    },
+    "evidence": {
+      "availability_quote": "The UKTwitNewsCor dataset is publicly available in the Harvard Dataverse repository under a CC BY-NC 4.0 License.",
+      "scale_quote": "over 2.5 million online local news articles published between January 2020 and December 2022 from 360 local outlets",
+      "annotation_quote": "We create metadata that identifies groups of highly similar or identical articles published across different publications.",
+      "ethics_quote": "the data is meant to be used for responsible research on local media in the UK",
+      "license_quote": "The UKTwitNewsCor dataset is publicly available in the Harvard Dataverse repository under a CC BY-NC 4.0 License.",
+      "extraction_confidence": "High",
+      "ambiguity_notes": "num_accounts_or_users is not clearly stated; the paper mentions 378-404 Twitter handles and 360 domains, none of which counts the number of articles shared per outlet. languages_iso and num_languages are not explicitly stated in the paper, they are inferred from the paper's language and the fact that the dataset covers UK local media. supports_platform_tos and discusses_misuse_risks are somewhat inferred; the paper mentions responsible use and copyright, but not misuse or terms of service explicitly. The paper releases four datasets, which are listed as separate CSV files, but the main dataset UKTwitNewsCor is the articles dataset."
+    }
+  }
+}

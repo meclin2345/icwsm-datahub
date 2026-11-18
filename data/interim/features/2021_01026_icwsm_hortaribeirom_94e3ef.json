@@ -1,0 +1,25 @@
+{
+  "page_count": 9,
+  "n_chars": 47961,
+  "sha256": "d96b35c7d03ecd10597acfe67040751f2865db7710ba139ec72cec3799d739b3",
+  "checklist_detected": false,
+  "urls_in_body": [
+    "https://doi.org/10.5281/zenodo.4650046",
+    "https://channelcrawler.com/eng/faq",
+    "https://www.channelcrawler.com/",
+    "https://socialblade.com/info",
+    "https://socialblade.com/blog/nine-years-of-socialblade/"
+  ],
+  "urls_in_references": [
+    "https://www.nytimes.com/2018/11/14/world/asia/tseries-youtube-india.html",
+    "https://www.nytimes.com/2019/08/11/world/americas/",
+    "https://code",
+    "https://bit.ly/"
+  ],
+  "dois_in_body": [
+    "10.5281/zenodo.4650046"
+  ],
+  "mentions_fair_regex": true,
+  "mentions_zenodo": true,
+  "mentions_dataverse": false
+}

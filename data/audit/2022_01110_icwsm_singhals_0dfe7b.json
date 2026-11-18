@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "paper_id": "2022_01110_icwsm_singhals_0dfe7b",
+    "year": 2022,
+    "audited_at": "2026-10-29T09:11:02+00:00",
+    "normalized_doi": "10.5281/zenodo.5854856",
+    "doi_resolves": true,
+    "n_urls_checked": 2,
+    "any_url_alive": true,
+    "primary_url": "https://doi.org/10.5281/zenodo.5854856",
+    "primary_url_status": "Alive",
+    "primary_resolved_url": "https://zenodo.org/records/5854856",
+    "login_wall": false,
+    "account_required": false,
+    "soft_404": false,
+    "verified_repo": "Zenodo",
+    "file_count": 32,
+    "total_size_mb": 47.66,
+    "file_extensions": ".xlsx",
+    "is_restricted": false,
+    "files_empty": false,
+    "downloads_total": 2578,
+    "downloads_unique": 2223,
+    "views_total": 1472,
+    "downloads_metric_source": "Zenodo stats",
+    "repo_license": null,
+    "datacite_registered": true,
+    "datacite_publisher": "Zenodo",
+    "datacite_citations": 0,
+    "hf_likes": null,
+    "hf_downloads_30d": null,
+    "code_url": null,
+    "code_url_status": null,
+    "code_url_alive": null,
+    "code_stars": null,
+    "code_forks": null,
+    "code_archived": null,
+    "code_last_push": null,
+    "dead_link_in_wayback": null,
+    "wayback_snapshot": null
+  },
+  "url_checks": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.5854856",
+      "resolved_url": "https://zenodo.org/records/5854856",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:28+00:00",
+      "error": null
+    },
+    {
+      "url": "https://zenodo.org/record/5854856",
+      "resolved_url": "https://zenodo.org/records/5854856",
+      "http_status": 200,
+      "category": "Alive",
+      "alive": true,
+      "login_wall": false,
+      "account_required": false,
+      "soft_404": false,
+      "content_type": "text/html; charset=utf-8",
+      "checked_at": "2026-10-29T03:22:29+00:00",
+      "error": null
+    }
+  ],
+  "zenodo": {
+    "found": true,
+    "record_id": "5854856",
+    "concept_doi": "10.5281/zenodo.5854855",
+    "access_right": "open",
+    "restricted": false,
+    "license": null,
+    "file_count": 32,
+    "total_size_mb": 47.66,
+    "file_extensions": [
+      ".xlsx"
+    ],
+    "stats_raw": {
+      "downloads": 2578,
+      "unique_downloads": 2223,
+      "views": 1472,
+      "unique_views": 1269,
+      "version_downloads": 2578,
+      "version_unique_downloads": 2223,
+      "version_unique_views": 1263,
+      "version_views": 1466
+    },
+    "downloads": 2578,
+    "unique_downloads": 2223,
+    "views": 1472,
+    "unique_views": 1269,
+    "version_downloads": 2578,
+    "version_unique_downloads": 2223,
+    "publication_date": "2022-01-15"
+  },
+  "dataverse": {
+    "found": false
+  },
+  "figshare": {
+    "found": false
+  },
+  "huggingface": {
+    "found": false
+  },
+  "github_data": {
+    "found": false
+  },
+  "github_code": {
+    "found": false
+  },
+  "datacite": {
+    "registered": true,
+    "state": "findable",
+    "publisher": "Zenodo",
+    "landing_url": "https://zenodo.org/doi/10.5281/zenodo.5854856",
+    "views": 0,
+    "downloads": 0,
+    "citations": 0,
+    "registered_year": "2022"
+  },
+  "wayback": null
+}
