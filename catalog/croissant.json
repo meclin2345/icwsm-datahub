@@ -61,7 +61,7 @@
       "name": "catalog-csv",
       "contentUrl": "icwsm_datahub_catalog.csv",
       "encodingFormat": "text/csv",
-      "sha256": "6750380d49b902878599228376a3cafade9bb147d580b926dedcdc2439e6ed76"
+      "sha256": "e438a0cddd141848bbfca64e10f0939da9fdd8938536c2e06fb83eb47c954592"
     }
   ],
   "recordSet": [

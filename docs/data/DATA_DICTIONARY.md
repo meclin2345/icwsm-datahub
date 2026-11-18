@@ -153,7 +153,7 @@ Source: **LLM** = extracted from the paper by Claude and verified (02_verify.py)
 | `repo_license_present` | Code | object | True if the repository record carries a license (only for records the audit could verify). |
 | `model` | Code | str | LLM requested for extraction. |
 | `served_model` | Code | str | Model id the API reported serving for this record. |
-| `api_host` | Code | str | API host used for extraction (gateway or Anthropic API). |
+| `api_host` | Code | object | API host used for extraction (gateway or Anthropic API). |
 | `structured_mode` | Code | str | native (constrained decoding), prompt (schema in prompt + validation) or prompt-repair. |
 | `prompt_version` | Code | str | Extraction prompt version. |
 | `schema_version` | Code | str | Extraction schema version. |
