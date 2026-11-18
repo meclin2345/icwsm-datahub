@@ -492,10 +492,22 @@ function Gapminder() {
     draw(false);
   }
 
+  // Bubbles are drawn around their centre, so a value at the edge of the domain would spill over the
+  // plot frame (into the controls above or the axis below). Pad the plot inside by the largest radius
+  // and widen the domain to match, so the axes still span the whole frame.
+  let xTicks, yTicks;
   function scales() {
     const mx = METRICS[st.x], my = METRICS[st.y];
-    xS = (mx.log ? d3.scaleLog() : d3.scaleLinear()).domain(mx.domain).range([m.l, W - m.r]).clamp(true);
-    yS = (my.log ? d3.scaleLog() : d3.scaleLinear()).domain(my.domain).range([H - m.b, m.t]).clamp(true);
+    const pad = rS.range()[1] + 4;
+    const make = (mt, range, padded) => {
+      const inner = (mt.log ? d3.scaleLog() : d3.scaleLinear()).domain(mt.domain).range(padded);
+      return (mt.log ? d3.scaleLog() : d3.scaleLinear()).domain(range.map(v => inner.invert(v))).range(range).clamp(true);
+    };
+    xS = make(mx, [m.l, W - m.r], [m.l + pad, W - m.r - pad]);
+    yS = make(my, [H - m.b, m.t], [H - m.b - pad, m.t + pad]);
+    const within = (mt, n) => (mt.log ? d3.scaleLog() : d3.scaleLinear()).domain(mt.domain).ticks(n)
+      .filter(v => v >= mt.domain[0] && v <= mt.domain[1]);
+    xTicks = within(mx, W < 640 ? 4 : 7); yTicks = within(my, 5);
   }
 
   function rowsFor(year) {
@@ -511,10 +523,11 @@ function Gapminder() {
     const dur = animate && !REDUCED ? 750 : 0;
     const mx = METRICS[st.x], my = METRICS[st.y];
     const nT = W < 640 ? 4 : 7;
-    gx.transition().duration(dur).call(d3.axisBottom(xS).ticks(nT, mx.log ? "~s" : undefined).tickSizeOuter(0));
-    gy.transition().duration(dur).call(d3.axisLeft(yS).ticks(5, my.log ? "~s" : undefined).tickSizeOuter(0));
-    ggx.transition().duration(dur).call(d3.axisBottom(xS).ticks(nT).tickSize(-(H - m.t - m.b)).tickFormat(""));
-    ggy.transition().duration(dur).call(d3.axisLeft(yS).ticks(5).tickSize(-(W - m.l - m.r)).tickFormat(""));
+    const fx = mx.log ? d3.format("~s") : undefined, fy = my.log ? d3.format("~s") : undefined;
+    gx.transition().duration(dur).call(d3.axisBottom(xS).tickValues(xTicks).tickFormat(fx).tickSizeOuter(0));
+    gy.transition().duration(dur).call(d3.axisLeft(yS).tickValues(yTicks).tickFormat(fy).tickSizeOuter(0));
+    ggx.transition().duration(dur).call(d3.axisBottom(xS).tickValues(xTicks).tickSize(-(H - m.t - m.b)).tickFormat(""));
+    ggy.transition().duration(dur).call(d3.axisLeft(yS).tickValues(yTicks).tickSize(-(W - m.l - m.r)).tickFormat(""));
     xT.text(mx.label); yT.text(my.label);
     water.text(st.year);
     out.value = st.year; out.textContent = st.year; slider.value = st.year;
@@ -533,12 +546,38 @@ function Gapminder() {
 
     const top = rows.filter(d => d.ok).sort((a, b) => b.n - a.n).slice(0, 3).map(d => d.family);
     const labelled = rows.filter(d => d.ok && (top.includes(d.family) || st.trails.has(d.family)));
+    // Place each label beside its bubble where it covers the fewest other bubbles and labels,
+    // trying right, left, above and below, and never outside the plot frame.
+    const place = new Map(), boxes = [];
+    const circles = rows.filter(d => d.ok).map(d => ({ f: d.family, x: pos(d)[0], y: pos(d)[1], r: Math.max(rS(d.n), 3) }));
+    const hit = (b, c) => { const nx = Math.max(b.x0, Math.min(c.x, b.x1)), ny = Math.max(b.y0, Math.min(c.y, b.y1));
+      return Math.hypot(c.x - nx, c.y - ny) < c.r ? 1 : 0; };
+    const over = (a, b) => Math.max(0, Math.min(a.x1, b.x1) - Math.max(a.x0, b.x0)) * Math.max(0, Math.min(a.y1, b.y1) - Math.max(a.y0, b.y0));
+    labelled.slice().sort((a, b) => b.n - a.n).forEach(d => {
+      const [cx, cy] = pos(d), r = Math.max(rS(d.n), 3), w = d.family.split(" (")[0].length * 6.6, hh = 14;
+      const cands = [
+        { x: cx + r + 5, y: cy, anchor: "start", b: { x0: cx + r + 5, x1: cx + r + 5 + w, y0: cy - hh / 2, y1: cy + hh / 2 } },
+        { x: cx - r - 5, y: cy, anchor: "end", b: { x0: cx - r - 5 - w, x1: cx - r - 5, y0: cy - hh / 2, y1: cy + hh / 2 } },
+        { x: cx, y: cy - r - 9, anchor: "middle", b: { x0: cx - w / 2, x1: cx + w / 2, y0: cy - r - 9 - hh / 2, y1: cy - r - 9 + hh / 2 } },
+        { x: cx, y: cy + r + 10, anchor: "middle", b: { x0: cx - w / 2, x1: cx + w / 2, y0: cy + r + 10 - hh / 2, y1: cy + r + 10 + hh / 2 } },
+      ];
+      let best = null, bestScore = Infinity;
+      cands.forEach((c, i) => {
+        const b = c.b;
+        const outside = b.x0 < m.l || b.x1 > W - m.r || b.y0 < m.t || b.y1 > H - m.b ? 1000 : 0;
+        const score = outside + 100 * circles.filter(o => o.f !== d.family).reduce((t, o) => t + hit(b, o), 0)
+          + boxes.reduce((t, o) => t + over(b, o), 0) + i;   // small preference for the order right, left, above, below
+        if (score < bestScore) { bestScore = score; best = c; }
+      });
+      boxes.push(best.b); place.set(d.family, best);
+    });
     gL.selectAll("text").data(labelled, d => d.family)
       .join(enter => enter.append("text").attr("class", "gm-label").attr("dominant-baseline", "central")
-        .attr("x", d => pos(d)[0]).attr("y", d => pos(d)[1]))
+        .attr("x", d => place.get(d.family).x).attr("y", d => place.get(d.family).y))
       .text(d => d.family.split(" (")[0])
+      .attr("text-anchor", d => place.get(d.family).anchor)
       .transition().duration(dur).ease(d3.easeCubicInOut)
-      .attr("x", d => pos(d)[0] + Math.max(rS(d.n), 3) + 5).attr("y", d => pos(d)[1]);
+      .attr("x", d => place.get(d.family).x).attr("y", d => place.get(d.family).y);
     drawTrails();
     highlight();
     table(rows);
