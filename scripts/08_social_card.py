@@ -5,12 +5,14 @@ import json
 from pathlib import Path
 
 import matplotlib
+import matplotlib.patches
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
 
 ROOT = Path(__file__).resolve().parents[1]
-INK, MUTED, PAPER, RULE, GREEN, GREY = "#1B2830", "#56646C", "#F3F5F6", "#D5DCDF", "#009E73", "#AAB5BB"
+INK, MUTED, PAPER, RULE, GREEN, GREY = "#221B1C", "#62585A", "#FFFFFF", "#E9E0DB", "#009E73", "#C9BEBA"
+CARDINAL, GOLD = "#990000", "#FFC72C"   # homepage accents
 
 recs = json.loads((ROOT / "docs/data/catalog.json").read_text(encoding="utf-8"))["records"]
 n = len(recs)
@@ -24,7 +26,12 @@ stages = [("Dataset papers", n),
 pct = lambda v: round(100 * v / n)
 
 fig = plt.figure(figsize=(12, 6.3), dpi=100, facecolor=PAPER)
-fig.text(0.05, 0.86, "ICWSM-DataHub", fontsize=22, fontweight="bold", color=INK, family="DejaVu Serif")
+fig.patches.append(plt.Rectangle((0, 0.985), 1, 0.015, transform=fig.transFigure, color=GOLD, zorder=0))
+for i in range(2):                      # the homepage's dotted mark beside the name
+    for j in range(2):
+        fig.patches.append(matplotlib.patches.Ellipse((0.052 + i * 0.009, 0.872 + j * 0.017), 0.006, 0.006 * 12 / 6.3,
+                                                      transform=fig.transFigure, color=CARDINAL))
+fig.text(0.07, 0.86, "ICWSM-DataHub", fontsize=22, fontweight="bold", color=INK, family="DejaVu Serif")
 fig.text(0.05, 0.80, f"Every ICWSM Dataset Track paper, {years[0]}–{years[-1]}", fontsize=15, color=MUTED)
 fig.text(0.05, 0.56, f"{round(100 * stages[2][1] / stages[1][1])}%", fontsize=64, fontweight="bold", color=INK)
 fig.text(0.05, 0.50, "of dataset links still work", fontsize=17, color=INK)
